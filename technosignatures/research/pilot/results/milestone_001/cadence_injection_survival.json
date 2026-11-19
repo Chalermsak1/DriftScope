@@ -1,0 +1,329 @@
+{
+  "all_off_scans_unchanged": true,
+  "cadence_filtering_status": "not_applied; per-ON-scan recovery and timing only",
+  "continuous_time_path_across_gaps": true,
+  "global_reference_frequency_hz": 1188535695.033456,
+  "independence_warning": "Three ON pieces of one signal in one selected cadence, not three independent observing environments",
+  "injection_config": {
+    "fwhm_channels": 2.0,
+    "global_drift_hz_per_s": 0.5,
+    "global_start_channel": 800,
+    "peak_amplitude_in_background_sigma": 8.0,
+    "pointing_response": "ON=1, OFF=0 illustrative model; not a beam-calibrated origin test"
+  },
+  "injection_implementation": "Independent sampled Gaussian power in relative Hz, integration-start sampling; no smearing/beam calibration",
+  "on_scan_records": [
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 31.28914757227178,
+      "best_truth_compatible_score_before": 1.3568711740838224,
+      "common_start_searchable": true,
+      "compatible_retained": true,
+      "conservative_attributable_recovery": true,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": null,
+      "matching_local_maxima": 2,
+      "matching_retained": 1,
+      "matching_uncapped_nms": 1,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "one_synthetic_track_in_real_selected_cadence",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "score_threshold",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "local_maximum",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "frequency_suppression",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "catalogue_cap",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "mlc1_one_global_track_scan_0",
+      "truth": {
+        "drift_hz_per_s": 0.5,
+        "fwhm_hz": 5.671006836966863,
+        "global_elapsed_scan_start_s": 0.0,
+        "global_start_frequency_hz": 1188535695.033456,
+        "peak_amplitude_power": 10083764371.545689,
+        "start_channel_ascending": 800.0,
+        "start_frequency_hz": 1188535695.033456
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 27.646585190331376,
+      "best_truth_compatible_score_before": 1.2887905697714723,
+      "common_start_searchable": true,
+      "compatible_retained": true,
+      "conservative_attributable_recovery": true,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": null,
+      "matching_local_maxima": 4,
+      "matching_retained": 1,
+      "matching_uncapped_nms": 1,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "one_synthetic_track_in_real_selected_cadence",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "score_threshold",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "local_maximum",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "frequency_suppression",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "catalogue_cap",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "mlc1_one_global_track_scan_2",
+      "truth": {
+        "drift_hz_per_s": 0.5,
+        "fwhm_hz": 5.671006836966863,
+        "global_elapsed_scan_start_s": 717.0000003883615,
+        "global_start_frequency_hz": 1188535695.033456,
+        "peak_amplitude_power": 10083764371.545689,
+        "start_channel_ascending": 926.4325755551106,
+        "start_frequency_hz": 1188536053.5334563
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 37.32110171971678,
+      "best_truth_compatible_score_before": 2.8913870450796657,
+      "common_start_searchable": true,
+      "compatible_retained": true,
+      "conservative_attributable_recovery": true,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": null,
+      "matching_local_maxima": 3,
+      "matching_retained": 1,
+      "matching_uncapped_nms": 1,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "one_synthetic_track_in_real_selected_cadence",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "score_threshold",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "local_maximum",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "frequency_suppression",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "catalogue_cap",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "mlc1_one_global_track_scan_4",
+      "truth": {
+        "drift_hz_per_s": 0.5,
+        "fwhm_hz": 5.671006836966863,
+        "global_elapsed_scan_start_s": 1424.0000003250316,
+        "global_start_frequency_hz": 1188535695.033456,
+        "peak_amplitude_power": 10083764371.545689,
+        "start_channel_ascending": 1051.1017957239244,
+        "start_frequency_hz": 1188536407.0334563
+      }
+    }
+  ],
+  "scan_pieces": 3,
+  "signal_count": 1,
+  "summary": {
+    "compatible_retained": 3,
+    "conservatively_attributed_retained": 3,
+    "denominator_warning": "Deterministic engineering cases, not random population samples; no completeness interval or extraterrestrial-origin claim.",
+    "eligible_domain_recovery": 1.0,
+    "eligible_trials": 3,
+    "first_loss_counts": {
+      "retained": 3
+    },
+    "legacy_searchable_domain_recovery": 1.0,
+    "legacy_searchable_trials": 3,
+    "trials": 3
+  }
+}

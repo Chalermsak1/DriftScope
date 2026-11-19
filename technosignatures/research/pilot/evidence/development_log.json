@@ -1,0 +1,48 @@
+{
+  "date_local": "2026-11-19",
+  "timezone": "Asia/Bangkok",
+  "initial_test_failure": {
+    "tests": 35,
+    "passed": 33,
+    "failed": 2,
+    "reason": "Test assertions incorrectly equated eighty synthetic physical tracks with the number of search maxima. Measured output had ninety-seven NMS maxima; thirty physical tracks were lost at the fifty-candidate cap.",
+    "evidence": "tests_initial_failure.xml",
+    "correction": "Keep physical-signal matching separate from candidate-count arithmetic. Production detector and experiment parameters were not tuned to make tests pass."
+  },
+  "source_access_failures": [
+    {
+      "method": "web connector",
+      "url": "https://seti.berkeley.edu/opendata/",
+      "outcome": "redirect loop; direct HTTP client subsequently retrieved portal and documented API route"
+    },
+    {
+      "method": "archive API first route",
+      "outcome": "/api/query-files returned 404; /opendata/api/query-files returned source metadata"
+    },
+    {
+      "method": "recent primary literature lead",
+      "url": "https://arxiv.org/abs/2610.22050",
+      "outcome": "primary record unavailable via connector; not used as empirical evidence"
+    }
+  ],
+  "resolution_product_check": {
+    "finding": "An exact archive index timestamp can refer to a high-time-resolution product. Inspecting original HDF5 attributes resolved the high-frequency-resolution product; timestamp/index metadata alone was not accepted as source proof.",
+    "evidence": "archive_crosscheck.json"
+  },
+  "unchanged_scientific_method": "Immutable original baseline; all additions are in research/pilot. No LLM or new origin classifier.",
+  "range_io_optimization": {
+    "issue": "Fixed 2 MiB blocks amplified small scattered HDF5 metadata reads. Two initial retrieval processes overlapped during a restart; both stopped before resumption.",
+    "integrity_action": "All indexed cache blocks were hash-verified; three unindexed blocks were quarantined and not reused. See cache_restart_audit.json.",
+    "correction": "OS single-writer process lock; atomic cache-manifest writes; 64 KiB metadata blocks; coalesced concurrent data prefetch; reuse of larger verified cache intervals.; thread-local persistent TLS-verified HTTPS sessions to reduce connection latency.",
+    "scientific_method_unchanged": true,
+    "measurement_limit": "Successful-run network byte counts exclude prior interrupted/repeated transfer traffic.",
+    "successful_partial_checks": "First two source excerpts matched release; remaining source checks awaited before completion status."
+  },
+  "source_sample_validation": {
+    "outcome": "All six original high-frequency-resolution excerpts match release arrays in dtype, shape and every float32 value.",
+    "scope": "All stored integrations over one selected 4096-channel interval; no full-band or whole-file MD5 claim.",
+    "source_resolution_mismatch_resolved": "The .gpuspec.0000.h5 product matches released header resolution/time exactly; matching only archive-index timestamps would have selected the wrong product.",
+    "timeout_history": "An earlier extraction completed five scans and recorded one read timeout. That output was retained as archive_excerpts_incomplete_timeout.json. A bounded-retry cached resume completed the sixth.",
+    "evidence": "archive_excerpts.json"
+  }
+}

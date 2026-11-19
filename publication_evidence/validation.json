@@ -1,0 +1,38 @@
+{
+  "validated_at_utc": "2026-11-19T11:20:03.860318+00:00",
+  "repository": "https://github.com/Chalermsak1/DriftScope",
+  "tests": {
+    "tests": 53,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "test_command": "python -m pytest -q tests research/pilot/tests --junitxml=../publication_evidence/tests.xml",
+  "pilot_repeat_comparisons": 47,
+  "pilot_repeat_all_passed": true,
+  "baseline_repeat_all_passed": true,
+  "preservation": {
+    "all_preserved": true,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "original_manifest_files_verified": 31
+  },
+  "all_121_published_original_project_files_identical_to_source": true,
+  "source_project_unchanged_during_publication": true,
+  "source_files_checked_for_unchanged_bytes": 140,
+  "environment": "Existing pinned CPython 3.11 macOS ARM64 environment; no fresh dependency installation claimed.",
+  "pilot_test_data": "Locally acquired checksum-pinned release, copied excerpts/reference arrays, and a read-only-use link to the existing verified HTTP-range cache. These assets are ignored by Git and not part of the upload.",
+  "baseline_test_data": "Bundled original observation and recorded run; no pilot data required for baseline-only tests.",
+  "fresh_network_acquisition_during_publication": false,
+  "scope": "Software validation and specified engineering cases, not a population sensitivity study or an extraterrestrial detection.",
+  "whitespace_check": {
+    "passed_with_historical_record_exclusions": true,
+    "excluded_unchanged_records": [
+      "technosignatures/research/pilot/evidence/archive_portal.html",
+      "technosignatures/results/run_001/candidates_after.csv",
+      "technosignatures/results/run_001/candidates_before.csv"
+    ],
+    "reason": "Preserve original archived HTML whitespace and CSV CRLF endings; no code or new documentation excluded."
+  }
+}

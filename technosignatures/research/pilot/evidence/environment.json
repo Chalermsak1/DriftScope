@@ -1,0 +1,19 @@
+{
+  "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2",
+    "h5py": "3.16.0",
+    "hdf5plugin": "7.1.0",
+    "blimpy": "2.0.31",
+    "setigen": "2.4.0",
+    "astropy": "8.0.3",
+    "pytest": "9.2.0",
+    "setuptools": "80.9.0",
+    "requests": "2.34.2"
+  },
+  "original_requirements_lock_sha256": "13198dbd007dfe6c25e6f4fa9a0182b8c10281157dba88e78557a80b8263d79c",
+  "no_new_dependencies_installed_for_this_milestone": true
+}

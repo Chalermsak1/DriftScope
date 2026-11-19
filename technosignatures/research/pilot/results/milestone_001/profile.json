@@ -1,0 +1,226 @@
+{
+  "access_and_export_s": 0.5562787499993647,
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "process_max_rss": 2320351232,
+  "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "rss_units": "bytes",
+  "searches": [
+    {
+      "label": "native_0",
+      "searched_tracks": 5078250,
+      "shape": [
+        16,
+        4096
+      ],
+      "wall_s": 0.5640969160003806
+    },
+    {
+      "label": "cadence_injected_0",
+      "searched_tracks": 5078250,
+      "shape": [
+        16,
+        4096
+      ],
+      "wall_s": 0.556609500000377
+    },
+    {
+      "label": "native_1",
+      "searched_tracks": 5078250,
+      "shape": [
+        16,
+        4096
+      ],
+      "wall_s": 0.5480610000004162
+    },
+    {
+      "label": "native_2",
+      "searched_tracks": 5078250,
+      "shape": [
+        16,
+        4096
+      ],
+      "wall_s": 0.5468686669992167
+    },
+    {
+      "label": "cadence_injected_2",
+      "searched_tracks": 5078250,
+      "shape": [
+        16,
+        4096
+      ],
+      "wall_s": 0.5552284999994299
+    },
+    {
+      "label": "native_3",
+      "searched_tracks": 5078250,
+      "shape": [
+        16,
+        4096
+      ],
+      "wall_s": 0.5900219590002962
+    },
+    {
+      "label": "native_4",
+      "searched_tracks": 5078250,
+      "shape": [
+        16,
+        4096
+      ],
+      "wall_s": 0.56411691699941
+    },
+    {
+      "label": "cadence_injected_4",
+      "searched_tracks": 5078250,
+      "shape": [
+        16,
+        4096
+      ],
+      "wall_s": 0.5741693330000999
+    },
+    {
+      "label": "native_5",
+      "searched_tracks": 5078250,
+      "shape": [
+        16,
+        4096
+      ],
+      "wall_s": 0.7368354589998489
+    },
+    {
+      "label": "original_fixture_control",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.08276995799951692
+    },
+    {
+      "label": "central_strong",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.08347108299949468
+    },
+    {
+      "label": "central_weak",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.08158025000011548
+    },
+    {
+      "label": "central_intermediate",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.0827494579998529
+    },
+    {
+      "label": "negative_strong",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.08031662500070524
+    },
+    {
+      "label": "zero_drift_strong",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.08264349999990372
+    },
+    {
+      "label": "off_grid_strong",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.0811786670001311
+    },
+    {
+      "label": "low_common_guard",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.08163937499921303
+    },
+    {
+      "label": "high_common_guard",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.0823071249997156
+    },
+    {
+      "label": "low_edge_inside_input",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.0815872909997779
+    },
+    {
+      "label": "outside_drift_domain",
+      "searched_tracks": 390404,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.08253312499982712
+    },
+    {
+      "label": "fully_synthetic_crowded_fixture_control",
+      "searched_tracks": 255780,
+      "shape": [
+        32,
+        4096
+      ],
+      "wall_s": 0.04958987499958312
+    },
+    {
+      "label": "fully_synthetic_crowded_fixture_after",
+      "searched_tracks": 255780,
+      "shape": [
+        32,
+        4096
+      ],
+      "wall_s": 0.050022416000501835
+    },
+    {
+      "label": "paired_line_suppression_fixture_control",
+      "searched_tracks": 62244,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.01370320800015179
+    },
+    {
+      "label": "paired_line_suppression_fixture_after",
+      "searched_tracks": 62244,
+      "shape": [
+        32,
+        1024
+      ],
+      "wall_s": 0.013572458999988157
+    }
+  ],
+  "total_wall_s": 8.929009667000173
+}

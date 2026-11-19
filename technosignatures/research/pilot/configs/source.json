@@ -1,0 +1,16 @@
+{
+  "release": "Ma et al. 2023 eight-candidate observational cutout release",
+  "paper_url": "https://www.nature.com/articles/s41550-022-01872-z",
+  "official_project_url": "https://seti.berkeley.edu/ml_gbt/",
+  "repository": "https://github.com/PetchMa/ML_GBT_SETI",
+  "commit": "5f9c006a2960683969d9face28119af4d5b410b5",
+  "relative_path": "data_archive/top_8_data.pkl",
+  "url": "https://raw.githubusercontent.com/PetchMa/ML_GBT_SETI/5f9c006a2960683969d9face28119af4d5b410b5/data_archive/top_8_data.pkl",
+  "readme_url": "https://github.com/PetchMa/ML_GBT_SETI/blob/5f9c006a2960683969d9face28119af4d5b410b5/data_archive/readme.MD",
+  "bytes": 12613542,
+  "sha256": "7ac4c68c552f6806bdf6bea52d0512190dc79780abefb383b817829ae131fe72",
+  "git_blob_sha1": "22b89220de8d38c07f6e3f2813ba0e39535b367f",
+  "selection": "Entire released set, in mlc1..mlc8 order; no selection based on this project's detection results",
+  "population_limit": "Previously selected candidates; unsuitable for estimating representative sky/RFI prevalence or independent sensitivity",
+  "license_status": "No explicit repository data license identified; retain citation/provenance and do not infer a broad redistribution grant"
+}

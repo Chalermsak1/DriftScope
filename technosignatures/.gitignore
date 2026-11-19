@@ -1,0 +1,7 @@
+.venv/
+.uv-cache/
+.cache/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+results/reproduction/

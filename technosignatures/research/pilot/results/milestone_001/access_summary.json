@@ -1,0 +1,57 @@
+{
+  "access_scope": "all six released scan records and frequency cutouts accessible; full original bandwidth/integration counts not independently verified",
+  "all_structural_cadence_checks_passed": true,
+  "cohort_gate_reason": "candidate-selected release; shared acquisition sequences; no representative multi-session cohort",
+  "conservative_target_or_utc_day_proxy_groups": [
+    [
+      "mlc1",
+      "mlc7"
+    ],
+    [
+      "mlc2"
+    ],
+    [
+      "mlc3",
+      "mlc8"
+    ],
+    [
+      "mlc4",
+      "mlc5"
+    ],
+    [
+      "mlc6"
+    ]
+  ],
+  "distinct_scan_sequence_count": 6,
+  "metadata_and_export_elapsed_s": 0.5562787499993647,
+  "released_cutouts": 8,
+  "representative_cohort_gate_passed": false,
+  "same_scan_sequence_different_cutout_groups": [
+    [
+      "mlc4",
+      "mlc5"
+    ],
+    [
+      "mlc3",
+      "mlc8"
+    ]
+  ],
+  "scans_with_headers": 48,
+  "session_definition_limit": "UTC integer MJD day is only a conservative grouping proxy; telescope-session logs were not acquired",
+  "source": {
+    "bytes": 12613542,
+    "commit": "5f9c006a2960683969d9face28119af4d5b410b5",
+    "git_blob_sha1": "22b89220de8d38c07f6e3f2813ba0e39535b367f",
+    "license_status": "No explicit repository data license identified; retain citation/provenance and do not infer a broad redistribution grant",
+    "official_project_url": "https://seti.berkeley.edu/ml_gbt/",
+    "paper_url": "https://www.nature.com/articles/s41550-022-01872-z",
+    "population_limit": "Previously selected candidates; unsuitable for estimating representative sky/RFI prevalence or independent sensitivity",
+    "readme_url": "https://github.com/PetchMa/ML_GBT_SETI/blob/5f9c006a2960683969d9face28119af4d5b410b5/data_archive/readme.MD",
+    "relative_path": "data_archive/top_8_data.pkl",
+    "release": "Ma et al. 2023 eight-candidate observational cutout release",
+    "repository": "https://github.com/PetchMa/ML_GBT_SETI",
+    "selection": "Entire released set, in mlc1..mlc8 order; no selection based on this project's detection results",
+    "sha256": "7ac4c68c552f6806bdf6bea52d0512190dc79780abefb383b817829ae131fe72",
+    "url": "https://raw.githubusercontent.com/PetchMa/ML_GBT_SETI/5f9c006a2960683969d9face28119af4d5b410b5/data_archive/top_8_data.pkl"
+  }
+}

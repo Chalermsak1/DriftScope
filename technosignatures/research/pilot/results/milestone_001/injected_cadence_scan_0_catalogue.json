@@ -1,0 +1,178 @@
+{
+  "all_thresholded_local_maxima": [
+    {
+      "drift_hz_per_s": 0.49868766404199505,
+      "drift_index": 857,
+      "peak_id": "peak_000000",
+      "retained_under_legacy_cap": true,
+      "robust_score": 31.28914757227178,
+      "start_channel_ascending": 800,
+      "start_frequency_hz": 1188535695.0334563,
+      "start_index": 417,
+      "suppressed_by_peak_id": null,
+      "uncapped_rank": 1
+    },
+    {
+      "drift_hz_per_s": 0.4724409448818898,
+      "drift_index": 852,
+      "peak_id": "peak_000001",
+      "retained_under_legacy_cap": false,
+      "robust_score": 27.67369249772017,
+      "start_channel_ascending": 801,
+      "start_frequency_hz": 1188535697.8689597,
+      "start_index": 418,
+      "suppressed_by_peak_id": "peak_000000",
+      "uncapped_rank": null
+    },
+    {
+      "drift_hz_per_s": 0.5564304461942253,
+      "drift_index": 868,
+      "peak_id": "peak_000002",
+      "retained_under_legacy_cap": false,
+      "robust_score": 19.41681191985533,
+      "start_channel_ascending": 797,
+      "start_frequency_hz": 1188535686.5269458,
+      "start_index": 414,
+      "suppressed_by_peak_id": "peak_000000",
+      "uncapped_rank": null
+    },
+    {
+      "drift_hz_per_s": 0.5931758530183728,
+      "drift_index": 875,
+      "peak_id": "peak_000003",
+      "retained_under_legacy_cap": false,
+      "robust_score": 13.657568161517979,
+      "start_channel_ascending": 797,
+      "start_frequency_hz": 1188535686.5269458,
+      "start_index": 414,
+      "suppressed_by_peak_id": "peak_000000",
+      "uncapped_rank": null
+    },
+    {
+      "drift_hz_per_s": 0.41469816272965865,
+      "drift_index": 841,
+      "peak_id": "peak_000004",
+      "retained_under_legacy_cap": false,
+      "robust_score": 12.724463937983677,
+      "start_channel_ascending": 806,
+      "start_frequency_hz": 1188535712.0464766,
+      "start_index": 423,
+      "suppressed_by_peak_id": "peak_000000",
+      "uncapped_rank": null
+    },
+    {
+      "drift_hz_per_s": 0.6089238845144358,
+      "drift_index": 878,
+      "peak_id": "peak_000005",
+      "retained_under_legacy_cap": false,
+      "robust_score": 12.158173930102217,
+      "start_channel_ascending": 797,
+      "start_frequency_hz": 1188535686.5269458,
+      "start_index": 414,
+      "suppressed_by_peak_id": "peak_000000",
+      "uncapped_rank": null
+    },
+    {
+      "drift_hz_per_s": 0.6194225721784772,
+      "drift_index": 880,
+      "peak_id": "peak_000006",
+      "retained_under_legacy_cap": false,
+      "robust_score": 11.838946693691579,
+      "start_channel_ascending": 795,
+      "start_frequency_hz": 1188535680.8559391,
+      "start_index": 412,
+      "suppressed_by_peak_id": "peak_000000",
+      "uncapped_rank": null
+    },
+    {
+      "drift_hz_per_s": 0.3884514435695534,
+      "drift_index": 836,
+      "peak_id": "peak_000007",
+      "retained_under_legacy_cap": false,
+      "robust_score": 10.075988308924412,
+      "start_channel_ascending": 805,
+      "start_frequency_hz": 1188535709.2109733,
+      "start_index": 422,
+      "suppressed_by_peak_id": "peak_000000",
+      "uncapped_rank": null
+    },
+    {
+      "drift_hz_per_s": 0.6246719160104988,
+      "drift_index": 881,
+      "peak_id": "peak_000008",
+      "retained_under_legacy_cap": true,
+      "robust_score": 10.073954338145706,
+      "start_channel_ascending": 790,
+      "start_frequency_hz": 1188535666.678422,
+      "start_index": 407,
+      "suppressed_by_peak_id": null,
+      "uncapped_rank": 2
+    }
+  ],
+  "retained_candidates": [
+    {
+      "drift_hz_per_s": 0.49868766404199505,
+      "drift_index": 857,
+      "peak_id": "peak_000000",
+      "retained_under_legacy_cap": true,
+      "robust_score": 31.28914757227178,
+      "start_channel_ascending": 800,
+      "start_frequency_hz": 1188535695.0334563,
+      "start_index": 417,
+      "suppressed_by_peak_id": null,
+      "uncapped_rank": 1
+    },
+    {
+      "drift_hz_per_s": 0.6246719160104988,
+      "drift_index": 881,
+      "peak_id": "peak_000008",
+      "retained_under_legacy_cap": true,
+      "robust_score": 10.073954338145706,
+      "start_channel_ascending": 790,
+      "start_frequency_hz": 1188535666.678422,
+      "start_index": 407,
+      "suppressed_by_peak_id": null,
+      "uncapped_rank": 2
+    }
+  ],
+  "summary": {
+    "above_threshold_grid_cells": 222,
+    "cadence_filter_status": "not_applied",
+    "candidates_lost_to_cap": 0,
+    "catalogue_was_truncated": false,
+    "event_grouping_status": "not_implemented; candidates are search maxima, not independent events",
+    "frequency_suppressed_local_maxima": 7,
+    "legacy_cap": 50,
+    "legacy_output_exactly_reproduced": true,
+    "llm_status": "not_applied",
+    "retained_candidates": 2,
+    "thresholded_local_maxima": 9,
+    "uncapped_nms_candidates": 2
+  },
+  "uncapped_nms_candidates": [
+    {
+      "drift_hz_per_s": 0.49868766404199505,
+      "drift_index": 857,
+      "peak_id": "peak_000000",
+      "retained_under_legacy_cap": true,
+      "robust_score": 31.28914757227178,
+      "start_channel_ascending": 800,
+      "start_frequency_hz": 1188535695.0334563,
+      "start_index": 417,
+      "suppressed_by_peak_id": null,
+      "uncapped_rank": 1
+    },
+    {
+      "drift_hz_per_s": 0.6246719160104988,
+      "drift_index": 881,
+      "peak_id": "peak_000008",
+      "retained_under_legacy_cap": true,
+      "robust_score": 10.073954338145706,
+      "start_channel_ascending": 790,
+      "start_frequency_hz": 1188535666.678422,
+      "start_index": 407,
+      "suppressed_by_peak_id": null,
+      "uncapped_rank": 2
+    }
+  ]
+}

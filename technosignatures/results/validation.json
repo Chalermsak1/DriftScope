@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "experiment_date_local": "2026-11-19",
+  "timezone": "Asia/Bangkok",
+  "unit_tests": {
+    "tests": 13,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "same_environment_reproduction": {
+    "all_checks_passed": true,
+    "checks": {
+      "after.npz": true,
+      "before.npz": true,
+      "candidates_after.csv": true,
+      "candidates_before.csv": true,
+      "config.json": true,
+      "injected_signal.npy": true,
+      "results.json": true,
+      "search_after.npz": true,
+      "search_before.npz": true
+    },
+    "comparison": "bitwise array equality and byte-for-byte results/config/candidate equality in the same installed environment",
+    "excluded": "Figures and environment descriptions are not required to be byte-identical across platforms"
+  },
+  "figures_visually_inspected": [
+    "spectrogram_comparison.png",
+    "spectrogram_zoom.png",
+    "detection_search.png"
+  ],
+  "input_sha256": "ee0ed0df43990a4653a05eed914401836c0a0de154897afa2c05ddd7f8128ea5",
+  "pipeline_sha256": "d48198ebada5c1e321dd8cd00704e0c35c51a58738aa129f58bbb9146f4e8df3",
+  "limitations": "One strong synthetic power track in one real diagnostic observation; no calibrated false-alarm probability or extraterrestrial discovery claim."
+}

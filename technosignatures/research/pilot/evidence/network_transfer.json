@@ -1,0 +1,23 @@
+{
+  "url": "https://raw.githubusercontent.com/PetchMa/ML_GBT_SETI/5f9c006a2960683969d9face28119af4d5b410b5/data_archive/top_8_data.pkl",
+  "commit": "5f9c006a2960683969d9face28119af4d5b410b5",
+  "utc": "2026-11-19T05:49:01.757450+00:00",
+  "mode": "network_download",
+  "network_transfer_performed": true,
+  "curl_exit_code": 0,
+  "curl_stderr": "",
+  "curl_metrics": {
+    "exitcode": 0,
+    "http_code": 200,
+    "num_redirects": 0,
+    "size_download": 12613542,
+    "speed_download": 1920585,
+    "ssl_verify_result": 0,
+    "time_total": 6.567549,
+    "url_effective": "https://raw.githubusercontent.com/PetchMa/ML_GBT_SETI/5f9c006a2960683969d9face28119af4d5b410b5/data_archive/top_8_data.pkl"
+  },
+  "elapsed_wall_s": 6.59101366699997,
+  "bytes": 12613542,
+  "sha256": "7ac4c68c552f6806bdf6bea52d0512190dc79780abefb383b817829ae131fe72",
+  "tls_verification_disabled": false
+}

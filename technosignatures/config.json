@@ -1,0 +1,31 @@
+{
+  "experiment_id": "load-inject-detect-v1",
+  "experiment_date_local": "2026-11-19",
+  "experiment_timezone": "Asia/Bangkok",
+  "dataset": {
+    "path": "data/raw/sample.fil",
+    "url": "https://raw.githubusercontent.com/bbrzycki/setigen/7ba8324848eb91bd18a2233f467271020a950f40/tests/assets/sample.fil",
+    "sha256": "ee0ed0df43990a4653a05eed914401836c0a0de154897afa2c05ddd7f8128ea5",
+    "expected_source_name": "DIAG_SGR_B2",
+    "expected_shape": [32, 1024],
+    "origin_commit": "7ba8324848eb91bd18a2233f467271020a950f40",
+    "origin_commit_description": "Replace voyager with lighter weight cband obs 32x1024"
+  },
+  "injection": {
+    "start_channel_ascending": 360,
+    "drift_hz_per_s": 1.0,
+    "fwhm_channels": 2.0,
+    "peak_amplitude_in_background_sigma": 8.0
+  },
+  "detector": {
+    "max_abs_drift_hz_per_s": 4.0,
+    "max_endpoint_grid_error_channels": 0.5,
+    "boxcar_width_channels": 3,
+    "score_threshold": 10.0,
+    "max_candidates": 50
+  },
+  "evaluation": {
+    "max_track_error_channels": 3.0,
+    "require_top_candidate_match": true
+  }
+}

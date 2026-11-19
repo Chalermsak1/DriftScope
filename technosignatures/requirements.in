@@ -1,0 +1,11 @@
+# Python 3.11; requirements.lock records the complete tested environment.
+numpy
+scipy
+matplotlib
+h5py
+blimpy
+setigen
+pytest
+nbformat
+# blimpy 2.0.31 imports pkg_resources, removed in newer setuptools releases.
+setuptools==80.9.0

@@ -1,0 +1,43 @@
+/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/blimpy/__init__.py:21: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+{
+  "output": "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/results/reproduction",
+  "all_checks_passed": true,
+  "evaluation": {
+    "recovered": true,
+    "matched_candidate": {
+      "rank": 1,
+      "start_channel_ascending": 360,
+      "start_frequency_hz": 6663999073.673039,
+      "drift_hz_per_s": 1.0196078431372548,
+      "robust_score": 42.53908376321143
+    },
+    "top_candidate_matches_injection": true,
+    "matched_track_max_error_channels": 0.6229292657938883,
+    "matched_start_frequency_error_hz": 0.0,
+    "matched_drift_error_hz_per_s": 0.019607843137254832,
+    "matching_candidates_before_injection": 0,
+    "matching_candidates_after_injection": 1,
+    "candidate_count_before": 0,
+    "candidate_count_after": 3,
+    "matching_tolerance_channels": 3.0,
+    "passes_recovery_check": true,
+    "interpretation": "One deterministic software recovery check, not an extraterrestrial detection or sensitivity survey"
+  }
+}
+{
+  "all_checks_passed": true,
+  "comparison": "bitwise array equality and byte-for-byte results/config/candidate equality in the same installed environment",
+  "checks": {
+    "before.npz": true,
+    "after.npz": true,
+    "search_before.npz": true,
+    "search_after.npz": true,
+    "injected_signal.npy": true,
+    "results.json": true,
+    "config.json": true,
+    "candidates_before.csv": true,
+    "candidates_after.csv": true
+  },
+  "excluded": "Figures and environment descriptions are not required to be byte-identical across platforms"
+}

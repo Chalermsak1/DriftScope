@@ -1,0 +1,3082 @@
+{
+  "drift_trials": 511,
+  "input_frequency_channels": 1024,
+  "legacy_common_start_max": 893,
+  "legacy_common_start_min": 130,
+  "legacy_guard_channels_each_side": 130,
+  "legacy_searched_track_trials": 390404,
+  "legacy_start_channel_count": 764,
+  "legacy_start_channel_fraction": 0.74609375,
+  "per_drift": [
+    {
+      "drift_hz_per_s": -4.0,
+      "valid_start_count": 895,
+      "valid_start_max": 1022,
+      "valid_start_min": 128
+    },
+    {
+      "drift_hz_per_s": -3.984313725490196,
+      "valid_start_count": 895,
+      "valid_start_max": 1022,
+      "valid_start_min": 128
+    },
+    {
+      "drift_hz_per_s": -3.9686274509803923,
+      "valid_start_count": 896,
+      "valid_start_max": 1022,
+      "valid_start_min": 127
+    },
+    {
+      "drift_hz_per_s": -3.9529411764705884,
+      "valid_start_count": 896,
+      "valid_start_max": 1022,
+      "valid_start_min": 127
+    },
+    {
+      "drift_hz_per_s": -3.9372549019607845,
+      "valid_start_count": 897,
+      "valid_start_max": 1022,
+      "valid_start_min": 126
+    },
+    {
+      "drift_hz_per_s": -3.9215686274509802,
+      "valid_start_count": 897,
+      "valid_start_max": 1022,
+      "valid_start_min": 126
+    },
+    {
+      "drift_hz_per_s": -3.9058823529411764,
+      "valid_start_count": 898,
+      "valid_start_max": 1022,
+      "valid_start_min": 125
+    },
+    {
+      "drift_hz_per_s": -3.8901960784313725,
+      "valid_start_count": 898,
+      "valid_start_max": 1022,
+      "valid_start_min": 125
+    },
+    {
+      "drift_hz_per_s": -3.8745098039215686,
+      "valid_start_count": 899,
+      "valid_start_max": 1022,
+      "valid_start_min": 124
+    },
+    {
+      "drift_hz_per_s": -3.8588235294117648,
+      "valid_start_count": 899,
+      "valid_start_max": 1022,
+      "valid_start_min": 124
+    },
+    {
+      "drift_hz_per_s": -3.843137254901961,
+      "valid_start_count": 900,
+      "valid_start_max": 1022,
+      "valid_start_min": 123
+    },
+    {
+      "drift_hz_per_s": -3.827450980392157,
+      "valid_start_count": 900,
+      "valid_start_max": 1022,
+      "valid_start_min": 123
+    },
+    {
+      "drift_hz_per_s": -3.8117647058823527,
+      "valid_start_count": 901,
+      "valid_start_max": 1022,
+      "valid_start_min": 122
+    },
+    {
+      "drift_hz_per_s": -3.796078431372549,
+      "valid_start_count": 901,
+      "valid_start_max": 1022,
+      "valid_start_min": 122
+    },
+    {
+      "drift_hz_per_s": -3.780392156862745,
+      "valid_start_count": 902,
+      "valid_start_max": 1022,
+      "valid_start_min": 121
+    },
+    {
+      "drift_hz_per_s": -3.764705882352941,
+      "valid_start_count": 902,
+      "valid_start_max": 1022,
+      "valid_start_min": 121
+    },
+    {
+      "drift_hz_per_s": -3.7490196078431373,
+      "valid_start_count": 903,
+      "valid_start_max": 1022,
+      "valid_start_min": 120
+    },
+    {
+      "drift_hz_per_s": -3.7333333333333334,
+      "valid_start_count": 903,
+      "valid_start_max": 1022,
+      "valid_start_min": 120
+    },
+    {
+      "drift_hz_per_s": -3.7176470588235295,
+      "valid_start_count": 904,
+      "valid_start_max": 1022,
+      "valid_start_min": 119
+    },
+    {
+      "drift_hz_per_s": -3.7019607843137257,
+      "valid_start_count": 904,
+      "valid_start_max": 1022,
+      "valid_start_min": 119
+    },
+    {
+      "drift_hz_per_s": -3.686274509803922,
+      "valid_start_count": 905,
+      "valid_start_max": 1022,
+      "valid_start_min": 118
+    },
+    {
+      "drift_hz_per_s": -3.6705882352941175,
+      "valid_start_count": 905,
+      "valid_start_max": 1022,
+      "valid_start_min": 118
+    },
+    {
+      "drift_hz_per_s": -3.6549019607843136,
+      "valid_start_count": 906,
+      "valid_start_max": 1022,
+      "valid_start_min": 117
+    },
+    {
+      "drift_hz_per_s": -3.6392156862745098,
+      "valid_start_count": 906,
+      "valid_start_max": 1022,
+      "valid_start_min": 117
+    },
+    {
+      "drift_hz_per_s": -3.623529411764706,
+      "valid_start_count": 907,
+      "valid_start_max": 1022,
+      "valid_start_min": 116
+    },
+    {
+      "drift_hz_per_s": -3.607843137254902,
+      "valid_start_count": 907,
+      "valid_start_max": 1022,
+      "valid_start_min": 116
+    },
+    {
+      "drift_hz_per_s": -3.592156862745098,
+      "valid_start_count": 908,
+      "valid_start_max": 1022,
+      "valid_start_min": 115
+    },
+    {
+      "drift_hz_per_s": -3.5764705882352943,
+      "valid_start_count": 908,
+      "valid_start_max": 1022,
+      "valid_start_min": 115
+    },
+    {
+      "drift_hz_per_s": -3.56078431372549,
+      "valid_start_count": 909,
+      "valid_start_max": 1022,
+      "valid_start_min": 114
+    },
+    {
+      "drift_hz_per_s": -3.545098039215686,
+      "valid_start_count": 909,
+      "valid_start_max": 1022,
+      "valid_start_min": 114
+    },
+    {
+      "drift_hz_per_s": -3.5294117647058822,
+      "valid_start_count": 910,
+      "valid_start_max": 1022,
+      "valid_start_min": 113
+    },
+    {
+      "drift_hz_per_s": -3.5137254901960784,
+      "valid_start_count": 910,
+      "valid_start_max": 1022,
+      "valid_start_min": 113
+    },
+    {
+      "drift_hz_per_s": -3.4980392156862745,
+      "valid_start_count": 911,
+      "valid_start_max": 1022,
+      "valid_start_min": 112
+    },
+    {
+      "drift_hz_per_s": -3.4823529411764707,
+      "valid_start_count": 911,
+      "valid_start_max": 1022,
+      "valid_start_min": 112
+    },
+    {
+      "drift_hz_per_s": -3.466666666666667,
+      "valid_start_count": 912,
+      "valid_start_max": 1022,
+      "valid_start_min": 111
+    },
+    {
+      "drift_hz_per_s": -3.450980392156863,
+      "valid_start_count": 912,
+      "valid_start_max": 1022,
+      "valid_start_min": 111
+    },
+    {
+      "drift_hz_per_s": -3.435294117647059,
+      "valid_start_count": 913,
+      "valid_start_max": 1022,
+      "valid_start_min": 110
+    },
+    {
+      "drift_hz_per_s": -3.419607843137255,
+      "valid_start_count": 913,
+      "valid_start_max": 1022,
+      "valid_start_min": 110
+    },
+    {
+      "drift_hz_per_s": -3.403921568627451,
+      "valid_start_count": 914,
+      "valid_start_max": 1022,
+      "valid_start_min": 109
+    },
+    {
+      "drift_hz_per_s": -3.388235294117647,
+      "valid_start_count": 914,
+      "valid_start_max": 1022,
+      "valid_start_min": 109
+    },
+    {
+      "drift_hz_per_s": -3.372549019607843,
+      "valid_start_count": 915,
+      "valid_start_max": 1022,
+      "valid_start_min": 108
+    },
+    {
+      "drift_hz_per_s": -3.3568627450980393,
+      "valid_start_count": 915,
+      "valid_start_max": 1022,
+      "valid_start_min": 108
+    },
+    {
+      "drift_hz_per_s": -3.3411764705882354,
+      "valid_start_count": 916,
+      "valid_start_max": 1022,
+      "valid_start_min": 107
+    },
+    {
+      "drift_hz_per_s": -3.325490196078431,
+      "valid_start_count": 916,
+      "valid_start_max": 1022,
+      "valid_start_min": 107
+    },
+    {
+      "drift_hz_per_s": -3.3098039215686272,
+      "valid_start_count": 917,
+      "valid_start_max": 1022,
+      "valid_start_min": 106
+    },
+    {
+      "drift_hz_per_s": -3.2941176470588234,
+      "valid_start_count": 917,
+      "valid_start_max": 1022,
+      "valid_start_min": 106
+    },
+    {
+      "drift_hz_per_s": -3.2784313725490195,
+      "valid_start_count": 918,
+      "valid_start_max": 1022,
+      "valid_start_min": 105
+    },
+    {
+      "drift_hz_per_s": -3.2627450980392156,
+      "valid_start_count": 918,
+      "valid_start_max": 1022,
+      "valid_start_min": 105
+    },
+    {
+      "drift_hz_per_s": -3.2470588235294118,
+      "valid_start_count": 919,
+      "valid_start_max": 1022,
+      "valid_start_min": 104
+    },
+    {
+      "drift_hz_per_s": -3.231372549019608,
+      "valid_start_count": 919,
+      "valid_start_max": 1022,
+      "valid_start_min": 104
+    },
+    {
+      "drift_hz_per_s": -3.215686274509804,
+      "valid_start_count": 920,
+      "valid_start_max": 1022,
+      "valid_start_min": 103
+    },
+    {
+      "drift_hz_per_s": -3.2,
+      "valid_start_count": 920,
+      "valid_start_max": 1022,
+      "valid_start_min": 103
+    },
+    {
+      "drift_hz_per_s": -3.1843137254901963,
+      "valid_start_count": 921,
+      "valid_start_max": 1022,
+      "valid_start_min": 102
+    },
+    {
+      "drift_hz_per_s": -3.1686274509803924,
+      "valid_start_count": 921,
+      "valid_start_max": 1022,
+      "valid_start_min": 102
+    },
+    {
+      "drift_hz_per_s": -3.152941176470588,
+      "valid_start_count": 922,
+      "valid_start_max": 1022,
+      "valid_start_min": 101
+    },
+    {
+      "drift_hz_per_s": -3.1372549019607843,
+      "valid_start_count": 922,
+      "valid_start_max": 1022,
+      "valid_start_min": 101
+    },
+    {
+      "drift_hz_per_s": -3.1215686274509804,
+      "valid_start_count": 923,
+      "valid_start_max": 1022,
+      "valid_start_min": 100
+    },
+    {
+      "drift_hz_per_s": -3.1058823529411765,
+      "valid_start_count": 923,
+      "valid_start_max": 1022,
+      "valid_start_min": 100
+    },
+    {
+      "drift_hz_per_s": -3.0901960784313727,
+      "valid_start_count": 924,
+      "valid_start_max": 1022,
+      "valid_start_min": 99
+    },
+    {
+      "drift_hz_per_s": -3.0745098039215684,
+      "valid_start_count": 924,
+      "valid_start_max": 1022,
+      "valid_start_min": 99
+    },
+    {
+      "drift_hz_per_s": -3.0588235294117645,
+      "valid_start_count": 925,
+      "valid_start_max": 1022,
+      "valid_start_min": 98
+    },
+    {
+      "drift_hz_per_s": -3.0431372549019606,
+      "valid_start_count": 925,
+      "valid_start_max": 1022,
+      "valid_start_min": 98
+    },
+    {
+      "drift_hz_per_s": -3.0274509803921568,
+      "valid_start_count": 926,
+      "valid_start_max": 1022,
+      "valid_start_min": 97
+    },
+    {
+      "drift_hz_per_s": -3.011764705882353,
+      "valid_start_count": 926,
+      "valid_start_max": 1022,
+      "valid_start_min": 97
+    },
+    {
+      "drift_hz_per_s": -2.996078431372549,
+      "valid_start_count": 927,
+      "valid_start_max": 1022,
+      "valid_start_min": 96
+    },
+    {
+      "drift_hz_per_s": -2.980392156862745,
+      "valid_start_count": 927,
+      "valid_start_max": 1022,
+      "valid_start_min": 96
+    },
+    {
+      "drift_hz_per_s": -2.9647058823529413,
+      "valid_start_count": 928,
+      "valid_start_max": 1022,
+      "valid_start_min": 95
+    },
+    {
+      "drift_hz_per_s": -2.9490196078431374,
+      "valid_start_count": 928,
+      "valid_start_max": 1022,
+      "valid_start_min": 95
+    },
+    {
+      "drift_hz_per_s": -2.9333333333333336,
+      "valid_start_count": 929,
+      "valid_start_max": 1022,
+      "valid_start_min": 94
+    },
+    {
+      "drift_hz_per_s": -2.9176470588235297,
+      "valid_start_count": 929,
+      "valid_start_max": 1022,
+      "valid_start_min": 94
+    },
+    {
+      "drift_hz_per_s": -2.9019607843137254,
+      "valid_start_count": 930,
+      "valid_start_max": 1022,
+      "valid_start_min": 93
+    },
+    {
+      "drift_hz_per_s": -2.8862745098039215,
+      "valid_start_count": 930,
+      "valid_start_max": 1022,
+      "valid_start_min": 93
+    },
+    {
+      "drift_hz_per_s": -2.8705882352941177,
+      "valid_start_count": 931,
+      "valid_start_max": 1022,
+      "valid_start_min": 92
+    },
+    {
+      "drift_hz_per_s": -2.854901960784314,
+      "valid_start_count": 931,
+      "valid_start_max": 1022,
+      "valid_start_min": 92
+    },
+    {
+      "drift_hz_per_s": -2.83921568627451,
+      "valid_start_count": 932,
+      "valid_start_max": 1022,
+      "valid_start_min": 91
+    },
+    {
+      "drift_hz_per_s": -2.8235294117647056,
+      "valid_start_count": 932,
+      "valid_start_max": 1022,
+      "valid_start_min": 91
+    },
+    {
+      "drift_hz_per_s": -2.8078431372549018,
+      "valid_start_count": 933,
+      "valid_start_max": 1022,
+      "valid_start_min": 90
+    },
+    {
+      "drift_hz_per_s": -2.792156862745098,
+      "valid_start_count": 933,
+      "valid_start_max": 1022,
+      "valid_start_min": 90
+    },
+    {
+      "drift_hz_per_s": -2.776470588235294,
+      "valid_start_count": 934,
+      "valid_start_max": 1022,
+      "valid_start_min": 89
+    },
+    {
+      "drift_hz_per_s": -2.76078431372549,
+      "valid_start_count": 934,
+      "valid_start_max": 1022,
+      "valid_start_min": 89
+    },
+    {
+      "drift_hz_per_s": -2.7450980392156863,
+      "valid_start_count": 935,
+      "valid_start_max": 1022,
+      "valid_start_min": 88
+    },
+    {
+      "drift_hz_per_s": -2.7294117647058824,
+      "valid_start_count": 935,
+      "valid_start_max": 1022,
+      "valid_start_min": 88
+    },
+    {
+      "drift_hz_per_s": -2.7137254901960786,
+      "valid_start_count": 936,
+      "valid_start_max": 1022,
+      "valid_start_min": 87
+    },
+    {
+      "drift_hz_per_s": -2.6980392156862747,
+      "valid_start_count": 936,
+      "valid_start_max": 1022,
+      "valid_start_min": 87
+    },
+    {
+      "drift_hz_per_s": -2.682352941176471,
+      "valid_start_count": 937,
+      "valid_start_max": 1022,
+      "valid_start_min": 86
+    },
+    {
+      "drift_hz_per_s": -2.666666666666667,
+      "valid_start_count": 937,
+      "valid_start_max": 1022,
+      "valid_start_min": 86
+    },
+    {
+      "drift_hz_per_s": -2.6509803921568627,
+      "valid_start_count": 938,
+      "valid_start_max": 1022,
+      "valid_start_min": 85
+    },
+    {
+      "drift_hz_per_s": -2.635294117647059,
+      "valid_start_count": 938,
+      "valid_start_max": 1022,
+      "valid_start_min": 85
+    },
+    {
+      "drift_hz_per_s": -2.619607843137255,
+      "valid_start_count": 939,
+      "valid_start_max": 1022,
+      "valid_start_min": 84
+    },
+    {
+      "drift_hz_per_s": -2.603921568627451,
+      "valid_start_count": 939,
+      "valid_start_max": 1022,
+      "valid_start_min": 84
+    },
+    {
+      "drift_hz_per_s": -2.588235294117647,
+      "valid_start_count": 940,
+      "valid_start_max": 1022,
+      "valid_start_min": 83
+    },
+    {
+      "drift_hz_per_s": -2.572549019607843,
+      "valid_start_count": 940,
+      "valid_start_max": 1022,
+      "valid_start_min": 83
+    },
+    {
+      "drift_hz_per_s": -2.556862745098039,
+      "valid_start_count": 941,
+      "valid_start_max": 1022,
+      "valid_start_min": 82
+    },
+    {
+      "drift_hz_per_s": -2.541176470588235,
+      "valid_start_count": 941,
+      "valid_start_max": 1022,
+      "valid_start_min": 82
+    },
+    {
+      "drift_hz_per_s": -2.5254901960784313,
+      "valid_start_count": 942,
+      "valid_start_max": 1022,
+      "valid_start_min": 81
+    },
+    {
+      "drift_hz_per_s": -2.5098039215686274,
+      "valid_start_count": 942,
+      "valid_start_max": 1022,
+      "valid_start_min": 81
+    },
+    {
+      "drift_hz_per_s": -2.4941176470588236,
+      "valid_start_count": 943,
+      "valid_start_max": 1022,
+      "valid_start_min": 80
+    },
+    {
+      "drift_hz_per_s": -2.4784313725490197,
+      "valid_start_count": 943,
+      "valid_start_max": 1022,
+      "valid_start_min": 80
+    },
+    {
+      "drift_hz_per_s": -2.462745098039216,
+      "valid_start_count": 944,
+      "valid_start_max": 1022,
+      "valid_start_min": 79
+    },
+    {
+      "drift_hz_per_s": -2.447058823529412,
+      "valid_start_count": 944,
+      "valid_start_max": 1022,
+      "valid_start_min": 79
+    },
+    {
+      "drift_hz_per_s": -2.431372549019608,
+      "valid_start_count": 945,
+      "valid_start_max": 1022,
+      "valid_start_min": 78
+    },
+    {
+      "drift_hz_per_s": -2.415686274509804,
+      "valid_start_count": 945,
+      "valid_start_max": 1022,
+      "valid_start_min": 78
+    },
+    {
+      "drift_hz_per_s": -2.4,
+      "valid_start_count": 946,
+      "valid_start_max": 1022,
+      "valid_start_min": 77
+    },
+    {
+      "drift_hz_per_s": -2.384313725490196,
+      "valid_start_count": 946,
+      "valid_start_max": 1022,
+      "valid_start_min": 77
+    },
+    {
+      "drift_hz_per_s": -2.368627450980392,
+      "valid_start_count": 947,
+      "valid_start_max": 1022,
+      "valid_start_min": 76
+    },
+    {
+      "drift_hz_per_s": -2.3529411764705883,
+      "valid_start_count": 947,
+      "valid_start_max": 1022,
+      "valid_start_min": 76
+    },
+    {
+      "drift_hz_per_s": -2.3372549019607844,
+      "valid_start_count": 948,
+      "valid_start_max": 1022,
+      "valid_start_min": 75
+    },
+    {
+      "drift_hz_per_s": -2.32156862745098,
+      "valid_start_count": 948,
+      "valid_start_max": 1022,
+      "valid_start_min": 75
+    },
+    {
+      "drift_hz_per_s": -2.3058823529411763,
+      "valid_start_count": 949,
+      "valid_start_max": 1022,
+      "valid_start_min": 74
+    },
+    {
+      "drift_hz_per_s": -2.2901960784313724,
+      "valid_start_count": 949,
+      "valid_start_max": 1022,
+      "valid_start_min": 74
+    },
+    {
+      "drift_hz_per_s": -2.2745098039215685,
+      "valid_start_count": 950,
+      "valid_start_max": 1022,
+      "valid_start_min": 73
+    },
+    {
+      "drift_hz_per_s": -2.2588235294117647,
+      "valid_start_count": 950,
+      "valid_start_max": 1022,
+      "valid_start_min": 73
+    },
+    {
+      "drift_hz_per_s": -2.243137254901961,
+      "valid_start_count": 951,
+      "valid_start_max": 1022,
+      "valid_start_min": 72
+    },
+    {
+      "drift_hz_per_s": -2.227450980392157,
+      "valid_start_count": 951,
+      "valid_start_max": 1022,
+      "valid_start_min": 72
+    },
+    {
+      "drift_hz_per_s": -2.211764705882353,
+      "valid_start_count": 952,
+      "valid_start_max": 1022,
+      "valid_start_min": 71
+    },
+    {
+      "drift_hz_per_s": -2.196078431372549,
+      "valid_start_count": 952,
+      "valid_start_max": 1022,
+      "valid_start_min": 71
+    },
+    {
+      "drift_hz_per_s": -2.1803921568627453,
+      "valid_start_count": 953,
+      "valid_start_max": 1022,
+      "valid_start_min": 70
+    },
+    {
+      "drift_hz_per_s": -2.1647058823529415,
+      "valid_start_count": 953,
+      "valid_start_max": 1022,
+      "valid_start_min": 70
+    },
+    {
+      "drift_hz_per_s": -2.149019607843137,
+      "valid_start_count": 954,
+      "valid_start_max": 1022,
+      "valid_start_min": 69
+    },
+    {
+      "drift_hz_per_s": -2.1333333333333333,
+      "valid_start_count": 954,
+      "valid_start_max": 1022,
+      "valid_start_min": 69
+    },
+    {
+      "drift_hz_per_s": -2.1176470588235294,
+      "valid_start_count": 955,
+      "valid_start_max": 1022,
+      "valid_start_min": 68
+    },
+    {
+      "drift_hz_per_s": -2.1019607843137256,
+      "valid_start_count": 955,
+      "valid_start_max": 1022,
+      "valid_start_min": 68
+    },
+    {
+      "drift_hz_per_s": -2.0862745098039217,
+      "valid_start_count": 956,
+      "valid_start_max": 1022,
+      "valid_start_min": 67
+    },
+    {
+      "drift_hz_per_s": -2.0705882352941174,
+      "valid_start_count": 956,
+      "valid_start_max": 1022,
+      "valid_start_min": 67
+    },
+    {
+      "drift_hz_per_s": -2.0549019607843135,
+      "valid_start_count": 957,
+      "valid_start_max": 1022,
+      "valid_start_min": 66
+    },
+    {
+      "drift_hz_per_s": -2.0392156862745097,
+      "valid_start_count": 957,
+      "valid_start_max": 1022,
+      "valid_start_min": 66
+    },
+    {
+      "drift_hz_per_s": -2.023529411764706,
+      "valid_start_count": 958,
+      "valid_start_max": 1022,
+      "valid_start_min": 65
+    },
+    {
+      "drift_hz_per_s": -2.007843137254902,
+      "valid_start_count": 958,
+      "valid_start_max": 1022,
+      "valid_start_min": 65
+    },
+    {
+      "drift_hz_per_s": -1.992156862745098,
+      "valid_start_count": 959,
+      "valid_start_max": 1022,
+      "valid_start_min": 64
+    },
+    {
+      "drift_hz_per_s": -1.9764705882352942,
+      "valid_start_count": 959,
+      "valid_start_max": 1022,
+      "valid_start_min": 64
+    },
+    {
+      "drift_hz_per_s": -1.9607843137254903,
+      "valid_start_count": 960,
+      "valid_start_max": 1022,
+      "valid_start_min": 63
+    },
+    {
+      "drift_hz_per_s": -1.9450980392156865,
+      "valid_start_count": 960,
+      "valid_start_max": 1022,
+      "valid_start_min": 63
+    },
+    {
+      "drift_hz_per_s": -1.9294117647058826,
+      "valid_start_count": 961,
+      "valid_start_max": 1022,
+      "valid_start_min": 62
+    },
+    {
+      "drift_hz_per_s": -1.9137254901960783,
+      "valid_start_count": 961,
+      "valid_start_max": 1022,
+      "valid_start_min": 62
+    },
+    {
+      "drift_hz_per_s": -1.8980392156862744,
+      "valid_start_count": 962,
+      "valid_start_max": 1022,
+      "valid_start_min": 61
+    },
+    {
+      "drift_hz_per_s": -1.8823529411764706,
+      "valid_start_count": 962,
+      "valid_start_max": 1022,
+      "valid_start_min": 61
+    },
+    {
+      "drift_hz_per_s": -1.8666666666666667,
+      "valid_start_count": 963,
+      "valid_start_max": 1022,
+      "valid_start_min": 60
+    },
+    {
+      "drift_hz_per_s": -1.8509803921568628,
+      "valid_start_count": 963,
+      "valid_start_max": 1022,
+      "valid_start_min": 60
+    },
+    {
+      "drift_hz_per_s": -1.835294117647059,
+      "valid_start_count": 964,
+      "valid_start_max": 1022,
+      "valid_start_min": 59
+    },
+    {
+      "drift_hz_per_s": -1.819607843137255,
+      "valid_start_count": 964,
+      "valid_start_max": 1022,
+      "valid_start_min": 59
+    },
+    {
+      "drift_hz_per_s": -1.8039215686274508,
+      "valid_start_count": 965,
+      "valid_start_max": 1022,
+      "valid_start_min": 58
+    },
+    {
+      "drift_hz_per_s": -1.788235294117647,
+      "valid_start_count": 965,
+      "valid_start_max": 1022,
+      "valid_start_min": 58
+    },
+    {
+      "drift_hz_per_s": -1.772549019607843,
+      "valid_start_count": 966,
+      "valid_start_max": 1022,
+      "valid_start_min": 57
+    },
+    {
+      "drift_hz_per_s": -1.7568627450980392,
+      "valid_start_count": 966,
+      "valid_start_max": 1022,
+      "valid_start_min": 57
+    },
+    {
+      "drift_hz_per_s": -1.7411764705882353,
+      "valid_start_count": 967,
+      "valid_start_max": 1022,
+      "valid_start_min": 56
+    },
+    {
+      "drift_hz_per_s": -1.7254901960784315,
+      "valid_start_count": 967,
+      "valid_start_max": 1022,
+      "valid_start_min": 56
+    },
+    {
+      "drift_hz_per_s": -1.7098039215686276,
+      "valid_start_count": 968,
+      "valid_start_max": 1022,
+      "valid_start_min": 55
+    },
+    {
+      "drift_hz_per_s": -1.6941176470588237,
+      "valid_start_count": 968,
+      "valid_start_max": 1022,
+      "valid_start_min": 55
+    },
+    {
+      "drift_hz_per_s": -1.6784313725490199,
+      "valid_start_count": 969,
+      "valid_start_max": 1022,
+      "valid_start_min": 54
+    },
+    {
+      "drift_hz_per_s": -1.6627450980392156,
+      "valid_start_count": 969,
+      "valid_start_max": 1022,
+      "valid_start_min": 54
+    },
+    {
+      "drift_hz_per_s": -1.6470588235294117,
+      "valid_start_count": 970,
+      "valid_start_max": 1022,
+      "valid_start_min": 53
+    },
+    {
+      "drift_hz_per_s": -1.6313725490196078,
+      "valid_start_count": 970,
+      "valid_start_max": 1022,
+      "valid_start_min": 53
+    },
+    {
+      "drift_hz_per_s": -1.615686274509804,
+      "valid_start_count": 971,
+      "valid_start_max": 1022,
+      "valid_start_min": 52
+    },
+    {
+      "drift_hz_per_s": -1.6,
+      "valid_start_count": 971,
+      "valid_start_max": 1022,
+      "valid_start_min": 52
+    },
+    {
+      "drift_hz_per_s": -1.5843137254901962,
+      "valid_start_count": 972,
+      "valid_start_max": 1022,
+      "valid_start_min": 51
+    },
+    {
+      "drift_hz_per_s": -1.5686274509803924,
+      "valid_start_count": 972,
+      "valid_start_max": 1022,
+      "valid_start_min": 51
+    },
+    {
+      "drift_hz_per_s": -1.552941176470588,
+      "valid_start_count": 973,
+      "valid_start_max": 1022,
+      "valid_start_min": 50
+    },
+    {
+      "drift_hz_per_s": -1.5372549019607842,
+      "valid_start_count": 973,
+      "valid_start_max": 1022,
+      "valid_start_min": 50
+    },
+    {
+      "drift_hz_per_s": -1.5215686274509803,
+      "valid_start_count": 974,
+      "valid_start_max": 1022,
+      "valid_start_min": 49
+    },
+    {
+      "drift_hz_per_s": -1.5058823529411764,
+      "valid_start_count": 974,
+      "valid_start_max": 1022,
+      "valid_start_min": 49
+    },
+    {
+      "drift_hz_per_s": -1.4901960784313726,
+      "valid_start_count": 975,
+      "valid_start_max": 1022,
+      "valid_start_min": 48
+    },
+    {
+      "drift_hz_per_s": -1.4745098039215687,
+      "valid_start_count": 975,
+      "valid_start_max": 1022,
+      "valid_start_min": 48
+    },
+    {
+      "drift_hz_per_s": -1.4588235294117649,
+      "valid_start_count": 976,
+      "valid_start_max": 1022,
+      "valid_start_min": 47
+    },
+    {
+      "drift_hz_per_s": -1.443137254901961,
+      "valid_start_count": 976,
+      "valid_start_max": 1022,
+      "valid_start_min": 47
+    },
+    {
+      "drift_hz_per_s": -1.4274509803921571,
+      "valid_start_count": 977,
+      "valid_start_max": 1022,
+      "valid_start_min": 46
+    },
+    {
+      "drift_hz_per_s": -1.4117647058823528,
+      "valid_start_count": 977,
+      "valid_start_max": 1022,
+      "valid_start_min": 46
+    },
+    {
+      "drift_hz_per_s": -1.396078431372549,
+      "valid_start_count": 978,
+      "valid_start_max": 1022,
+      "valid_start_min": 45
+    },
+    {
+      "drift_hz_per_s": -1.380392156862745,
+      "valid_start_count": 978,
+      "valid_start_max": 1022,
+      "valid_start_min": 45
+    },
+    {
+      "drift_hz_per_s": -1.3647058823529412,
+      "valid_start_count": 979,
+      "valid_start_max": 1022,
+      "valid_start_min": 44
+    },
+    {
+      "drift_hz_per_s": -1.3490196078431373,
+      "valid_start_count": 979,
+      "valid_start_max": 1022,
+      "valid_start_min": 44
+    },
+    {
+      "drift_hz_per_s": -1.3333333333333335,
+      "valid_start_count": 980,
+      "valid_start_max": 1022,
+      "valid_start_min": 43
+    },
+    {
+      "drift_hz_per_s": -1.3176470588235296,
+      "valid_start_count": 980,
+      "valid_start_max": 1022,
+      "valid_start_min": 43
+    },
+    {
+      "drift_hz_per_s": -1.3019607843137253,
+      "valid_start_count": 981,
+      "valid_start_max": 1022,
+      "valid_start_min": 42
+    },
+    {
+      "drift_hz_per_s": -1.2862745098039214,
+      "valid_start_count": 981,
+      "valid_start_max": 1022,
+      "valid_start_min": 42
+    },
+    {
+      "drift_hz_per_s": -1.2705882352941176,
+      "valid_start_count": 982,
+      "valid_start_max": 1022,
+      "valid_start_min": 41
+    },
+    {
+      "drift_hz_per_s": -1.2549019607843137,
+      "valid_start_count": 982,
+      "valid_start_max": 1022,
+      "valid_start_min": 41
+    },
+    {
+      "drift_hz_per_s": -1.2392156862745098,
+      "valid_start_count": 983,
+      "valid_start_max": 1022,
+      "valid_start_min": 40
+    },
+    {
+      "drift_hz_per_s": -1.223529411764706,
+      "valid_start_count": 983,
+      "valid_start_max": 1022,
+      "valid_start_min": 40
+    },
+    {
+      "drift_hz_per_s": -1.207843137254902,
+      "valid_start_count": 984,
+      "valid_start_max": 1022,
+      "valid_start_min": 39
+    },
+    {
+      "drift_hz_per_s": -1.1921568627450982,
+      "valid_start_count": 984,
+      "valid_start_max": 1022,
+      "valid_start_min": 39
+    },
+    {
+      "drift_hz_per_s": -1.1764705882352944,
+      "valid_start_count": 985,
+      "valid_start_max": 1022,
+      "valid_start_min": 38
+    },
+    {
+      "drift_hz_per_s": -1.16078431372549,
+      "valid_start_count": 985,
+      "valid_start_max": 1022,
+      "valid_start_min": 38
+    },
+    {
+      "drift_hz_per_s": -1.1450980392156862,
+      "valid_start_count": 986,
+      "valid_start_max": 1022,
+      "valid_start_min": 37
+    },
+    {
+      "drift_hz_per_s": -1.1294117647058823,
+      "valid_start_count": 986,
+      "valid_start_max": 1022,
+      "valid_start_min": 37
+    },
+    {
+      "drift_hz_per_s": -1.1137254901960785,
+      "valid_start_count": 987,
+      "valid_start_max": 1022,
+      "valid_start_min": 36
+    },
+    {
+      "drift_hz_per_s": -1.0980392156862746,
+      "valid_start_count": 987,
+      "valid_start_max": 1022,
+      "valid_start_min": 36
+    },
+    {
+      "drift_hz_per_s": -1.0823529411764707,
+      "valid_start_count": 988,
+      "valid_start_max": 1022,
+      "valid_start_min": 35
+    },
+    {
+      "drift_hz_per_s": -1.0666666666666669,
+      "valid_start_count": 988,
+      "valid_start_max": 1022,
+      "valid_start_min": 35
+    },
+    {
+      "drift_hz_per_s": -1.0509803921568626,
+      "valid_start_count": 989,
+      "valid_start_max": 1022,
+      "valid_start_min": 34
+    },
+    {
+      "drift_hz_per_s": -1.0352941176470587,
+      "valid_start_count": 989,
+      "valid_start_max": 1022,
+      "valid_start_min": 34
+    },
+    {
+      "drift_hz_per_s": -1.0196078431372548,
+      "valid_start_count": 990,
+      "valid_start_max": 1022,
+      "valid_start_min": 33
+    },
+    {
+      "drift_hz_per_s": -1.003921568627451,
+      "valid_start_count": 990,
+      "valid_start_max": 1022,
+      "valid_start_min": 33
+    },
+    {
+      "drift_hz_per_s": -0.9882352941176471,
+      "valid_start_count": 991,
+      "valid_start_max": 1022,
+      "valid_start_min": 32
+    },
+    {
+      "drift_hz_per_s": -0.9725490196078432,
+      "valid_start_count": 991,
+      "valid_start_max": 1022,
+      "valid_start_min": 32
+    },
+    {
+      "drift_hz_per_s": -0.9568627450980394,
+      "valid_start_count": 992,
+      "valid_start_max": 1022,
+      "valid_start_min": 31
+    },
+    {
+      "drift_hz_per_s": -0.9411764705882355,
+      "valid_start_count": 992,
+      "valid_start_max": 1022,
+      "valid_start_min": 31
+    },
+    {
+      "drift_hz_per_s": -0.9254901960784316,
+      "valid_start_count": 993,
+      "valid_start_max": 1022,
+      "valid_start_min": 30
+    },
+    {
+      "drift_hz_per_s": -0.9098039215686273,
+      "valid_start_count": 993,
+      "valid_start_max": 1022,
+      "valid_start_min": 30
+    },
+    {
+      "drift_hz_per_s": -0.8941176470588235,
+      "valid_start_count": 994,
+      "valid_start_max": 1022,
+      "valid_start_min": 29
+    },
+    {
+      "drift_hz_per_s": -0.8784313725490196,
+      "valid_start_count": 994,
+      "valid_start_max": 1022,
+      "valid_start_min": 29
+    },
+    {
+      "drift_hz_per_s": -0.8627450980392157,
+      "valid_start_count": 995,
+      "valid_start_max": 1022,
+      "valid_start_min": 28
+    },
+    {
+      "drift_hz_per_s": -0.8470588235294119,
+      "valid_start_count": 995,
+      "valid_start_max": 1022,
+      "valid_start_min": 28
+    },
+    {
+      "drift_hz_per_s": -0.831372549019608,
+      "valid_start_count": 996,
+      "valid_start_max": 1022,
+      "valid_start_min": 27
+    },
+    {
+      "drift_hz_per_s": -0.8156862745098041,
+      "valid_start_count": 996,
+      "valid_start_max": 1022,
+      "valid_start_min": 27
+    },
+    {
+      "drift_hz_per_s": -0.7999999999999998,
+      "valid_start_count": 997,
+      "valid_start_max": 1022,
+      "valid_start_min": 26
+    },
+    {
+      "drift_hz_per_s": -0.784313725490196,
+      "valid_start_count": 997,
+      "valid_start_max": 1022,
+      "valid_start_min": 26
+    },
+    {
+      "drift_hz_per_s": -0.7686274509803921,
+      "valid_start_count": 998,
+      "valid_start_max": 1022,
+      "valid_start_min": 25
+    },
+    {
+      "drift_hz_per_s": -0.7529411764705882,
+      "valid_start_count": 998,
+      "valid_start_max": 1022,
+      "valid_start_min": 25
+    },
+    {
+      "drift_hz_per_s": -0.7372549019607844,
+      "valid_start_count": 999,
+      "valid_start_max": 1022,
+      "valid_start_min": 24
+    },
+    {
+      "drift_hz_per_s": -0.7215686274509805,
+      "valid_start_count": 999,
+      "valid_start_max": 1022,
+      "valid_start_min": 24
+    },
+    {
+      "drift_hz_per_s": -0.7058823529411766,
+      "valid_start_count": 1000,
+      "valid_start_max": 1022,
+      "valid_start_min": 23
+    },
+    {
+      "drift_hz_per_s": -0.6901960784313728,
+      "valid_start_count": 1000,
+      "valid_start_max": 1022,
+      "valid_start_min": 23
+    },
+    {
+      "drift_hz_per_s": -0.6745098039215689,
+      "valid_start_count": 1001,
+      "valid_start_max": 1022,
+      "valid_start_min": 22
+    },
+    {
+      "drift_hz_per_s": -0.6588235294117646,
+      "valid_start_count": 1001,
+      "valid_start_max": 1022,
+      "valid_start_min": 22
+    },
+    {
+      "drift_hz_per_s": -0.6431372549019607,
+      "valid_start_count": 1002,
+      "valid_start_max": 1022,
+      "valid_start_min": 21
+    },
+    {
+      "drift_hz_per_s": -0.6274509803921569,
+      "valid_start_count": 1002,
+      "valid_start_max": 1022,
+      "valid_start_min": 21
+    },
+    {
+      "drift_hz_per_s": -0.611764705882353,
+      "valid_start_count": 1003,
+      "valid_start_max": 1022,
+      "valid_start_min": 20
+    },
+    {
+      "drift_hz_per_s": -0.5960784313725491,
+      "valid_start_count": 1003,
+      "valid_start_max": 1022,
+      "valid_start_min": 20
+    },
+    {
+      "drift_hz_per_s": -0.5803921568627453,
+      "valid_start_count": 1004,
+      "valid_start_max": 1022,
+      "valid_start_min": 19
+    },
+    {
+      "drift_hz_per_s": -0.5647058823529414,
+      "valid_start_count": 1004,
+      "valid_start_max": 1022,
+      "valid_start_min": 19
+    },
+    {
+      "drift_hz_per_s": -0.5490196078431371,
+      "valid_start_count": 1005,
+      "valid_start_max": 1022,
+      "valid_start_min": 18
+    },
+    {
+      "drift_hz_per_s": -0.5333333333333332,
+      "valid_start_count": 1005,
+      "valid_start_max": 1022,
+      "valid_start_min": 18
+    },
+    {
+      "drift_hz_per_s": -0.5176470588235293,
+      "valid_start_count": 1006,
+      "valid_start_max": 1022,
+      "valid_start_min": 17
+    },
+    {
+      "drift_hz_per_s": -0.5019607843137255,
+      "valid_start_count": 1006,
+      "valid_start_max": 1022,
+      "valid_start_min": 17
+    },
+    {
+      "drift_hz_per_s": -0.4862745098039216,
+      "valid_start_count": 1007,
+      "valid_start_max": 1022,
+      "valid_start_min": 16
+    },
+    {
+      "drift_hz_per_s": -0.47058823529411775,
+      "valid_start_count": 1007,
+      "valid_start_max": 1022,
+      "valid_start_min": 16
+    },
+    {
+      "drift_hz_per_s": -0.4549019607843139,
+      "valid_start_count": 1008,
+      "valid_start_max": 1022,
+      "valid_start_min": 15
+    },
+    {
+      "drift_hz_per_s": -0.43921568627451,
+      "valid_start_count": 1008,
+      "valid_start_max": 1022,
+      "valid_start_min": 15
+    },
+    {
+      "drift_hz_per_s": -0.42352941176470615,
+      "valid_start_count": 1009,
+      "valid_start_max": 1022,
+      "valid_start_min": 14
+    },
+    {
+      "drift_hz_per_s": -0.40784313725490184,
+      "valid_start_count": 1009,
+      "valid_start_max": 1022,
+      "valid_start_min": 14
+    },
+    {
+      "drift_hz_per_s": -0.392156862745098,
+      "valid_start_count": 1010,
+      "valid_start_max": 1022,
+      "valid_start_min": 13
+    },
+    {
+      "drift_hz_per_s": -0.3764705882352941,
+      "valid_start_count": 1010,
+      "valid_start_max": 1022,
+      "valid_start_min": 13
+    },
+    {
+      "drift_hz_per_s": -0.36078431372549025,
+      "valid_start_count": 1011,
+      "valid_start_max": 1022,
+      "valid_start_min": 12
+    },
+    {
+      "drift_hz_per_s": -0.3450980392156864,
+      "valid_start_count": 1011,
+      "valid_start_max": 1022,
+      "valid_start_min": 12
+    },
+    {
+      "drift_hz_per_s": -0.3294117647058825,
+      "valid_start_count": 1012,
+      "valid_start_max": 1022,
+      "valid_start_min": 11
+    },
+    {
+      "drift_hz_per_s": -0.31372549019607865,
+      "valid_start_count": 1012,
+      "valid_start_max": 1022,
+      "valid_start_min": 11
+    },
+    {
+      "drift_hz_per_s": -0.29803921568627434,
+      "valid_start_count": 1013,
+      "valid_start_max": 1022,
+      "valid_start_min": 10
+    },
+    {
+      "drift_hz_per_s": -0.2823529411764705,
+      "valid_start_count": 1013,
+      "valid_start_max": 1022,
+      "valid_start_min": 10
+    },
+    {
+      "drift_hz_per_s": -0.2666666666666666,
+      "valid_start_count": 1014,
+      "valid_start_max": 1022,
+      "valid_start_min": 9
+    },
+    {
+      "drift_hz_per_s": -0.25098039215686274,
+      "valid_start_count": 1014,
+      "valid_start_max": 1022,
+      "valid_start_min": 9
+    },
+    {
+      "drift_hz_per_s": -0.23529411764705888,
+      "valid_start_count": 1015,
+      "valid_start_max": 1022,
+      "valid_start_min": 8
+    },
+    {
+      "drift_hz_per_s": -0.219607843137255,
+      "valid_start_count": 1015,
+      "valid_start_max": 1022,
+      "valid_start_min": 8
+    },
+    {
+      "drift_hz_per_s": -0.20392156862745114,
+      "valid_start_count": 1016,
+      "valid_start_max": 1022,
+      "valid_start_min": 7
+    },
+    {
+      "drift_hz_per_s": -0.18823529411764728,
+      "valid_start_count": 1016,
+      "valid_start_max": 1022,
+      "valid_start_min": 7
+    },
+    {
+      "drift_hz_per_s": -0.1725490196078434,
+      "valid_start_count": 1017,
+      "valid_start_max": 1022,
+      "valid_start_min": 6
+    },
+    {
+      "drift_hz_per_s": -0.1568627450980391,
+      "valid_start_count": 1017,
+      "valid_start_max": 1022,
+      "valid_start_min": 6
+    },
+    {
+      "drift_hz_per_s": -0.14117647058823524,
+      "valid_start_count": 1018,
+      "valid_start_max": 1022,
+      "valid_start_min": 5
+    },
+    {
+      "drift_hz_per_s": -0.12549019607843137,
+      "valid_start_count": 1018,
+      "valid_start_max": 1022,
+      "valid_start_min": 5
+    },
+    {
+      "drift_hz_per_s": -0.1098039215686275,
+      "valid_start_count": 1019,
+      "valid_start_max": 1022,
+      "valid_start_min": 4
+    },
+    {
+      "drift_hz_per_s": -0.09411764705882364,
+      "valid_start_count": 1019,
+      "valid_start_max": 1022,
+      "valid_start_min": 4
+    },
+    {
+      "drift_hz_per_s": -0.07843137254901977,
+      "valid_start_count": 1020,
+      "valid_start_max": 1022,
+      "valid_start_min": 3
+    },
+    {
+      "drift_hz_per_s": -0.06274509803921591,
+      "valid_start_count": 1020,
+      "valid_start_max": 1022,
+      "valid_start_min": 3
+    },
+    {
+      "drift_hz_per_s": -0.0470588235294116,
+      "valid_start_count": 1021,
+      "valid_start_max": 1022,
+      "valid_start_min": 2
+    },
+    {
+      "drift_hz_per_s": -0.03137254901960773,
+      "valid_start_count": 1021,
+      "valid_start_max": 1022,
+      "valid_start_min": 2
+    },
+    {
+      "drift_hz_per_s": -0.015686274509803866,
+      "valid_start_count": 1022,
+      "valid_start_max": 1022,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.0,
+      "valid_start_count": 1022,
+      "valid_start_max": 1022,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.015686274509803866,
+      "valid_start_count": 1022,
+      "valid_start_max": 1022,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.03137254901960773,
+      "valid_start_count": 1021,
+      "valid_start_max": 1021,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.0470588235294116,
+      "valid_start_count": 1021,
+      "valid_start_max": 1021,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.06274509803921546,
+      "valid_start_count": 1020,
+      "valid_start_max": 1020,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.07843137254901933,
+      "valid_start_count": 1020,
+      "valid_start_max": 1020,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.0941176470588232,
+      "valid_start_count": 1019,
+      "valid_start_max": 1019,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.10980392156862706,
+      "valid_start_count": 1019,
+      "valid_start_max": 1019,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.12549019607843093,
+      "valid_start_count": 1018,
+      "valid_start_max": 1018,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.1411764705882348,
+      "valid_start_count": 1018,
+      "valid_start_max": 1018,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.15686274509803955,
+      "valid_start_count": 1017,
+      "valid_start_max": 1017,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.1725490196078434,
+      "valid_start_count": 1017,
+      "valid_start_max": 1017,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.18823529411764728,
+      "valid_start_count": 1016,
+      "valid_start_max": 1016,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.20392156862745114,
+      "valid_start_count": 1016,
+      "valid_start_max": 1016,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.219607843137255,
+      "valid_start_count": 1015,
+      "valid_start_max": 1015,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.23529411764705888,
+      "valid_start_count": 1015,
+      "valid_start_max": 1015,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.25098039215686274,
+      "valid_start_count": 1014,
+      "valid_start_max": 1014,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.2666666666666666,
+      "valid_start_count": 1014,
+      "valid_start_max": 1014,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.2823529411764705,
+      "valid_start_count": 1013,
+      "valid_start_max": 1013,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.29803921568627434,
+      "valid_start_count": 1013,
+      "valid_start_max": 1013,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.3137254901960782,
+      "valid_start_count": 1012,
+      "valid_start_max": 1012,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.32941176470588207,
+      "valid_start_count": 1012,
+      "valid_start_max": 1012,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.34509803921568594,
+      "valid_start_count": 1011,
+      "valid_start_max": 1011,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.3607843137254898,
+      "valid_start_count": 1011,
+      "valid_start_max": 1011,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.37647058823529367,
+      "valid_start_count": 1010,
+      "valid_start_max": 1010,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.3921568627450984,
+      "valid_start_count": 1010,
+      "valid_start_max": 1010,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.4078431372549023,
+      "valid_start_count": 1009,
+      "valid_start_max": 1009,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.42352941176470615,
+      "valid_start_count": 1009,
+      "valid_start_max": 1009,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.43921568627451,
+      "valid_start_count": 1008,
+      "valid_start_max": 1008,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.4549019607843139,
+      "valid_start_count": 1008,
+      "valid_start_max": 1008,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.47058823529411775,
+      "valid_start_count": 1007,
+      "valid_start_max": 1007,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.4862745098039216,
+      "valid_start_count": 1007,
+      "valid_start_max": 1007,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.5019607843137255,
+      "valid_start_count": 1006,
+      "valid_start_max": 1006,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.5176470588235293,
+      "valid_start_count": 1006,
+      "valid_start_max": 1006,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.5333333333333332,
+      "valid_start_count": 1005,
+      "valid_start_max": 1005,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.5490196078431371,
+      "valid_start_count": 1005,
+      "valid_start_max": 1005,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.564705882352941,
+      "valid_start_count": 1004,
+      "valid_start_max": 1004,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.5803921568627448,
+      "valid_start_count": 1004,
+      "valid_start_max": 1004,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.5960784313725487,
+      "valid_start_count": 1003,
+      "valid_start_max": 1003,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.6117647058823525,
+      "valid_start_count": 1003,
+      "valid_start_max": 1003,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.6274509803921564,
+      "valid_start_count": 1002,
+      "valid_start_max": 1002,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.6431372549019603,
+      "valid_start_count": 1002,
+      "valid_start_max": 1002,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.658823529411765,
+      "valid_start_count": 1001,
+      "valid_start_max": 1001,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.6745098039215689,
+      "valid_start_count": 1001,
+      "valid_start_max": 1001,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.6901960784313728,
+      "valid_start_count": 1000,
+      "valid_start_max": 1000,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.7058823529411766,
+      "valid_start_count": 1000,
+      "valid_start_max": 1000,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.7215686274509805,
+      "valid_start_count": 999,
+      "valid_start_max": 999,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.7372549019607844,
+      "valid_start_count": 999,
+      "valid_start_max": 999,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.7529411764705882,
+      "valid_start_count": 998,
+      "valid_start_max": 998,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.7686274509803921,
+      "valid_start_count": 998,
+      "valid_start_max": 998,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.784313725490196,
+      "valid_start_count": 997,
+      "valid_start_max": 997,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.7999999999999998,
+      "valid_start_count": 997,
+      "valid_start_max": 997,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.8156862745098037,
+      "valid_start_count": 996,
+      "valid_start_max": 996,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.8313725490196076,
+      "valid_start_count": 996,
+      "valid_start_max": 996,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.8470588235294114,
+      "valid_start_count": 995,
+      "valid_start_max": 995,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.8627450980392153,
+      "valid_start_count": 995,
+      "valid_start_max": 995,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.8784313725490192,
+      "valid_start_count": 994,
+      "valid_start_max": 994,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.8941176470588239,
+      "valid_start_count": 994,
+      "valid_start_max": 994,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.9098039215686278,
+      "valid_start_count": 993,
+      "valid_start_max": 993,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.9254901960784316,
+      "valid_start_count": 993,
+      "valid_start_max": 993,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.9411764705882355,
+      "valid_start_count": 992,
+      "valid_start_max": 992,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.9568627450980394,
+      "valid_start_count": 992,
+      "valid_start_max": 992,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.9725490196078432,
+      "valid_start_count": 991,
+      "valid_start_max": 991,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 0.9882352941176471,
+      "valid_start_count": 991,
+      "valid_start_max": 991,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.003921568627451,
+      "valid_start_count": 990,
+      "valid_start_max": 990,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.0196078431372548,
+      "valid_start_count": 990,
+      "valid_start_max": 990,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.0352941176470587,
+      "valid_start_count": 989,
+      "valid_start_max": 989,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.0509803921568626,
+      "valid_start_count": 989,
+      "valid_start_max": 989,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.0666666666666664,
+      "valid_start_count": 988,
+      "valid_start_max": 988,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.0823529411764703,
+      "valid_start_count": 988,
+      "valid_start_max": 988,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.0980392156862742,
+      "valid_start_count": 987,
+      "valid_start_max": 987,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.113725490196078,
+      "valid_start_count": 987,
+      "valid_start_max": 987,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.129411764705882,
+      "valid_start_count": 986,
+      "valid_start_max": 986,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.1450980392156858,
+      "valid_start_count": 986,
+      "valid_start_max": 986,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.1607843137254905,
+      "valid_start_count": 985,
+      "valid_start_max": 985,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.1764705882352944,
+      "valid_start_count": 985,
+      "valid_start_max": 985,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.1921568627450982,
+      "valid_start_count": 984,
+      "valid_start_max": 984,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.207843137254902,
+      "valid_start_count": 984,
+      "valid_start_max": 984,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.223529411764706,
+      "valid_start_count": 983,
+      "valid_start_max": 983,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.2392156862745098,
+      "valid_start_count": 983,
+      "valid_start_max": 983,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.2549019607843137,
+      "valid_start_count": 982,
+      "valid_start_max": 982,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.2705882352941176,
+      "valid_start_count": 982,
+      "valid_start_max": 982,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.2862745098039214,
+      "valid_start_count": 981,
+      "valid_start_max": 981,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.3019607843137253,
+      "valid_start_count": 981,
+      "valid_start_max": 981,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.3176470588235292,
+      "valid_start_count": 980,
+      "valid_start_max": 980,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.333333333333333,
+      "valid_start_count": 980,
+      "valid_start_max": 980,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.349019607843137,
+      "valid_start_count": 979,
+      "valid_start_max": 979,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.3647058823529408,
+      "valid_start_count": 979,
+      "valid_start_max": 979,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.3803921568627446,
+      "valid_start_count": 978,
+      "valid_start_max": 978,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.3960784313725494,
+      "valid_start_count": 978,
+      "valid_start_max": 978,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.4117647058823533,
+      "valid_start_count": 977,
+      "valid_start_max": 977,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.4274509803921571,
+      "valid_start_count": 977,
+      "valid_start_max": 977,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.443137254901961,
+      "valid_start_count": 976,
+      "valid_start_max": 976,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.4588235294117649,
+      "valid_start_count": 976,
+      "valid_start_max": 976,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.4745098039215687,
+      "valid_start_count": 975,
+      "valid_start_max": 975,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.4901960784313726,
+      "valid_start_count": 975,
+      "valid_start_max": 975,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.5058823529411764,
+      "valid_start_count": 974,
+      "valid_start_max": 974,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.5215686274509803,
+      "valid_start_count": 974,
+      "valid_start_max": 974,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.5372549019607842,
+      "valid_start_count": 973,
+      "valid_start_max": 973,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.552941176470588,
+      "valid_start_count": 973,
+      "valid_start_max": 973,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.568627450980392,
+      "valid_start_count": 972,
+      "valid_start_max": 972,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.5843137254901958,
+      "valid_start_count": 972,
+      "valid_start_max": 972,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.5999999999999996,
+      "valid_start_count": 971,
+      "valid_start_max": 971,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.6156862745098035,
+      "valid_start_count": 971,
+      "valid_start_max": 971,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.6313725490196074,
+      "valid_start_count": 970,
+      "valid_start_max": 970,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.6470588235294112,
+      "valid_start_count": 970,
+      "valid_start_max": 970,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.662745098039216,
+      "valid_start_count": 969,
+      "valid_start_max": 969,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.6784313725490199,
+      "valid_start_count": 969,
+      "valid_start_max": 969,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.6941176470588237,
+      "valid_start_count": 968,
+      "valid_start_max": 968,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.7098039215686276,
+      "valid_start_count": 968,
+      "valid_start_max": 968,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.7254901960784315,
+      "valid_start_count": 967,
+      "valid_start_max": 967,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.7411764705882353,
+      "valid_start_count": 967,
+      "valid_start_max": 967,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.7568627450980392,
+      "valid_start_count": 966,
+      "valid_start_max": 966,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.772549019607843,
+      "valid_start_count": 966,
+      "valid_start_max": 966,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.788235294117647,
+      "valid_start_count": 965,
+      "valid_start_max": 965,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.8039215686274508,
+      "valid_start_count": 965,
+      "valid_start_max": 965,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.8196078431372547,
+      "valid_start_count": 964,
+      "valid_start_max": 964,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.8352941176470585,
+      "valid_start_count": 964,
+      "valid_start_max": 964,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.8509803921568624,
+      "valid_start_count": 963,
+      "valid_start_max": 963,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.8666666666666663,
+      "valid_start_count": 963,
+      "valid_start_max": 963,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.8823529411764701,
+      "valid_start_count": 962,
+      "valid_start_max": 962,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.8980392156862749,
+      "valid_start_count": 962,
+      "valid_start_max": 962,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.9137254901960787,
+      "valid_start_count": 961,
+      "valid_start_max": 961,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.9294117647058826,
+      "valid_start_count": 961,
+      "valid_start_max": 961,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.9450980392156865,
+      "valid_start_count": 960,
+      "valid_start_max": 960,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.9607843137254903,
+      "valid_start_count": 960,
+      "valid_start_max": 960,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.9764705882352942,
+      "valid_start_count": 959,
+      "valid_start_max": 959,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 1.992156862745098,
+      "valid_start_count": 959,
+      "valid_start_max": 959,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.007843137254902,
+      "valid_start_count": 958,
+      "valid_start_max": 958,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.023529411764706,
+      "valid_start_count": 958,
+      "valid_start_max": 958,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.0392156862745097,
+      "valid_start_count": 957,
+      "valid_start_max": 957,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.0549019607843135,
+      "valid_start_count": 957,
+      "valid_start_max": 957,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.0705882352941174,
+      "valid_start_count": 956,
+      "valid_start_max": 956,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.0862745098039213,
+      "valid_start_count": 956,
+      "valid_start_max": 956,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.101960784313725,
+      "valid_start_count": 955,
+      "valid_start_max": 955,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.117647058823529,
+      "valid_start_count": 955,
+      "valid_start_max": 955,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.133333333333333,
+      "valid_start_count": 954,
+      "valid_start_max": 954,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.1490196078431367,
+      "valid_start_count": 954,
+      "valid_start_max": 954,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.1647058823529415,
+      "valid_start_count": 953,
+      "valid_start_max": 953,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.1803921568627453,
+      "valid_start_count": 953,
+      "valid_start_max": 953,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.196078431372549,
+      "valid_start_count": 952,
+      "valid_start_max": 952,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.211764705882353,
+      "valid_start_count": 952,
+      "valid_start_max": 952,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.227450980392157,
+      "valid_start_count": 951,
+      "valid_start_max": 951,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.243137254901961,
+      "valid_start_count": 951,
+      "valid_start_max": 951,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.2588235294117647,
+      "valid_start_count": 950,
+      "valid_start_max": 950,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.2745098039215685,
+      "valid_start_count": 950,
+      "valid_start_max": 950,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.2901960784313724,
+      "valid_start_count": 949,
+      "valid_start_max": 949,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.3058823529411763,
+      "valid_start_count": 949,
+      "valid_start_max": 949,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.32156862745098,
+      "valid_start_count": 948,
+      "valid_start_max": 948,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.337254901960784,
+      "valid_start_count": 948,
+      "valid_start_max": 948,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.352941176470588,
+      "valid_start_count": 947,
+      "valid_start_max": 947,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.3686274509803917,
+      "valid_start_count": 947,
+      "valid_start_max": 947,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.3843137254901956,
+      "valid_start_count": 946,
+      "valid_start_max": 946,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.4000000000000004,
+      "valid_start_count": 946,
+      "valid_start_max": 946,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.415686274509804,
+      "valid_start_count": 945,
+      "valid_start_max": 945,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.431372549019608,
+      "valid_start_count": 945,
+      "valid_start_max": 945,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.447058823529412,
+      "valid_start_count": 944,
+      "valid_start_max": 944,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.462745098039216,
+      "valid_start_count": 944,
+      "valid_start_max": 944,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.4784313725490197,
+      "valid_start_count": 943,
+      "valid_start_max": 943,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.4941176470588236,
+      "valid_start_count": 943,
+      "valid_start_max": 943,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.5098039215686274,
+      "valid_start_count": 942,
+      "valid_start_max": 942,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.5254901960784313,
+      "valid_start_count": 942,
+      "valid_start_max": 942,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.541176470588235,
+      "valid_start_count": 941,
+      "valid_start_max": 941,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.556862745098039,
+      "valid_start_count": 941,
+      "valid_start_max": 941,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.572549019607843,
+      "valid_start_count": 940,
+      "valid_start_max": 940,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.5882352941176467,
+      "valid_start_count": 940,
+      "valid_start_max": 940,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.6039215686274506,
+      "valid_start_count": 939,
+      "valid_start_max": 939,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.6196078431372545,
+      "valid_start_count": 939,
+      "valid_start_max": 939,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.6352941176470583,
+      "valid_start_count": 938,
+      "valid_start_max": 938,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.650980392156862,
+      "valid_start_count": 938,
+      "valid_start_max": 938,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.666666666666667,
+      "valid_start_count": 937,
+      "valid_start_max": 937,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.682352941176471,
+      "valid_start_count": 937,
+      "valid_start_max": 937,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.6980392156862747,
+      "valid_start_count": 936,
+      "valid_start_max": 936,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.7137254901960786,
+      "valid_start_count": 936,
+      "valid_start_max": 936,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.7294117647058824,
+      "valid_start_count": 935,
+      "valid_start_max": 935,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.7450980392156863,
+      "valid_start_count": 935,
+      "valid_start_max": 935,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.76078431372549,
+      "valid_start_count": 934,
+      "valid_start_max": 934,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.776470588235294,
+      "valid_start_count": 934,
+      "valid_start_max": 934,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.792156862745098,
+      "valid_start_count": 933,
+      "valid_start_max": 933,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.8078431372549018,
+      "valid_start_count": 933,
+      "valid_start_max": 933,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.8235294117647056,
+      "valid_start_count": 932,
+      "valid_start_max": 932,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.8392156862745095,
+      "valid_start_count": 932,
+      "valid_start_max": 932,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.8549019607843134,
+      "valid_start_count": 931,
+      "valid_start_max": 931,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.870588235294117,
+      "valid_start_count": 931,
+      "valid_start_max": 931,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.886274509803921,
+      "valid_start_count": 930,
+      "valid_start_max": 930,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.901960784313726,
+      "valid_start_count": 930,
+      "valid_start_max": 930,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.9176470588235297,
+      "valid_start_count": 929,
+      "valid_start_max": 929,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.9333333333333336,
+      "valid_start_count": 929,
+      "valid_start_max": 929,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.9490196078431374,
+      "valid_start_count": 928,
+      "valid_start_max": 928,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.9647058823529413,
+      "valid_start_count": 928,
+      "valid_start_max": 928,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.980392156862745,
+      "valid_start_count": 927,
+      "valid_start_max": 927,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 2.996078431372549,
+      "valid_start_count": 927,
+      "valid_start_max": 927,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.011764705882353,
+      "valid_start_count": 926,
+      "valid_start_max": 926,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.0274509803921568,
+      "valid_start_count": 926,
+      "valid_start_max": 926,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.0431372549019606,
+      "valid_start_count": 925,
+      "valid_start_max": 925,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.0588235294117645,
+      "valid_start_count": 925,
+      "valid_start_max": 925,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.0745098039215684,
+      "valid_start_count": 924,
+      "valid_start_max": 924,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.0901960784313722,
+      "valid_start_count": 924,
+      "valid_start_max": 924,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.105882352941176,
+      "valid_start_count": 923,
+      "valid_start_max": 923,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.12156862745098,
+      "valid_start_count": 923,
+      "valid_start_max": 923,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.137254901960784,
+      "valid_start_count": 922,
+      "valid_start_max": 922,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.1529411764705877,
+      "valid_start_count": 922,
+      "valid_start_max": 922,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.1686274509803924,
+      "valid_start_count": 921,
+      "valid_start_max": 921,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.1843137254901963,
+      "valid_start_count": 921,
+      "valid_start_max": 921,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.2,
+      "valid_start_count": 920,
+      "valid_start_max": 920,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.215686274509804,
+      "valid_start_count": 920,
+      "valid_start_max": 920,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.231372549019608,
+      "valid_start_count": 919,
+      "valid_start_max": 919,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.2470588235294118,
+      "valid_start_count": 919,
+      "valid_start_max": 919,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.2627450980392156,
+      "valid_start_count": 918,
+      "valid_start_max": 918,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.2784313725490195,
+      "valid_start_count": 918,
+      "valid_start_max": 918,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.2941176470588234,
+      "valid_start_count": 917,
+      "valid_start_max": 917,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.3098039215686272,
+      "valid_start_count": 917,
+      "valid_start_max": 917,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.325490196078431,
+      "valid_start_count": 916,
+      "valid_start_max": 916,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.341176470588235,
+      "valid_start_count": 916,
+      "valid_start_max": 916,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.356862745098039,
+      "valid_start_count": 915,
+      "valid_start_max": 915,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.3725490196078427,
+      "valid_start_count": 915,
+      "valid_start_max": 915,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.3882352941176466,
+      "valid_start_count": 914,
+      "valid_start_max": 914,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.4039215686274513,
+      "valid_start_count": 914,
+      "valid_start_max": 914,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.419607843137255,
+      "valid_start_count": 913,
+      "valid_start_max": 913,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.435294117647059,
+      "valid_start_count": 913,
+      "valid_start_max": 913,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.450980392156863,
+      "valid_start_count": 912,
+      "valid_start_max": 912,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.466666666666667,
+      "valid_start_count": 912,
+      "valid_start_max": 912,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.4823529411764707,
+      "valid_start_count": 911,
+      "valid_start_max": 911,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.4980392156862745,
+      "valid_start_count": 911,
+      "valid_start_max": 911,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.5137254901960784,
+      "valid_start_count": 910,
+      "valid_start_max": 910,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.5294117647058822,
+      "valid_start_count": 910,
+      "valid_start_max": 910,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.545098039215686,
+      "valid_start_count": 909,
+      "valid_start_max": 909,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.56078431372549,
+      "valid_start_count": 909,
+      "valid_start_max": 909,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.576470588235294,
+      "valid_start_count": 908,
+      "valid_start_max": 908,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.5921568627450977,
+      "valid_start_count": 908,
+      "valid_start_max": 908,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.6078431372549016,
+      "valid_start_count": 907,
+      "valid_start_max": 907,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.6235294117647054,
+      "valid_start_count": 907,
+      "valid_start_max": 907,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.6392156862745093,
+      "valid_start_count": 906,
+      "valid_start_max": 906,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.654901960784313,
+      "valid_start_count": 906,
+      "valid_start_max": 906,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.670588235294118,
+      "valid_start_count": 905,
+      "valid_start_max": 905,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.686274509803922,
+      "valid_start_count": 905,
+      "valid_start_max": 905,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.7019607843137257,
+      "valid_start_count": 904,
+      "valid_start_max": 904,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.7176470588235295,
+      "valid_start_count": 904,
+      "valid_start_max": 904,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.7333333333333334,
+      "valid_start_count": 903,
+      "valid_start_max": 903,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.7490196078431373,
+      "valid_start_count": 903,
+      "valid_start_max": 903,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.764705882352941,
+      "valid_start_count": 902,
+      "valid_start_max": 902,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.780392156862745,
+      "valid_start_count": 902,
+      "valid_start_max": 902,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.796078431372549,
+      "valid_start_count": 901,
+      "valid_start_max": 901,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.8117647058823527,
+      "valid_start_count": 901,
+      "valid_start_max": 901,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.8274509803921566,
+      "valid_start_count": 900,
+      "valid_start_max": 900,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.8431372549019605,
+      "valid_start_count": 900,
+      "valid_start_max": 900,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.8588235294117643,
+      "valid_start_count": 899,
+      "valid_start_max": 899,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.874509803921568,
+      "valid_start_count": 899,
+      "valid_start_max": 899,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.890196078431372,
+      "valid_start_count": 898,
+      "valid_start_max": 898,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.905882352941177,
+      "valid_start_count": 898,
+      "valid_start_max": 898,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.9215686274509807,
+      "valid_start_count": 897,
+      "valid_start_max": 897,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.9372549019607845,
+      "valid_start_count": 897,
+      "valid_start_max": 897,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.9529411764705884,
+      "valid_start_count": 896,
+      "valid_start_max": 896,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.9686274509803923,
+      "valid_start_count": 896,
+      "valid_start_max": 896,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 3.984313725490196,
+      "valid_start_count": 895,
+      "valid_start_max": 895,
+      "valid_start_min": 1
+    },
+    {
+      "drift_hz_per_s": 4.0,
+      "valid_start_count": 895,
+      "valid_start_max": 895,
+      "valid_start_min": 1
+    }
+  ],
+  "semantics": "discrete nearest-channel center track plus fixed boxcar radius; not Gaussian-tail or astrophysical exposure completeness",
+  "valid_discrete_track_fraction_searched": 0.797182120760419,
+  "valid_discrete_track_trials_over_full_input": 489730,
+  "valid_discrete_tracks_omitted_by_common_guard": 99326
+}

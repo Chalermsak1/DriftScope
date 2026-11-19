@@ -1,0 +1,403 @@
+{
+  "mode": "offline_cached_ranges",
+  "all_six_scientific_excerpts_bitwise_match": true,
+  "all_stored_time_samples_acquired_for_selected_frequency_slice": true,
+  "full_original_bandwidth_acquired": false,
+  "representative_cohort_gate_passed": false,
+  "range_bytes_accessed": 342360064,
+  "new_network_bytes": 0,
+  "sum_original_archive_file_bytes": 92245031657,
+  "records": [
+    {
+      "scan_index": 0,
+      "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59531_HIP13402_0014.gpuspec.0000.h5",
+      "archive_id": 72259,
+      "archive_file_bytes": 15439580190,
+      "archive_reported_md5": "d27df996d8933c00a26dd57cea1083ae",
+      "whole_original_file_checksum_verified": false,
+      "range_byte_budget": 268435456,
+      "prefetched_reader_blocks": 857,
+      "header_checks": {
+        "source_name": true,
+        "telescope_id": true,
+        "nbits": true,
+        "nchans": true,
+        "fch1": true,
+        "foff": true,
+        "tsamp": true,
+        "tstart": true
+      },
+      "source_shape": [
+        16,
+        1,
+        318230528
+      ],
+      "excerpt_shape": [
+        16,
+        4096
+      ],
+      "original_channel_slice_half_open": [
+        260174080,
+        260178176
+      ],
+      "entire_stored_time_axis_acquired": true,
+      "every_scientific_sample_bitwise_equals_release": true,
+      "axis_convention_confirmed_by_raw_slice": true,
+      "header": {
+        "DIMENSION_LABELS": [
+          "frequency",
+          "feed_id",
+          "time"
+        ],
+        "az_start": 0.0,
+        "data_type": 1,
+        "fch1": 1926.26953125,
+        "foff": -2.835503418452676e-06,
+        "machine_id": 20,
+        "nbits": 32,
+        "nchans": 318230528,
+        "nifs": 1,
+        "source_name": "HIP13402",
+        "src_dej": -11.907501944444444,
+        "src_raj": 2.8756938888888888,
+        "telescope_id": 6,
+        "tsamp": 17.986224128,
+        "tstart": 57541.6890162037,
+        "za_start": 0.0
+      },
+      "excerpt_npz_sha256": "7387545d8d2c6b8767c24f7335ad574977c8c1791a3fd45185d6163829d4994e",
+      "range_bytes_accessed": 56164352,
+      "new_network_bytes": 0,
+      "http_requests": [],
+      "http_failures": [],
+      "wall_s": 0.24661887499951263,
+      "offline": true
+    },
+    {
+      "scan_index": 1,
+      "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59890_HIP12402_0015.gpuspec.0000.h5",
+      "archive_id": 72261,
+      "archive_file_bytes": 15429334296,
+      "archive_reported_md5": "f8ada3684b9b647910749394b7c2d996",
+      "whole_original_file_checksum_verified": false,
+      "range_byte_budget": 268435456,
+      "prefetched_reader_blocks": 863,
+      "header_checks": {
+        "source_name": true,
+        "telescope_id": true,
+        "nbits": true,
+        "nchans": true,
+        "fch1": true,
+        "foff": true,
+        "tsamp": true,
+        "tstart": true
+      },
+      "source_shape": [
+        16,
+        1,
+        318230528
+      ],
+      "excerpt_shape": [
+        16,
+        4096
+      ],
+      "original_channel_slice_half_open": [
+        260174080,
+        260178176
+      ],
+      "entire_stored_time_axis_acquired": true,
+      "every_scientific_sample_bitwise_equals_release": true,
+      "axis_convention_confirmed_by_raw_slice": true,
+      "header": {
+        "DIMENSION_LABELS": [
+          "frequency",
+          "feed_id",
+          "time"
+        ],
+        "az_start": 0.0,
+        "data_type": 1,
+        "fch1": 1926.26953125,
+        "foff": -2.835503418452676e-06,
+        "machine_id": 20,
+        "nbits": 32,
+        "nchans": 318230528,
+        "nifs": 1,
+        "source_name": "HIP12402",
+        "src_dej": -17.690257499999998,
+        "src_raj": 2.661276666666667,
+        "telescope_id": 6,
+        "tsamp": 17.986224128,
+        "tstart": 57541.6931712963,
+        "za_start": 0.0
+      },
+      "excerpt_npz_sha256": "d32423c543d18b4cc8ca5b0fbc265be3bf268e4b4c3546acadb242c0aa81e7c8",
+      "range_bytes_accessed": 56557568,
+      "new_network_bytes": 0,
+      "http_requests": [],
+      "http_failures": [],
+      "wall_s": 0.3964255000000776,
+      "offline": true
+    },
+    {
+      "scan_index": 2,
+      "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60248_HIP13402_0016.gpuspec.0000.h5",
+      "archive_id": 72263,
+      "archive_file_bytes": 15281903557,
+      "archive_reported_md5": "96f19d5619389c8d83a2f1221c458d5d",
+      "whole_original_file_checksum_verified": false,
+      "range_byte_budget": 268435456,
+      "prefetched_reader_blocks": 881,
+      "header_checks": {
+        "source_name": true,
+        "telescope_id": true,
+        "nbits": true,
+        "nchans": true,
+        "fch1": true,
+        "foff": true,
+        "tsamp": true,
+        "tstart": true
+      },
+      "source_shape": [
+        16,
+        1,
+        318230528
+      ],
+      "excerpt_shape": [
+        16,
+        4096
+      ],
+      "original_channel_slice_half_open": [
+        260174080,
+        260178176
+      ],
+      "entire_stored_time_axis_acquired": true,
+      "every_scientific_sample_bitwise_equals_release": true,
+      "axis_convention_confirmed_by_raw_slice": true,
+      "header": {
+        "DIMENSION_LABELS": [
+          "frequency",
+          "feed_id",
+          "time"
+        ],
+        "az_start": 0.0,
+        "data_type": 1,
+        "fch1": 1926.26953125,
+        "foff": -2.835503418452676e-06,
+        "machine_id": 20,
+        "nbits": 32,
+        "nchans": 318230528,
+        "nifs": 1,
+        "source_name": "HIP13402",
+        "src_dej": -11.907505555555556,
+        "src_raj": 2.8756938888888888,
+        "telescope_id": 6,
+        "tsamp": 17.986224128,
+        "tstart": 57541.69731481482,
+        "za_start": 0.0
+      },
+      "excerpt_npz_sha256": "c2b0a4cf827e028387453aaefaf5d1f8d425f473f69895a8d90984221327e14d",
+      "range_bytes_accessed": 57737216,
+      "new_network_bytes": 0,
+      "http_requests": [],
+      "http_failures": [],
+      "wall_s": 0.16629366600045614,
+      "offline": true
+    },
+    {
+      "scan_index": 3,
+      "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60602_HIP12482_0017.gpuspec.0000.h5",
+      "archive_id": 72265,
+      "archive_file_bytes": 15342230637,
+      "archive_reported_md5": "39acea8e8b76144de301c4c4a873cbfc",
+      "whole_original_file_checksum_verified": false,
+      "range_byte_budget": 268435456,
+      "prefetched_reader_blocks": 883,
+      "header_checks": {
+        "source_name": true,
+        "telescope_id": true,
+        "nbits": true,
+        "nchans": true,
+        "fch1": true,
+        "foff": true,
+        "tsamp": true,
+        "tstart": true
+      },
+      "source_shape": [
+        16,
+        1,
+        318230528
+      ],
+      "excerpt_shape": [
+        16,
+        4096
+      ],
+      "original_channel_slice_half_open": [
+        260174080,
+        260178176
+      ],
+      "entire_stored_time_axis_acquired": true,
+      "every_scientific_sample_bitwise_equals_release": true,
+      "axis_convention_confirmed_by_raw_slice": true,
+      "header": {
+        "DIMENSION_LABELS": [
+          "frequency",
+          "feed_id",
+          "time"
+        ],
+        "az_start": 0.0,
+        "data_type": 1,
+        "fch1": 1926.26953125,
+        "foff": -2.835503418452676e-06,
+        "machine_id": 20,
+        "nbits": 32,
+        "nchans": 318230528,
+        "nifs": 1,
+        "source_name": "HIP12482",
+        "src_dej": -17.30594694444445,
+        "src_raj": 2.6772775,
+        "telescope_id": 6,
+        "tsamp": 17.986224128,
+        "tstart": 57541.70141203704,
+        "za_start": 0.0
+      },
+      "excerpt_npz_sha256": "7d06a1029e2920ba71f226015575594c45946086adf5c042a75561abc30417e0",
+      "range_bytes_accessed": 57868288,
+      "new_network_bytes": 0,
+      "http_requests": [],
+      "http_failures": [],
+      "wall_s": 0.24651270799949998,
+      "offline": true
+    },
+    {
+      "scan_index": 4,
+      "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60955_HIP13402_0018.gpuspec.0000.h5",
+      "archive_id": 72267,
+      "archive_file_bytes": 15430876799,
+      "archive_reported_md5": "0471f67a86ba362d3b8e6c082652da7f",
+      "whole_original_file_checksum_verified": false,
+      "range_byte_budget": 268435456,
+      "prefetched_reader_blocks": 859,
+      "header_checks": {
+        "source_name": true,
+        "telescope_id": true,
+        "nbits": true,
+        "nchans": true,
+        "fch1": true,
+        "foff": true,
+        "tsamp": true,
+        "tstart": true
+      },
+      "source_shape": [
+        16,
+        1,
+        318230528
+      ],
+      "excerpt_shape": [
+        16,
+        4096
+      ],
+      "original_channel_slice_half_open": [
+        260174080,
+        260178176
+      ],
+      "entire_stored_time_axis_acquired": true,
+      "every_scientific_sample_bitwise_equals_release": true,
+      "axis_convention_confirmed_by_raw_slice": true,
+      "header": {
+        "DIMENSION_LABELS": [
+          "frequency",
+          "feed_id",
+          "time"
+        ],
+        "az_start": 0.0,
+        "data_type": 1,
+        "fch1": 1926.26953125,
+        "foff": -2.835503418452676e-06,
+        "machine_id": 20,
+        "nbits": 32,
+        "nchans": 318230528,
+        "nifs": 1,
+        "source_name": "HIP13402",
+        "src_dej": -11.90750138888889,
+        "src_raj": 2.8756938888888888,
+        "telescope_id": 6,
+        "tsamp": 17.986224128,
+        "tstart": 57541.70549768519,
+        "za_start": 0.0
+      },
+      "excerpt_npz_sha256": "f5489378b89c814e79ffb15f5ad86d86706397448224b96b0d61e3e2dfed70f7",
+      "range_bytes_accessed": 56295424,
+      "new_network_bytes": 0,
+      "http_requests": [],
+      "http_failures": [],
+      "wall_s": 0.24380733399993915,
+      "offline": true
+    },
+    {
+      "scan_index": 5,
+      "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_61313_HIP12549_0019.gpuspec.0000.h5",
+      "archive_id": 72269,
+      "archive_file_bytes": 15321106178,
+      "archive_reported_md5": "6db38aa046c36a7704c3af7d05956057",
+      "whole_original_file_checksum_verified": false,
+      "range_byte_budget": 268435456,
+      "prefetched_reader_blocks": 881,
+      "header_checks": {
+        "source_name": true,
+        "telescope_id": true,
+        "nbits": true,
+        "nchans": true,
+        "fch1": true,
+        "foff": true,
+        "tsamp": true,
+        "tstart": true
+      },
+      "source_shape": [
+        16,
+        1,
+        318230528
+      ],
+      "excerpt_shape": [
+        16,
+        4096
+      ],
+      "original_channel_slice_half_open": [
+        260174080,
+        260178176
+      ],
+      "entire_stored_time_axis_acquired": true,
+      "every_scientific_sample_bitwise_equals_release": true,
+      "axis_convention_confirmed_by_raw_slice": true,
+      "header": {
+        "DIMENSION_LABELS": [
+          "frequency",
+          "feed_id",
+          "time"
+        ],
+        "az_start": 0.0,
+        "data_type": 1,
+        "fch1": 1926.26953125,
+        "foff": -2.835503418452676e-06,
+        "machine_id": 20,
+        "nbits": 32,
+        "nchans": 318230528,
+        "nifs": 1,
+        "source_name": "HIP12549",
+        "src_dej": -19.33280916666667,
+        "src_raj": 2.6908877777777778,
+        "telescope_id": 6,
+        "tsamp": 17.986224128,
+        "tstart": 57541.709641203706,
+        "za_start": 0.0
+      },
+      "excerpt_npz_sha256": "51be4d9861914ccfda526d9b9afe77e9d06888388293ccc7c9ca1489613ac32f",
+      "range_bytes_accessed": 57737216,
+      "new_network_bytes": 0,
+      "http_requests": [],
+      "http_failures": [],
+      "wall_s": 0.2684530830001677,
+      "offline": true
+    }
+  ],
+  "scientific_limit": "Only an all-six PASS confirms source/sample identity for the selected complete six-scan narrowband cadence. No full-band survey, representative population sensitivity, or verification of whole archive file MD5 checksums is claimed."
+}

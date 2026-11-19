@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+.uv-cache/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+
+# Acquired pilot observations, archive ranges, and regenerated arrays.
+/technosignatures/research/pilot/data/
+/technosignatures/research/pilot/evidence/range_metadata_cache/
+/technosignatures/research/pilot/results/milestone_001/*.npz
+reproduction/

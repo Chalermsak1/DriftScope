@@ -1,0 +1,94 @@
+{
+  "plan_id": "technosignatures-research-v1",
+  "version": "1.0",
+  "date_local": "2026-11-19",
+  "timezone": "Asia/Bangkok",
+  "status": "proposed_not_preregistered_or_executed",
+  "completed_evidence": {
+    "experiment_id": "load-inject-detect-v1",
+    "result_path": "results/run_001/results.json",
+    "validation_path": "results/validation.json",
+    "unit_tests_passed": 13,
+    "same_environment_repeat_checks_passed": 9
+  },
+  "primary_question": "Can evidence-grounded assistance reduce radio candidate review effort while preserving independently measured injected-signal retention?",
+  "scope": {
+    "signal_domain": "initially narrowband drifting radio signals",
+    "telescope": "GBT preferred",
+    "receiver": "one receiver selected at data feasibility gate; C-band preferred for continuity",
+    "complete_cadence_access_verified": false,
+    "novelty_established": false,
+    "new_observations_or_paid_compute_authorized_by_this_plan": false
+  },
+  "proposed_main_group_split": {
+    "unit": "connected components linking shared raw data, sessions, and targets",
+    "development": 30,
+    "validation": 10,
+    "test": 20,
+    "total": 60,
+    "current_fixture_in_locked_test": false,
+    "frozen": false
+  },
+  "proposed_injection_matrix": {
+    "families": [
+      "continuous_linear",
+      "broadened_narrowband",
+      "intermittent",
+      "amplitude_modulated",
+      "curved_drift",
+      "collision_or_crowded"
+    ],
+    "initial_peak_power_sigma_multipliers": [0.25, 0.5, 1, 2, 4, 8],
+    "amplitude_grid_may_change_on_development_only_before_freeze": true,
+    "pilot_placements_per_cell": 32,
+    "pilot_total": 1152,
+    "locked_placements_per_cell": 200,
+    "locked_total": 7200,
+    "placements_are_not_independent_observing_sessions": true,
+    "additional_challenge_sets": ["multiple_signals", "out_of_search_domain", "off_pointing_leakage", "cross_generator"]
+  },
+  "proposed_primary_decision_criteria": {
+    "technical_endpoint": "paired automated end-to-end injection retention difference against validation-selected non-LLM comparator",
+    "technical_difference_95_percent_lower_bound_minimum": -0.01,
+    "review_endpoint": "relative reduction in mean active native-event review time",
+    "review_time_reduction_point_estimate_minimum": 0.30,
+    "review_time_reduction_95_percent_lower_bound_must_exceed": 0.0,
+    "core_stratum_loss_point_estimate_alarm": 0.03,
+    "claim_scope": "declared locked benchmark distribution; future-session transportability separately evaluated",
+    "insufficient_precision_action": "report inconclusive and retain ranking/summary-only mode",
+    "automatic_rejection_initially_enabled": false
+  },
+  "proposed_human_study": {
+    "native_cases": 160,
+    "injected_cases": 80,
+    "cases_total": 240,
+    "conditions": 2,
+    "assignments_total": 480,
+    "reviewers_target": 4,
+    "assignments_per_reviewer": 120,
+    "same_reviewer_sees_both_conditions_of_same_case": false,
+    "human_injected_retention_is_exploratory_at_this_sample_size": true,
+    "reviewers_committed": false
+  },
+  "proposed_resources": {
+    "researcher_hours_per_week": [15, 20],
+    "elapsed_weeks": [24, 32],
+    "researcher_hours_range": [360, 640],
+    "reviewer_hours_range": [16, 30],
+    "data_pilot_allowance_gb": 20,
+    "main_retained_working_data_target_gb": [50, 200],
+    "initial_ai_pilot_packets": [100, 300],
+    "initial_model_variants_maximum": 2,
+    "paid_api_or_gpu_budget": null,
+    "all_resource_numbers_are_planning_estimates": true
+  },
+  "next_work_packages": ["R01", "R02", "R03", "R04", "R05", "R06", "R07", "R08", "R09", "R10", "R11", "R12", "R13"],
+  "stop_rules": [
+    "Do not infer population sensitivity from the single completed fixture.",
+    "Do not proceed to an AI claim without complete coverage and stage-loss accounting.",
+    "Do not infer test independence from the number of patches or simulator draws.",
+    "Stop AI expansion if it fails to improve on the strongest validated conventional workflow.",
+    "Do not claim human productivity improvement without the appropriate reviewer study.",
+    "Do not claim extraterrestrial origin from a model classification or synthetic recovery."
+  ]
+}

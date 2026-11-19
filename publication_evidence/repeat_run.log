@@ -1,0 +1,71 @@
+All observational cutouts validated
+Native 1/6: 0 uncapped candidates
+Native 2/6: 0 uncapped candidates
+Native 3/6: 1 uncapped candidates
+Native 4/6: 0 uncapped candidates
+Native 5/6: 0 uncapped candidates
+Native 6/6: 0 uncapped candidates
+/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/blimpy/__init__.py:21: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+{
+  "output": "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/pilot/results/reproduction",
+  "original_preserved": {
+    "original_manifest_files_verified": 31,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "all_preserved": true
+  },
+  "fixture_outcomes": {
+    "retained": 4,
+    "below_score_threshold": 2,
+    "valid_path_omitted_by_common_guard": 3,
+    "outside_configured_drift_domain": 1
+  },
+  "crowded_outcomes": {
+    "retained": 50,
+    "catalogue_truncation_loss": 30
+  },
+  "paired_outcomes": {
+    "retained": 2
+  },
+  "elapsed_wall_s": 16.2187005830001
+}
+{
+  "all_checks_passed": true,
+  "tests": {
+    "tests": 53,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "repeat_check_count": 47,
+  "comparison_scope": "All stable scientific JSON and exact equality of all NPZ arrays in same installed environment; runtime, transfer timing, image bytes and manifest bytes are not required identical.",
+  "preservation": {
+    "original_manifest_files_verified": 31,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "all_preserved": true
+  },
+  "source_code_sha256": {
+    "__init__.py": "f160ab34e02556af3ce11dcd05e056846cabebf31f25f8f056fcc76d5b60a066",
+    "accounting.py": "5817c72a14f62117f2d46eccf86083af530f7213ace4fdaf9592f2c2bbd9d092",
+    "acquire.py": "c5242085f7ce0149c0f03b74010eb7051bba994de5f7858a12c96181f560bbe5",
+    "archive_excerpts.py": "eb56b878ceed6a7de9f1459e9ae914f48a37e2477887ea24ef8a7f127541f1b9",
+    "crosscheck_archive.py": "c0278e0f973614f236a0142407dc6c1388c4ff10fd88f1bb5fba680b064394e0",
+    "finalize.py": "9d53c882831c459df2631ac86ab83750409a7cb72abc1ccba6c3e1d320e6a46f",
+    "observations.py": "2501f48d04c8eb6c36bc0b72a308d5e42dc1603e72a2e67a97bc5ae26cf5ef67",
+    "probe_archive.py": "ff4e2b671e5f695e62dab58fa943042c60506718cc24fc5d9525f7b405bbadb6",
+    "range_access.py": "151ce3972b13b530d18bf0eeb8ca84b64b895ef2decd124fef4d37388f33b017",
+    "run.py": "86dbf10e3d063424250ceb938d69e3929efeb84df5852445e15cc26b29c53e26",
+    "verify.py": "adfbccf67433b64af69ca7bb2f8454cbe9262af66117923c23f64eb4be6aa73e"
+  },
+  "test_code_sha256": {
+    "test_access_and_losses.py": "d42615b49fd1dda0a92097e9c9e506bfa38f2d2dba9fc6d7a8e2fa4a05f7d68e",
+    "test_archive_provenance.py": "7846608c529de28b30777a41aeb416e54b4d56903baeac62a327ad2f5df91f59",
+    "test_range_access.py": "fa692cb5fd6c5d4683a009d2e4d0aefab8f50be8ba06ff08b5ccce7072f065b5"
+  },
+  "representative_cohort_gate_passed": false,
+  "event_grouping_cadence_filtering_and_llm_validation_complete": false
+}

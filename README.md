@@ -1,0 +1,44 @@
+# DriftScope
+
+Reproducible radio technosignature experiments: **load observations → inject a synthetic signal → detect it → account for pipeline losses**.
+
+This first code release contains the conventional Python baseline, its original recorded experiment, an observational cadence-access pilot, search-coverage and candidate-truncation audits, signal-survival tracking, tests, and the research/statistical plans. No LLM is used.
+
+The experiments validate software and quantify specified engineering cases. They do not establish an extraterrestrial detection or population-level search completeness.
+
+![Original observation, injected observation, and their difference](technosignatures/results/run_001/spectrogram_comparison.png)
+
+## Run the original experiment
+
+Use Python 3.11. The recorded environment is macOS ARM64; other platforms have not been independently validated. The original source observation and recorded baseline outputs are included.
+
+```bash
+git clone https://github.com/Chalermsak1/DriftScope.git
+cd DriftScope/technosignatures
+python3.11 -m venv .venv
+.venv/bin/python -m pip install -r requirements.lock
+.venv/bin/python pipeline.py --output results/my_new_run
+.venv/bin/python -m pytest -q tests
+.venv/bin/python verify_reproduction.py
+```
+
+Use the explicit `tests` directory for this initial, offline test run. The full pilot suite additionally requires the downloaded release and independently acquired archive-range cache. See the [publication and reproduction notes](PUBLICATION.md) before running it.
+
+The command above preserves the original `results/run_001` reference. Array/result equality checks are made in the same installed environment; timing, image bytes, and cross-platform floating-point identity are outside that guarantee.
+
+## Research and evidence
+
+- [Original experiment report](technosignatures/results/run_001/REPORT.md) and [full baseline documentation](technosignatures/README.md).
+- [Current cadence and pipeline-loss milestone report](technosignatures/research/pilot/evidence/MILESTONE_REPORT.md).
+- [Pilot methodology and reproduction commands](technosignatures/research/pilot/README.md).
+- [Research plan](technosignatures/docs/RESEARCH_PLAN.md), [statistical analysis plan](technosignatures/docs/STATISTICAL_ANALYSIS_PLAN.md), [literature review](technosignatures/docs/LITERATURE_AND_NOVELTY.md), and [execution backlog](technosignatures/docs/RESEARCH_EXECUTION_BACKLOG.md).
+- [Recorded pilot verification](technosignatures/research/pilot/evidence/verification.json): 53 passing tests and 47 matching scientific JSON/array comparisons in the recorded environment.
+- [Publication scope, excluded assets, and validation evidence](PUBLICATION.md).
+
+The cadence pilot validates all stored integrations over one approximately 11.6 kHz interval of a six-scan cadence against original archive excerpts. The eight released cutouts were previously selected candidates; they do not constitute a representative observing cohort. Full-band searching, population sensitivity, event grouping/cadence filtering, physical integration/smearing, and LLM evaluation remain unfinished.
+
+## Data and attribution
+
+The small baseline observation is accompanied by [provenance](technosignatures/data/PROVENANCE.md) and the [upstream SETIGEN license notice](technosignatures/data/SETIGEN_LICENSE.txt). The pilot release is acquired separately from an immutable, checksum-pinned upstream source. Its data redistribution license was not identified, so its source payload and generated numerical arrays are excluded from Git.
+
+Keeping the scientific project under `technosignatures/` preserves the original relative paths, source files, approved plans, and hash manifests.

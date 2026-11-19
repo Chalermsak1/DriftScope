@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "review_scope": "Document references, JSON syntax, planning arithmetic assertions, and preservation of prior experimental files. No new scientific experiments executed.",
+  "local_markdown_links_missing": [],
+  "prior_manifest_files_changed": [],
+  "documents": [
+    {
+      "path": "docs/RESEARCH_PLAN.md",
+      "words": 4870,
+      "bytes": 35922
+    },
+    {
+      "path": "docs/STATISTICAL_ANALYSIS_PLAN.md",
+      "words": 2205,
+      "bytes": 16728
+    },
+    {
+      "path": "docs/LITERATURE_AND_NOVELTY.md",
+      "words": 860,
+      "bytes": 6785
+    },
+    {
+      "path": "docs/RESEARCH_EXECUTION_BACKLOG.md",
+      "words": 1190,
+      "bytes": 8041
+    },
+    {
+      "path": "research/planning/README.md",
+      "words": 176,
+      "bytes": 1591
+    },
+    {
+      "path": "research/planning/study_plan.json",
+      "words": 322,
+      "bytes": 4201
+    },
+    {
+      "path": "research/planning/planning_calculations.json",
+      "words": 68,
+      "bytes": 1121
+    }
+  ],
+  "proposed_not_executed": true
+}

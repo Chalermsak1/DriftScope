@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "original_and_plan_files": {
+    "original_manifest_files_verified": 31,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "all_preserved": true
+  },
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 53
+  },
+  "repeat_comparisons": 47,
+  "all_six_archive_source_excerpts_match": true,
+  "source_and_test_hashes_checked_after_verification": true,
+  "manifest_and_local_report_links_checked": true,
+  "portable_package_excludes": [
+    "virtual environment",
+    "package caches",
+    "large HTTP range caches and metadata cache",
+    "redundant repeat-run outputs"
+  ],
+  "fresh_copy_note": "Scientific data/excerpts and reports included; recreate documented bounded range cache before full offline source-reconstruction integration tests."
+}

@@ -1,0 +1,53 @@
+{
+  "version": "cadence-access-loss-accounting-v1",
+  "source_selection": "all eight cutouts for structural validation; mlc1 selected by release key order for six-scan native search",
+  "native_search_cadence": "mlc1",
+  "detector_source": "config.json detector; unchanged legacy baseline",
+  "truth_match_tolerance_channels": 3.0,
+  "real_cadence_injection": {
+    "global_start_channel": 800,
+    "global_drift_hz_per_s": 0.5,
+    "peak_amplitude_in_background_sigma": 8.0,
+    "fwhm_channels": 2.0,
+    "pointing_response": "ON=1, OFF=0 illustrative model; not a beam-calibrated origin test"
+  },
+  "real_fixture_synthetic_trials": [
+    {"id": "central_strong", "start_channel_ascending": 360, "drift_hz_per_s": 1.0, "peak_amplitude_in_background_sigma": 8.0},
+    {"id": "central_weak", "start_channel_ascending": 360, "drift_hz_per_s": 1.0, "peak_amplitude_in_background_sigma": 0.25},
+    {"id": "central_intermediate", "start_channel_ascending": 360, "drift_hz_per_s": 1.0, "peak_amplitude_in_background_sigma": 1.0},
+    {"id": "negative_strong", "start_channel_ascending": 700, "drift_hz_per_s": -1.0, "peak_amplitude_in_background_sigma": 8.0},
+    {"id": "zero_drift_strong", "start_channel_ascending": 360, "drift_hz_per_s": 0.0, "peak_amplitude_in_background_sigma": 8.0},
+    {"id": "off_grid_strong", "start_channel_ascending": 360, "drift_hz_per_s": 1.137, "peak_amplitude_in_background_sigma": 8.0},
+    {"id": "low_common_guard", "start_channel_ascending": 64, "drift_hz_per_s": 1.0, "peak_amplitude_in_background_sigma": 8.0},
+    {"id": "high_common_guard", "start_channel_ascending": 950, "drift_hz_per_s": -1.0, "peak_amplitude_in_background_sigma": 8.0},
+    {"id": "low_edge_inside_input", "start_channel_ascending": 10, "drift_hz_per_s": 0.0, "peak_amplitude_in_background_sigma": 8.0},
+    {"id": "outside_drift_domain", "start_channel_ascending": 360, "drift_hz_per_s": 5.0, "peak_amplitude_in_background_sigma": 8.0}
+  ],
+  "fully_synthetic_crowded_fixture": {
+    "seed": 20261119,
+    "shape": [32, 4096],
+    "channel_spacing_hz": 1.0,
+    "time_resolution_s": 1.0,
+    "signal_count": 80,
+    "first_start_channel": 100,
+    "spacing_channels": 44,
+    "drift_hz_per_s": 0.0,
+    "gaussian_sigma_channels": 0.65,
+    "peak_power_first": 40.0,
+    "peak_power_decrement_per_signal": 0.1,
+    "detector_max_abs_drift_hz_per_s": 0.5
+  },
+  "paired_line_suppression_fixture": {
+    "seed": 77,
+    "shape": [32, 1024],
+    "channel_spacing_hz": 1.0,
+    "time_resolution_s": 1.0,
+    "signals": [
+      {"id": "nearby_stronger", "start_channel": 500, "drift_hz_per_s": 0.3, "peak_power": 40.0},
+      {"id": "nearby_weaker", "start_channel": 505, "drift_hz_per_s": -0.3, "peak_power": 30.0}
+    ],
+    "gaussian_sigma_channels": 0.65,
+    "detector_max_abs_drift_hz_per_s": 0.5
+  },
+  "interpretation": "Engineering audit scenarios, not randomized completeness estimates. Real observational native searches and synthetic injections are recorded separately."
+}

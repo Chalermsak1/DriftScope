@@ -1,0 +1,837 @@
+{
+  "access": {
+    "access_scope": "all six released scan records and frequency cutouts accessible; full original bandwidth/integration counts not independently verified",
+    "all_structural_cadence_checks_passed": true,
+    "cohort_gate_reason": "candidate-selected release; shared acquisition sequences; no representative multi-session cohort",
+    "conservative_target_or_utc_day_proxy_groups": [
+      [
+        "mlc1",
+        "mlc7"
+      ],
+      [
+        "mlc2"
+      ],
+      [
+        "mlc3",
+        "mlc8"
+      ],
+      [
+        "mlc4",
+        "mlc5"
+      ],
+      [
+        "mlc6"
+      ]
+    ],
+    "distinct_scan_sequence_count": 6,
+    "released_cutouts": 8,
+    "representative_cohort_gate_passed": false,
+    "same_scan_sequence_different_cutout_groups": [
+      [
+        "mlc4",
+        "mlc5"
+      ],
+      [
+        "mlc3",
+        "mlc8"
+      ]
+    ],
+    "scans_with_headers": 48,
+    "session_definition_limit": "UTC integer MJD day is only a conservative grouping proxy; telescope-session logs were not acquired",
+    "source": {
+      "bytes": 12613542,
+      "commit": "5f9c006a2960683969d9face28119af4d5b410b5",
+      "git_blob_sha1": "22b89220de8d38c07f6e3f2813ba0e39535b367f",
+      "license_status": "No explicit repository data license identified; retain citation/provenance and do not infer a broad redistribution grant",
+      "official_project_url": "https://seti.berkeley.edu/ml_gbt/",
+      "paper_url": "https://www.nature.com/articles/s41550-022-01872-z",
+      "population_limit": "Previously selected candidates; unsuitable for estimating representative sky/RFI prevalence or independent sensitivity",
+      "readme_url": "https://github.com/PetchMa/ML_GBT_SETI/blob/5f9c006a2960683969d9face28119af4d5b410b5/data_archive/readme.MD",
+      "relative_path": "data_archive/top_8_data.pkl",
+      "release": "Ma et al. 2023 eight-candidate observational cutout release",
+      "repository": "https://github.com/PetchMa/ML_GBT_SETI",
+      "selection": "Entire released set, in mlc1..mlc8 order; no selection based on this project's detection results",
+      "sha256": "7ac4c68c552f6806bdf6bea52d0512190dc79780abefb383b817829ae131fe72",
+      "url": "https://raw.githubusercontent.com/PetchMa/ML_GBT_SETI/5f9c006a2960683969d9face28119af4d5b410b5/data_archive/top_8_data.pkl"
+    }
+  },
+  "cadence_survivals": [
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 31.28914757227178,
+      "best_truth_compatible_score_before": 1.3568711740838224,
+      "common_start_searchable": true,
+      "compatible_retained": true,
+      "conservative_attributable_recovery": true,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": null,
+      "matching_local_maxima": 2,
+      "matching_retained": 1,
+      "matching_uncapped_nms": 1,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "one_synthetic_track_in_real_selected_cadence",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "score_threshold",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "local_maximum",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "frequency_suppression",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "catalogue_cap",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "mlc1_one_global_track_scan_0",
+      "truth": {
+        "drift_hz_per_s": 0.5,
+        "fwhm_hz": 5.671006836966863,
+        "global_elapsed_scan_start_s": 0.0,
+        "global_start_frequency_hz": 1188535695.033456,
+        "peak_amplitude_power": 10083764371.545689,
+        "start_channel_ascending": 800.0,
+        "start_frequency_hz": 1188535695.033456
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 27.646585190331376,
+      "best_truth_compatible_score_before": 1.2887905697714723,
+      "common_start_searchable": true,
+      "compatible_retained": true,
+      "conservative_attributable_recovery": true,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": null,
+      "matching_local_maxima": 4,
+      "matching_retained": 1,
+      "matching_uncapped_nms": 1,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "one_synthetic_track_in_real_selected_cadence",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "score_threshold",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "local_maximum",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "frequency_suppression",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "catalogue_cap",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "mlc1_one_global_track_scan_2",
+      "truth": {
+        "drift_hz_per_s": 0.5,
+        "fwhm_hz": 5.671006836966863,
+        "global_elapsed_scan_start_s": 717.0000003883615,
+        "global_start_frequency_hz": 1188535695.033456,
+        "peak_amplitude_power": 10083764371.545689,
+        "start_channel_ascending": 926.4325755551106,
+        "start_frequency_hz": 1188536053.5334563
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 37.32110171971678,
+      "best_truth_compatible_score_before": 2.8913870450796657,
+      "common_start_searchable": true,
+      "compatible_retained": true,
+      "conservative_attributable_recovery": true,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": null,
+      "matching_local_maxima": 3,
+      "matching_retained": 1,
+      "matching_uncapped_nms": 1,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "one_synthetic_track_in_real_selected_cadence",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "score_threshold",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "local_maximum",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "frequency_suppression",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "catalogue_cap",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "mlc1_one_global_track_scan_4",
+      "truth": {
+        "drift_hz_per_s": 0.5,
+        "fwhm_hz": 5.671006836966863,
+        "global_elapsed_scan_start_s": 1424.0000003250316,
+        "global_start_frequency_hz": 1188535695.033456,
+        "peak_amplitude_power": 10083764371.545689,
+        "start_channel_ascending": 1051.1017957239244,
+        "start_frequency_hz": 1188536407.0334563
+      }
+    }
+  ],
+  "config": {
+    "detector_source": "config.json detector; unchanged legacy baseline",
+    "fully_synthetic_crowded_fixture": {
+      "channel_spacing_hz": 1.0,
+      "detector_max_abs_drift_hz_per_s": 0.5,
+      "drift_hz_per_s": 0.0,
+      "first_start_channel": 100,
+      "gaussian_sigma_channels": 0.65,
+      "peak_power_decrement_per_signal": 0.1,
+      "peak_power_first": 40.0,
+      "seed": 20261119,
+      "shape": [
+        32,
+        4096
+      ],
+      "signal_count": 80,
+      "spacing_channels": 44,
+      "time_resolution_s": 1.0
+    },
+    "interpretation": "Engineering audit scenarios, not randomized completeness estimates. Real observational native searches and synthetic injections are recorded separately.",
+    "native_search_cadence": "mlc1",
+    "paired_line_suppression_fixture": {
+      "channel_spacing_hz": 1.0,
+      "detector_max_abs_drift_hz_per_s": 0.5,
+      "gaussian_sigma_channels": 0.65,
+      "seed": 77,
+      "shape": [
+        32,
+        1024
+      ],
+      "signals": [
+        {
+          "drift_hz_per_s": 0.3,
+          "id": "nearby_stronger",
+          "peak_power": 40.0,
+          "start_channel": 500
+        },
+        {
+          "drift_hz_per_s": -0.3,
+          "id": "nearby_weaker",
+          "peak_power": 30.0,
+          "start_channel": 505
+        }
+      ],
+      "time_resolution_s": 1.0
+    },
+    "real_cadence_injection": {
+      "fwhm_channels": 2.0,
+      "global_drift_hz_per_s": 0.5,
+      "global_start_channel": 800,
+      "peak_amplitude_in_background_sigma": 8.0,
+      "pointing_response": "ON=1, OFF=0 illustrative model; not a beam-calibrated origin test"
+    },
+    "real_fixture_synthetic_trials": [
+      {
+        "drift_hz_per_s": 1.0,
+        "id": "central_strong",
+        "peak_amplitude_in_background_sigma": 8.0,
+        "start_channel_ascending": 360
+      },
+      {
+        "drift_hz_per_s": 1.0,
+        "id": "central_weak",
+        "peak_amplitude_in_background_sigma": 0.25,
+        "start_channel_ascending": 360
+      },
+      {
+        "drift_hz_per_s": 1.0,
+        "id": "central_intermediate",
+        "peak_amplitude_in_background_sigma": 1.0,
+        "start_channel_ascending": 360
+      },
+      {
+        "drift_hz_per_s": -1.0,
+        "id": "negative_strong",
+        "peak_amplitude_in_background_sigma": 8.0,
+        "start_channel_ascending": 700
+      },
+      {
+        "drift_hz_per_s": 0.0,
+        "id": "zero_drift_strong",
+        "peak_amplitude_in_background_sigma": 8.0,
+        "start_channel_ascending": 360
+      },
+      {
+        "drift_hz_per_s": 1.137,
+        "id": "off_grid_strong",
+        "peak_amplitude_in_background_sigma": 8.0,
+        "start_channel_ascending": 360
+      },
+      {
+        "drift_hz_per_s": 1.0,
+        "id": "low_common_guard",
+        "peak_amplitude_in_background_sigma": 8.0,
+        "start_channel_ascending": 64
+      },
+      {
+        "drift_hz_per_s": -1.0,
+        "id": "high_common_guard",
+        "peak_amplitude_in_background_sigma": 8.0,
+        "start_channel_ascending": 950
+      },
+      {
+        "drift_hz_per_s": 0.0,
+        "id": "low_edge_inside_input",
+        "peak_amplitude_in_background_sigma": 8.0,
+        "start_channel_ascending": 10
+      },
+      {
+        "drift_hz_per_s": 5.0,
+        "id": "outside_drift_domain",
+        "peak_amplitude_in_background_sigma": 8.0,
+        "start_channel_ascending": 360
+      }
+    ],
+    "source_selection": "all eight cutouts for structural validation; mlc1 selected by release key order for six-scan native search",
+    "truth_match_tolerance_channels": 3.0,
+    "version": "cadence-access-loss-accounting-v1"
+  },
+  "crowded": {
+    "catalogue_summary": {
+      "above_threshold_grid_cells": 49479,
+      "cadence_filter_status": "not_applied",
+      "candidates_lost_to_cap": 47,
+      "catalogue_was_truncated": true,
+      "event_grouping_status": "not_implemented; candidates are search maxima, not independent events",
+      "frequency_suppressed_local_maxima": 378,
+      "legacy_cap": 50,
+      "legacy_output_exactly_reproduced": true,
+      "llm_status": "not_applied",
+      "retained_candidates": 50,
+      "thresholded_local_maxima": 475,
+      "uncapped_nms_candidates": 97
+    },
+    "configuration": {
+      "channel_spacing_hz": 1.0,
+      "detector_max_abs_drift_hz_per_s": 0.5,
+      "drift_hz_per_s": 0.0,
+      "first_start_channel": 100,
+      "gaussian_sigma_channels": 0.65,
+      "peak_power_decrement_per_signal": 0.1,
+      "peak_power_first": 40.0,
+      "seed": 20261119,
+      "shape": [
+        32,
+        4096
+      ],
+      "signal_count": 80,
+      "spacing_channels": 44,
+      "time_resolution_s": 1.0
+    },
+    "duplicate_truth_assignment_conflicts": [],
+    "source_kind": "fully_synthetic",
+    "summary": {
+      "compatible_retained": 50,
+      "conservatively_attributed_retained": 50,
+      "denominator_warning": "Deterministic engineering cases, not random population samples; no completeness interval or extraterrestrial-origin claim.",
+      "eligible_domain_recovery": 0.625,
+      "eligible_trials": 80,
+      "first_loss_counts": {
+        "catalogue_truncation_loss": 30,
+        "retained": 50
+      },
+      "legacy_searchable_domain_recovery": 0.625,
+      "legacy_searchable_trials": 80,
+      "trials": 80
+    }
+  },
+  "fixture_summary": {
+    "compatible_retained": 4,
+    "conservatively_attributed_retained": 4,
+    "denominator_warning": "Deterministic engineering cases, not random population samples; no completeness interval or extraterrestrial-origin claim.",
+    "eligible_domain_recovery": 0.4444444444444444,
+    "eligible_trials": 9,
+    "first_loss_counts": {
+      "below_score_threshold": 2,
+      "outside_configured_drift_domain": 1,
+      "retained": 4,
+      "valid_path_omitted_by_common_guard": 3
+    },
+    "legacy_searchable_domain_recovery": 0.6666666666666666,
+    "legacy_searchable_trials": 6,
+    "trials": 10
+  },
+  "native_scans": [
+    {
+      "catalogue": {
+        "above_threshold_grid_cells": 0,
+        "cadence_filter_status": "not_applied",
+        "candidates_lost_to_cap": 0,
+        "catalogue_was_truncated": false,
+        "event_grouping_status": "not_implemented; candidates are search maxima, not independent events",
+        "frequency_suppressed_local_maxima": 0,
+        "legacy_cap": 50,
+        "legacy_output_exactly_reproduced": true,
+        "llm_status": "not_applied",
+        "retained_candidates": 0,
+        "thresholded_local_maxima": 0,
+        "uncapped_nms_candidates": 0
+      },
+      "coverage": {
+        "drift_trials": 1525,
+        "input_frequency_channels": 4096,
+        "legacy_common_start_max": 3712,
+        "legacy_common_start_min": 383,
+        "legacy_guard_channels_each_side": 383,
+        "legacy_searched_track_trials": 5078250,
+        "legacy_start_channel_count": 3330,
+        "legacy_start_channel_fraction": 0.81298828125,
+        "semantics": "discrete nearest-channel center track plus fixed boxcar radius; not Gaussian-tail or astrophysical exposure completeness",
+        "valid_discrete_track_fraction_searched": 0.8530532696973708,
+        "valid_discrete_track_trials_over_full_input": 5953028,
+        "valid_discrete_tracks_omitted_by_common_guard": 874778
+      },
+      "maximum_score": 7.512116552412093,
+      "role": "ON",
+      "scan_index": 0,
+      "score_map_sha256": "ea491b61519c5ad6ac0fde0260f07feb29f88197ba88330acff8bd60b6ea6dfe",
+      "source_name": "HIP13402"
+    },
+    {
+      "catalogue": {
+        "above_threshold_grid_cells": 0,
+        "cadence_filter_status": "not_applied",
+        "candidates_lost_to_cap": 0,
+        "catalogue_was_truncated": false,
+        "event_grouping_status": "not_implemented; candidates are search maxima, not independent events",
+        "frequency_suppressed_local_maxima": 0,
+        "legacy_cap": 50,
+        "legacy_output_exactly_reproduced": true,
+        "llm_status": "not_applied",
+        "retained_candidates": 0,
+        "thresholded_local_maxima": 0,
+        "uncapped_nms_candidates": 0
+      },
+      "coverage": {
+        "drift_trials": 1525,
+        "input_frequency_channels": 4096,
+        "legacy_common_start_max": 3712,
+        "legacy_common_start_min": 383,
+        "legacy_guard_channels_each_side": 383,
+        "legacy_searched_track_trials": 5078250,
+        "legacy_start_channel_count": 3330,
+        "legacy_start_channel_fraction": 0.81298828125,
+        "semantics": "discrete nearest-channel center track plus fixed boxcar radius; not Gaussian-tail or astrophysical exposure completeness",
+        "valid_discrete_track_fraction_searched": 0.8530532696973708,
+        "valid_discrete_track_trials_over_full_input": 5953028,
+        "valid_discrete_tracks_omitted_by_common_guard": 874778
+      },
+      "maximum_score": 6.419701102165967,
+      "role": "OFF",
+      "scan_index": 1,
+      "score_map_sha256": "09234c263db78362c22d99c9115b010be4ca4c2b882e03de639344a68a596a5e",
+      "source_name": "HIP12402"
+    },
+    {
+      "catalogue": {
+        "above_threshold_grid_cells": 3,
+        "cadence_filter_status": "not_applied",
+        "candidates_lost_to_cap": 0,
+        "catalogue_was_truncated": false,
+        "event_grouping_status": "not_implemented; candidates are search maxima, not independent events",
+        "frequency_suppressed_local_maxima": 1,
+        "legacy_cap": 50,
+        "legacy_output_exactly_reproduced": true,
+        "llm_status": "not_applied",
+        "retained_candidates": 1,
+        "thresholded_local_maxima": 2,
+        "uncapped_nms_candidates": 1
+      },
+      "coverage": {
+        "drift_trials": 1525,
+        "input_frequency_channels": 4096,
+        "legacy_common_start_max": 3712,
+        "legacy_common_start_min": 383,
+        "legacy_guard_channels_each_side": 383,
+        "legacy_searched_track_trials": 5078250,
+        "legacy_start_channel_count": 3330,
+        "legacy_start_channel_fraction": 0.81298828125,
+        "semantics": "discrete nearest-channel center track plus fixed boxcar radius; not Gaussian-tail or astrophysical exposure completeness",
+        "valid_discrete_track_fraction_searched": 0.8530532696973708,
+        "valid_discrete_track_trials_over_full_input": 5953028,
+        "valid_discrete_tracks_omitted_by_common_guard": 874778
+      },
+      "maximum_score": 10.282154279423935,
+      "role": "ON",
+      "scan_index": 2,
+      "score_map_sha256": "100e01df16aee9bf18fcb2f323a70d6711a61a1cb87e25cac6dad92e019614f5",
+      "source_name": "HIP13402"
+    },
+    {
+      "catalogue": {
+        "above_threshold_grid_cells": 0,
+        "cadence_filter_status": "not_applied",
+        "candidates_lost_to_cap": 0,
+        "catalogue_was_truncated": false,
+        "event_grouping_status": "not_implemented; candidates are search maxima, not independent events",
+        "frequency_suppressed_local_maxima": 0,
+        "legacy_cap": 50,
+        "legacy_output_exactly_reproduced": true,
+        "llm_status": "not_applied",
+        "retained_candidates": 0,
+        "thresholded_local_maxima": 0,
+        "uncapped_nms_candidates": 0
+      },
+      "coverage": {
+        "drift_trials": 1525,
+        "input_frequency_channels": 4096,
+        "legacy_common_start_max": 3712,
+        "legacy_common_start_min": 383,
+        "legacy_guard_channels_each_side": 383,
+        "legacy_searched_track_trials": 5078250,
+        "legacy_start_channel_count": 3330,
+        "legacy_start_channel_fraction": 0.81298828125,
+        "semantics": "discrete nearest-channel center track plus fixed boxcar radius; not Gaussian-tail or astrophysical exposure completeness",
+        "valid_discrete_track_fraction_searched": 0.8530532696973708,
+        "valid_discrete_track_trials_over_full_input": 5953028,
+        "valid_discrete_tracks_omitted_by_common_guard": 874778
+      },
+      "maximum_score": 5.202055981946729,
+      "role": "OFF",
+      "scan_index": 3,
+      "score_map_sha256": "5a8aa9f0d48cf7d988999e827150d2119e0b2aaf680bbda86b36341b0a263568",
+      "source_name": "HIP12482"
+    },
+    {
+      "catalogue": {
+        "above_threshold_grid_cells": 0,
+        "cadence_filter_status": "not_applied",
+        "candidates_lost_to_cap": 0,
+        "catalogue_was_truncated": false,
+        "event_grouping_status": "not_implemented; candidates are search maxima, not independent events",
+        "frequency_suppressed_local_maxima": 0,
+        "legacy_cap": 50,
+        "legacy_output_exactly_reproduced": true,
+        "llm_status": "not_applied",
+        "retained_candidates": 0,
+        "thresholded_local_maxima": 0,
+        "uncapped_nms_candidates": 0
+      },
+      "coverage": {
+        "drift_trials": 1525,
+        "input_frequency_channels": 4096,
+        "legacy_common_start_max": 3712,
+        "legacy_common_start_min": 383,
+        "legacy_guard_channels_each_side": 383,
+        "legacy_searched_track_trials": 5078250,
+        "legacy_start_channel_count": 3330,
+        "legacy_start_channel_fraction": 0.81298828125,
+        "semantics": "discrete nearest-channel center track plus fixed boxcar radius; not Gaussian-tail or astrophysical exposure completeness",
+        "valid_discrete_track_fraction_searched": 0.8530532696973708,
+        "valid_discrete_track_trials_over_full_input": 5953028,
+        "valid_discrete_tracks_omitted_by_common_guard": 874778
+      },
+      "maximum_score": 5.658242315687567,
+      "role": "ON",
+      "scan_index": 4,
+      "score_map_sha256": "f1222dadf9e6778212113cfa5f14c6183630e5575bac2437d89d49b114903b9a",
+      "source_name": "HIP13402"
+    },
+    {
+      "catalogue": {
+        "above_threshold_grid_cells": 0,
+        "cadence_filter_status": "not_applied",
+        "candidates_lost_to_cap": 0,
+        "catalogue_was_truncated": false,
+        "event_grouping_status": "not_implemented; candidates are search maxima, not independent events",
+        "frequency_suppressed_local_maxima": 0,
+        "legacy_cap": 50,
+        "legacy_output_exactly_reproduced": true,
+        "llm_status": "not_applied",
+        "retained_candidates": 0,
+        "thresholded_local_maxima": 0,
+        "uncapped_nms_candidates": 0
+      },
+      "coverage": {
+        "drift_trials": 1525,
+        "input_frequency_channels": 4096,
+        "legacy_common_start_max": 3712,
+        "legacy_common_start_min": 383,
+        "legacy_guard_channels_each_side": 383,
+        "legacy_searched_track_trials": 5078250,
+        "legacy_start_channel_count": 3330,
+        "legacy_start_channel_fraction": 0.81298828125,
+        "semantics": "discrete nearest-channel center track plus fixed boxcar radius; not Gaussian-tail or astrophysical exposure completeness",
+        "valid_discrete_track_fraction_searched": 0.8530532696973708,
+        "valid_discrete_track_trials_over_full_input": 5953028,
+        "valid_discrete_tracks_omitted_by_common_guard": 874778
+      },
+      "maximum_score": 6.593194788844117,
+      "role": "OFF",
+      "scan_index": 5,
+      "score_map_sha256": "9a00607a2b3900c4203c933baa21ed1f945b16d20853d1c126e2f61741d4a84a",
+      "source_name": "HIP12549"
+    }
+  ],
+  "original_coverage": {
+    "drift_trials": 511,
+    "input_frequency_channels": 1024,
+    "legacy_common_start_max": 893,
+    "legacy_common_start_min": 130,
+    "legacy_guard_channels_each_side": 130,
+    "legacy_searched_track_trials": 390404,
+    "legacy_start_channel_count": 764,
+    "legacy_start_channel_fraction": 0.74609375,
+    "semantics": "discrete nearest-channel center track plus fixed boxcar radius; not Gaussian-tail or astrophysical exposure completeness",
+    "valid_discrete_track_fraction_searched": 0.797182120760419,
+    "valid_discrete_track_trials_over_full_input": 489730,
+    "valid_discrete_tracks_omitted_by_common_guard": 99326
+  },
+  "paired": {
+    "catalogue_summary": {
+      "above_threshold_grid_cells": 1234,
+      "cadence_filter_status": "not_applied",
+      "candidates_lost_to_cap": 0,
+      "catalogue_was_truncated": false,
+      "event_grouping_status": "not_implemented; candidates are search maxima, not independent events",
+      "frequency_suppressed_local_maxima": 17,
+      "legacy_cap": 50,
+      "legacy_output_exactly_reproduced": true,
+      "llm_status": "not_applied",
+      "retained_candidates": 5,
+      "thresholded_local_maxima": 22,
+      "uncapped_nms_candidates": 5
+    },
+    "configuration": {
+      "channel_spacing_hz": 1.0,
+      "detector_max_abs_drift_hz_per_s": 0.5,
+      "gaussian_sigma_channels": 0.65,
+      "seed": 77,
+      "shape": [
+        32,
+        1024
+      ],
+      "signals": [
+        {
+          "drift_hz_per_s": 0.3,
+          "id": "nearby_stronger",
+          "peak_power": 40.0,
+          "start_channel": 500
+        },
+        {
+          "drift_hz_per_s": -0.3,
+          "id": "nearby_weaker",
+          "peak_power": 30.0,
+          "start_channel": 505
+        }
+      ],
+      "time_resolution_s": 1.0
+    },
+    "duplicate_truth_assignment_conflicts": [],
+    "source_kind": "fully_synthetic",
+    "summary": {
+      "compatible_retained": 2,
+      "conservatively_attributed_retained": 2,
+      "denominator_warning": "Deterministic engineering cases, not random population samples; no completeness interval or extraterrestrial-origin claim.",
+      "eligible_domain_recovery": 1.0,
+      "eligible_trials": 2,
+      "first_loss_counts": {
+        "retained": 2
+      },
+      "legacy_searchable_domain_recovery": 1.0,
+      "legacy_searchable_trials": 2,
+      "trials": 2
+    }
+  },
+  "preservation": {
+    "all_preserved": true,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "original_manifest_files_verified": 31
+  },
+  "source_code_sha256": {
+    "pipeline.py": "d48198ebada5c1e321dd8cd00704e0c35c51a58738aa129f58bbb9146f4e8df3",
+    "research/pilot/accounting.py": "5817c72a14f62117f2d46eccf86083af530f7213ace4fdaf9592f2c2bbd9d092",
+    "research/pilot/observations.py": "2501f48d04c8eb6c36bc0b72a308d5e42dc1603e72a2e67a97bc5ae26cf5ef67",
+    "research/pilot/run.py": "86dbf10e3d063424250ceb938d69e3929efeb84df5852445e15cc26b29c53e26"
+  },
+  "version": "cadence-access-loss-accounting-v1"
+}

@@ -1,0 +1,34 @@
+{
+  "docs/LITERATURE_AND_NOVELTY.md": {
+    "bytes": 6785,
+    "sha256": "971a15c6a560f31bb18d676893cfb2b9cccf3e0bd4bc31672b75591dcfdfb1a4"
+  },
+  "docs/RESEARCH_EXECUTION_BACKLOG.md": {
+    "bytes": 8041,
+    "sha256": "7e44dfd88dc69f1c2e573bfc4531d7e69cb06dcd035e10aac767d2036f9cafda"
+  },
+  "docs/RESEARCH_PLAN.md": {
+    "bytes": 35922,
+    "sha256": "3f82473f9b768257b0b5bce8f481ae9062698aacdc540a52018be35fcb524522"
+  },
+  "docs/STATISTICAL_ANALYSIS_PLAN.md": {
+    "bytes": 16728,
+    "sha256": "f8a3e4c1e9aad7873403108978b34f5ab9c7f416c208416386197ade94c553be"
+  },
+  "research/planning/README.md": {
+    "bytes": 1591,
+    "sha256": "06681b17b7baf231bbff2a64d846a9a79eb4fd623ab381c63d95b513a20c6ea8"
+  },
+  "research/planning/document_validation.json": {
+    "bytes": 1049,
+    "sha256": "1348ef81b07ea3806315277da59557df7e62735730cb42777a5dc44f68188212"
+  },
+  "research/planning/planning_calculations.json": {
+    "bytes": 1121,
+    "sha256": "5b3e2867db3ab5be9079bdcb783d99e78a4d1a49a3e82ef8f416c9f7532a7510"
+  },
+  "research/planning/study_plan.json": {
+    "bytes": 4201,
+    "sha256": "178a5051e80db3c160ecd524aa67973f994ba745565a35a01c68f59e64b5a96b"
+  }
+}

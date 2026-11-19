@@ -1,0 +1,33 @@
+{
+  "reason": "Two retrieval processes overlapped during restart; both were stopped; indexed hashes checked; unindexed blocks preserved in quarantine and not reused.",
+  "records": [
+    {
+      "archive_id": "72259",
+      "verified_indexed_ranges": 15,
+      "indexed_hash_mismatches": [],
+      "quarantined_unindexed_ranges": [
+        {
+          "name": "000568328192-000570425343.bin",
+          "bytes": 2097152,
+          "sha256": "d9ef0f39feb02fccec49ef9cd0e47daa26bc3892b665e7978c7501ac6d67cd38"
+        },
+        {
+          "name": "000205520896-000207618047.bin",
+          "bytes": 2097152,
+          "sha256": "ca51179ad6a745c420c8fc9dec44793ccbc1fa5b12537f9a2af3e1a5a8109558"
+        },
+        {
+          "name": "000387973120-000390070271.bin",
+          "bytes": 2097152,
+          "sha256": "f69cf070efa913e044ccec09d1e04cfe096b7572f96c2bacef059def87f9c3fe"
+        }
+      ]
+    },
+    {
+      "archive_id": "72261",
+      "verified_indexed_ranges": 66,
+      "indexed_hash_mismatches": [],
+      "quarantined_unindexed_ranges": []
+    }
+  ]
+}

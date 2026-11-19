@@ -1,0 +1,2426 @@
+{
+  "mlc1": {
+    "cadence_id": "mlc1",
+    "channel_spacing_hz": 2.835503418452676,
+    "checks": {
+      "chronological_order": true,
+      "descending_original_frequency": true,
+      "finite_power": true,
+      "frequency_bounds_on_header_lattice": true,
+      "frequency_interval_matches_cutout_shape": true,
+      "no_overlapping_integrations": true,
+      "off_coordinates_distinct_over_1_arcmin": true,
+      "off_target_names_differ": true,
+      "on_coordinates_agree_within_1_arcsec": true,
+      "on_target_names_consistent": true,
+      "positive_time_resolution": true,
+      "reconstructed_frequency_shape": true,
+      "same_channel_spacing": true,
+      "same_original_frequency_lattice": true,
+      "same_telescope": true,
+      "same_time_resolution": true,
+      "six_scans_and_six_headers": true
+    },
+    "elapsed_span_s": 2069.7795864503314,
+    "frequency_axis_absolute_systematic_uncertainty_hz": 2.835503418452676,
+    "frequency_axis_convention": "Descending header lattice, upper bound included/lower excluded as in blimpy half-open slicing; reverse to ascending. Extraction code not supplied in release; absolute channel-center convention is an explicit reconstruction assumption.",
+    "frequency_bounds_lattice_error_hz": 2.2737367544323206e-07,
+    "gaps_between_represented_scans_s": [
+      71.22041426306174,
+      70.22041402929972,
+      66.22041372289459,
+      65.22041411777536,
+      70.22041402929972
+    ],
+    "limitations": [
+      "Candidate-selected, narrow frequency cutout; not a representative background cohort.",
+      "Six released scan records are present; full original files and all original integration counts have not been independently acquired.",
+      "Represented exposure is sample_count*tsamp; do not count scan gaps as observed exposure.",
+      "Pointing separation checks verify distinct directions, not beam attenuation or an extraterrestrial origin.",
+      "Source timestamps/pointings are inherited headers; no independent telescope-log audit.",
+      "L-band pilot differs from the original C-band fixture; they are not pooled for sensitivity estimates."
+    ],
+    "passes_structural_cadence_checks": true,
+    "released_frequency_bounds_mhz": [
+      1188.533423795218,
+      1188.54503801722
+    ],
+    "represented_exposure_s": 1726.677516288,
+    "scans": [
+      {
+        "dec_deg": -11.907501944444444,
+        "elapsed_start_s": 0.0,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP13402",
+          "src_dej": {
+            "degrees": -11.907501944444444,
+            "original": "-11d54m27.007s"
+          },
+          "src_raj": {
+            "degrees": 43.135408333333324,
+            "original": "2h52m32.498s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57541.6890162037,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 43.135408333333324,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 0,
+        "separation_from_first_on_deg": 0.0,
+        "source_name": "HIP13402",
+        "start_mjd": 57541.6890162037
+      },
+      {
+        "dec_deg": -17.690257499999998,
+        "elapsed_start_s": 359.00000031106174,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP12402",
+          "src_dej": {
+            "degrees": -17.690257499999998,
+            "original": "-17d41m24.927s"
+          },
+          "src_raj": {
+            "degrees": 39.91915,
+            "original": "2h39m40.596s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57541.6931712963,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 39.91915,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 1,
+        "separation_from_first_on_deg": 6.565027829078223,
+        "source_name": "HIP12402",
+        "start_mjd": 57541.6931712963
+      },
+      {
+        "dec_deg": -11.907505555555556,
+        "elapsed_start_s": 717.0000003883615,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP13402",
+          "src_dej": {
+            "degrees": -11.907505555555556,
+            "original": "-11d54m27.02s"
+          },
+          "src_raj": {
+            "degrees": 43.135408333333324,
+            "original": "2h52m32.498s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57541.69731481482,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 43.135408333333324,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 2,
+        "separation_from_first_on_deg": 3.6111111124905406e-06,
+        "source_name": "HIP13402",
+        "start_mjd": 57541.69731481482
+      },
+      {
+        "dec_deg": -17.30594694444445,
+        "elapsed_start_s": 1071.0000001592562,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP12482",
+          "src_dej": {
+            "degrees": -17.30594694444445,
+            "original": "-17d18m21.409s"
+          },
+          "src_raj": {
+            "degrees": 40.1591625,
+            "original": "2h40m38.199s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57541.70141203704,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 40.1591625,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 3,
+        "separation_from_first_on_deg": 6.118039084908751,
+        "source_name": "HIP12482",
+        "start_mjd": 57541.70141203704
+      },
+      {
+        "dec_deg": -11.90750138888889,
+        "elapsed_start_s": 1424.0000003250316,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP13402",
+          "src_dej": {
+            "degrees": -11.90750138888889,
+            "original": "-11d54m27.005s"
+          },
+          "src_raj": {
+            "degrees": 43.135408333333324,
+            "original": "2h52m32.498s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57541.70549768519,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 43.135408333333324,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 4,
+        "separation_from_first_on_deg": 5.55555553688182e-07,
+        "source_name": "HIP13402",
+        "start_mjd": 57541.70549768519
+      },
+      {
+        "dec_deg": -19.33280916666667,
+        "elapsed_start_s": 1782.0000004023314,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP12549",
+          "src_dej": {
+            "degrees": -19.33280916666667,
+            "original": "-19d19m58.113s"
+          },
+          "src_raj": {
+            "degrees": 40.36331666666666,
+            "original": "2h41m27.196s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57541.709641203706,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 40.36331666666666,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 5,
+        "separation_from_first_on_deg": 7.889875162969531,
+        "source_name": "HIP12549",
+        "start_mjd": 57541.709641203706
+      }
+    ],
+    "shape": [
+      6,
+      16,
+      1,
+      4096
+    ],
+    "source_type": "real_observational_candidate_cutout"
+  },
+  "mlc2": {
+    "cadence_id": "mlc2",
+    "channel_spacing_hz": 2.7939677238464355,
+    "checks": {
+      "chronological_order": true,
+      "descending_original_frequency": true,
+      "finite_power": true,
+      "frequency_bounds_on_header_lattice": true,
+      "frequency_interval_matches_cutout_shape": true,
+      "no_overlapping_integrations": true,
+      "off_coordinates_distinct_over_1_arcmin": true,
+      "off_target_names_differ": true,
+      "on_coordinates_agree_within_1_arcsec": true,
+      "on_target_names_consistent": true,
+      "positive_time_resolution": true,
+      "reconstructed_frequency_shape": true,
+      "same_channel_spacing": true,
+      "same_original_frequency_lattice": true,
+      "same_telescope": true,
+      "same_time_resolution": true,
+      "six_scans_and_six_headers": true
+    },
+    "elapsed_span_s": 2166.0577760339365,
+    "frequency_axis_absolute_systematic_uncertainty_hz": 2.7939677238464355,
+    "frequency_axis_convention": "Descending header lattice, upper bound included/lower excluded as in blimpy half-open slicing; reverse to ascending. Extraction code not supplied in release; absolute channel-center convention is an explicit reconstruction assumption.",
+    "frequency_bounds_lattice_error_hz": 0.0,
+    "gaps_between_represented_scans_s": [
+      85.9422235953972,
+      85.94222422403993,
+      80.94222368387273,
+      80.94222368387273,
+      79.9422240787535
+    ],
+    "limitations": [
+      "Candidate-selected, narrow frequency cutout; not a representative background cohort.",
+      "Six released scan records are present; full original files and all original integration counts have not been independently acquired.",
+      "Represented exposure is sample_count*tsamp; do not count scan gaps as observed exposure.",
+      "Pointing separation checks verify distinct directions, not beam attenuation or an extraterrestrial origin.",
+      "Source timestamps/pointings are inherited headers; no independent telescope-log audit.",
+      "L-band pilot differs from the original C-band fixture; they are not pooled for sensitivity estimates."
+    ],
+    "passes_structural_cadence_checks": true,
+    "released_frequency_bounds_mhz": [
+      1347.8565216064453,
+      1347.8679656982422
+    ],
+    "represented_exposure_s": 1752.3466567680002,
+    "scans": [
+      {
+        "dec_deg": 46.728894166666656,
+        "elapsed_start_s": 0.0,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.7939677238464355e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 322961408,
+          "nifs": 1,
+          "source_name": "HIP118212",
+          "src_dej": {
+            "degrees": 46.728894166666656,
+            "original": "46d43m44.019s"
+          },
+          "src_raj": {
+            "degrees": 359.68532916666663,
+            "original": "23h58m44.479s"
+          },
+          "telescope_id": 6,
+          "tsamp": 18.253611008,
+          "tstart": 57752.90949074074,
+          "za_start": 0.0
+        },
+        "integration_s": 18.253611008,
+        "ra_deg": 359.68532916666663,
+        "represented_duration_s": 292.057776128,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 0,
+        "separation_from_first_on_deg": 0.0,
+        "source_name": "HIP118212",
+        "start_mjd": 57752.90949074074
+      },
+      {
+        "dec_deg": 50.161750833333336,
+        "elapsed_start_s": 377.9999997233972,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.7939677238464355e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 322961408,
+          "nifs": 1,
+          "source_name": "HIP117207",
+          "src_dej": {
+            "degrees": 50.161750833333336,
+            "original": "50d09m42.303s"
+          },
+          "src_raj": {
+            "degrees": 356.4803249999999,
+            "original": "23h45m55.278s"
+          },
+          "telescope_id": 6,
+          "tsamp": 18.253611008,
+          "tstart": 57752.91386574074,
+          "za_start": 0.0
+        },
+        "integration_s": 18.253611008,
+        "ra_deg": 356.4803249999999,
+        "represented_duration_s": 292.057776128,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 1,
+        "separation_from_first_on_deg": 4.036974319406553,
+        "source_name": "HIP117207",
+        "start_mjd": 57752.91386574074
+      },
+      {
+        "dec_deg": 46.728876666666665,
+        "elapsed_start_s": 756.0000000754371,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.7939677238464355e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 322961408,
+          "nifs": 1,
+          "source_name": "HIP118212",
+          "src_dej": {
+            "degrees": 46.728876666666665,
+            "original": "46d43m43.956s"
+          },
+          "src_raj": {
+            "degrees": 359.68530833333324,
+            "original": "23h58m44.474s"
+          },
+          "telescope_id": 6,
+          "tsamp": 18.253611008,
+          "tstart": 57752.91824074074,
+          "za_start": 0.0
+        },
+        "integration_s": 18.253611008,
+        "ra_deg": 359.68530833333324,
+        "represented_duration_s": 292.057776128,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 2,
+        "separation_from_first_on_deg": 2.258705738626727e-05,
+        "source_name": "HIP118212",
+        "start_mjd": 57752.91824074074
+      },
+      {
+        "dec_deg": 48.80166527777778,
+        "elapsed_start_s": 1128.99999988731,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.7939677238464355e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 322961408,
+          "nifs": 1,
+          "source_name": "HIP117286",
+          "src_dej": {
+            "degrees": 48.80166527777778,
+            "original": "48d48m05.995s"
+          },
+          "src_raj": {
+            "degrees": 356.72698333333324,
+            "original": "23h46m54.476s"
+          },
+          "telescope_id": 6,
+          "tsamp": 18.253611008,
+          "tstart": 57752.92255787037,
+          "za_start": 0.0
+        },
+        "integration_s": 18.253611008,
+        "ra_deg": 356.72698333333324,
+        "represented_duration_s": 292.057776128,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 3,
+        "separation_from_first_on_deg": 2.8719448767137528,
+        "source_name": "HIP117286",
+        "start_mjd": 57752.92255787037
+      },
+      {
+        "dec_deg": 46.72889249999999,
+        "elapsed_start_s": 1501.9999996991828,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.7939677238464355e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 322961408,
+          "nifs": 1,
+          "source_name": "HIP118212",
+          "src_dej": {
+            "degrees": 46.72889249999999,
+            "original": "46d43m44.013s"
+          },
+          "src_raj": {
+            "degrees": 359.685325,
+            "original": "23h58m44.478s"
+          },
+          "telescope_id": 6,
+          "tsamp": 18.253611008,
+          "tstart": 57752.926875,
+          "za_start": 0.0
+        },
+        "integration_s": 18.253611008,
+        "ra_deg": 359.685325,
+        "represented_duration_s": 292.057776128,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 4,
+        "separation_from_first_on_deg": 3.306778166686561e-06,
+        "source_name": "HIP118212",
+        "start_mjd": 57752.926875
+      },
+      {
+        "dec_deg": 49.293323055555554,
+        "elapsed_start_s": 1873.9999999059364,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.7939677238464355e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 322961408,
+          "nifs": 1,
+          "source_name": "HIP117334",
+          "src_dej": {
+            "degrees": 49.293323055555554,
+            "original": "49d17m35.963s"
+          },
+          "src_raj": {
+            "degrees": 356.87449583333324,
+            "original": "23h47m29.879s"
+          },
+          "telescope_id": 6,
+          "tsamp": 18.253611008,
+          "tstart": 57752.931180555555,
+          "za_start": 0.0
+        },
+        "integration_s": 18.253611008,
+        "ra_deg": 356.87449583333324,
+        "represented_duration_s": 292.057776128,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 5,
+        "separation_from_first_on_deg": 3.1794759614562285,
+        "source_name": "HIP117334",
+        "start_mjd": 57752.931180555555
+      }
+    ],
+    "shape": [
+      6,
+      16,
+      1,
+      4096
+    ],
+    "source_type": "real_observational_candidate_cutout"
+  },
+  "mlc3": {
+    "cadence_id": "mlc3",
+    "channel_spacing_hz": 2.835503418452676,
+    "checks": {
+      "chronological_order": true,
+      "descending_original_frequency": true,
+      "finite_power": true,
+      "frequency_bounds_on_header_lattice": true,
+      "frequency_interval_matches_cutout_shape": true,
+      "no_overlapping_integrations": true,
+      "off_coordinates_distinct_over_1_arcmin": true,
+      "off_target_names_differ": true,
+      "on_coordinates_agree_within_1_arcsec": true,
+      "on_target_names_consistent": true,
+      "positive_time_resolution": true,
+      "reconstructed_frequency_shape": true,
+      "same_channel_spacing": true,
+      "same_original_frequency_lattice": true,
+      "same_telescope": true,
+      "same_time_resolution": true,
+      "six_scans_and_six_headers": true
+    },
+    "elapsed_span_s": 2167.779586099223,
+    "frequency_axis_absolute_systematic_uncertainty_hz": 2.835503418452676,
+    "frequency_axis_convention": "Descending header lattice, upper bound included/lower excluded as in blimpy half-open slicing; reverse to ascending. Extraction code not supplied in release; absolute channel-center convention is an explicit reconstruction assumption.",
+    "frequency_bounds_lattice_error_hz": 2.2737367544323206e-07,
+    "gaps_between_represented_scans_s": [
+      88.220413836516,
+      86.22041399763475,
+      97.22041405444543,
+      95.2204135869215,
+      74.22041433570485
+    ],
+    "limitations": [
+      "Candidate-selected, narrow frequency cutout; not a representative background cohort.",
+      "Six released scan records are present; full original files and all original integration counts have not been independently acquired.",
+      "Represented exposure is sample_count*tsamp; do not count scan gaps as observed exposure.",
+      "Pointing separation checks verify distinct directions, not beam attenuation or an extraterrestrial origin.",
+      "Source timestamps/pointings are inherited headers; no independent telescope-log audit.",
+      "L-band pilot differs from the original C-band fixture; they are not pooled for sensitivity estimates."
+    ],
+    "passes_structural_cadence_checks": true,
+    "released_frequency_bounds_mhz": [
+      1351.6196032581763,
+      1351.6312174801783
+    ],
+    "represented_exposure_s": 1726.677516288,
+    "scans": [
+      {
+        "dec_deg": 39.279445833333334,
+        "elapsed_start_s": 0.0,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP62207",
+          "src_dej": {
+            "degrees": 39.279445833333334,
+            "original": "39d16m46.005s"
+          },
+          "src_raj": {
+            "degrees": 191.2454166666666,
+            "original": "12h44m58.9s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.10008101852,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 191.2454166666666,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 0,
+        "separation_from_first_on_deg": 0.0,
+        "source_name": "HIP62207",
+        "start_mjd": 57543.10008101852
+      },
+      {
+        "dec_deg": 31.42378277777778,
+        "elapsed_start_s": 375.999999884516,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP61072",
+          "src_dej": {
+            "degrees": 31.42378277777778,
+            "original": "31d25m25.618s"
+          },
+          "src_raj": {
+            "degrees": 187.75291666666664,
+            "original": "12h31m00.7s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.10443287037,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 187.75291666666664,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 1,
+        "separation_from_first_on_deg": 8.35421162857228,
+        "source_name": "HIP61072",
+        "start_mjd": 57543.10443287037
+      },
+      {
+        "dec_deg": 39.279444999999996,
+        "elapsed_start_s": 749.9999999301508,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP62207",
+          "src_dej": {
+            "degrees": 39.279444999999996,
+            "original": "39d16m46.002s"
+          },
+          "src_raj": {
+            "degrees": 191.2454125,
+            "original": "12h44m58.899s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.108761574076,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 191.2454125,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 2,
+        "separation_from_first_on_deg": 3.331198018831459e-06,
+        "source_name": "HIP62207",
+        "start_mjd": 57543.108761574076
+      },
+      {
+        "dec_deg": 27.730365000000003,
+        "elapsed_start_s": 1135.0000000325963,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP61074",
+          "src_dej": {
+            "degrees": 27.730365000000003,
+            "original": "27d43m49.314s"
+          },
+          "src_raj": {
+            "degrees": 187.76291666666665,
+            "original": "12h31m03.1s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.113217592596,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 187.76291666666665,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 3,
+        "separation_from_first_on_deg": 11.905735678682127,
+        "source_name": "HIP61074",
+        "start_mjd": 57543.113217592596
+      },
+      {
+        "dec_deg": 39.279444722222216,
+        "elapsed_start_s": 1517.9999996675178,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP62207",
+          "src_dej": {
+            "degrees": 39.279444722222216,
+            "original": "39d16m46.001s"
+          },
+          "src_raj": {
+            "degrees": 191.2454166666666,
+            "original": "12h44m58.9s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.11765046296,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 191.2454166666666,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 4,
+        "separation_from_first_on_deg": 1.111111116918028e-06,
+        "source_name": "HIP62207",
+        "start_mjd": 57543.11765046296
+      },
+      {
+        "dec_deg": 33.0152513888889,
+        "elapsed_start_s": 1880.0000000512227,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP61114",
+          "src_dej": {
+            "degrees": 33.0152513888889,
+            "original": "33d00m54.905s"
+          },
+          "src_raj": {
+            "degrees": 187.87833750000001,
+            "original": "12h31m30.801s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.12184027778,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 187.87833750000001,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 5,
+        "separation_from_first_on_deg": 6.827355437220596,
+        "source_name": "HIP61114",
+        "start_mjd": 57543.12184027778
+      }
+    ],
+    "shape": [
+      6,
+      16,
+      1,
+      4096
+    ],
+    "source_type": "real_observational_candidate_cutout"
+  },
+  "mlc4": {
+    "cadence_id": "mlc4",
+    "channel_spacing_hz": 2.835503418452676,
+    "checks": {
+      "chronological_order": true,
+      "descending_original_frequency": true,
+      "finite_power": true,
+      "frequency_bounds_on_header_lattice": true,
+      "frequency_interval_matches_cutout_shape": true,
+      "no_overlapping_integrations": true,
+      "off_coordinates_distinct_over_1_arcmin": true,
+      "off_target_names_differ": true,
+      "on_coordinates_agree_within_1_arcsec": true,
+      "on_target_names_consistent": true,
+      "positive_time_resolution": true,
+      "reconstructed_frequency_shape": true,
+      "same_channel_spacing": true,
+      "same_original_frequency_lattice": true,
+      "same_telescope": true,
+      "same_time_resolution": true,
+      "six_scans_and_six_headers": true
+    },
+    "elapsed_span_s": 2334.7795861616214,
+    "frequency_axis_absolute_systematic_uncertainty_hz": 2.835503418452676,
+    "frequency_axis_convention": "Descending header lattice, upper bound included/lower excluded as in blimpy half-open slicing; reverse to ascending. Extraction code not supplied in release; absolute channel-center convention is an explicit reconstruction assumption.",
+    "frequency_bounds_lattice_error_hz": 2.2737367544323206e-07,
+    "gaps_between_represented_scans_s": [
+      132.2204140637587,
+      131.2204138299967,
+      116.22041409542362,
+      116.22041346678088,
+      112.22041441766123
+    ],
+    "limitations": [
+      "Candidate-selected, narrow frequency cutout; not a representative background cohort.",
+      "Six released scan records are present; full original files and all original integration counts have not been independently acquired.",
+      "Represented exposure is sample_count*tsamp; do not count scan gaps as observed exposure.",
+      "Pointing separation checks verify distinct directions, not beam attenuation or an extraterrestrial origin.",
+      "Source timestamps/pointings are inherited headers; no independent telescope-log audit.",
+      "L-band pilot differs from the original C-band fixture; they are not pooled for sensitivity estimates."
+    ],
+    "passes_structural_cadence_checks": true,
+    "released_frequency_bounds_mhz": [
+      1372.981786964197,
+      1372.9934011861992
+    ],
+    "represented_exposure_s": 1726.677516288,
+    "scans": [
+      {
+        "dec_deg": -13.683889444444446,
+        "elapsed_start_s": 0.0,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP54677",
+          "src_dej": {
+            "degrees": -13.683889444444446,
+            "original": "-13d41m02.002s"
+          },
+          "src_raj": {
+            "degrees": 167.89082916666666,
+            "original": "11h11m33.799s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.10172453704,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 167.89082916666666,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 0,
+        "separation_from_first_on_deg": 0.0,
+        "source_name": "HIP54677",
+        "start_mjd": 57517.10172453704
+      },
+      {
+        "dec_deg": 17.316952500000003,
+        "elapsed_start_s": 420.0000001117587,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP53759",
+          "src_dej": {
+            "degrees": 17.316952500000003,
+            "original": "17d19m01.029s"
+          },
+          "src_raj": {
+            "degrees": 164.97499999999997,
+            "original": "10h59m54s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.10658564815,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 164.97499999999997,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 1,
+        "separation_from_first_on_deg": 31.134174780738785,
+        "source_name": "HIP53759",
+        "start_mjd": 57517.10658564815
+      },
+      {
+        "dec_deg": -13.683895277777774,
+        "elapsed_start_s": 838.9999999897555,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP54677",
+          "src_dej": {
+            "degrees": -13.683895277777774,
+            "original": "-13d41m02.023s"
+          },
+          "src_raj": {
+            "degrees": 167.89079999999998,
+            "original": "11h11m33.792s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.11143518519,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 167.89079999999998,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 2,
+        "separation_from_first_on_deg": 2.8932936397725697e-05,
+        "source_name": "HIP54677",
+        "start_mjd": 57517.11143518519
+      },
+      {
+        "dec_deg": 12.63777388888889,
+        "elapsed_start_s": 1243.0000001331791,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP53820",
+          "src_dej": {
+            "degrees": 12.63777388888889,
+            "original": "12d38m15.986s"
+          },
+          "src_raj": {
+            "degrees": 165.17082916666664,
+            "original": "11h00m40.999s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.116111111114,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 165.17082916666664,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 3,
+        "separation_from_first_on_deg": 26.459348795929476,
+        "source_name": "HIP53820",
+        "start_mjd": 57517.116111111114
+      },
+      {
+        "dec_deg": -13.68389166666667,
+        "elapsed_start_s": 1646.99999964796,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP54677",
+          "src_dej": {
+            "degrees": -13.68389166666667,
+            "original": "-13d41m02.01s"
+          },
+          "src_raj": {
+            "degrees": 167.89082499999995,
+            "original": "11h11m33.798s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.120787037034,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 167.89082499999995,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 4,
+        "separation_from_first_on_deg": 4.618203502921138e-06,
+        "source_name": "HIP54677",
+        "start_mjd": 57517.120787037034
+      },
+      {
+        "dec_deg": 12.081395555555558,
+        "elapsed_start_s": 2047.0000001136214,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP53839",
+          "src_dej": {
+            "degrees": 12.081395555555558,
+            "original": "12d04m53.024s"
+          },
+          "src_raj": {
+            "degrees": 165.208325,
+            "original": "11h00m49.998s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.12541666667,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 165.208325,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 5,
+        "separation_from_first_on_deg": 25.9021737860419,
+        "source_name": "HIP53839",
+        "start_mjd": 57517.12541666667
+      }
+    ],
+    "shape": [
+      6,
+      16,
+      1,
+      4096
+    ],
+    "source_type": "real_observational_candidate_cutout"
+  },
+  "mlc5": {
+    "cadence_id": "mlc5",
+    "channel_spacing_hz": 2.835503418452676,
+    "checks": {
+      "chronological_order": true,
+      "descending_original_frequency": true,
+      "finite_power": true,
+      "frequency_bounds_on_header_lattice": true,
+      "frequency_interval_matches_cutout_shape": true,
+      "no_overlapping_integrations": true,
+      "off_coordinates_distinct_over_1_arcmin": true,
+      "off_target_names_differ": true,
+      "on_coordinates_agree_within_1_arcsec": true,
+      "on_target_names_consistent": true,
+      "positive_time_resolution": true,
+      "reconstructed_frequency_shape": true,
+      "same_channel_spacing": true,
+      "same_original_frequency_lattice": true,
+      "same_telescope": true,
+      "same_time_resolution": true,
+      "six_scans_and_six_headers": true
+    },
+    "elapsed_span_s": 2334.7795861616214,
+    "frequency_axis_absolute_systematic_uncertainty_hz": 2.835503418452676,
+    "frequency_axis_convention": "Descending header lattice, upper bound included/lower excluded as in blimpy half-open slicing; reverse to ascending. Extraction code not supplied in release; absolute channel-center convention is an explicit reconstruction assumption.",
+    "frequency_bounds_lattice_error_hz": 0.0,
+    "gaps_between_represented_scans_s": [
+      132.2204140637587,
+      131.2204138299967,
+      116.22041409542362,
+      116.22041346678088,
+      112.22041441766123
+    ],
+    "limitations": [
+      "Candidate-selected, narrow frequency cutout; not a representative background cohort.",
+      "Six released scan records are present; full original files and all original integration counts have not been independently acquired.",
+      "Represented exposure is sample_count*tsamp; do not count scan gaps as observed exposure.",
+      "Pointing separation checks verify distinct directions, not beam attenuation or an extraterrestrial origin.",
+      "Source timestamps/pointings are inherited headers; no independent telescope-log audit.",
+      "L-band pilot differs from the original C-band fixture; they are not pooled for sensitivity estimates."
+    ],
+    "passes_structural_cadence_checks": true,
+    "released_frequency_bounds_mhz": [
+      1376.98288644388,
+      1376.994500665882
+    ],
+    "represented_exposure_s": 1726.677516288,
+    "scans": [
+      {
+        "dec_deg": -13.683889444444446,
+        "elapsed_start_s": 0.0,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP54677",
+          "src_dej": {
+            "degrees": -13.683889444444446,
+            "original": "-13d41m02.002s"
+          },
+          "src_raj": {
+            "degrees": 167.89082916666666,
+            "original": "11h11m33.799s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.10172453704,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 167.89082916666666,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 0,
+        "separation_from_first_on_deg": 0.0,
+        "source_name": "HIP54677",
+        "start_mjd": 57517.10172453704
+      },
+      {
+        "dec_deg": 17.316952500000003,
+        "elapsed_start_s": 420.0000001117587,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP53759",
+          "src_dej": {
+            "degrees": 17.316952500000003,
+            "original": "17d19m01.029s"
+          },
+          "src_raj": {
+            "degrees": 164.97499999999997,
+            "original": "10h59m54s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.10658564815,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 164.97499999999997,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 1,
+        "separation_from_first_on_deg": 31.134174780738785,
+        "source_name": "HIP53759",
+        "start_mjd": 57517.10658564815
+      },
+      {
+        "dec_deg": -13.683895277777774,
+        "elapsed_start_s": 838.9999999897555,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP54677",
+          "src_dej": {
+            "degrees": -13.683895277777774,
+            "original": "-13d41m02.023s"
+          },
+          "src_raj": {
+            "degrees": 167.89079999999998,
+            "original": "11h11m33.792s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.11143518519,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 167.89079999999998,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 2,
+        "separation_from_first_on_deg": 2.8932936397725697e-05,
+        "source_name": "HIP54677",
+        "start_mjd": 57517.11143518519
+      },
+      {
+        "dec_deg": 12.63777388888889,
+        "elapsed_start_s": 1243.0000001331791,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP53820",
+          "src_dej": {
+            "degrees": 12.63777388888889,
+            "original": "12d38m15.986s"
+          },
+          "src_raj": {
+            "degrees": 165.17082916666664,
+            "original": "11h00m40.999s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.116111111114,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 165.17082916666664,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 3,
+        "separation_from_first_on_deg": 26.459348795929476,
+        "source_name": "HIP53820",
+        "start_mjd": 57517.116111111114
+      },
+      {
+        "dec_deg": -13.68389166666667,
+        "elapsed_start_s": 1646.99999964796,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP54677",
+          "src_dej": {
+            "degrees": -13.68389166666667,
+            "original": "-13d41m02.01s"
+          },
+          "src_raj": {
+            "degrees": 167.89082499999995,
+            "original": "11h11m33.798s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.120787037034,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 167.89082499999995,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 4,
+        "separation_from_first_on_deg": 4.618203502921138e-06,
+        "source_name": "HIP54677",
+        "start_mjd": 57517.120787037034
+      },
+      {
+        "dec_deg": 12.081395555555558,
+        "elapsed_start_s": 2047.0000001136214,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP53839",
+          "src_dej": {
+            "degrees": 12.081395555555558,
+            "original": "12d04m53.024s"
+          },
+          "src_raj": {
+            "degrees": 165.208325,
+            "original": "11h00m49.998s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57517.12541666667,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 165.208325,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 5,
+        "separation_from_first_on_deg": 25.9021737860419,
+        "source_name": "HIP53839",
+        "start_mjd": 57517.12541666667
+      }
+    ],
+    "shape": [
+      6,
+      16,
+      1,
+      4096
+    ],
+    "source_type": "real_observational_candidate_cutout"
+  },
+  "mlc6": {
+    "cadence_id": "mlc6",
+    "channel_spacing_hz": 2.835503418452676,
+    "checks": {
+      "chronological_order": true,
+      "descending_original_frequency": true,
+      "finite_power": true,
+      "frequency_bounds_on_header_lattice": true,
+      "frequency_interval_matches_cutout_shape": true,
+      "no_overlapping_integrations": true,
+      "off_coordinates_distinct_over_1_arcmin": true,
+      "off_target_names_differ": true,
+      "on_coordinates_agree_within_1_arcsec": true,
+      "on_target_names_consistent": true,
+      "positive_time_resolution": true,
+      "reconstructed_frequency_shape": true,
+      "same_channel_spacing": true,
+      "same_original_frequency_lattice": true,
+      "same_telescope": true,
+      "same_time_resolution": true,
+      "six_scans_and_six_headers": true
+    },
+    "elapsed_span_s": 2310.779585580476,
+    "frequency_axis_absolute_systematic_uncertainty_hz": 2.835503418452676,
+    "frequency_axis_convention": "Descending header lattice, upper bound included/lower excluded as in blimpy half-open slicing; reverse to ascending. Extraction code not supplied in release; absolute channel-center convention is an explicit reconstruction assumption.",
+    "frequency_bounds_lattice_error_hz": 0.0,
+    "gaps_between_represented_scans_s": [
+      118.22041393430487,
+      118.22041393430482,
+      117.22041370054285,
+      116.22041409542362,
+      114.22041362789969
+    ],
+    "limitations": [
+      "Candidate-selected, narrow frequency cutout; not a representative background cohort.",
+      "Six released scan records are present; full original files and all original integration counts have not been independently acquired.",
+      "Represented exposure is sample_count*tsamp; do not count scan gaps as observed exposure.",
+      "Pointing separation checks verify distinct directions, not beam attenuation or an extraterrestrial origin.",
+      "Source timestamps/pointings are inherited headers; no independent telescope-log audit.",
+      "L-band pilot differs from the original C-band fixture; they are not pooled for sensitivity estimates."
+    ],
+    "passes_structural_cadence_checks": true,
+    "released_frequency_bounds_mhz": [
+      1435.934499659316,
+      1435.946113881318
+    ],
+    "represented_exposure_s": 1726.677516288,
+    "scans": [
+      {
+        "dec_deg": -13.47666861111111,
+        "elapsed_start_s": 0.0,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP56802",
+          "src_dej": {
+            "degrees": -13.47666861111111,
+            "original": "-13d28m36.007s"
+          },
+          "src_raj": {
+            "degrees": 174.66707916666667,
+            "original": "11h38m40.099s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57522.15274305556,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 174.66707916666667,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 0,
+        "separation_from_first_on_deg": 0.0,
+        "source_name": "HIP56802",
+        "start_mjd": 57522.15274305556
+      },
+      {
+        "dec_deg": 15.648057500000004,
+        "elapsed_start_s": 405.99999998230487,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP55875",
+          "src_dej": {
+            "degrees": 15.648057500000004,
+            "original": "15d38m53.007s"
+          },
+          "src_raj": {
+            "degrees": 171.79165833333334,
+            "original": "11h27m09.998s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57522.15744212963,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 171.79165833333334,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 1,
+        "separation_from_first_on_deg": 29.263215878584855,
+        "source_name": "HIP55875",
+        "start_mjd": 57522.15744212963
+      },
+      {
+        "dec_deg": -13.476674444444447,
+        "elapsed_start_s": 811.9999999646097,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP56802",
+          "src_dej": {
+            "degrees": -13.476674444444447,
+            "original": "-13d28m36.028s"
+          },
+          "src_raj": {
+            "degrees": 174.66707083333327,
+            "original": "11h38m40.097s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57522.162141203706,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 174.66707083333327,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 2,
+        "separation_from_first_on_deg": 9.985016456725636e-06,
+        "source_name": "HIP56802",
+        "start_mjd": 57522.162141203706
+      },
+      {
+        "dec_deg": 16.061673055555552,
+        "elapsed_start_s": 1216.9999997131526,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP55884",
+          "src_dej": {
+            "degrees": 16.061673055555552,
+            "original": "16d03m42.023s"
+          },
+          "src_raj": {
+            "degrees": 171.808325,
+            "original": "11h27m13.998s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57522.1668287037,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 171.808325,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 3,
+        "separation_from_first_on_deg": 29.673219099523944,
+        "source_name": "HIP55884",
+        "start_mjd": 57522.1668287037
+      },
+      {
+        "dec_deg": -13.476670555555554,
+        "elapsed_start_s": 1620.9999998565763,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP56802",
+          "src_dej": {
+            "degrees": -13.476670555555554,
+            "original": "-13d28m36.014s"
+          },
+          "src_raj": {
+            "degrees": 174.66707916666667,
+            "original": "11h38m40.099s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57522.17150462963,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 174.66707916666667,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 4,
+        "separation_from_first_on_deg": 1.9444444434746077e-06,
+        "source_name": "HIP56802",
+        "start_mjd": 57522.17150462963
+      },
+      {
+        "dec_deg": 15.859999722222225,
+        "elapsed_start_s": 2022.999999532476,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP55937",
+          "src_dej": {
+            "degrees": 15.859999722222225,
+            "original": "15d51m35.999s"
+          },
+          "src_raj": {
+            "degrees": 171.95832916666663,
+            "original": "11h27m49.999s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57522.176157407404,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 171.95832916666663,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 5,
+        "separation_from_first_on_deg": 29.45866778776044,
+        "source_name": "HIP55937",
+        "start_mjd": 57522.176157407404
+      }
+    ],
+    "shape": [
+      6,
+      16,
+      1,
+      4096
+    ],
+    "source_type": "real_observational_candidate_cutout"
+  },
+  "mlc7": {
+    "cadence_id": "mlc7",
+    "channel_spacing_hz": 2.835503418452676,
+    "checks": {
+      "chronological_order": true,
+      "descending_original_frequency": true,
+      "finite_power": true,
+      "frequency_bounds_on_header_lattice": true,
+      "frequency_interval_matches_cutout_shape": true,
+      "no_overlapping_integrations": true,
+      "off_coordinates_distinct_over_1_arcmin": true,
+      "off_target_names_differ": true,
+      "on_coordinates_agree_within_1_arcsec": true,
+      "on_target_names_consistent": true,
+      "positive_time_resolution": true,
+      "reconstructed_frequency_shape": true,
+      "same_channel_spacing": true,
+      "same_original_frequency_lattice": true,
+      "same_telescope": true,
+      "same_time_resolution": true,
+      "six_scans_and_six_headers": true
+    },
+    "elapsed_span_s": 2018.7795858440404,
+    "frequency_axis_absolute_systematic_uncertainty_hz": 2.835503418452676,
+    "frequency_axis_convention": "Descending header lattice, upper bound included/lower excluded as in blimpy half-open slicing; reverse to ascending. Extraction code not supplied in release; absolute channel-center convention is an explicit reconstruction assumption.",
+    "frequency_bounds_lattice_error_hz": 0.0,
+    "gaps_between_represented_scans_s": [
+      59.2204139724891,
+      58.220413738727075,
+      57.22041413360785,
+      57.22041350496511,
+      60.22041420625101
+    ],
+    "limitations": [
+      "Candidate-selected, narrow frequency cutout; not a representative background cohort.",
+      "Six released scan records are present; full original files and all original integration counts have not been independently acquired.",
+      "Represented exposure is sample_count*tsamp; do not count scan gaps as observed exposure.",
+      "Pointing separation checks verify distinct directions, not beam attenuation or an extraterrestrial origin.",
+      "Source timestamps/pointings are inherited headers; no independent telescope-log audit.",
+      "L-band pilot differs from the original C-band fixture; they are not pooled for sensitivity estimates."
+    ],
+    "passes_structural_cadence_checks": true,
+    "released_frequency_bounds_mhz": [
+      1487.4762392374876,
+      1487.4878534594895
+    ],
+    "represented_exposure_s": 1726.677516288,
+    "scans": [
+      {
+        "dec_deg": -11.907502500000001,
+        "elapsed_start_s": 0.0,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP13402",
+          "src_dej": {
+            "degrees": -11.907502500000001,
+            "original": "-11d54m27.009s"
+          },
+          "src_raj": {
+            "degrees": 43.135416666666664,
+            "original": "2h52m32.5s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57544.59774305556,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 43.135416666666664,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 0,
+        "separation_from_first_on_deg": 0.0,
+        "source_name": "HIP13402",
+        "start_mjd": 57544.59774305556
+      },
+      {
+        "dec_deg": -19.06589,
+        "elapsed_start_s": 347.0000000204891,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP11915",
+          "src_dej": {
+            "degrees": -19.06589,
+            "original": "-19d03m57.204s"
+          },
+          "src_raj": {
+            "degrees": 38.45375,
+            "original": "2h33m48.9s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57544.60175925926,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 38.45375,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 1,
+        "separation_from_first_on_deg": 8.459576080654674,
+        "source_name": "HIP11915",
+        "start_mjd": 57544.60175925926
+      },
+      {
+        "dec_deg": -11.907495555555554,
+        "elapsed_start_s": 692.9999998072162,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP13402",
+          "src_dej": {
+            "degrees": -11.907495555555554,
+            "original": "-11d54m26.984s"
+          },
+          "src_raj": {
+            "degrees": 43.135412499999994,
+            "original": "2h52m32.499s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57544.60576388889,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 43.135412499999994,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 2,
+        "separation_from_first_on_deg": 8.052782452417235e-06,
+        "source_name": "HIP13402",
+        "start_mjd": 57544.60576388889
+      },
+      {
+        "dec_deg": -17.888833055555555,
+        "elapsed_start_s": 1037.9999999888241,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP12005",
+          "src_dej": {
+            "degrees": -17.888833055555555,
+            "original": "-17d53m19.799s"
+          },
+          "src_raj": {
+            "degrees": 38.68332916666666,
+            "original": "2h34m43.999s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57544.60975694445,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 38.68332916666666,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 3,
+        "separation_from_first_on_deg": 7.36655901287765,
+        "source_name": "HIP12005",
+        "start_mjd": 57544.60975694445
+      },
+      {
+        "dec_deg": -11.907493333333331,
+        "elapsed_start_s": 1382.9999995417893,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP13402",
+          "src_dej": {
+            "degrees": -11.907493333333331,
+            "original": "-11d54m26.976s"
+          },
+          "src_raj": {
+            "degrees": 43.13540416666666,
+            "original": "2h52m32.497s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57544.61375,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 43.13540416666666,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 4,
+        "separation_from_first_on_deg": 1.5284820840897133e-05,
+        "source_name": "HIP13402",
+        "start_mjd": 57544.61375
+      },
+      {
+        "dec_deg": -18.944140555555553,
+        "elapsed_start_s": 1730.9999997960404,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP12038",
+          "src_dej": {
+            "degrees": -18.944140555555553,
+            "original": "-18d56m38.906s"
+          },
+          "src_raj": {
+            "degrees": 38.797912499999995,
+            "original": "2h35m11.499s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57544.61777777778,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 38.797912499999995,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 5,
+        "separation_from_first_on_deg": 8.18349025555543,
+        "source_name": "HIP12038",
+        "start_mjd": 57544.61777777778
+      }
+    ],
+    "shape": [
+      6,
+      16,
+      1,
+      4096
+    ],
+    "source_type": "real_observational_candidate_cutout"
+  },
+  "mlc8": {
+    "cadence_id": "mlc8",
+    "channel_spacing_hz": 2.835503418452676,
+    "checks": {
+      "chronological_order": true,
+      "descending_original_frequency": true,
+      "finite_power": true,
+      "frequency_bounds_on_header_lattice": true,
+      "frequency_interval_matches_cutout_shape": true,
+      "no_overlapping_integrations": true,
+      "off_coordinates_distinct_over_1_arcmin": true,
+      "off_target_names_differ": true,
+      "on_coordinates_agree_within_1_arcsec": true,
+      "on_target_names_consistent": true,
+      "positive_time_resolution": true,
+      "reconstructed_frequency_shape": true,
+      "same_channel_spacing": true,
+      "same_original_frequency_lattice": true,
+      "same_telescope": true,
+      "same_time_resolution": true,
+      "six_scans_and_six_headers": true
+    },
+    "elapsed_span_s": 2167.779586099223,
+    "frequency_axis_absolute_systematic_uncertainty_hz": 2.835503418452676,
+    "frequency_axis_convention": "Descending header lattice, upper bound included/lower excluded as in blimpy half-open slicing; reverse to ascending. Extraction code not supplied in release; absolute channel-center convention is an explicit reconstruction assumption.",
+    "frequency_bounds_lattice_error_hz": 0.0,
+    "gaps_between_represented_scans_s": [
+      88.220413836516,
+      86.22041399763475,
+      97.22041405444543,
+      95.2204135869215,
+      74.22041433570485
+    ],
+    "limitations": [
+      "Candidate-selected, narrow frequency cutout; not a representative background cohort.",
+      "Six released scan records are present; full original files and all original integration counts have not been independently acquired.",
+      "Represented exposure is sample_count*tsamp; do not count scan gaps as observed exposure.",
+      "Pointing separation checks verify distinct directions, not beam attenuation or an extraterrestrial origin.",
+      "Source timestamps/pointings are inherited headers; no independent telescope-log audit.",
+      "L-band pilot differs from the original C-band fixture; they are not pooled for sensitivity estimates."
+    ],
+    "passes_structural_cadence_checks": true,
+    "released_frequency_bounds_mhz": [
+      1724.9667542895193,
+      1724.9783685115212
+    ],
+    "represented_exposure_s": 1726.677516288,
+    "scans": [
+      {
+        "dec_deg": 39.279445833333334,
+        "elapsed_start_s": 0.0,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP62207",
+          "src_dej": {
+            "degrees": 39.279445833333334,
+            "original": "39d16m46.005s"
+          },
+          "src_raj": {
+            "degrees": 191.2454166666666,
+            "original": "12h44m58.9s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.10008101852,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 191.2454166666666,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 0,
+        "separation_from_first_on_deg": 0.0,
+        "source_name": "HIP62207",
+        "start_mjd": 57543.10008101852
+      },
+      {
+        "dec_deg": 31.42378277777778,
+        "elapsed_start_s": 375.999999884516,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP61072",
+          "src_dej": {
+            "degrees": 31.42378277777778,
+            "original": "31d25m25.618s"
+          },
+          "src_raj": {
+            "degrees": 187.75291666666664,
+            "original": "12h31m00.7s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.10443287037,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 187.75291666666664,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 1,
+        "separation_from_first_on_deg": 8.35421162857228,
+        "source_name": "HIP61072",
+        "start_mjd": 57543.10443287037
+      },
+      {
+        "dec_deg": 39.279444999999996,
+        "elapsed_start_s": 749.9999999301508,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP62207",
+          "src_dej": {
+            "degrees": 39.279444999999996,
+            "original": "39d16m46.002s"
+          },
+          "src_raj": {
+            "degrees": 191.2454125,
+            "original": "12h44m58.899s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.108761574076,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 191.2454125,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 2,
+        "separation_from_first_on_deg": 3.331198018831459e-06,
+        "source_name": "HIP62207",
+        "start_mjd": 57543.108761574076
+      },
+      {
+        "dec_deg": 27.730365000000003,
+        "elapsed_start_s": 1135.0000000325963,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP61074",
+          "src_dej": {
+            "degrees": 27.730365000000003,
+            "original": "27d43m49.314s"
+          },
+          "src_raj": {
+            "degrees": 187.76291666666665,
+            "original": "12h31m03.1s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.113217592596,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 187.76291666666665,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 3,
+        "separation_from_first_on_deg": 11.905735678682127,
+        "source_name": "HIP61074",
+        "start_mjd": 57543.113217592596
+      },
+      {
+        "dec_deg": 39.279444722222216,
+        "elapsed_start_s": 1517.9999996675178,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP62207",
+          "src_dej": {
+            "degrees": 39.279444722222216,
+            "original": "39d16m46.001s"
+          },
+          "src_raj": {
+            "degrees": 191.2454166666666,
+            "original": "12h44m58.9s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.11765046296,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 191.2454166666666,
+        "represented_duration_s": 287.779586048,
+        "role": "ON",
+        "sample_count": 16,
+        "scan_index": 4,
+        "separation_from_first_on_deg": 1.111111116918028e-06,
+        "source_name": "HIP62207",
+        "start_mjd": 57543.11765046296
+      },
+      {
+        "dec_deg": 33.0152513888889,
+        "elapsed_start_s": 1880.0000000512227,
+        "header": {
+          "DIMENSION_LABELS": [
+            "frequency",
+            "feed_id",
+            "time"
+          ],
+          "az_start": 0.0,
+          "data_type": 1,
+          "fch1": 1926.26953125,
+          "foff": -2.835503418452676e-06,
+          "machine_id": 20,
+          "nbits": 32,
+          "nchans": 318230528,
+          "nifs": 1,
+          "source_name": "HIP61114",
+          "src_dej": {
+            "degrees": 33.0152513888889,
+            "original": "33d00m54.905s"
+          },
+          "src_raj": {
+            "degrees": 187.87833750000001,
+            "original": "12h31m30.801s"
+          },
+          "telescope_id": 6,
+          "tsamp": 17.986224128,
+          "tstart": 57543.12184027778,
+          "za_start": 0.0
+        },
+        "integration_s": 17.986224128,
+        "ra_deg": 187.87833750000001,
+        "represented_duration_s": 287.779586048,
+        "role": "OFF",
+        "sample_count": 16,
+        "scan_index": 5,
+        "separation_from_first_on_deg": 6.827355437220596,
+        "source_name": "HIP61114",
+        "start_mjd": 57543.12184027778
+      }
+    ],
+    "shape": [
+      6,
+      16,
+      1,
+      4096
+    ],
+    "source_type": "real_observational_candidate_cutout"
+  }
+}

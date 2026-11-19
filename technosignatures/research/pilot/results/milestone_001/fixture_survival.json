@@ -1,0 +1,1110 @@
+{
+  "records": [
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 42.53908376321143,
+      "best_truth_compatible_score_before": 0.5599085441560839,
+      "common_start_searchable": true,
+      "compatible_retained": true,
+      "conservative_attributable_recovery": true,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": null,
+      "matching_local_maxima": 4,
+      "matching_retained": 1,
+      "matching_uncapped_nms": 1,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "synthetic_injection_in_original_real_Cband_fixture",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "score_threshold",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "local_maximum",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "frequency_suppression",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "catalogue_cap",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "central_strong",
+      "truth": {
+        "background_sigma_power": 229376.4934233967,
+        "closed_form_max_abs_error_power": 4.656612873077393e-10,
+        "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+        "drift_hz_per_s": 1.0,
+        "end_frequency_hz": 6663999118.054368,
+        "fwhm_channels": 2.0,
+        "fwhm_hz": 2.793967725244785,
+        "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+        "maximum_sampled_delta_power": 1835011.9473871735,
+        "number_of_injected_tracks": 1,
+        "peak_amplitude_in_background_sigma": 8.0,
+        "peak_amplitude_power": 1835011.9473871735,
+        "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+        "randomness": "none; fixed observation and deterministic injection",
+        "start_channel_ascending": 360,
+        "start_frequency_hz": 6663999073.673039,
+        "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 1.445493581211006,
+      "best_truth_compatible_score_before": 0.5599085441560839,
+      "common_start_searchable": true,
+      "compatible_retained": false,
+      "conservative_attributable_recovery": false,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": "below_score_threshold",
+      "matching_local_maxima": 0,
+      "matching_retained": 0,
+      "matching_uncapped_nms": 0,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "synthetic_injection_in_original_real_Cband_fixture",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": "below_score_threshold",
+          "observed_fact": false,
+          "stage": "score_threshold",
+          "status": "fail"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "local_maximum",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "frequency_suppression",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "catalogue_cap",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "central_weak",
+      "truth": {
+        "background_sigma_power": 229376.4934233967,
+        "closed_form_max_abs_error_power": 1.0606981959426776e-10,
+        "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+        "drift_hz_per_s": 1.0,
+        "end_frequency_hz": 6663999118.054368,
+        "fwhm_channels": 2.0,
+        "fwhm_hz": 2.793967725244785,
+        "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+        "maximum_sampled_delta_power": 57344.12335584918,
+        "number_of_injected_tracks": 1,
+        "peak_amplitude_in_background_sigma": 0.25,
+        "peak_amplitude_power": 57344.12335584917,
+        "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+        "randomness": "none; fixed observation and deterministic injection",
+        "start_channel_ascending": 360,
+        "start_frequency_hz": 6663999073.673039,
+        "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 4.910891081159268,
+      "best_truth_compatible_score_before": 0.5599085441560839,
+      "common_start_searchable": true,
+      "compatible_retained": false,
+      "conservative_attributable_recovery": false,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": "below_score_threshold",
+      "matching_local_maxima": 0,
+      "matching_retained": 0,
+      "matching_uncapped_nms": 0,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "synthetic_injection_in_original_real_Cband_fixture",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": "below_score_threshold",
+          "observed_fact": false,
+          "stage": "score_threshold",
+          "status": "fail"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "local_maximum",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "frequency_suppression",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "catalogue_cap",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "central_intermediate",
+      "truth": {
+        "background_sigma_power": 229376.4934233967,
+        "closed_form_max_abs_error_power": 1.1641532182693481e-10,
+        "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+        "drift_hz_per_s": 1.0,
+        "end_frequency_hz": 6663999118.054368,
+        "fwhm_channels": 2.0,
+        "fwhm_hz": 2.793967725244785,
+        "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+        "maximum_sampled_delta_power": 229376.49342339672,
+        "number_of_injected_tracks": 1,
+        "peak_amplitude_in_background_sigma": 1.0,
+        "peak_amplitude_power": 229376.4934233967,
+        "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+        "randomness": "none; fixed observation and deterministic injection",
+        "start_channel_ascending": 360,
+        "start_frequency_hz": 6663999073.673039,
+        "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 44.726209995848926,
+      "best_truth_compatible_score_before": 1.5138848467562966,
+      "common_start_searchable": true,
+      "compatible_retained": true,
+      "conservative_attributable_recovery": true,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": null,
+      "matching_local_maxima": 4,
+      "matching_retained": 1,
+      "matching_uncapped_nms": 1,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "synthetic_injection_in_original_real_Cband_fixture",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "score_threshold",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "local_maximum",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "frequency_suppression",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "catalogue_cap",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "negative_strong",
+      "truth": {
+        "background_sigma_power": 229376.4934233967,
+        "closed_form_max_abs_error_power": 3.4924596548080444e-10,
+        "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+        "drift_hz_per_s": -1.0,
+        "end_frequency_hz": 6663999504.266224,
+        "fwhm_channels": 2.0,
+        "fwhm_hz": 2.793967725244785,
+        "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+        "maximum_sampled_delta_power": 1835011.9473871735,
+        "number_of_injected_tracks": 1,
+        "peak_amplitude_in_background_sigma": 8.0,
+        "peak_amplitude_power": 1835011.9473871735,
+        "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+        "randomness": "none; fixed observation and deterministic injection",
+        "start_channel_ascending": 700,
+        "start_frequency_hz": 6663999548.6475525,
+        "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 44.5135986643085,
+      "best_truth_compatible_score_before": 0.4953294263539534,
+      "common_start_searchable": true,
+      "compatible_retained": true,
+      "conservative_attributable_recovery": true,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": null,
+      "matching_local_maxima": 7,
+      "matching_retained": 1,
+      "matching_uncapped_nms": 1,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "synthetic_injection_in_original_real_Cband_fixture",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "score_threshold",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "local_maximum",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "frequency_suppression",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "catalogue_cap",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "zero_drift_strong",
+      "truth": {
+        "background_sigma_power": 229376.4934233967,
+        "closed_form_max_abs_error_power": 2.3283064365386963e-10,
+        "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+        "drift_hz_per_s": 0.0,
+        "end_frequency_hz": 6663999073.673039,
+        "fwhm_channels": 2.0,
+        "fwhm_hz": 2.793967725244785,
+        "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+        "maximum_sampled_delta_power": 1835011.9473871738,
+        "number_of_injected_tracks": 1,
+        "peak_amplitude_in_background_sigma": 8.0,
+        "peak_amplitude_power": 1835011.9473871735,
+        "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+        "randomness": "none; fixed observation and deterministic injection",
+        "start_channel_ascending": 360,
+        "start_frequency_hz": 6663999073.673039,
+        "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": 44.99663630912544,
+      "best_truth_compatible_score_before": 0.7388099630794518,
+      "common_start_searchable": true,
+      "compatible_retained": true,
+      "conservative_attributable_recovery": true,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": null,
+      "matching_local_maxima": 6,
+      "matching_retained": 1,
+      "matching_uncapped_nms": 1,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "synthetic_injection_in_original_real_Cband_fixture",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "legacy_common_start_guard",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "score_threshold",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "local_maximum",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "frequency_suppression",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "catalogue_cap",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "off_grid_strong",
+      "truth": {
+        "background_sigma_power": 229376.4934233967,
+        "closed_form_max_abs_error_power": 2.3283064365386963e-10,
+        "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+        "drift_hz_per_s": 1.137,
+        "end_frequency_hz": 6663999124.13461,
+        "fwhm_channels": 2.0,
+        "fwhm_hz": 2.793967725244785,
+        "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+        "maximum_sampled_delta_power": 1835011.9473871735,
+        "number_of_injected_tracks": 1,
+        "peak_amplitude_in_background_sigma": 8.0,
+        "peak_amplitude_power": 1835011.9473871735,
+        "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+        "randomness": "none; fixed observation and deterministic injection",
+        "start_channel_ascending": 360,
+        "start_frequency_hz": 6663999073.673039,
+        "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": null,
+      "best_truth_compatible_score_before": null,
+      "common_start_searchable": false,
+      "compatible_retained": false,
+      "conservative_attributable_recovery": false,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": "valid_path_omitted_by_common_guard",
+      "matching_local_maxima": 0,
+      "matching_retained": 0,
+      "matching_uncapped_nms": 0,
+      "nominal_start_in_common_guard": false,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "synthetic_injection_in_original_real_Cband_fixture",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": "valid_path_omitted_by_common_guard",
+          "observed_fact": false,
+          "stage": "legacy_common_start_guard",
+          "status": "fail"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "score_threshold",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "local_maximum",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "frequency_suppression",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "catalogue_cap",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "low_common_guard",
+      "truth": {
+        "background_sigma_power": 229376.4934233967,
+        "closed_form_max_abs_error_power": 4.656612873077393e-10,
+        "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+        "drift_hz_per_s": 1.0,
+        "end_frequency_hz": 6663998704.547145,
+        "fwhm_channels": 2.0,
+        "fwhm_hz": 2.793967725244785,
+        "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+        "maximum_sampled_delta_power": 1835011.9473871738,
+        "number_of_injected_tracks": 1,
+        "peak_amplitude_in_background_sigma": 8.0,
+        "peak_amplitude_power": 1835011.9473871735,
+        "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+        "randomness": "none; fixed observation and deterministic injection",
+        "start_channel_ascending": 64,
+        "start_frequency_hz": 6663998660.165816,
+        "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": null,
+      "best_truth_compatible_score_before": null,
+      "common_start_searchable": false,
+      "compatible_retained": false,
+      "conservative_attributable_recovery": false,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": "valid_path_omitted_by_common_guard",
+      "matching_local_maxima": 0,
+      "matching_retained": 0,
+      "matching_uncapped_nms": 0,
+      "nominal_start_in_common_guard": false,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "synthetic_injection_in_original_real_Cband_fixture",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": "valid_path_omitted_by_common_guard",
+          "observed_fact": false,
+          "stage": "legacy_common_start_guard",
+          "status": "fail"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "score_threshold",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "local_maximum",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "frequency_suppression",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "catalogue_cap",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "high_common_guard",
+      "truth": {
+        "background_sigma_power": 229376.4934233967,
+        "closed_form_max_abs_error_power": 3.4924596548080444e-10,
+        "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+        "drift_hz_per_s": -1.0,
+        "end_frequency_hz": 6663999853.51219,
+        "fwhm_channels": 2.0,
+        "fwhm_hz": 2.793967725244785,
+        "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+        "maximum_sampled_delta_power": 1835011.9473871738,
+        "number_of_injected_tracks": 1,
+        "peak_amplitude_in_background_sigma": 8.0,
+        "peak_amplitude_power": 1835011.9473871735,
+        "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+        "randomness": "none; fixed observation and deterministic injection",
+        "start_channel_ascending": 950,
+        "start_frequency_hz": 6663999897.893518,
+        "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": null,
+      "best_truth_compatible_score_before": null,
+      "common_start_searchable": false,
+      "compatible_retained": false,
+      "conservative_attributable_recovery": false,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": true,
+      "first_loss_category": "valid_path_omitted_by_common_guard",
+      "matching_local_maxima": 0,
+      "matching_retained": 0,
+      "matching_uncapped_nms": 0,
+      "nominal_start_in_common_guard": false,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "synthetic_injection_in_original_real_Cband_fixture",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "drift_domain",
+          "status": "pass"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "pass"
+        },
+        {
+          "failure_category": "valid_path_omitted_by_common_guard",
+          "observed_fact": false,
+          "stage": "legacy_common_start_guard",
+          "status": "fail"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "score_threshold",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "local_maximum",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "frequency_suppression",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "catalogue_cap",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "low_edge_inside_input",
+      "truth": {
+        "background_sigma_power": 229376.4934233967,
+        "closed_form_max_abs_error_power": 2.3283064365386963e-10,
+        "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+        "drift_hz_per_s": 0.0,
+        "end_frequency_hz": 6663998584.728688,
+        "fwhm_channels": 2.0,
+        "fwhm_hz": 2.793967725244785,
+        "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+        "maximum_sampled_delta_power": 1835011.9473871738,
+        "number_of_injected_tracks": 1,
+        "peak_amplitude_in_background_sigma": 8.0,
+        "peak_amplitude_power": 1835011.9473871735,
+        "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+        "randomness": "none; fixed observation and deterministic injection",
+        "start_channel_ascending": 10,
+        "start_frequency_hz": 6663998584.728688,
+        "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+      }
+    },
+    {
+      "attribution_status": "no_above_threshold_compatible_control_track",
+      "best_truth_compatible_score_after": null,
+      "best_truth_compatible_score_before": null,
+      "common_start_searchable": false,
+      "compatible_retained": false,
+      "conservative_attributable_recovery": false,
+      "discrete_signal_path_supported": true,
+      "eligibility_in_configured_drift_domain": false,
+      "first_loss_category": "outside_configured_drift_domain",
+      "matching_local_maxima": 0,
+      "matching_retained": 0,
+      "matching_uncapped_nms": 0,
+      "nominal_start_in_common_guard": true,
+      "normalization_status": "row median/MAD applied inside detector; its loss is not separately identifiable from threshold losses in this audit",
+      "preexisting_compatible_detection": false,
+      "recovery_scope": "legacy per-scan candidate catalogue only; event/cadence processing is not evaluated",
+      "searchability_definition": "At least one searched track matches truth within the frozen path tolerance; nominal guard membership also reported.",
+      "source_kind": "synthetic_injection_in_original_real_Cband_fixture",
+      "stages": [
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "input_integrity",
+          "status": "pass"
+        },
+        {
+          "failure_category": "outside_configured_drift_domain",
+          "observed_fact": false,
+          "stage": "drift_domain",
+          "status": "fail"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": true,
+          "stage": "discrete_path_support",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "legacy_common_start_guard",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "score_threshold",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "local_maximum",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "frequency_suppression",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": false,
+          "stage": "catalogue_cap",
+          "status": "not_reached"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "event_grouping",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "cadence_filtering",
+          "status": "not_applied"
+        },
+        {
+          "failure_category": null,
+          "observed_fact": null,
+          "stage": "triage",
+          "status": "not_applied"
+        }
+      ],
+      "tolerance_channels": 3.0,
+      "trial_id": "outside_drift_domain",
+      "truth": {
+        "background_sigma_power": 229376.4934233967,
+        "closed_form_max_abs_error_power": 3.4924596548080444e-10,
+        "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+        "drift_hz_per_s": 5.0,
+        "end_frequency_hz": 6663999295.579683,
+        "fwhm_channels": 2.0,
+        "fwhm_hz": 2.793967725244785,
+        "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+        "maximum_sampled_delta_power": 1835011.9473871735,
+        "number_of_injected_tracks": 1,
+        "peak_amplitude_in_background_sigma": 8.0,
+        "peak_amplitude_power": 1835011.9473871735,
+        "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+        "randomness": "none; fixed observation and deterministic injection",
+        "start_channel_ascending": 360,
+        "start_frequency_hz": 6663999073.673039,
+        "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+      }
+    }
+  ],
+  "summary": {
+    "compatible_retained": 4,
+    "conservatively_attributed_retained": 4,
+    "denominator_warning": "Deterministic engineering cases, not random population samples; no completeness interval or extraterrestrial-origin claim.",
+    "eligible_domain_recovery": 0.4444444444444444,
+    "eligible_trials": 9,
+    "first_loss_counts": {
+      "below_score_threshold": 2,
+      "outside_configured_drift_domain": 1,
+      "retained": 4,
+      "valid_path_omitted_by_common_guard": 3
+    },
+    "legacy_searchable_domain_recovery": 0.6666666666666666,
+    "legacy_searchable_trials": 6,
+    "trials": 10
+  }
+}

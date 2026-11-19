@@ -1,0 +1,100 @@
+{
+  "scope": "Downloaded or generated pilot arrays excluded from Git; regenerate using the documented commands. Range caches and environment directories are excluded separately.",
+  "files": [
+    {
+      "path": "research/pilot/data/archive_excerpts/scan_0.npz",
+      "bytes": 238584,
+      "sha256": "7387545d8d2c6b8767c24f7335ad574977c8c1791a3fd45185d6163829d4994e"
+    },
+    {
+      "path": "research/pilot/data/archive_excerpts/scan_1.npz",
+      "bytes": 238544,
+      "sha256": "d32423c543d18b4cc8ca5b0fbc265be3bf268e4b4c3546acadb242c0aa81e7c8"
+    },
+    {
+      "path": "research/pilot/data/archive_excerpts/scan_2.npz",
+      "bytes": 239280,
+      "sha256": "c2b0a4cf827e028387453aaefaf5d1f8d425f473f69895a8d90984221327e14d"
+    },
+    {
+      "path": "research/pilot/data/archive_excerpts/scan_3.npz",
+      "bytes": 239073,
+      "sha256": "7d06a1029e2920ba71f226015575594c45946086adf5c042a75561abc30417e0"
+    },
+    {
+      "path": "research/pilot/data/archive_excerpts/scan_4.npz",
+      "bytes": 238557,
+      "sha256": "f5489378b89c814e79ffb15f5ad86d86706397448224b96b0d61e3e2dfed70f7"
+    },
+    {
+      "path": "research/pilot/data/archive_excerpts/scan_5.npz",
+      "bytes": 239116,
+      "sha256": "51be4d9861914ccfda526d9b9afe77e9d06888388293ccc7c9ca1489613ac32f"
+    },
+    {
+      "path": "research/pilot/data/archive_extraction.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/pilot/data/upstream/top_8_data.pkl",
+      "bytes": 12613542,
+      "sha256": "7ac4c68c552f6806bdf6bea52d0512190dc79780abefb383b817829ae131fe72"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/fully_synthetic_crowded_fixture.npz",
+      "bytes": 2024091,
+      "sha256": "716ac24e75246be975e82189b66f28516419479c0bb574d3151b611a44b4def8"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/mlc1_observation.npz",
+      "bytes": 1336983,
+      "sha256": "3b143c5a352f4b65034872a3f2c7fc4a57d256b9a4a8a95cbac499dd964f335f"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/mlc1_one_global_injected_track.npz",
+      "bytes": 3087468,
+      "sha256": "79eb687b81708882abd38d1e37768698b46bc56d0fe0cbe88e621405002507a2"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/mlc2_observation.npz",
+      "bytes": 1344666,
+      "sha256": "b5114dcc75c1a115bddd7db2d464681cc3e96bf1f5a7683b41281044c2d4dd75"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/mlc3_observation.npz",
+      "bytes": 1371979,
+      "sha256": "edf038eb59f708dd215977cd762677c43d66672e79c405ccd41cfc6cb3a28694"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/mlc4_observation.npz",
+      "bytes": 1355293,
+      "sha256": "8b61d93f314f9712653ea6caf3b3236bed5c73f932ddf76f60e25a248d14cb49"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/mlc5_observation.npz",
+      "bytes": 1343996,
+      "sha256": "a7fc887fe4d82de340a3a0dfe2e04acc3c50726c8aebff04ca90a44d97afd155"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/mlc6_observation.npz",
+      "bytes": 1337994,
+      "sha256": "19244665b0c7e45b42f839ff718d71f5378ba9b18c29c6264c4937b193ab4c93"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/mlc7_observation.npz",
+      "bytes": 1335320,
+      "sha256": "2cd547ec29c24f6c1fcb10f605cc8ec3e8fe2f97b8a743353102725f2e944316"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/mlc8_observation.npz",
+      "bytes": 1336477,
+      "sha256": "697475f6c48004ee68dd3d15886632bf1ad40f41da168a2bd51e7a948dacd03c"
+    },
+    {
+      "path": "research/pilot/results/milestone_001/paired_line_suppression_fixture.npz",
+      "bytes": 505987,
+      "sha256": "7cf0c9c3f625eeba8914c9feb19b07bf7554c0dd199df74b3956dcbbef36eda4"
+    }
+  ]
+}

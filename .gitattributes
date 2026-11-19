@@ -1,0 +1,2 @@
+# Preserve the historical experiment and its checksum-manifest inputs byte for byte.
+/technosignatures/** -text

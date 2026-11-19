@@ -1,0 +1,16 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "after.npz": true,
+    "before.npz": true,
+    "candidates_after.csv": true,
+    "candidates_before.csv": true,
+    "config.json": true,
+    "injected_signal.npy": true,
+    "results.json": true,
+    "search_after.npz": true,
+    "search_before.npz": true
+  },
+  "comparison": "bitwise array equality and byte-for-byte results/config/candidate equality in the same installed environment",
+  "excluded": "Figures and environment descriptions are not required to be byte-identical across platforms"
+}

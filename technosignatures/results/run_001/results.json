@@ -1,0 +1,147 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "all_output_power_finite": true,
+    "analytic_injection_verified": true,
+    "delta_nonnegative_with_roundoff_tolerance": true,
+    "exactly_one_injection_declared": true,
+    "injection_detected_above_threshold": true,
+    "input_checksum_verified": true,
+    "no_matching_preinjection_candidate": true,
+    "original_array_unchanged": true,
+    "recovery_check_passed": true,
+    "shape_matches_protocol": true,
+    "top_candidate_matches_injection": true
+  },
+  "config": {
+    "dataset": {
+      "expected_shape": [
+        32,
+        1024
+      ],
+      "expected_source_name": "DIAG_SGR_B2",
+      "origin_commit": "7ba8324848eb91bd18a2233f467271020a950f40",
+      "origin_commit_description": "Replace voyager with lighter weight cband obs 32x1024",
+      "path": "data/raw/sample.fil",
+      "sha256": "ee0ed0df43990a4653a05eed914401836c0a0de154897afa2c05ddd7f8128ea5",
+      "url": "https://raw.githubusercontent.com/bbrzycki/setigen/7ba8324848eb91bd18a2233f467271020a950f40/tests/assets/sample.fil"
+    },
+    "detector": {
+      "boxcar_width_channels": 3,
+      "max_abs_drift_hz_per_s": 4.0,
+      "max_candidates": 50,
+      "max_endpoint_grid_error_channels": 0.5,
+      "score_threshold": 10.0
+    },
+    "evaluation": {
+      "max_track_error_channels": 3.0,
+      "require_top_candidate_match": true
+    },
+    "experiment_date_local": "2026-11-19",
+    "experiment_id": "load-inject-detect-v1",
+    "experiment_timezone": "Asia/Bangkok",
+    "injection": {
+      "drift_hz_per_s": 1.0,
+      "fwhm_channels": 2.0,
+      "peak_amplitude_in_background_sigma": 8.0,
+      "start_channel_ascending": 360
+    }
+  },
+  "evaluation": {
+    "candidate_count_after": 3,
+    "candidate_count_before": 0,
+    "interpretation": "One deterministic software recovery check, not an extraterrestrial detection or sensitivity survey",
+    "matched_candidate": {
+      "drift_hz_per_s": 1.0196078431372548,
+      "rank": 1,
+      "robust_score": 42.53908376321143,
+      "start_channel_ascending": 360,
+      "start_frequency_hz": 6663999073.673039
+    },
+    "matched_drift_error_hz_per_s": 0.019607843137254832,
+    "matched_start_frequency_error_hz": 0.0,
+    "matched_track_max_error_channels": 0.6229292657938883,
+    "matching_candidates_after_injection": 1,
+    "matching_candidates_before_injection": 0,
+    "matching_tolerance_channels": 3.0,
+    "passes_recovery_check": true,
+    "recovered": true,
+    "top_candidate_matches_injection": true
+  },
+  "experiment_id": "load-inject-detect-v1",
+  "injection_truth": {
+    "background_sigma_power": 229376.4934233967,
+    "closed_form_max_abs_error_power": 4.656612873077393e-10,
+    "coordinate_handling": "relative Hz inside SETIGEN; absolute Hz restored for truth reporting",
+    "drift_hz_per_s": 1.0,
+    "end_frequency_hz": 6663999118.054368,
+    "fwhm_channels": 2.0,
+    "fwhm_hz": 2.793967725244785,
+    "injection_domain": "additive detected power; no voltages, phase, or stochastic transmitter noise",
+    "maximum_sampled_delta_power": 1835011.9473871735,
+    "number_of_injected_tracks": 1,
+    "peak_amplitude_in_background_sigma": 8.0,
+    "peak_amplitude_power": 1835011.9473871735,
+    "profile": "constant-amplitude Gaussian in frequency; center f(t)=f0+drift*t",
+    "randomness": "none; fixed observation and deterministic injection",
+    "start_channel_ascending": 360,
+    "start_frequency_hz": 6663999073.673039,
+    "time_frequency_integration": "sampled at channel centers and integration starts; no intra-integration drift smearing"
+  },
+  "input_sha256": "ee0ed0df43990a4653a05eed914401836c0a0de154897afa2c05ddd7f8128ea5",
+  "observation": {
+    "elapsed_first_to_last_sample_s": 44.38132872533329,
+    "frequency_first_center_hz": 6663998570.758849,
+    "frequency_last_center_hz": 6663999999.873341,
+    "frequency_resolution_hz": 1.3969838619232178,
+    "intensity_units": "uncalibrated recorded power (arbitrary units)",
+    "observation_description": "Small C-band diagnostic observation cutout in the Sagittarius B2 direction",
+    "original_frequency_descending": true,
+    "rawdatafile": "blc13_guppi_58465_61957_DIAG_SGR_B2_0066.0000.raw",
+    "sample_time_convention": "start of integration; matches SETIGEN frame times",
+    "shape_time_frequency": [
+      32,
+      1024
+    ],
+    "source_name": "DIAG_SGR_B2",
+    "start_mjd": 58465.717094907406,
+    "start_utc": "2018-12-13T17:12:37.000",
+    "telescope": "Green Bank Telescope",
+    "telescope_id": 6,
+    "time_resolution_s": 1.431655765333332,
+    "total_integration_s": 45.81298449066662
+  },
+  "search_after": {
+    "boxcar_width_channels": 3,
+    "drift_grid_spacing_hz_per_s": 0.015686274509803866,
+    "false_alarm_probability": "not calibrated; correlated trials and real interference",
+    "max_abs_drift_hz_per_s": 4.0,
+    "max_candidates": 50,
+    "max_endpoint_grid_error_channels": 0.5,
+    "maximum_score": 42.53908376321143,
+    "number_of_drift_trials": 511,
+    "score_definition": "per-drift median/MAD standardized incoherent track power",
+    "score_threshold": 10.0,
+    "searched_start_channel_max": 893,
+    "searched_start_channel_min": 130,
+    "searched_track_count": 390404,
+    "valid_start_channels": 764
+  },
+  "search_before": {
+    "boxcar_width_channels": 3,
+    "drift_grid_spacing_hz_per_s": 0.015686274509803866,
+    "false_alarm_probability": "not calibrated; correlated trials and real interference",
+    "max_abs_drift_hz_per_s": 4.0,
+    "max_candidates": 50,
+    "max_endpoint_grid_error_channels": 0.5,
+    "maximum_score": 6.2845175610868695,
+    "number_of_drift_trials": 511,
+    "score_definition": "per-drift median/MAD standardized incoherent track power",
+    "score_threshold": 10.0,
+    "searched_start_channel_max": 893,
+    "searched_start_channel_min": 130,
+    "searched_track_count": 390404,
+    "valid_start_channels": 764
+  },
+  "source_code_sha256": "d48198ebada5c1e321dd8cd00704e0c35c51a58738aa129f58bbb9146f4e8df3"
+}

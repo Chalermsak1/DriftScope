@@ -1,0 +1,30 @@
+{
+  "status": "planning_arithmetic_only_no_new_scientific_trials",
+  "existing_fixture": {
+    "searched_start_channels": 764,
+    "available_channels": 1024,
+    "start_channel_coverage_fraction": 0.74609375,
+    "start_channel_coverage_percent": 74.609375,
+    "searched_track_trials": 390404
+  },
+  "proposed_counts": {
+    "pilot_trials": 1152,
+    "locked_trials": 7200,
+    "groups_total": 60,
+    "review_cases": 240,
+    "review_assignments": 480,
+    "direct_review_hours_at_1_to_2_minutes_each": [
+      8.0,
+      16.0
+    ]
+  },
+  "independent_bernoulli_illustrations": {
+    "assumptions": "Independent, identically distributed trials; zero observed losses; does not establish future-session performance with correlated/reused backgrounds.",
+    "one_sided_confidence": 0.95,
+    "upper_loss_formula": "1 - alpha**(1/n)",
+    "zero_loss_trials_to_bound_loss_below_1_percent": 299,
+    "upper_loss_probability_with_299_trials": 0.009969146792899286,
+    "upper_loss_probability_with_80_trials": 0.036754197779982345,
+    "normal_approximation_worst_case_95_percent_half_width_n200": 0.06929646455628166
+  }
+}

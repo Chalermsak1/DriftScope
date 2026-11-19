@@ -1,0 +1,62 @@
+{
+  "REPORT.md": {
+    "bytes": 4791,
+    "sha256": "00aed77911f926ea16700edb7cd93c1f817c939ec059cbe48f3d3eb8b4b39375"
+  },
+  "after.npz": {
+    "bytes": 141492,
+    "sha256": "2caccf59cac89f520dfdf3a241154c155438fe8b1f8fa3f1b9468eb09e5cda29"
+  },
+  "before.npz": {
+    "bytes": 139348,
+    "sha256": "c3a3e6d420cf4f6fa8d1b6278755ff212e058a143738c8dc58dc91345d922a03"
+  },
+  "candidates_after.csv": {
+    "bytes": 264,
+    "sha256": "2d8808ee94948f74e264e4386f06bb2fcdd754853e0cf6c0585bb5054aba7530"
+  },
+  "candidates_before.csv": {
+    "bytes": 77,
+    "sha256": "73eeb378b954ae18300d706f2ed8544a91794fb560f65efff8d80c7c31a42d62"
+  },
+  "config.json": {
+    "bytes": 1089,
+    "sha256": "268a8e27986c26c94085a69bcf42bb675ca2b734b47153d3a78602e0a59858aa"
+  },
+  "detection_search.png": {
+    "bytes": 748652,
+    "sha256": "bc028da2ba9cdf52ba7e5ee4585561e0ab91c4d48906547b7da6b4e4fcd63e3b"
+  },
+  "environment.json": {
+    "bytes": 2302,
+    "sha256": "d7681ad544a67a695f1cd590461e6abb62f480d7f79656980046141292b7a8d0"
+  },
+  "injected_signal.npy": {
+    "bytes": 262272,
+    "sha256": "1f1fe94b1de3c5fd17ced0095a3aae81c9fbf5ce791a0989bd2e5ffdc5c4503e"
+  },
+  "results.json": {
+    "bytes": 5982,
+    "sha256": "fa51d2826c0f1f94b11db8b46b50248362003a9d4fd447071b164ed6c1a502fc"
+  },
+  "search_after.npz": {
+    "bytes": 2947482,
+    "sha256": "0a92430df67e074ce3636c9c29a79dfcaea20bc81849c5e183b7a5830f23fb4f"
+  },
+  "search_before.npz": {
+    "bytes": 2945459,
+    "sha256": "6449033cfc3bffeefaba0e21488b8dc80c45a8b4530b4990f30eb6a02fb455ad"
+  },
+  "spectrogram_comparison.pdf": {
+    "bytes": 55694,
+    "sha256": "eab6b69ff923719bff0029e491291faaf5c7e1da02344720aca034404e90d5c6"
+  },
+  "spectrogram_comparison.png": {
+    "bytes": 272481,
+    "sha256": "ee43f6f9f7a647500abf592fbc70a8b3e3895ee9c28fc6ecc8fa4c21c6837758"
+  },
+  "spectrogram_zoom.png": {
+    "bytes": 129051,
+    "sha256": "065d374fe31e36afa6ea29fad7c99d5fe16a5675de002c0f457b5081b5d97b9c"
+  }
+}

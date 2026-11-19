@@ -1,0 +1,889 @@
+{
+  "utc": "2026-11-19T06:03:58.664309+00:00",
+  "scans": [
+    {
+      "scan_index": 0,
+      "role": "ON",
+      "released_source": "HIP13402",
+      "released_mjd": 57541.6890162037,
+      "query_url": "https://seti.berkeley.edu/opendata/api/query-files?target=HIP13402&time-start=57541.68898148148&time-end=57541.689050925925&limit=20",
+      "effective_query_url": "http://seti.berkeley.edu/opendata/api/query-files?target=HIP13402&time-start=57541.68898148148&time-end=57541.689050925925&limit=20",
+      "archive_rows": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075019444,
+          "file_type": "HDF5",
+          "id": 72259,
+          "md5sum": "d27df996d8933c00a26dd57cea1083ae",
+          "mjd": 57541.68900462963,
+          "quality": "Ungraded",
+          "ra": 43.1354083333,
+          "size": 15439580190,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59531_HIP13402_0014.gpuspec.0000.h5",
+          "utc": "Thu, 02 Jun 2016 16:32:10 GMT",
+          "released_timestamp_difference_s": -0.9999996051192284
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075019444,
+          "file_type": "HDF5",
+          "id": 72260,
+          "md5sum": "e830fbe50dba31b3a8897e4dcdbbb5af",
+          "mjd": 57541.68900462963,
+          "quality": "Ungraded",
+          "ra": 43.1354083333,
+          "size": 241961534,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59531_HIP13402_0014.gpuspec.0002.h5",
+          "utc": "Thu, 02 Jun 2016 16:32:10 GMT",
+          "released_timestamp_difference_s": -0.9999996051192284
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075,
+          "file_type": "HDF5",
+          "id": 517096,
+          "md5sum": "c9ff6169d03d40c1e4a8f5cf98d9c286",
+          "mjd": 57541.6890162037,
+          "quality": "Ungraded",
+          "ra": 43.13541,
+          "size": 606836437,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59531_HIP13402_0014.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 16:32:11 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "timestamp_exact_matches": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075,
+          "file_type": "HDF5",
+          "id": 517096,
+          "md5sum": "c9ff6169d03d40c1e4a8f5cf98d9c286",
+          "mjd": 57541.6890162037,
+          "quality": "Ungraded",
+          "ra": 43.13541,
+          "size": 606836437,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59531_HIP13402_0014.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 16:32:11 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "has_timestamp_exact_archive_match": true
+    },
+    {
+      "scan_index": 1,
+      "role": "OFF",
+      "released_source": "HIP12402",
+      "released_mjd": 57541.6931712963,
+      "query_url": "https://seti.berkeley.edu/opendata/api/query-files?target=HIP12402&time-start=57541.693136574075&time-end=57541.69320601852&limit=20",
+      "effective_query_url": "http://seti.berkeley.edu/opendata/api/query-files?target=HIP12402&time-start=57541.693136574075&time-end=57541.69320601852&limit=20",
+      "archive_rows": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -17.6902575,
+          "file_type": "HDF5",
+          "id": 72261,
+          "md5sum": "f8ada3684b9b647910749394b7c2d996",
+          "mjd": 57541.69315972222,
+          "quality": "Ungraded",
+          "ra": 39.91915,
+          "size": 15429334296,
+          "target": "HIP12402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59890_HIP12402_0015.gpuspec.0000.h5",
+          "utc": "Thu, 02 Jun 2016 16:38:09 GMT",
+          "released_timestamp_difference_s": -1.0000002337619662
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -17.6902575,
+          "file_type": "HDF5",
+          "id": 72262,
+          "md5sum": "2a4440b4350645f4d9bf3e7dc655d998",
+          "mjd": 57541.69315972222,
+          "quality": "Ungraded",
+          "ra": 39.91915,
+          "size": 242361503,
+          "target": "HIP12402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59890_HIP12402_0015.gpuspec.0002.h5",
+          "utc": "Thu, 02 Jun 2016 16:38:09 GMT",
+          "released_timestamp_difference_s": -1.0000002337619662
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -17.69026,
+          "file_type": "HDF5",
+          "id": 517097,
+          "md5sum": "bb27e64f5f4d8c422cd8f04d2485b1ca",
+          "mjd": 57541.6931712963,
+          "quality": "Ungraded",
+          "ra": 39.91915,
+          "size": 725413044,
+          "target": "HIP12402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59890_HIP12402_0015.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 16:38:10 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "timestamp_exact_matches": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -17.69026,
+          "file_type": "HDF5",
+          "id": 517097,
+          "md5sum": "bb27e64f5f4d8c422cd8f04d2485b1ca",
+          "mjd": 57541.6931712963,
+          "quality": "Ungraded",
+          "ra": 39.91915,
+          "size": 725413044,
+          "target": "HIP12402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59890_HIP12402_0015.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 16:38:10 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "has_timestamp_exact_archive_match": true
+    },
+    {
+      "scan_index": 2,
+      "role": "ON",
+      "released_source": "HIP13402",
+      "released_mjd": 57541.69731481482,
+      "query_url": "https://seti.berkeley.edu/opendata/api/query-files?target=HIP13402&time-start=57541.697280092594&time-end=57541.69734953704&limit=20",
+      "effective_query_url": "http://seti.berkeley.edu/opendata/api/query-files?target=HIP13402&time-start=57541.697280092594&time-end=57541.69734953704&limit=20",
+      "archive_rows": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075055556,
+          "file_type": "HDF5",
+          "id": 72263,
+          "md5sum": "96f19d5619389c8d83a2f1221c458d5d",
+          "mjd": 57541.69731481482,
+          "quality": "Ungraded",
+          "ra": 43.1354083333,
+          "size": 15281903557,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60248_HIP13402_0016.gpuspec.0000.h5",
+          "utc": "Thu, 02 Jun 2016 16:44:08 GMT",
+          "released_timestamp_difference_s": 0.0
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075055556,
+          "file_type": "HDF5",
+          "id": 72264,
+          "md5sum": "0096506fe59dbd45e6b670822304772c",
+          "mjd": 57541.69731481482,
+          "quality": "Ungraded",
+          "ra": 43.1354083333,
+          "size": 241878215,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60248_HIP13402_0016.gpuspec.0002.h5",
+          "utc": "Thu, 02 Jun 2016 16:44:08 GMT",
+          "released_timestamp_difference_s": 0.0
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.90751,
+          "file_type": "HDF5",
+          "id": 517098,
+          "md5sum": "9405c37ec972fecbb90ee6bd8c5d6e46",
+          "mjd": 57541.69731481482,
+          "quality": "Ungraded",
+          "ra": 43.13541,
+          "size": 775167005,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60248_HIP13402_0016.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 16:44:08 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "timestamp_exact_matches": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075055556,
+          "file_type": "HDF5",
+          "id": 72263,
+          "md5sum": "96f19d5619389c8d83a2f1221c458d5d",
+          "mjd": 57541.69731481482,
+          "quality": "Ungraded",
+          "ra": 43.1354083333,
+          "size": 15281903557,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60248_HIP13402_0016.gpuspec.0000.h5",
+          "utc": "Thu, 02 Jun 2016 16:44:08 GMT",
+          "released_timestamp_difference_s": 0.0
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075055556,
+          "file_type": "HDF5",
+          "id": 72264,
+          "md5sum": "0096506fe59dbd45e6b670822304772c",
+          "mjd": 57541.69731481482,
+          "quality": "Ungraded",
+          "ra": 43.1354083333,
+          "size": 241878215,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60248_HIP13402_0016.gpuspec.0002.h5",
+          "utc": "Thu, 02 Jun 2016 16:44:08 GMT",
+          "released_timestamp_difference_s": 0.0
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.90751,
+          "file_type": "HDF5",
+          "id": 517098,
+          "md5sum": "9405c37ec972fecbb90ee6bd8c5d6e46",
+          "mjd": 57541.69731481482,
+          "quality": "Ungraded",
+          "ra": 43.13541,
+          "size": 775167005,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60248_HIP13402_0016.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 16:44:08 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "has_timestamp_exact_archive_match": true
+    },
+    {
+      "scan_index": 3,
+      "role": "OFF",
+      "released_source": "HIP12482",
+      "released_mjd": 57541.70141203704,
+      "query_url": "https://seti.berkeley.edu/opendata/api/query-files?target=HIP12482&time-start=57541.701377314814&time-end=57541.70144675926&limit=20",
+      "effective_query_url": "http://seti.berkeley.edu/opendata/api/query-files?target=HIP12482&time-start=57541.701377314814&time-end=57541.70144675926&limit=20",
+      "archive_rows": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -17.3059469444,
+          "file_type": "HDF5",
+          "id": 72265,
+          "md5sum": "39acea8e8b76144de301c4c4a873cbfc",
+          "mjd": 57541.70140046296,
+          "quality": "Ungraded",
+          "ra": 40.1591625,
+          "size": 15342230637,
+          "target": "HIP12482",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60602_HIP12482_0017.gpuspec.0000.h5",
+          "utc": "Thu, 02 Jun 2016 16:50:01 GMT",
+          "released_timestamp_difference_s": -1.0000002337619662
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -17.3059469444,
+          "file_type": "HDF5",
+          "id": 72266,
+          "md5sum": "ce8ea1aaaef7000a066fe00f3a2b91d1",
+          "mjd": 57541.70140046296,
+          "quality": "Ungraded",
+          "ra": 40.1591625,
+          "size": 242037993,
+          "target": "HIP12482",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60602_HIP12482_0017.gpuspec.0002.h5",
+          "utc": "Thu, 02 Jun 2016 16:50:01 GMT",
+          "released_timestamp_difference_s": -1.0000002337619662
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -17.30595,
+          "file_type": "HDF5",
+          "id": 517099,
+          "md5sum": "94ca66be9ef5d30a5fd95587a9c49498",
+          "mjd": 57541.70141203704,
+          "quality": "Ungraded",
+          "ra": 40.15916,
+          "size": 621032998,
+          "target": "HIP12482",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60602_HIP12482_0017.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 16:50:02 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "timestamp_exact_matches": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -17.30595,
+          "file_type": "HDF5",
+          "id": 517099,
+          "md5sum": "94ca66be9ef5d30a5fd95587a9c49498",
+          "mjd": 57541.70141203704,
+          "quality": "Ungraded",
+          "ra": 40.15916,
+          "size": 621032998,
+          "target": "HIP12482",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60602_HIP12482_0017.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 16:50:02 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "has_timestamp_exact_archive_match": true
+    },
+    {
+      "scan_index": 4,
+      "role": "ON",
+      "released_source": "HIP13402",
+      "released_mjd": 57541.70549768519,
+      "query_url": "https://seti.berkeley.edu/opendata/api/query-files?target=HIP13402&time-start=57541.705462962964&time-end=57541.70553240741&limit=20",
+      "effective_query_url": "http://seti.berkeley.edu/opendata/api/query-files?target=HIP13402&time-start=57541.705462962964&time-end=57541.70553240741&limit=20",
+      "archive_rows": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075013889,
+          "file_type": "HDF5",
+          "id": 72267,
+          "md5sum": "0471f67a86ba362d3b8e6c082652da7f",
+          "mjd": 57541.70549768519,
+          "quality": "Ungraded",
+          "ra": 43.1354083333,
+          "size": 15430876799,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60955_HIP13402_0018.gpuspec.0000.h5",
+          "utc": "Thu, 02 Jun 2016 16:55:55 GMT",
+          "released_timestamp_difference_s": 0.0
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075013889,
+          "file_type": "HDF5",
+          "id": 72268,
+          "md5sum": "4b6bf4a3f597fca6a300861c79534c17",
+          "mjd": 57541.70549768519,
+          "quality": "Ungraded",
+          "ra": 43.1354083333,
+          "size": 241758489,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60955_HIP13402_0018.gpuspec.0002.h5",
+          "utc": "Thu, 02 Jun 2016 16:55:55 GMT",
+          "released_timestamp_difference_s": 0.0
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075,
+          "file_type": "HDF5",
+          "id": 517100,
+          "md5sum": "5677d4d8dc81fdb994a63f136352e181",
+          "mjd": 57541.70549768519,
+          "quality": "Ungraded",
+          "ra": 43.13541,
+          "size": 799751024,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60955_HIP13402_0018.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 16:55:55 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "timestamp_exact_matches": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075013889,
+          "file_type": "HDF5",
+          "id": 72267,
+          "md5sum": "0471f67a86ba362d3b8e6c082652da7f",
+          "mjd": 57541.70549768519,
+          "quality": "Ungraded",
+          "ra": 43.1354083333,
+          "size": 15430876799,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60955_HIP13402_0018.gpuspec.0000.h5",
+          "utc": "Thu, 02 Jun 2016 16:55:55 GMT",
+          "released_timestamp_difference_s": 0.0
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075013889,
+          "file_type": "HDF5",
+          "id": 72268,
+          "md5sum": "4b6bf4a3f597fca6a300861c79534c17",
+          "mjd": 57541.70549768519,
+          "quality": "Ungraded",
+          "ra": 43.1354083333,
+          "size": 241758489,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60955_HIP13402_0018.gpuspec.0002.h5",
+          "utc": "Thu, 02 Jun 2016 16:55:55 GMT",
+          "released_timestamp_difference_s": 0.0
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -11.9075,
+          "file_type": "HDF5",
+          "id": 517100,
+          "md5sum": "5677d4d8dc81fdb994a63f136352e181",
+          "mjd": 57541.70549768519,
+          "quality": "Ungraded",
+          "ra": 43.13541,
+          "size": 799751024,
+          "target": "HIP13402",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_60955_HIP13402_0018.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 16:55:55 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "has_timestamp_exact_archive_match": true
+    },
+    {
+      "scan_index": 5,
+      "role": "OFF",
+      "released_source": "HIP12549",
+      "released_mjd": 57541.709641203706,
+      "query_url": "https://seti.berkeley.edu/opendata/api/query-files?target=HIP12549&time-start=57541.70960648148&time-end=57541.70967592593&limit=20",
+      "effective_query_url": "http://seti.berkeley.edu/opendata/api/query-files?target=HIP12549&time-start=57541.70960648148&time-end=57541.70967592593&limit=20",
+      "archive_rows": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -19.3328091667,
+          "file_type": "HDF5",
+          "id": 72269,
+          "md5sum": "6db38aa046c36a7704c3af7d05956057",
+          "mjd": 57541.70962962963,
+          "quality": "Ungraded",
+          "ra": 40.3633166667,
+          "size": 15321106178,
+          "target": "HIP12549",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_61313_HIP12549_0019.gpuspec.0000.h5",
+          "utc": "Thu, 02 Jun 2016 17:01:52 GMT",
+          "released_timestamp_difference_s": -1.0000002337619662
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -19.3328091667,
+          "file_type": "HDF5",
+          "id": 72270,
+          "md5sum": "21734d3ce8fb109b0a26d9e4a744e11d",
+          "mjd": 57541.70962962963,
+          "quality": "Ungraded",
+          "ra": 40.3633166667,
+          "size": 242189367,
+          "target": "HIP12549",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_61313_HIP12549_0019.gpuspec.0002.h5",
+          "utc": "Thu, 02 Jun 2016 17:01:52 GMT",
+          "released_timestamp_difference_s": -1.0000002337619662
+        },
+        {
+          "center_freq": 1475.09765625,
+          "decl": -19.33281,
+          "file_type": "HDF5",
+          "id": 517101,
+          "md5sum": "2bd0ca8e7d1690652cf3ebe4f7eac61c",
+          "mjd": 57541.709641203706,
+          "quality": "Ungraded",
+          "ra": 40.36332,
+          "size": 756964387,
+          "target": "HIP12549",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_61313_HIP12549_0019.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 17:01:53 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "timestamp_exact_matches": [
+        {
+          "center_freq": 1475.09765625,
+          "decl": -19.33281,
+          "file_type": "HDF5",
+          "id": 517101,
+          "md5sum": "2bd0ca8e7d1690652cf3ebe4f7eac61c",
+          "mjd": 57541.709641203706,
+          "quality": "Ungraded",
+          "ra": 40.36332,
+          "size": 756964387,
+          "target": "HIP12549",
+          "telescope": "GBT",
+          "tempX": "Unknown",
+          "tempY": "Unknown",
+          "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_61313_HIP12549_0019.gpuspec.8.0001.h5",
+          "utc": "Thu, 02 Jun 2016 17:01:53 GMT",
+          "released_timestamp_difference_s": 0.0
+        }
+      ],
+      "has_timestamp_exact_archive_match": true
+    }
+  ],
+  "all_six_have_timestamp_exact_archive_match": true,
+  "timestamp_tolerance_s": 0.002,
+  "query_wall_s": 3.7611232079998445,
+  "limit": "API matching is metadata evidence only; it does not establish bit identity between released cutouts and source files. Multiple resolution products can share timestamps. Archive queries may redirect to HTTP; GitHub release remains independently checksum-pinned.",
+  "first_scan_resolution_product_probes": [
+    {
+      "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59531_HIP13402_0014.gpuspec.0000.h5",
+      "archive_id": 72259,
+      "archive_size": 15439580190,
+      "archive_reported_md5": "d27df996d8933c00a26dd57cea1083ae",
+      "whole_file_checksum_verified": false,
+      "data_shape": [
+        16,
+        1,
+        318230528
+      ],
+      "dtype": "float32",
+      "chunks": [
+        1,
+        1,
+        1048576
+      ],
+      "compression": "unknown",
+      "attributes": {
+        "DIMENSION_LABELS": [
+          "frequency",
+          "feed_id",
+          "time"
+        ],
+        "az_start": 0.0,
+        "data_type": 1,
+        "fch1": 1926.26953125,
+        "foff": -2.835503418452676e-06,
+        "machine_id": 20,
+        "nbits": 32,
+        "nchans": 318230528,
+        "nifs": 1,
+        "source_name": "HIP13402",
+        "src_dej": -11.907501944444444,
+        "src_raj": 2.8756938888888888,
+        "telescope_id": 6,
+        "tsamp": 17.986224128,
+        "tstart": 57541.6890162037,
+        "za_start": 0.0
+      },
+      "released_header_comparison": {
+        "source_name": {
+          "released": "HIP13402",
+          "archive": "HIP13402",
+          "equal": true
+        },
+        "telescope_id": {
+          "released": 6,
+          "archive": 6,
+          "equal": true
+        },
+        "nbits": {
+          "released": 32,
+          "archive": 32,
+          "equal": true
+        },
+        "nchans": {
+          "released": 318230528,
+          "archive": 318230528,
+          "equal": true
+        },
+        "fch1": {
+          "released": 1926.26953125,
+          "archive": 1926.26953125,
+          "equal": true
+        },
+        "foff": {
+          "released": -2.835503418452676e-06,
+          "archive": -2.835503418452676e-06,
+          "equal": true
+        },
+        "tsamp": {
+          "released": 17.986224128,
+          "archive": 17.986224128,
+          "equal": true
+        },
+        "tstart": {
+          "released": 57541.6890162037,
+          "archive": 57541.6890162037,
+          "equal": true
+        }
+      },
+      "released_resolution_and_time_exactly_match": true,
+      "fetched_bytes": 65536,
+      "range_requests": [
+        {
+          "start": 0,
+          "end": 65535,
+          "content_range": "bytes 0-65535/15439580190",
+          "etag": "\"5aba642c-398454c1e\"",
+          "http_status": 206
+        }
+      ],
+      "byte_budget": 8388608
+    },
+    {
+      "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59531_HIP13402_0014.gpuspec.0002.h5",
+      "archive_id": 72260,
+      "archive_size": 241961534,
+      "archive_reported_md5": "e830fbe50dba31b3a8897e4dcdbbb5af",
+      "whole_file_checksum_verified": false,
+      "data_shape": [
+        277,
+        1,
+        315392
+      ],
+      "dtype": "float32",
+      "chunks": [
+        5,
+        1,
+        4928
+      ],
+      "compression": "unknown",
+      "attributes": {
+        "DIMENSION_LABELS": [
+          "frequency",
+          "feed_id",
+          "time"
+        ],
+        "az_start": 0.0,
+        "data_type": 1,
+        "fch1": 1926.26953125,
+        "foff": -0.00286102294921875,
+        "machine_id": 20,
+        "nbits": 32,
+        "nchans": 315392,
+        "nifs": 1,
+        "source_name": "HIP13402",
+        "src_dej": -11.907501944444444,
+        "src_raj": 2.8756938888888888,
+        "telescope_id": 6,
+        "tsamp": 1.058013184,
+        "tstart": 57541.6890162037,
+        "za_start": 0.0
+      },
+      "released_header_comparison": {
+        "source_name": {
+          "released": "HIP13402",
+          "archive": "HIP13402",
+          "equal": true
+        },
+        "telescope_id": {
+          "released": 6,
+          "archive": 6,
+          "equal": true
+        },
+        "nbits": {
+          "released": 32,
+          "archive": 32,
+          "equal": true
+        },
+        "nchans": {
+          "released": 318230528,
+          "archive": 315392,
+          "equal": false
+        },
+        "fch1": {
+          "released": 1926.26953125,
+          "archive": 1926.26953125,
+          "equal": true
+        },
+        "foff": {
+          "released": -2.835503418452676e-06,
+          "archive": -0.00286102294921875,
+          "equal": false
+        },
+        "tsamp": {
+          "released": 17.986224128,
+          "archive": 1.058013184,
+          "equal": false
+        },
+        "tstart": {
+          "released": 57541.6890162037,
+          "archive": 57541.6890162037,
+          "equal": true
+        }
+      },
+      "released_resolution_and_time_exactly_match": false,
+      "fetched_bytes": 131072,
+      "range_requests": [
+        {
+          "start": 0,
+          "end": 65535,
+          "content_range": "bytes 0-65535/241961534",
+          "etag": "\"5aba6451-e6c0a3e\"",
+          "http_status": 206
+        },
+        {
+          "start": 241631232,
+          "end": 241696767,
+          "content_range": "bytes 241631232-241696767/241961534",
+          "etag": "\"5aba6451-e6c0a3e\"",
+          "http_status": 206
+        }
+      ],
+      "byte_budget": 8388608
+    },
+    {
+      "url": "https://bldata.berkeley.edu/pipeline/AGBT16A_999_212/holding/spliced_blc0001020304050607_guppi_57541_59531_HIP13402_0014.gpuspec.8.0001.h5",
+      "archive_id": 517096,
+      "archive_size": 606836437,
+      "archive_reported_md5": "c9ff6169d03d40c1e4a8f5cf98d9c286",
+      "whole_file_checksum_verified": false,
+      "data_shape": [
+        840497,
+        1,
+        2464
+      ],
+      "dtype": "uint8",
+      "chunks": [
+        2048,
+        1,
+        512
+      ],
+      "compression": "unknown",
+      "attributes": {
+        "DIMENSION_LABELS": [
+          "frequency",
+          "feed_id",
+          "time"
+        ],
+        "az_start": 0.0,
+        "data_type": 1,
+        "fch1": 1926.26953125,
+        "foff": -0.3662109375,
+        "ibeam": 0,
+        "machine_id": 10,
+        "nbeams": 0,
+        "nbits": 8,
+        "nchans": 2464,
+        "nifs": 1,
+        "rawdatafile": "",
+        "source_name": "HIP13402",
+        "src_dej": -11.907501944444444,
+        "src_raj": 2.8756938888888888,
+        "telescope_id": 6,
+        "tsamp": 0.0003495253333333333,
+        "tstart": 57541.6890162037,
+        "za_start": 0.0
+      },
+      "released_header_comparison": {
+        "source_name": {
+          "released": "HIP13402",
+          "archive": "HIP13402",
+          "equal": true
+        },
+        "telescope_id": {
+          "released": 6,
+          "archive": 6,
+          "equal": true
+        },
+        "nbits": {
+          "released": 32,
+          "archive": 8,
+          "equal": false
+        },
+        "nchans": {
+          "released": 318230528,
+          "archive": 2464,
+          "equal": false
+        },
+        "fch1": {
+          "released": 1926.26953125,
+          "archive": 1926.26953125,
+          "equal": true
+        },
+        "foff": {
+          "released": -2.835503418452676e-06,
+          "archive": -0.3662109375,
+          "equal": false
+        },
+        "tsamp": {
+          "released": 17.986224128,
+          "archive": 0.0003495253333333333,
+          "equal": false
+        },
+        "tstart": {
+          "released": 57541.6890162037,
+          "archive": 57541.6890162037,
+          "equal": true
+        }
+      },
+      "released_resolution_and_time_exactly_match": false,
+      "fetched_bytes": 65536,
+      "range_requests": [
+        {
+          "start": 0,
+          "end": 65535,
+          "content_range": "bytes 0-65535/606836437",
+          "etag": "\"5dd211cf-242b96d5\"",
+          "http_status": 206
+        }
+      ],
+      "byte_budget": 8388608
+    }
+  ],
+  "any_probed_product_matches_released_resolution_and_time": true
+}

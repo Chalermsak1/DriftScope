@@ -1,0 +1,53 @@
+{
+  "completed": {
+    "independent_source_access": "One complete six-scan cadence over the selected 4096-channel interval, all stored integrations acquired from original HDF5 sources",
+    "legacy_search_loss_audit": "Exact reconstruction of threshold, local maxima, frequency suppression and catalogue cap",
+    "release_access": "8 real observational cutouts, 48 scan/header records; six distinct scan sequences; five conservative target/day groups",
+    "reproducibility": "All scientific JSON/arrays repeated; original experiment and approved plan preserved; raw excerpts reproduced offline with HTTP disabled in tests",
+    "signal_survival": "Ten engineering cases on the original real fixture; an eighty-line fully synthetic truncation fixture; a two-track synthetic fixture; one global chirp across three real ON scans",
+    "source_sample_identity": "All six original archive excerpts bitwise match the published release; raw frequency slice convention confirmed for mlc1"
+  },
+  "milestone": "complete-six-scan-narrowband-access-and-legacy-loss-accounting",
+  "network_measurement_limit": "Successful-execution counters exclude earlier interrupted transfer traffic; cached disk footprint and restart audit are separate evidence.",
+  "new_network_bytes_successful_execution": 3276800,
+  "next_milestone": "Overlap-aware search coverage and loss-aware event grouping; representative cohort acquisition continues separately.",
+  "open_gates": {
+    "full_original_bandwidth_acquired": false,
+    "llm_introduced": false,
+    "population_completeness_estimated": false,
+    "representative_multi_session_cohort": false,
+    "whole_original_hdf5_md5_verified": false
+  },
+  "preservation": {
+    "all_preserved": true,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "original_manifest_files_verified": 31
+  },
+  "range_bytes_accessed_successful_execution": 342360064,
+  "repeat_comparisons_passed": 47,
+  "status": "PASS_WITH_DECLARED_SCIENTIFIC_SCOPE",
+  "sum_full_archive_file_bytes_not_downloaded_in_full": 92245031657,
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 53
+  },
+  "work_package_status": {
+    "R01": "PARTIAL: closest-source/code review advanced; recent primary-paper lead still unavailable; novelty not established",
+    "R02": "PASS for bounded candidate-release/one-cadence access pilot; representative cohort selection remains open",
+    "R03": "PASS for one complete six-scan narrowband cadence with original-source sample identity; not a full-band acquisition",
+    "R04": "PASS: coverage and candidate-cap effects measured with executable tests",
+    "R05": "PASS for existing implemented detector stages; later-stage schemas/statuses explicitly not-applied",
+    "R06": "PARTIAL: release and archive-HDF5 excerpt access implemented; production general-purpose loader remains future work",
+    "R07": "NOT COMPLETE: overlap-aware search remediation not implemented",
+    "R08": "NOT COMPLETE: path/time event grouping not implemented",
+    "R09": "PARTIAL: actual cadence timing/pointings and global injection checked; no cadence-veto algorithm validated",
+    "R10": "NOT COMPLETE: sampled Gaussian power only; physical integration/smearing awaits separate validation",
+    "R11": "NOT COMPLETE: ten-case audit and stress fixtures executed; full 1152-case morphology pilot not executed",
+    "R12": "PARTIAL: weak/off-grid/guard/collision cases audited; broader physical and OFF-leakage challenge sets remain",
+    "R13": "PARTIAL: current CPU/memory/transfer profiling recorded; main sensitivity-study resource forecast remains open"
+  }
+}

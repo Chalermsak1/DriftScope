@@ -1,0 +1,57 @@
+{
+  "files": {
+    "results/failed_attempts/initial_no_active_support_assignment/conditional_recovery.png": {
+      "bytes": 69633,
+      "sha256": "9fa99385535c19bc13864bfac1e9980a89140e7adfef35c082a74230d00da857"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/conditional_sensitivity.json": {
+      "bytes": 154393,
+      "sha256": "a4418ebefb5baf2989c62c79c4d24007792d7c5ddbe179e0ec2ac93c143fc478"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/coverage_comparison.png": {
+      "bytes": 277067,
+      "sha256": "b026de8817ae2f57a100c1da1321be4943a1fd44c9930d4e75eba3d30b8b7209"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/coverage_remediation.json": {
+      "bytes": 268941,
+      "sha256": "c0d779cd3b21f054eae545a8a983aee79270d72f2027e9fa9202ccc794946627"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/crowded_stress.json": {
+      "bytes": 226175,
+      "sha256": "3100573d1bed6d84244e78a8a57e1c551695ce696c36257b695fa20bc61e4f42"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/executed_development_design.json": {
+      "bytes": 23768,
+      "sha256": "4dd05127d4e960597f355a87fa97b19138da4053ea98abfac13b9b4d6c821054"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/execution_config.json": {
+      "bytes": 1943,
+      "sha256": "3bdba0e970d9cb392709a40f915894b29d0dffd891629dd5835c5fe388e7ebd0"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/full_1152_trial_design_not_executed.json": {
+      "bytes": 584043,
+      "sha256": "662701d8609861d4423da74867976449c3e4c1a9becf9bd6d8ba160566073623"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/integrated_cadence_before_after.png": {
+      "bytes": 2994616,
+      "sha256": "97d88755597ce404fa915738f59e5eb7644610de97aea06ffb2f8b163cf16c1a"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/integration_convergence.json": {
+      "bytes": 597,
+      "sha256": "3de297d2448247728b1247b56408ccc0feaaa59c7fc7973d59f107a9f2268eb9"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/native_cadence_events.json": {
+      "bytes": 11064,
+      "sha256": "5b420787004894d3ec007f6a1579cb67bcafb293b0eeac58dfc9d89153b8015a"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/native_scan_catalogues.json": {
+      "bytes": 829774,
+      "sha256": "0b39ebe543a6aa817aa25be4cd2b9e8a983b0ae017ddb807c9a6c4483c35c303"
+    },
+    "results/failed_attempts/initial_no_active_support_assignment/release_cohort_audit.json": {
+      "bytes": 12721,
+      "sha256": "3d7ec0b898c6104f58f4cc01311e19ca47ddd504738876af286afa3e2f0b4462"
+    }
+  },
+  "scope": "Preserved local partial outputs from the aborted development execution, excluded from Git and not a validated result."
+}

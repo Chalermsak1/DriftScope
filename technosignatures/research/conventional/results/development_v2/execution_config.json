@@ -1,0 +1,67 @@
+{
+  "baseline_search": {
+    "boxcar_width_channels": 3,
+    "max_abs_drift_hz_per_s": 4.0,
+    "max_endpoint_grid_error_channels": 0.5,
+    "max_score_cells": 20000000,
+    "score_threshold": 10.0,
+    "tile_core_channels": 256
+  },
+  "cadence_link_tolerance_channels": 3.0,
+  "conditional_development_placements_per_amplitude": 8,
+  "convergence_relative_peak_tolerance_64_vs_128": 0.001,
+  "full_design_placements_per_family_amplitude": 32,
+  "grouping_tolerance_channels": 3.0,
+  "integrated_injection_subsamples": 32,
+  "native_cadence_search": {
+    "boxcar_width_channels": 3,
+    "max_abs_drift_hz_per_s": 1.0,
+    "max_endpoint_grid_error_channels": 0.5,
+    "max_score_cells": 20000000,
+    "score_threshold": 10.0,
+    "tile_core_channels": 512
+  },
+  "native_cases": [
+    {
+      "drift_hz_per_s": 0.5,
+      "family": "continuous_linear",
+      "fwhm_channels": 2.0,
+      "off_response": 0.0,
+      "peak_power_sigma": 8.0,
+      "start_channel": 800.0,
+      "trial_id": "global_on_only"
+    },
+    {
+      "drift_hz_per_s": 0.5,
+      "family": "continuous_linear",
+      "fwhm_channels": 2.0,
+      "off_response": 0.1,
+      "peak_power_sigma": 8.0,
+      "start_channel": 800.0,
+      "trial_id": "global_weak_off"
+    },
+    {
+      "drift_hz_per_s": 0.5,
+      "family": "continuous_linear",
+      "fwhm_channels": 2.0,
+      "off_response": 1.0,
+      "peak_power_sigma": 8.0,
+      "start_channel": 800.0,
+      "trial_id": "global_equal_off"
+    },
+    {
+      "drift_hz_per_s": 0.5,
+      "family": "intermittent",
+      "first_on_only": true,
+      "fwhm_channels": 2.0,
+      "off_response": 0.0,
+      "peak_power_sigma": 8.0,
+      "start_channel": 800.0,
+      "trial_id": "first_on_only"
+    }
+  ],
+  "off_forced_score_threshold": 6.0,
+  "purpose": "Engineering and conditional recovery; no locked test or representative population inference",
+  "seed": 20261120,
+  "version": "conventional-v2-development-1"
+}

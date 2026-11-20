@@ -35,7 +35,15 @@ The command above preserves the original `results/run_001` reference. Array/resu
 - [Recorded pilot verification](technosignatures/research/pilot/evidence/verification.json): 53 passing tests and 47 matching scientific JSON/array comparisons in the recorded environment.
 - [Publication scope, excluded assets, and validation evidence](PUBLICATION.md).
 
-The cadence pilot validates all stored integrations over one approximately 11.6 kHz interval of a six-scan cadence against original archive excerpts. The eight released cutouts were previously selected candidates; they do not constitute a representative observing cohort. Full-band searching, population sensitivity, event grouping/cadence filtering, physical integration/smearing, and LLM evaluation remain unfinished.
+The original cadence pilot validates all stored integrations over one approximately 11.6 kHz interval of a six-scan cadence against original archive excerpts. Its eight released cutouts were previously selected candidates; they do not constitute a representative observing cohort. Later conventional development is documented separately below.
+
+## Conventional pipeline development
+
+The [v2 development module](technosignatures/research/conventional/README.md) adds per-drift coverage remediation, uncapped hits, path-based event grouping, timestamp-aware cadence policies, and cohort/sensitivity infrastructure. Its [milestone report](technosignatures/research/conventional/evidence/MILESTONE_REPORT.md) records 115 passing regression tests and 17 complete-repeat comparisons.
+
+The [prospective C-band cohort pilot](technosignatures/research/cohort/README.md) adds complete original-source cadence extraction, verified resumable HTTPS ranges, paired loss accounting, and component-aware sensitivity experiments. The metadata frame contains 182 eligible cadence/product proposals in **seven linked components**; all seven are selected before inspecting spectra. Acquisition and evaluation status are recorded in its [milestone report](technosignatures/research/cohort/evidence/MILESTONE_REPORT.md).
+
+Representative-cohort sensitivity remains incomplete. The approved main study requires 60 independent components; more injections into seven backgrounds cannot meet that requirement. Full observing-band coverage, statistical precision, independently verified receiver identity, flux sensitivity and locked-test evaluation remain open gates.
 
 ## Data and attribution
 

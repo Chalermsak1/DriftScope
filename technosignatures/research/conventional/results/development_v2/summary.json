@@ -1,0 +1,25 @@
+{
+  "additional_valid_discrete_tracks_searched": 99326,
+  "executed_conditional_sensitivity_signals": 48,
+  "executed_conditional_sensitivity_trials": 48,
+  "fully_synthetic_80_line_recovered": 80,
+  "generated_full_design_signals_not_executed": 1344,
+  "generated_full_design_trials_not_executed": 1152,
+  "integration_convergence_passed": true,
+  "llm_introduced": false,
+  "locked_test_opened": false,
+  "native_cadence_engineering_cases": 4,
+  "population_sensitivity_estimated": false,
+  "preservation": {
+    "all_preserved": true,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "original_manifest_files_verified": 31
+  },
+  "release_connected_components": 5,
+  "representative_cohort_gate_passed": false,
+  "scope": "Validated conventional-development implementation and specified engineering experiments; representative cohort acquisition remains a separate unmet scientific gate.",
+  "v2_valid_discrete_support_coverage": 1.0,
+  "version": "conventional-v2-development-1"
+}

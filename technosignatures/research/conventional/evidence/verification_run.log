@@ -1,0 +1,74 @@
+Coverage, regression and truncation audits
+/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/blimpy/__init__.py:21: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+Executing conditional development trials: 48
+Cadence case: global_on_only
+Cadence case: global_weak_off
+Cadence case: global_equal_off
+Cadence case: first_on_only
+{
+  "version": "conventional-v2-development-1",
+  "preservation": {
+    "original_manifest_files_verified": 31,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "all_preserved": true
+  },
+  "additional_valid_discrete_tracks_searched": 99326,
+  "v2_valid_discrete_support_coverage": 1.0,
+  "fully_synthetic_80_line_recovered": 80,
+  "executed_conditional_sensitivity_trials": 48,
+  "executed_conditional_sensitivity_signals": 48,
+  "generated_full_design_trials_not_executed": 1152,
+  "generated_full_design_signals_not_executed": 1344,
+  "native_cadence_engineering_cases": 4,
+  "integration_convergence_passed": true,
+  "release_connected_components": 5,
+  "representative_cohort_gate_passed": false,
+  "population_sensitivity_estimated": false,
+  "locked_test_opened": false,
+  "llm_introduced": false,
+  "scope": "Validated conventional-development implementation and specified engineering experiments; representative cohort acquisition remains a separate unmet scientific gate."
+}
+{
+  "all_checks_passed": true,
+  "tests": {
+    "tests": 115,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "repeat_comparisons": {
+    "cadence_case_first_on_only.json": true,
+    "cadence_case_global_equal_off.json": true,
+    "cadence_case_global_on_only.json": true,
+    "cadence_case_global_weak_off.json": true,
+    "cadence_cases.json": true,
+    "conditional_sensitivity.json": true,
+    "coverage_remediation.json": true,
+    "crowded_stress.json": true,
+    "executed_development_design.json": true,
+    "execution_config.json": true,
+    "full_1152_trial_design_not_executed.json": true,
+    "integration_convergence.json": true,
+    "native_cadence_events.json": true,
+    "native_scan_catalogues.json": true,
+    "release_cohort_audit.json": true,
+    "source_manifest.json": true,
+    "summary.json": true
+  },
+  "repeat_check_count": 17,
+  "preservation": {
+    "original_manifest_files_verified": 31,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "all_preserved": true
+  },
+  "comparison_scope": "All stable scientific JSON, including exact score/power-array SHA-256 values, in the same installed environment. Runtime, PNG bytes, and fresh network availability are outside this guarantee.",
+  "source_hashes_verified_before_repeat": true,
+  "representative_cohort_gate_passed": false,
+  "locked_test_accessed": false,
+  "llm_introduced": false
+}

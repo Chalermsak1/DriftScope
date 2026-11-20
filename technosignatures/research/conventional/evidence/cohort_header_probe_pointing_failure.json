@@ -1,0 +1,346 @@
+{
+  "actual_cadence_headers_validated": false,
+  "all_six_header_checks_passed": true,
+  "cadence_checks": {
+    "nonoverlapping_actual_integrations": true,
+    "off_pointings_distinct": true,
+    "on_pointings_agree": false,
+    "same_lattice_and_resolution": true
+  },
+  "cadence_id": "archive_858832_858833_858834_858835_858836_858837",
+  "limitation": "Header-only access feasibility on one preselected candidate-independent archive proposal; no spectral-data or receiver-hardware validation and no sensitivity measurement.",
+  "max_total_byte_budget": 50331648,
+  "range_bytes_accessed": 393216,
+  "records": [
+    {
+      "archive_id": 858832,
+      "archive_md5_not_verified": "-",
+      "byte_budget": 8388608,
+      "checks": {
+        "GBT": true,
+        "index_time_within_1_1_seconds": true,
+        "negative_channel_spacing": true,
+        "pointing_within_1_arcsec": true,
+        "positive_time_resolution": true,
+        "shape_channels_match": true,
+        "target_name_casefolded": true
+      },
+      "chunks": [
+        1,
+        1,
+        1048576
+      ],
+      "dtype": "float32",
+      "full_file_bytes": 168493612859,
+      "header": {
+        "fch1": 8438.964842353016,
+        "foff": -2.7939677238464355e-06,
+        "nbits": 32,
+        "nchans": 1744830464,
+        "source_name": "And_X",
+        "src_dej": 44.8042,
+        "src_raj": 1.1093066666666669,
+        "telescope_id": 6,
+        "tsamp": 18.253611008,
+        "tstart": 58185.76020833333
+      },
+      "header_checks_passed": true,
+      "http_failures": [],
+      "http_requests": [
+        {
+          "content_range": "bytes 0-65535/168493612859",
+          "end": 65535,
+          "etag": "\"63065d7c-273b007f3b\"",
+          "http_status": 206,
+          "start": 0
+        }
+      ],
+      "index_mjd": 58185.76020833333,
+      "range_bytes_accessed": 65536,
+      "shape": [
+        32,
+        1,
+        1744830464
+      ],
+      "url": "http://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_65682_And_X_0020.gpuspec.0000.h5",
+      "whole_file_checksum_verified": false
+    },
+    {
+      "archive_id": 858833,
+      "archive_md5_not_verified": "-",
+      "byte_budget": 8388608,
+      "checks": {
+        "GBT": true,
+        "index_time_within_1_1_seconds": true,
+        "negative_channel_spacing": true,
+        "pointing_within_1_arcsec": true,
+        "positive_time_resolution": true,
+        "shape_channels_match": true,
+        "target_name_casefolded": true
+      },
+      "chunks": [
+        1,
+        1,
+        1048576
+      ],
+      "dtype": "float32",
+      "full_file_bytes": 168458490354,
+      "header": {
+        "fch1": 8438.964842353016,
+        "foff": -2.7939677238464355e-06,
+        "nbits": 32,
+        "nchans": 1744830464,
+        "source_name": "And_X_off",
+        "src_dej": 46.8037,
+        "src_raj": 1.1093133333333334,
+        "telescope_id": 6,
+        "tsamp": 18.253611008,
+        "tstart": 58185.76768518519
+      },
+      "header_checks_passed": true,
+      "http_failures": [],
+      "http_requests": [
+        {
+          "content_range": "bytes 0-65535/168458490354",
+          "end": 65535,
+          "etag": "\"63065d46-2738e891f2\"",
+          "http_status": 206,
+          "start": 0
+        }
+      ],
+      "index_mjd": 58185.76768518519,
+      "range_bytes_accessed": 65536,
+      "shape": [
+        32,
+        1,
+        1744830464
+      ],
+      "url": "http://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_66328_And_X_off_0021.gpuspec.0000.h5",
+      "whole_file_checksum_verified": false
+    },
+    {
+      "archive_id": 858834,
+      "archive_md5_not_verified": "-",
+      "byte_budget": 8388608,
+      "checks": {
+        "GBT": true,
+        "index_time_within_1_1_seconds": true,
+        "negative_channel_spacing": true,
+        "pointing_within_1_arcsec": true,
+        "positive_time_resolution": true,
+        "shape_channels_match": true,
+        "target_name_casefolded": true
+      },
+      "chunks": [
+        1,
+        1,
+        1048576
+      ],
+      "dtype": "float32",
+      "full_file_bytes": 168526251870,
+      "header": {
+        "fch1": 8438.964842353016,
+        "foff": -2.7939677238464355e-06,
+        "nbits": 32,
+        "nchans": 1744830464,
+        "source_name": "And_X",
+        "src_dej": 44.804500000000004,
+        "src_raj": 1.10936,
+        "telescope_id": 6,
+        "tsamp": 18.253611008,
+        "tstart": 58185.77517361111
+      },
+      "header_checks_passed": true,
+      "http_failures": [],
+      "http_requests": [
+        {
+          "content_range": "bytes 0-65535/168526251870",
+          "end": 65535,
+          "etag": "\"630677ad-273cf2875e\"",
+          "http_status": 206,
+          "start": 0
+        }
+      ],
+      "index_mjd": 58185.77517361111,
+      "range_bytes_accessed": 65536,
+      "shape": [
+        32,
+        1,
+        1744830464
+      ],
+      "url": "http://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_66975_And_X_0022.gpuspec.0000.h5",
+      "whole_file_checksum_verified": false
+    },
+    {
+      "archive_id": 858835,
+      "archive_md5_not_verified": "-",
+      "byte_budget": 8388608,
+      "checks": {
+        "GBT": true,
+        "index_time_within_1_1_seconds": true,
+        "negative_channel_spacing": true,
+        "pointing_within_1_arcsec": true,
+        "positive_time_resolution": true,
+        "shape_channels_match": true,
+        "target_name_casefolded": true
+      },
+      "chunks": [
+        1,
+        1,
+        1048576
+      ],
+      "dtype": "float32",
+      "full_file_bytes": 168431050282,
+      "header": {
+        "fch1": 8438.964842353016,
+        "foff": -2.7939677238464355e-06,
+        "nbits": 32,
+        "nchans": 1744830464,
+        "source_name": "And_X_off",
+        "src_dej": 46.8037,
+        "src_raj": 1.1093266666666664,
+        "telescope_id": 6,
+        "tsamp": 18.253611008,
+        "tstart": 58185.78266203704
+      },
+      "header_checks_passed": true,
+      "http_failures": [],
+      "http_requests": [
+        {
+          "content_range": "bytes 0-65535/168431050282",
+          "end": 65535,
+          "etag": "\"63067e77-273745de2a\"",
+          "http_status": 206,
+          "start": 0
+        }
+      ],
+      "index_mjd": 58185.78266203704,
+      "range_bytes_accessed": 65536,
+      "shape": [
+        32,
+        1,
+        1744830464
+      ],
+      "url": "http://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_67622_And_X_off_0023.gpuspec.0000.h5",
+      "whole_file_checksum_verified": false
+    },
+    {
+      "archive_id": 858836,
+      "archive_md5_not_verified": "-",
+      "byte_budget": 8388608,
+      "checks": {
+        "GBT": true,
+        "index_time_within_1_1_seconds": true,
+        "negative_channel_spacing": true,
+        "pointing_within_1_arcsec": true,
+        "positive_time_resolution": true,
+        "shape_channels_match": true,
+        "target_name_casefolded": true
+      },
+      "chunks": [
+        1,
+        1,
+        1048576
+      ],
+      "dtype": "float32",
+      "full_file_bytes": 168534239691,
+      "header": {
+        "fch1": 8438.964842353016,
+        "foff": -2.7939677238464355e-06,
+        "nbits": 32,
+        "nchans": 1744830464,
+        "source_name": "And_X",
+        "src_dej": 44.804500000000004,
+        "src_raj": 1.10934,
+        "telescope_id": 6,
+        "tsamp": 18.253611008,
+        "tstart": 58185.790127314816
+      },
+      "header_checks_passed": true,
+      "http_failures": [],
+      "http_requests": [
+        {
+          "content_range": "bytes 0-65535/168534239691",
+          "end": 65535,
+          "etag": "\"6306974a-273d6c69cb\"",
+          "http_status": 206,
+          "start": 0
+        }
+      ],
+      "index_mjd": 58185.790127314816,
+      "range_bytes_accessed": 65536,
+      "shape": [
+        32,
+        1,
+        1744830464
+      ],
+      "url": "http://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_68267_And_X_0024.gpuspec.0000.h5",
+      "whole_file_checksum_verified": false
+    },
+    {
+      "archive_id": 858837,
+      "archive_md5_not_verified": "-",
+      "byte_budget": 8388608,
+      "checks": {
+        "GBT": true,
+        "index_time_within_1_1_seconds": true,
+        "negative_channel_spacing": true,
+        "pointing_within_1_arcsec": true,
+        "positive_time_resolution": true,
+        "shape_channels_match": true,
+        "target_name_casefolded": true
+      },
+      "chunks": [
+        1,
+        1,
+        1048576
+      ],
+      "dtype": "float32",
+      "full_file_bytes": 168465158031,
+      "header": {
+        "fch1": 8438.964842353016,
+        "foff": -2.7939677238464355e-06,
+        "nbits": 32,
+        "nchans": 1744830464,
+        "source_name": "And_X_off",
+        "src_dej": 46.8042,
+        "src_raj": 1.1093466666666665,
+        "telescope_id": 6,
+        "tsamp": 18.253611008,
+        "tstart": 58185.79751157408
+      },
+      "header_checks_passed": true,
+      "http_failures": [],
+      "http_requests": [
+        {
+          "content_range": "bytes 0-65535/168465158031",
+          "end": 65535,
+          "etag": "\"63066515-27394e4f8f\"",
+          "http_status": 206,
+          "start": 0
+        }
+      ],
+      "index_mjd": 58185.79751157408,
+      "range_bytes_accessed": 65536,
+      "shape": [
+        32,
+        1,
+        1744830464
+      ],
+      "url": "http://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_68905_And_X_off_0025.gpuspec.0000.h5",
+      "whole_file_checksum_verified": false
+    }
+  ],
+  "representative_sensitivity_ready": false,
+  "selection": {
+    "cadence_id": "archive_858832_858833_858834_858835_858836_858837",
+    "cadence_inclusion_probability": 0.16666666666666666,
+    "component_id": "component_a2ef1db7882afbe2",
+    "conditional_cadence_probability": 0.25,
+    "group_inclusion_probability": 0.6666666666666666,
+    "sampling_weight": 6.0
+  },
+  "spectral_samples_acquired": false,
+  "target_identifier_matching": "trim whitespace and casefold only; original names preserved, pointing agreement independently required",
+  "utc": "2026-11-19T11:56:00.247117+00:00"
+}

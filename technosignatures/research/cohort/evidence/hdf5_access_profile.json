@@ -1,0 +1,28 @@
+{
+  "both_arrays_match_known_source": true,
+  "chunks": [
+    1,
+    1,
+    32
+  ],
+  "file_bytes": 12786296,
+  "modes": [
+    {
+      "bytes": 442368,
+      "mode": "whole_time_hyperslab",
+      "requests": 108
+    },
+    {
+      "bytes": 442368,
+      "mode": "one_integration_at_a_time",
+      "requests": 108
+    }
+  ],
+  "shape": [
+    32,
+    1,
+    65536
+  ],
+  "source_kind": "synthetic_HDF5_performance_fixture_not_observational_data",
+  "wall_s": 1.2867878329998348
+}

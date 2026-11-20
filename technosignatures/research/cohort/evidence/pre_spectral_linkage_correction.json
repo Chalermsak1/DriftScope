@@ -1,0 +1,8 @@
+{
+  "reason": "Frequency eligibility removed a dependency bridge, which would inflate independent component count from the parent-catalogue graph. Fixed graph construction before any spectral extraction.",
+  "header_only_invocation_interrupted": true,
+  "frequency_plan_existed": false,
+  "spectral_npz_files": 0,
+  "cached_header_payload_bytes": 1966080,
+  "detector_or_injection_outcomes_inspected": false
+}

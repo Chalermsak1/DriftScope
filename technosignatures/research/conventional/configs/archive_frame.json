@@ -1,0 +1,12 @@
+{
+  "version": "metadata-frame-v1-development-only",
+  "api_url": "https://seti.berkeley.edu/opendata/api/query-files",
+  "start_mjd": 58000.0,
+  "stop_mjd": 58007.0,
+  "frequency_start_mhz": 4000.0,
+  "frequency_stop_mhz": 8000.0,
+  "query_limit": 1000,
+  "max_requests": 8,
+  "max_response_bytes": 2000000,
+  "seed": 20261120
+}

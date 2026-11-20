@@ -1,0 +1,17 @@
+Metadata 2016: 0 rows; complete=True
+Metadata 2017: 0 rows; complete=True
+Metadata 2018: 102 rows; complete=True
+Metadata 2019: 6249 rows; complete=True
+Metadata 2020: 1584 rows; complete=True
+Metadata 2021: 2550 rows; complete=True
+Metadata 2022: 1890 rows; complete=True
+Metadata 2023: 0 rows; complete=True
+Metadata 2024: 0 rows; complete=True
+Metadata 2025: 0 rows; complete=True
+{
+  "frame_rows": 12375,
+  "cadence_proposals": 251,
+  "components": 7,
+  "selected": 4,
+  "metadata_complete": true
+}

@@ -1,0 +1,9 @@
+{
+  "archive_id": 858868,
+  "coverage_identical": true,
+  "hits_identical": true,
+  "reference_wall_s": 0.6682819590023428,
+  "score_arrays_bitwise_equal": true,
+  "timing_scope": "Observed single execution during concurrent acquisition; not a dedicated performance benchmark.",
+  "vectorized_wall_s": 0.4305704170001263
+}

@@ -1,0 +1,475 @@
+{
+  "graph": {
+    "cadence_count": 8,
+    "component_count": 5,
+    "components": [
+      {
+        "cadence_ids": [
+          "mlc1",
+          "mlc7"
+        ],
+        "component_id": "component_269730bab76fa8ff"
+      },
+      {
+        "cadence_ids": [
+          "mlc2"
+        ],
+        "component_id": "component_c799830ed4a0029b"
+      },
+      {
+        "cadence_ids": [
+          "mlc3",
+          "mlc8"
+        ],
+        "component_id": "component_62ba1385ef7b29b8"
+      },
+      {
+        "cadence_ids": [
+          "mlc4",
+          "mlc5"
+        ],
+        "component_id": "component_4d58fc917198b4a5"
+      },
+      {
+        "cadence_ids": [
+          "mlc6"
+        ],
+        "component_id": "component_1668988adce8d0c1"
+      }
+    ],
+    "edges": [
+      {
+        "left": "mlc4",
+        "link_type": "target",
+        "link_value": "hip54677",
+        "right": "mlc5"
+      },
+      {
+        "left": "mlc4",
+        "link_type": "session",
+        "link_value": "gbt_utc_day_57517",
+        "right": "mlc5"
+      },
+      {
+        "left": "mlc4",
+        "link_type": "raw",
+        "link_value": "hip53759:57517.106585648151",
+        "right": "mlc5"
+      },
+      {
+        "left": "mlc4",
+        "link_type": "raw",
+        "link_value": "hip53820:57517.116111111114",
+        "right": "mlc5"
+      },
+      {
+        "left": "mlc4",
+        "link_type": "raw",
+        "link_value": "hip53839:57517.125416666669",
+        "right": "mlc5"
+      },
+      {
+        "left": "mlc4",
+        "link_type": "raw",
+        "link_value": "hip54677:57517.101724537039",
+        "right": "mlc5"
+      },
+      {
+        "left": "mlc4",
+        "link_type": "raw",
+        "link_value": "hip54677:57517.111435185187",
+        "right": "mlc5"
+      },
+      {
+        "left": "mlc4",
+        "link_type": "raw",
+        "link_value": "hip54677:57517.120787037034",
+        "right": "mlc5"
+      },
+      {
+        "left": "mlc1",
+        "link_type": "target",
+        "link_value": "hip13402",
+        "right": "mlc7"
+      },
+      {
+        "left": "mlc3",
+        "link_type": "target",
+        "link_value": "hip62207",
+        "right": "mlc8"
+      },
+      {
+        "left": "mlc3",
+        "link_type": "session",
+        "link_value": "gbt_utc_day_57543",
+        "right": "mlc8"
+      },
+      {
+        "left": "mlc3",
+        "link_type": "raw",
+        "link_value": "hip61072:57543.104432870372",
+        "right": "mlc8"
+      },
+      {
+        "left": "mlc3",
+        "link_type": "raw",
+        "link_value": "hip61074:57543.113217592596",
+        "right": "mlc8"
+      },
+      {
+        "left": "mlc3",
+        "link_type": "raw",
+        "link_value": "hip61114:57543.121840277781",
+        "right": "mlc8"
+      },
+      {
+        "left": "mlc3",
+        "link_type": "raw",
+        "link_value": "hip62207:57543.100081018521",
+        "right": "mlc8"
+      },
+      {
+        "left": "mlc3",
+        "link_type": "raw",
+        "link_value": "hip62207:57543.108761574076",
+        "right": "mlc8"
+      },
+      {
+        "left": "mlc3",
+        "link_type": "raw",
+        "link_value": "hip62207:57543.117650462962",
+        "right": "mlc8"
+      },
+      {
+        "left": "mlc4",
+        "link_type": "coordinate_alias_within_1_arcsec",
+        "link_value": "ON pointing",
+        "right": "mlc5"
+      },
+      {
+        "left": "mlc1",
+        "link_type": "coordinate_alias_within_1_arcsec",
+        "link_value": "ON pointing",
+        "right": "mlc7"
+      },
+      {
+        "left": "mlc3",
+        "link_type": "coordinate_alias_within_1_arcsec",
+        "link_value": "ON pointing",
+        "right": "mlc8"
+      }
+    ]
+  },
+  "readiness": {
+    "claim_scope": "specified finite sampling frame; no claim of universal sky representativeness",
+    "component_count": 5,
+    "ready_for_representative_sensitivity": false,
+    "required_components": 60,
+    "unmet_gates": [
+      "candidate_selected_backgrounds",
+      "insufficient_independent_components",
+      "observational_samples_not_acquired_and_verified",
+      "receiver_regime_not_verified"
+    ]
+  },
+  "records": [
+    {
+      "cadence_id": "mlc1",
+      "candidate_selected": true,
+      "headers_validated": true,
+      "on_pointings": [
+        {
+          "dec_deg": -11.907501944444444,
+          "ra_deg": 43.135408333333324
+        },
+        {
+          "dec_deg": -11.907505555555556,
+          "ra_deg": 43.135408333333324
+        },
+        {
+          "dec_deg": -11.90750138888889,
+          "ra_deg": 43.135408333333324
+        }
+      ],
+      "raw_ids": [
+        "HIP12402:57541.693171296298",
+        "HIP12482:57541.701412037037",
+        "HIP12549:57541.709641203706",
+        "HIP13402:57541.689016203702",
+        "HIP13402:57541.697314814817",
+        "HIP13402:57541.705497685187"
+      ],
+      "receiver": "GBT_L_candidate_release",
+      "receiver_verified": false,
+      "samples_acquired_and_verified": false,
+      "scope": "release structural headers only; independent source-sample validation was performed for mlc1 only",
+      "session_ids": [
+        "GBT_UTC_day_57541"
+      ],
+      "target_ids": [
+        "HIP13402"
+      ]
+    },
+    {
+      "cadence_id": "mlc2",
+      "candidate_selected": true,
+      "headers_validated": true,
+      "on_pointings": [
+        {
+          "dec_deg": 46.728894166666656,
+          "ra_deg": 359.68532916666663
+        },
+        {
+          "dec_deg": 46.728876666666665,
+          "ra_deg": 359.68530833333324
+        },
+        {
+          "dec_deg": 46.72889249999999,
+          "ra_deg": 359.685325
+        }
+      ],
+      "raw_ids": [
+        "HIP117207:57752.913865740738",
+        "HIP117286:57752.922557870370",
+        "HIP117334:57752.931180555555",
+        "HIP118212:57752.909490740742",
+        "HIP118212:57752.918240740742",
+        "HIP118212:57752.926874999997"
+      ],
+      "receiver": "GBT_L_candidate_release",
+      "receiver_verified": false,
+      "samples_acquired_and_verified": false,
+      "scope": "release structural headers only; independent source-sample validation was performed for mlc1 only",
+      "session_ids": [
+        "GBT_UTC_day_57752"
+      ],
+      "target_ids": [
+        "HIP118212"
+      ]
+    },
+    {
+      "cadence_id": "mlc3",
+      "candidate_selected": true,
+      "headers_validated": true,
+      "on_pointings": [
+        {
+          "dec_deg": 39.279445833333334,
+          "ra_deg": 191.2454166666666
+        },
+        {
+          "dec_deg": 39.279444999999996,
+          "ra_deg": 191.2454125
+        },
+        {
+          "dec_deg": 39.279444722222216,
+          "ra_deg": 191.2454166666666
+        }
+      ],
+      "raw_ids": [
+        "HIP61072:57543.104432870372",
+        "HIP61074:57543.113217592596",
+        "HIP61114:57543.121840277781",
+        "HIP62207:57543.100081018521",
+        "HIP62207:57543.108761574076",
+        "HIP62207:57543.117650462962"
+      ],
+      "receiver": "GBT_L_candidate_release",
+      "receiver_verified": false,
+      "samples_acquired_and_verified": false,
+      "scope": "release structural headers only; independent source-sample validation was performed for mlc1 only",
+      "session_ids": [
+        "GBT_UTC_day_57543"
+      ],
+      "target_ids": [
+        "HIP62207"
+      ]
+    },
+    {
+      "cadence_id": "mlc4",
+      "candidate_selected": true,
+      "headers_validated": true,
+      "on_pointings": [
+        {
+          "dec_deg": -13.683889444444446,
+          "ra_deg": 167.89082916666666
+        },
+        {
+          "dec_deg": -13.683895277777774,
+          "ra_deg": 167.89079999999998
+        },
+        {
+          "dec_deg": -13.68389166666667,
+          "ra_deg": 167.89082499999995
+        }
+      ],
+      "raw_ids": [
+        "HIP53759:57517.106585648151",
+        "HIP53820:57517.116111111114",
+        "HIP53839:57517.125416666669",
+        "HIP54677:57517.101724537039",
+        "HIP54677:57517.111435185187",
+        "HIP54677:57517.120787037034"
+      ],
+      "receiver": "GBT_L_candidate_release",
+      "receiver_verified": false,
+      "samples_acquired_and_verified": false,
+      "scope": "release structural headers only; independent source-sample validation was performed for mlc1 only",
+      "session_ids": [
+        "GBT_UTC_day_57517"
+      ],
+      "target_ids": [
+        "HIP54677"
+      ]
+    },
+    {
+      "cadence_id": "mlc5",
+      "candidate_selected": true,
+      "headers_validated": true,
+      "on_pointings": [
+        {
+          "dec_deg": -13.683889444444446,
+          "ra_deg": 167.89082916666666
+        },
+        {
+          "dec_deg": -13.683895277777774,
+          "ra_deg": 167.89079999999998
+        },
+        {
+          "dec_deg": -13.68389166666667,
+          "ra_deg": 167.89082499999995
+        }
+      ],
+      "raw_ids": [
+        "HIP53759:57517.106585648151",
+        "HIP53820:57517.116111111114",
+        "HIP53839:57517.125416666669",
+        "HIP54677:57517.101724537039",
+        "HIP54677:57517.111435185187",
+        "HIP54677:57517.120787037034"
+      ],
+      "receiver": "GBT_L_candidate_release",
+      "receiver_verified": false,
+      "samples_acquired_and_verified": false,
+      "scope": "release structural headers only; independent source-sample validation was performed for mlc1 only",
+      "session_ids": [
+        "GBT_UTC_day_57517"
+      ],
+      "target_ids": [
+        "HIP54677"
+      ]
+    },
+    {
+      "cadence_id": "mlc6",
+      "candidate_selected": true,
+      "headers_validated": true,
+      "on_pointings": [
+        {
+          "dec_deg": -13.47666861111111,
+          "ra_deg": 174.66707916666667
+        },
+        {
+          "dec_deg": -13.476674444444447,
+          "ra_deg": 174.66707083333327
+        },
+        {
+          "dec_deg": -13.476670555555554,
+          "ra_deg": 174.66707916666667
+        }
+      ],
+      "raw_ids": [
+        "HIP55875:57522.157442129632",
+        "HIP55884:57522.166828703703",
+        "HIP55937:57522.176157407404",
+        "HIP56802:57522.152743055558",
+        "HIP56802:57522.162141203706",
+        "HIP56802:57522.171504629630"
+      ],
+      "receiver": "GBT_L_candidate_release",
+      "receiver_verified": false,
+      "samples_acquired_and_verified": false,
+      "scope": "release structural headers only; independent source-sample validation was performed for mlc1 only",
+      "session_ids": [
+        "GBT_UTC_day_57522"
+      ],
+      "target_ids": [
+        "HIP56802"
+      ]
+    },
+    {
+      "cadence_id": "mlc7",
+      "candidate_selected": true,
+      "headers_validated": true,
+      "on_pointings": [
+        {
+          "dec_deg": -11.907502500000001,
+          "ra_deg": 43.135416666666664
+        },
+        {
+          "dec_deg": -11.907495555555554,
+          "ra_deg": 43.135412499999994
+        },
+        {
+          "dec_deg": -11.907493333333331,
+          "ra_deg": 43.13540416666666
+        }
+      ],
+      "raw_ids": [
+        "HIP11915:57544.601759259262",
+        "HIP12005:57544.609756944446",
+        "HIP12038:57544.617777777778",
+        "HIP13402:57544.597743055558",
+        "HIP13402:57544.605763888889",
+        "HIP13402:57544.613749999997"
+      ],
+      "receiver": "GBT_L_candidate_release",
+      "receiver_verified": false,
+      "samples_acquired_and_verified": false,
+      "scope": "release structural headers only; independent source-sample validation was performed for mlc1 only",
+      "session_ids": [
+        "GBT_UTC_day_57544"
+      ],
+      "target_ids": [
+        "HIP13402"
+      ]
+    },
+    {
+      "cadence_id": "mlc8",
+      "candidate_selected": true,
+      "headers_validated": true,
+      "on_pointings": [
+        {
+          "dec_deg": 39.279445833333334,
+          "ra_deg": 191.2454166666666
+        },
+        {
+          "dec_deg": 39.279444999999996,
+          "ra_deg": 191.2454125
+        },
+        {
+          "dec_deg": 39.279444722222216,
+          "ra_deg": 191.2454166666666
+        }
+      ],
+      "raw_ids": [
+        "HIP61072:57543.104432870372",
+        "HIP61074:57543.113217592596",
+        "HIP61114:57543.121840277781",
+        "HIP62207:57543.100081018521",
+        "HIP62207:57543.108761574076",
+        "HIP62207:57543.117650462962"
+      ],
+      "receiver": "GBT_L_candidate_release",
+      "receiver_verified": false,
+      "samples_acquired_and_verified": false,
+      "scope": "release structural headers only; independent source-sample validation was performed for mlc1 only",
+      "session_ids": [
+        "GBT_UTC_day_57543"
+      ],
+      "target_ids": [
+        "HIP62207"
+      ]
+    }
+  ],
+  "selection": "existing candidate-selected release, development only",
+  "source_sha256": "7ac4c68c552f6806bdf6bea52d0512190dc79780abefb383b817829ae131fe72"
+}

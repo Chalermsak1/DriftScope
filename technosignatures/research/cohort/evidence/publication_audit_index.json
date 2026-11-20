@@ -1,0 +1,11 @@
+{
+  "checks_performed": 828,
+  "failure_locations": [],
+  "file_count": 288,
+  "marker_sha256": [
+    "57de4cf40144bdf7d00010f2f5557a7d642c2b9705309bfade167dd313e2ca93"
+  ],
+  "passed": true,
+  "scope": "Files selected by Git ignore/index rules, their paths, all reachable Git blob history, commit metadata, and published refs; local reflogs/private ignored files are not uploaded.",
+  "working_tree_including_untracked": false
+}

@@ -1,0 +1,103 @@
+Header plan 858880: header_read
+Header plan 858881: header_read
+Header plan 858882: header_read
+Header plan 858883: header_read
+Header plan 858884: header_read
+Header plan 858885: header_read
+Header plan 858868: header_read
+Header plan 858869: header_read
+Header plan 858870: header_read
+Header plan 858871: header_read
+Header plan 858872: header_read
+Header plan 858873: header_read
+Header plan 815685: header_read
+Header plan 815688: header_read
+Header plan 815691: header_read
+Header plan 815694: header_read
+Header plan 815697: header_read
+Header plan 815700: header_read
+Header plan 884980: header_read
+Header plan 884981: header_read
+Header plan 884982: header_read
+Header plan 884983: header_read
+Header plan 884984: header_read
+Header plan 884985: header_read
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/cohort/acquire.py", line 258, in <module>
+    if __name__ == '__main__': main()
+                               ^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/cohort/acquire.py", line 253, in main
+    result = acquire(args.selection, args.data, args.offline); write(target, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/cohort/acquire.py", line 196, in acquire
+    plan, header_bytes = plan_frequency(frame, selection_path, directory, budget, offline)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/cohort/acquire.py", line 49, in plan_frequency
+    with h5py.File(reader, 'r') as handle:
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/h5py/_hl/files.py", line 555, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/h5py/_hl/files.py", line 232, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+  File "h5py/h5fd.pyx", line 159, in h5py.h5fd.H5FD_fileobj_read
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/pilot/range_access.py", line 62, in readinto
+    value=self.read(len(buffer));buffer[:len(value)]=value;return len(value)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/pilot/range_access.py", line 54, in read
+    value=self.fetch(lo,hi-1)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/cohort/transport.py", line 112, in fetch
+    value = self.source(lo, hi)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/cohort/transport.py", line 40, in __call__
+    return self._read(start, end)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/cohort/transport.py", line 53, in _read
+    with self.local.session.get(self.url, headers=headers, stream=True, timeout=(10, 45)) as response:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/requests/sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/technosignatures/.venv/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1382, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt

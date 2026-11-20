@@ -1,0 +1,1595 @@
+Header plan 858868: header_read
+Header plan 858869: header_read
+Header plan 858870: header_read
+Header plan 858871: header_read
+Header plan 858872: header_read
+Header plan 858873: header_read
+Header plan 815634: header_read
+Header plan 815637: header_read
+Header plan 815640: header_read
+Header plan 815643: header_read
+Header plan 815646: header_read
+Header plan 815649: header_read
+Header plan 858892: header_read
+Header plan 858893: header_read
+Header plan 858894: header_read
+Header plan 858895: header_read
+Header plan 858896: header_read
+Header plan 858897: header_read
+Header plan 877666: header_read
+Header plan 877667: header_read
+Header plan 877668: header_read
+Header plan 877669: header_read
+Header plan 877670: header_read
+Header plan 877671: header_read
+Header plan 858826: header_read
+Header plan 858827: header_read
+Header plan 858828: header_read
+Header plan 858829: header_read
+Header plan 858830: header_read
+Header plan 858831: header_read
+Header plan 878728: header_read
+Header plan 878729: header_read
+Header plan 878730: header_read
+Header plan 878731: header_read
+Header plan 878732: header_read
+Header plan 878733: header_read
+Header plan 882142: header_read
+Header plan 882143: header_read
+Header plan 882144: header_read
+Header plan 882145: header_read
+Header plan 882146: header_read
+Header plan 882147: header_read
+Source 858868: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858869: failed, 1.7 MiB accessed, 1.6 MiB new
+Source 858871: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858870: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858872: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858873: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 815637: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 815634: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 815640: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 815646: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 815643: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 815649: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858892: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858893: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858894: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858896: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858895: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858897: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 877666: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 877667: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 877668: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 877669: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 877670: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 877671: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858826: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858827: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858828: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858829: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858830: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 858831: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 878729: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 878728: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 878731: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 878730: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 878732: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 878733: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 882142: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 882143: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 882144: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 882145: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 882147: failed, 0.1 MiB accessed, 0.0 MiB new
+Source 882146: failed, 0.1 MiB accessed, 0.0 MiB new
+{
+  "selection_sha256": "bc0fc3954e0140a5e3b92ce5928e5984e0de0ad1e29fc3e8259be1e6e6a184c4",
+  "frequency_plan_sha256": "9ab2269d6616c4d490531901f7d387c2e8ab35ff563f94d8538d54078ef71865",
+  "frequency_plan": {
+    "selection_sha256": "bc0fc3954e0140a5e3b92ce5928e5984e0de0ad1e29fc3e8259be1e6e6a184c4",
+    "selection": [
+      {
+        "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+        "cadence_inclusion_probability": 0.5,
+        "component_id": "component_68b9b5320e42e964",
+        "component_inclusion_probability": 1.0,
+        "conditional_cadence_probability": 0.5,
+        "frequency_stratum": 2,
+        "frequency_stratum_marginal_probability": 0.3333333333333333,
+        "frequency_stratum_u": 0.7378964577110619,
+        "frequency_within_stratum_u": 0.5356121616270487,
+        "partition": "development",
+        "requested_tile_center_hz": 7035612059.540838,
+        "sampling_weight": 2.0,
+        "tile_channels": 1024,
+        "provisional_tile_center_hz": 6101658010.34396,
+        "available_frequency_strata": [
+          0,
+          1,
+          2
+        ],
+        "conditional_frequency_density_per_hz": 3.3333428887303436e-10,
+        "common_source_band_hz": [
+          4500000000.0,
+          7500000000.0
+        ],
+        "frequency_plan_status": "frozen_before_spectral_read"
+      },
+      {
+        "cadence_id": "cohort_815634_815637_815640_815643_815646_815649",
+        "cadence_inclusion_probability": 0.047619047619047616,
+        "component_id": "component_4bee0c9679081612",
+        "component_inclusion_probability": 1.0,
+        "conditional_cadence_probability": 0.047619047619047616,
+        "frequency_stratum": 2,
+        "frequency_stratum_marginal_probability": 0.3333333333333333,
+        "frequency_stratum_u": 0.8577525957754921,
+        "frequency_within_stratum_u": 0.22947141288405748,
+        "partition": "development",
+        "requested_tile_center_hz": 6729472188.384251,
+        "sampling_weight": 21.0,
+        "tile_channels": 1024,
+        "provisional_tile_center_hz": 6726392342.076773,
+        "available_frequency_strata": [
+          0,
+          1,
+          2
+        ],
+        "conditional_frequency_density_per_hz": 3.3333428887303436e-10,
+        "common_source_band_hz": [
+          4500000000.0,
+          7500000000.0
+        ],
+        "frequency_plan_status": "frozen_before_spectral_read"
+      },
+      {
+        "cadence_id": "cohort_858892_858893_858894_858895_858896_858897",
+        "cadence_inclusion_probability": 0.2,
+        "component_id": "component_24a89e5207612961",
+        "component_inclusion_probability": 1.0,
+        "conditional_cadence_probability": 0.2,
+        "frequency_stratum": 0,
+        "frequency_stratum_marginal_probability": 0.3333333333333333,
+        "frequency_stratum_u": 0.1837572668526002,
+        "frequency_within_stratum_u": 0.03495143538370449,
+        "partition": "development",
+        "requested_tile_center_hz": 4534952768.496983,
+        "sampling_weight": 5.0,
+        "tile_channels": 1024,
+        "provisional_tile_center_hz": 5436809205.743215,
+        "available_frequency_strata": [
+          0,
+          1,
+          2
+        ],
+        "conditional_frequency_density_per_hz": 3.3333428887303436e-10,
+        "common_source_band_hz": [
+          4500000000.0,
+          7500000000.0
+        ],
+        "frequency_plan_status": "frozen_before_spectral_read"
+      },
+      {
+        "cadence_id": "cohort_877666_877667_877668_877669_877670_877671",
+        "cadence_inclusion_probability": 0.05,
+        "component_id": "component_60d25a7aded33553",
+        "component_inclusion_probability": 1.0,
+        "conditional_cadence_probability": 0.05,
+        "frequency_stratum": 2,
+        "frequency_stratum_marginal_probability": 0.3333333333333333,
+        "frequency_stratum_u": 0.7682831106953203,
+        "frequency_within_stratum_u": 0.94767722275255,
+        "partition": "development",
+        "requested_tile_center_hz": 7447675939.43615,
+        "sampling_weight": 20.0,
+        "tile_channels": 1024,
+        "provisional_tile_center_hz": 5594849340.83331,
+        "available_frequency_strata": [
+          0,
+          1,
+          2
+        ],
+        "conditional_frequency_density_per_hz": 3.3333428887303436e-10,
+        "common_source_band_hz": [
+          4500000000.0,
+          7500000000.0
+        ],
+        "frequency_plan_status": "frozen_before_spectral_read"
+      },
+      {
+        "cadence_id": "cohort_858826_858827_858828_858829_858830_858831",
+        "cadence_inclusion_probability": 0.25,
+        "component_id": "component_db90c4bff9a873d5",
+        "component_inclusion_probability": 1.0,
+        "conditional_cadence_probability": 0.25,
+        "frequency_stratum": 1,
+        "frequency_stratum_marginal_probability": 0.3333333333333333,
+        "frequency_stratum_u": 0.4387643576269764,
+        "frequency_within_stratum_u": 0.04247714207623643,
+        "partition": "development",
+        "requested_tile_center_hz": 5542478453.616241,
+        "sampling_weight": 4.0,
+        "tile_channels": 1024,
+        "provisional_tile_center_hz": 6543370164.162879,
+        "available_frequency_strata": [
+          0,
+          1,
+          2
+        ],
+        "conditional_frequency_density_per_hz": 3.3333428887303436e-10,
+        "common_source_band_hz": [
+          4500000000.0,
+          7500000000.0
+        ],
+        "frequency_plan_status": "frozen_before_spectral_read"
+      },
+      {
+        "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+        "cadence_inclusion_probability": 0.5,
+        "component_id": "component_9876f0d8b0bfbf2f",
+        "component_inclusion_probability": 1.0,
+        "conditional_cadence_probability": 0.5,
+        "frequency_stratum": 1,
+        "frequency_stratum_marginal_probability": 0.3333333333333333,
+        "frequency_stratum_u": 0.6257724457039441,
+        "frequency_within_stratum_u": 0.40128660739943944,
+        "partition": "development",
+        "requested_tile_center_hz": 5901286890.372325,
+        "sampling_weight": 2.0,
+        "tile_channels": 1024,
+        "provisional_tile_center_hz": 5157653843.603488,
+        "available_frequency_strata": [
+          0,
+          1,
+          2
+        ],
+        "conditional_frequency_density_per_hz": 3.3333428887303436e-10,
+        "common_source_band_hz": [
+          4500000000.0,
+          7500000000.0
+        ],
+        "frequency_plan_status": "frozen_before_spectral_read"
+      },
+      {
+        "cadence_id": "cohort_882142_882143_882144_882145_882146_882147",
+        "cadence_inclusion_probability": 0.0078125,
+        "component_id": "component_1d6eadc23cfdaf66",
+        "component_inclusion_probability": 1.0,
+        "conditional_cadence_probability": 0.0078125,
+        "frequency_stratum": 1,
+        "frequency_stratum_marginal_probability": 0.3333333333333333,
+        "frequency_stratum_u": 0.8826933021815626,
+        "frequency_within_stratum_u": 0.23137728735986218,
+        "partition": "development",
+        "requested_tile_center_hz": 5857348857.314274,
+        "sampling_weight": 128.0,
+        "tile_channels": 1024,
+        "provisional_tile_center_hz": 6081758883.245528,
+        "available_frequency_strata": [
+          1
+        ],
+        "conditional_frequency_density_per_hz": 5.333414953209355e-09,
+        "common_source_band_hz": [
+          5813964846.543968,
+          6001464843.75
+        ],
+        "frequency_plan_status": "frozen_before_spectral_read"
+      }
+    ],
+    "headers": {
+      "858868": {
+        "header": {
+          "source_name": "HIZSS003",
+          "src_raj": 7.008100000000001,
+          "src_dej": -4.208399999999999,
+          "tstart": 58194.006840277776,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"6310d437-271d047678\"",
+        "status": "header_read",
+        "http_requests": []
+      },
+      "858869": {
+        "header": {
+          "source_name": "HIZSS003_off",
+          "src_raj": 7.008120000000001,
+          "src_dej": -2.2087,
+          "tstart": 58194.01412037037,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"6310e9bf-271f8c0e32\"",
+        "status": "header_read",
+        "http_requests": []
+      },
+      "858870": {
+        "header": {
+          "source_name": "HIZSS003",
+          "src_raj": 7.008173333333333,
+          "src_dej": -4.208199999999999,
+          "tstart": 58194.02140046296,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"631063db-271fbff755\"",
+        "status": "header_read",
+        "http_requests": []
+      },
+      "858871": {
+        "header": {
+          "source_name": "HIZSS003_off",
+          "src_raj": 7.008133333333333,
+          "src_dej": -2.2089000000000003,
+          "tstart": 58194.02868055556,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"6310c555-272128ca17\"",
+        "status": "header_read",
+        "http_requests": []
+      },
+      "858872": {
+        "header": {
+          "source_name": "HIZSS003",
+          "src_raj": 7.0080666666666644,
+          "src_dej": -4.2079,
+          "tstart": 58194.03596064815,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"63102b40-2722dc4dcf\"",
+        "status": "header_read",
+        "http_requests": []
+      },
+      "858873": {
+        "header": {
+          "source_name": "HIZSS003_off",
+          "src_raj": 7.0081533333333335,
+          "src_dej": -2.2084000000000006,
+          "tstart": 58194.04324074074,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"63105131-2722eb7418\"",
+        "status": "header_read",
+        "http_requests": []
+      },
+      "815634": {
+        "header": {
+          "source_name": "TIC287196418",
+          "src_raj": 19.51560333333333,
+          "src_dej": 59.40385472222221,
+          "tstart": 58860.49700231481,
+          "tsamp": 18.253611008,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"62995f8a-111e202852\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73519867986",
+            "etag": "\"62995f8a-111e202852\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/bl_tess/c_band/spliced_blc10111213141516o7o0212223242526o7o0313233343536o7o051525354555657_guppi_58860_42941_TIC287196418_0023.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "815637": {
+        "header": {
+          "source_name": "HIP94835",
+          "src_raj": 19.297011666666666,
+          "src_dej": 59.83633055555556,
+          "tstart": 58860.50074074074,
+          "tsamp": 18.253611008,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"62995fa8-111e960cf8\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73527594232",
+            "etag": "\"62995fa8-111e960cf8\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/bl_tess/c_band/spliced_blc10111213141516o7o0212223242526o7o0313233343536o7o051525354555657_guppi_58860_43264_HIP94835_0024.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "815640": {
+        "header": {
+          "source_name": "TIC287196418",
+          "src_raj": 19.5156025,
+          "src_dej": 59.403862222222216,
+          "tstart": 58860.504479166666,
+          "tsamp": 18.253611008,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"62995fb3-111f1e3e3b\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73536519739",
+            "etag": "\"62995fb3-111f1e3e3b\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/bl_tess/c_band/spliced_blc10111213141516o7o0212223242526o7o0313233343536o7o051525354555657_guppi_58860_43587_TIC287196418_0025.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "815643": {
+        "header": {
+          "source_name": "HIP96163",
+          "src_raj": 19.55251638888889,
+          "src_dej": 59.396030833333334,
+          "tstart": 58860.50811342592,
+          "tsamp": 18.253611008,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"62995f9b-111ec03dbc\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73530359228",
+            "etag": "\"62995f9b-111ec03dbc\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/bl_tess/c_band/spliced_blc10111213141516o7o0212223242526o7o0313233343536o7o051525354555657_guppi_58860_43901_HIP96163_0026.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "815646": {
+        "header": {
+          "source_name": "TIC287196418",
+          "src_raj": 19.515604166666662,
+          "src_dej": 59.40386666666668,
+          "tstart": 58860.51173611111,
+          "tsamp": 18.253611008,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"62995f9c-111e00218a\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73517769098",
+            "etag": "\"62995f9c-111e00218a\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/bl_tess/c_band/spliced_blc10111213141516o7o0212223242526o7o0313233343536o7o051525354555657_guppi_58860_44214_TIC287196418_0027.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "815649": {
+        "header": {
+          "source_name": "HIP94501",
+          "src_raj": 19.23372027777778,
+          "src_dej": 59.55155111111112,
+          "tstart": 58860.51548611111,
+          "tsamp": 18.253611008,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"62995f94-111f06545c\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73534952540",
+            "etag": "\"62995f94-111f06545c\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/bl_tess/c_band/spliced_blc10111213141516o7o0212223242526o7o0313233343536o7o051525354555657_guppi_58860_44538_HIP94501_0028.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858892": {
+        "header": {
+          "source_name": "NGC5638",
+          "src_raj": 14.494546666666663,
+          "src_dej": 3.2327000000000004,
+          "tstart": 58196.48800925926,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"6307077a-273880af0b\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168451682059",
+            "etag": "\"6307077a-273880af0b\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_25/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58196_42164_NGC5638_0022.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858893": {
+        "header": {
+          "source_name": "NGC5638_off",
+          "src_raj": 14.4946,
+          "src_dej": 5.2311,
+          "tstart": 58196.4952662037,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"6307d025-2736b237a2\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168421373858",
+            "etag": "\"6307d025-2736b237a2\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_25/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58196_42791_NGC5638_off_0023.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858894": {
+        "header": {
+          "source_name": "NGC5638",
+          "src_raj": 14.494546666666663,
+          "src_dej": 3.2340999999999998,
+          "tstart": 58196.50252314815,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"6307dd7e-273dd25952\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168540920146",
+            "etag": "\"6307dd7e-273dd25952\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_25/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58196_43418_NGC5638_0024.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858895": {
+        "header": {
+          "source_name": "NGC5638_off",
+          "src_raj": 14.494580000000003,
+          "src_dej": 5.231800000000001,
+          "tstart": 58196.509780092594,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"6306e868-273df4e714\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168543184660",
+            "etag": "\"6306e868-273df4e714\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_25/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58196_44045_NGC5638_off_0025.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858896": {
+        "header": {
+          "source_name": "NGC5638",
+          "src_raj": 14.494633333333331,
+          "src_dej": 3.2316999999999996,
+          "tstart": 58196.51703703704,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"6306ea44-274992ef0f\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168738090767",
+            "etag": "\"6306ea44-274992ef0f\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_25/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58196_44672_NGC5638_0026.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858897": {
+        "header": {
+          "source_name": "NGC5638_off",
+          "src_raj": 14.494573333333335,
+          "src_dej": 5.231700000000001,
+          "tstart": 58196.52429398148,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"63070c26-2747ab2415\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168706122773",
+            "etag": "\"63070c26-2747ab2415\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_25/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58196_45299_NGC5638_off_0027.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "877666": {
+        "header": {
+          "source_name": "MESSIER59",
+          "src_raj": 12.700613611111113,
+          "src_dej": 11.647026666666667,
+          "tstart": 58960.26494212963,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f936c1c-11232fd494\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73604781204",
+            "etag": "\"5f936c1c-11232fd494\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20A_999_23/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58960_22891_MESSIER59_0062.rawspec.0000.h5"
+          }
+        ]
+      },
+      "877667": {
+        "header": {
+          "source_name": "HIP62042",
+          "src_raj": 12.717349444444444,
+          "src_dej": 11.78347,
+          "tstart": 58960.26855324074,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f940b87-112324cc9b\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73604058267",
+            "etag": "\"5f940b87-112324cc9b\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20A_999_23/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58960_23203_HIP62042_0063.rawspec.0000.h5"
+          }
+        ]
+      },
+      "877668": {
+        "header": {
+          "source_name": "MESSIER59",
+          "src_raj": 12.700615000000003,
+          "src_dej": 11.647026388888888,
+          "tstart": 58960.27217592593,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f93b5aa-112354d347\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73607205703",
+            "etag": "\"5f93b5aa-112354d347\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20A_999_23/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58960_23516_MESSIER59_0064.rawspec.0000.h5"
+          }
+        ]
+      },
+      "877669": {
+        "header": {
+          "source_name": "HIP62457",
+          "src_raj": 12.79999111111111,
+          "src_dej": 12.627567500000001,
+          "tstart": 58960.27591435185,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f94159c-11234da5e1\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73606735329",
+            "etag": "\"5f94159c-11234da5e1\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20A_999_23/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58960_23839_HIP62457_0065.rawspec.0000.h5"
+          }
+        ]
+      },
+      "877670": {
+        "header": {
+          "source_name": "MESSIER59",
+          "src_raj": 12.70061388888889,
+          "src_dej": 11.647024166666666,
+          "tstart": 58960.279652777775,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f941c85-11238c36c9\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73610835657",
+            "etag": "\"5f941c85-11238c36c9\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20A_999_23/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58960_24162_MESSIER59_0066.rawspec.0000.h5"
+          }
+        ]
+      },
+      "877671": {
+        "header": {
+          "source_name": "HIP62509",
+          "src_raj": 12.810560555555554,
+          "src_dej": 12.687990555555556,
+          "tstart": 58960.28340277778,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f937247-1123a2aee2\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73612308194",
+            "etag": "\"5f937247-1123a2aee2\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20A_999_23/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58960_24486_HIP62509_0067.rawspec.0000.h5"
+          }
+        ]
+      },
+      "858826": {
+        "header": {
+          "source_name": "And_XI",
+          "src_raj": 0.7722066666666668,
+          "src_dej": 33.801500000000004,
+          "tstart": 58185.71474537037,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"63069842-274055c0d8\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168583086296",
+            "etag": "\"63069842-274055c0d8\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate0/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_61754_And_XI_0014.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858827": {
+        "header": {
+          "source_name": "And_XI_off",
+          "src_raj": 0.7722200000000001,
+          "src_dej": 35.8017,
+          "tstart": 58185.72215277778,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"63068f8b-2739e1ff61\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168474836833",
+            "etag": "\"63068f8b-2739e1ff61\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate0/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_62394_And_XI_off_0015.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858828": {
+        "header": {
+          "source_name": "And_XI",
+          "src_raj": 0.7722066666666668,
+          "src_dej": 33.801500000000004,
+          "tstart": 58185.729583333334,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"63067f00-273878f116\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168451174678",
+            "etag": "\"63067f00-273878f116\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate0/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_63036_And_XI_0016.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858829": {
+        "header": {
+          "source_name": "And_XI_off",
+          "src_raj": 0.7722400000000001,
+          "src_dej": 35.8016,
+          "tstart": 58185.73703703703,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"6306884f-2741acd06a\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168605569130",
+            "etag": "\"6306884f-2741acd06a\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate0/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_63680_And_XI_off_0017.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858830": {
+        "header": {
+          "source_name": "And_XI",
+          "src_raj": 0.7721933333333333,
+          "src_dej": 33.8016,
+          "tstart": 58185.74451388889,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"6306a445-273b7c202d\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168501714989",
+            "etag": "\"6306a445-273b7c202d\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate0/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_64326_And_XI_0018.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "858831": {
+        "header": {
+          "source_name": "And_XI_off",
+          "src_raj": 0.7722200000000001,
+          "src_dej": 35.801399999999994,
+          "tstart": 58185.75201388889,
+          "tsamp": 18.253611008,
+          "nchans": 1744830464,
+          "fch1": 8438.964842353016,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          32,
+          1,
+          1744830464
+        ],
+        "etag": "\"630678d9-273ab2afd6\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/168488513494",
+            "etag": "\"630678d9-273ab2afd6\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT18A_999_20/collate1/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_58185_64974_And_XI_off_0019.gpuspec.0000.h5"
+          }
+        ]
+      },
+      "878728": {
+        "header": {
+          "source_name": "NGC0672",
+          "src_raj": 1.7984747222222222,
+          "src_dej": 27.432776111111114,
+          "tstart": 59109.46625,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f9f85a0-11256af5c9\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73642210761",
+            "etag": "\"5f9f85a0-11256af5c9\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20B_999_18/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_59109_40284_NGC0672_0072.rawspec.0000.h5"
+          }
+        ]
+      },
+      "878729": {
+        "header": {
+          "source_name": "HIP8528",
+          "src_raj": 1.8330716666666669,
+          "src_dej": 27.464639166666668,
+          "tstart": 59109.46994212963,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f9f8bb9-11261b0c8b\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73653750923",
+            "etag": "\"5f9f8bb9-11261b0c8b\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20B_999_18/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_59109_40603_HIP8528_0073.rawspec.0000.h5"
+          }
+        ]
+      },
+      "878730": {
+        "header": {
+          "source_name": "NGC0672",
+          "src_raj": 1.7984755555555556,
+          "src_dej": 27.432767499999997,
+          "tstart": 59109.47357638889,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f9fbf3a-1125905274\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73644659316",
+            "etag": "\"5f9fbf3a-1125905274\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20B_999_18/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_59109_40917_NGC0672_0074.rawspec.0000.h5"
+          }
+        ]
+      },
+      "878731": {
+        "header": {
+          "source_name": "HIP8545",
+          "src_raj": 1.8365694444444443,
+          "src_dej": 27.033054722222214,
+          "tstart": 59109.47724537037,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f9f910c-1124b7b1b5\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73630462389",
+            "etag": "\"5f9f910c-1124b7b1b5\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20B_999_18/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_59109_41234_HIP8545_0075.rawspec.0000.h5"
+          }
+        ]
+      },
+      "878732": {
+        "header": {
+          "source_name": "NGC0672",
+          "src_raj": 1.798475277777778,
+          "src_dej": 27.43276861111111,
+          "tstart": 59109.48091435185,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f9fbf8c-1123760164\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73609380196",
+            "etag": "\"5f9fbf8c-1123760164\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20B_999_18/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_59109_41551_NGC0672_0076.rawspec.0000.h5"
+          }
+        ]
+      },
+      "878733": {
+        "header": {
+          "source_name": "HIP8938",
+          "src_raj": 1.9187130555555556,
+          "src_dej": 28.79795222222223,
+          "tstart": 59109.48467592592,
+          "tsamp": 18.253611007999982,
+          "nchans": 1522532352,
+          "fch1": 8201.66015625,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          1522532352
+        ],
+        "etag": "\"5f9fc4d2-1124fa4f53\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/73634828115",
+            "etag": "\"5f9fc4d2-1124fa4f53\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT20B_999_18/holding/spliced_blc00010203040506o7o0111213141516o7o0212223242526o7o031323334353637_guppi_59109_41876_HIP8938_0077.rawspec.0000.h5"
+          }
+        ]
+      },
+      "882142": {
+        "header": {
+          "source_name": "NGC7454",
+          "src_raj": 23.018475277777778,
+          "src_dej": 16.38836555555556,
+          "tstart": 59419.18798611111,
+          "tsamp": 18.253611007999982,
+          "nchans": 67108864,
+          "fch1": 6001.46484375,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          67108864
+        ],
+        "etag": "\"611af204-c07b8424\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/3229320228",
+            "etag": "\"611af204-c07b8424\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_16242_NGC7454_0088.rawspec.0000.h5"
+          },
+          {
+            "start": 3228499968,
+            "end": 3228565503,
+            "content_range": "bytes 3228499968-3228565503/3229320228",
+            "etag": "\"611af204-c07b8424\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_16242_NGC7454_0088.rawspec.0000.h5"
+          }
+        ]
+      },
+      "882143": {
+        "header": {
+          "source_name": "HIP113280",
+          "src_raj": 22.93985888888889,
+          "src_dej": 17.452833055555555,
+          "tstart": 59419.191712962966,
+          "tsamp": 18.253611007999982,
+          "nchans": 67108864,
+          "fch1": 6001.46484375,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          67108864
+        ],
+        "etag": "\"61169c65-c04fc039\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/3226452025",
+            "etag": "\"61169c65-c04fc039\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_16564_HIP113280_0089.rawspec.0000.h5"
+          },
+          {
+            "start": 3225616384,
+            "end": 3225681919,
+            "content_range": "bytes 3225616384-3225681919/3226452025",
+            "etag": "\"61169c65-c04fc039\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_16564_HIP113280_0089.rawspec.0000.h5"
+          }
+        ]
+      },
+      "882144": {
+        "header": {
+          "source_name": "NGC7454",
+          "src_raj": 23.018475277777778,
+          "src_dej": 16.388382222222223,
+          "tstart": 59419.195439814815,
+          "tsamp": 18.253611007999982,
+          "nchans": 67108864,
+          "fch1": 6001.46484375,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          67108864
+        ],
+        "etag": "\"611b18c6-c04dd7ea\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/3226327018",
+            "etag": "\"611b18c6-c04dd7ea\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_16886_NGC7454_0090.rawspec.0000.h5"
+          },
+          {
+            "start": 3225485312,
+            "end": 3225550847,
+            "content_range": "bytes 3225485312-3225550847/3226327018",
+            "etag": "\"611b18c6-c04dd7ea\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_16886_NGC7454_0090.rawspec.0000.h5"
+          }
+        ]
+      },
+      "882145": {
+        "header": {
+          "source_name": "HIP113476",
+          "src_raj": 22.98089277777778,
+          "src_dej": 17.05547333333333,
+          "tstart": 59419.19912037037,
+          "tsamp": 18.253611007999982,
+          "nchans": 67108864,
+          "fch1": 6001.46484375,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          67108864
+        ],
+        "etag": "\"611ae3ed-c043716f\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/3225645423",
+            "etag": "\"611ae3ed-c043716f\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_17204_HIP113476_0091.rawspec.0000.h5"
+          },
+          {
+            "start": 3224829952,
+            "end": 3224895487,
+            "content_range": "bytes 3224829952-3224895487/3225645423",
+            "etag": "\"611ae3ed-c043716f\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_17204_HIP113476_0091.rawspec.0000.h5"
+          }
+        ]
+      },
+      "882146": {
+        "header": {
+          "source_name": "NGC7454",
+          "src_raj": 23.01847555555555,
+          "src_dej": 16.388372777777775,
+          "tstart": 59419.20278935185,
+          "tsamp": 18.253611007999982,
+          "nchans": 67108864,
+          "fch1": 6001.46484375,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          67108864
+        ],
+        "etag": "\"611c4e24-c0447aae\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/3225713326",
+            "etag": "\"611c4e24-c0447aae\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_17521_NGC7454_0092.rawspec.0000.h5"
+          },
+          {
+            "start": 3224895488,
+            "end": 3224961023,
+            "content_range": "bytes 3224895488-3224961023/3225713326",
+            "etag": "\"611c4e24-c0447aae\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_17521_NGC7454_0092.rawspec.0000.h5"
+          }
+        ]
+      },
+      "882147": {
+        "header": {
+          "source_name": "HIP113206",
+          "src_raj": 22.92524527777778,
+          "src_dej": 17.79672638888889,
+          "tstart": 59419.20653935185,
+          "tsamp": 18.253611007999982,
+          "nchans": 67108864,
+          "fch1": 6001.46484375,
+          "foff": -2.7939677238464355e-06,
+          "nbits": 32,
+          "telescope_id": 6
+        },
+        "shape": [
+          16,
+          1,
+          67108864
+        ],
+        "etag": "\"611af8e6-c0409456\"",
+        "status": "header_read",
+        "http_requests": [
+          {
+            "start": 0,
+            "end": 65535,
+            "content_range": "bytes 0-65535/3225457750",
+            "etag": "\"611af8e6-c0409456\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_17845_HIP113206_0093.rawspec.0000.h5"
+          },
+          {
+            "start": 3224633344,
+            "end": 3224698879,
+            "content_range": "bytes 3224633344-3224698879/3225457750",
+            "etag": "\"611af8e6-c0409456\"",
+            "status": 206,
+            "effective_url": "https://bldata.berkeley.edu/pipeline/AGBT21A_996_52/blc17/blc17_guppi_59419_17845_HIP113206_0093.rawspec.0000.h5"
+          }
+        ]
+      }
+    },
+    "headers_only_before_spectral_access": true,
+    "random_variates_frozen_in_selection": true,
+    "source_header_network_bytes_this_execution": 2752512,
+    "definition": "Uniform available frequency stratum, then uniform tile-center interval, conditional on header coverage only."
+  },
+  "offline": false,
+  "selected_cadences": 7,
+  "acquired_complete_cadences": 0,
+  "selected_components": 7,
+  "complete_acquired_components": 0,
+  "files_attempted": 42,
+  "files_acquired": 0,
+  "http_payload_bytes_reserved_including_retry_attempts": 12582912,
+  "successful_network_payload_bytes": 4456448,
+  "max_batch_network_bytes": 8589934592,
+  "main_60_component_gate_passed": false,
+  "receiver_hardware_identity_verified": false,
+  "scope": "Full stored time support within prospectively selected narrow frequency tiles; not full original bandwidth or a finalized representative-sensitivity study."
+}

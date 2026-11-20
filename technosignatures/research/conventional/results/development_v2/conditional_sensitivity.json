@@ -1,0 +1,4246 @@
+{
+  "by_family_amplitude": [
+    {
+      "conservative": {
+        "ambiguity_policy": "count ambiguous as unrecovered",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "generated": 8
+        },
+        "full_declared_domain_recovery": 0.0,
+        "retained_weight": 0.0,
+        "searchable_count": 8,
+        "searchable_domain_recovery": 0.0,
+        "searchable_weight": 8.0,
+        "signal_count": 8
+      },
+      "family": "continuous_linear",
+      "optimistic": {
+        "ambiguity_policy": "compatible outcomes counted optimistically",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "generated": 8
+        },
+        "full_declared_domain_recovery": 0.0,
+        "retained_weight": 0.0,
+        "searchable_count": 8,
+        "searchable_domain_recovery": 0.0,
+        "searchable_weight": 8.0,
+        "signal_count": 8
+      },
+      "paired": {
+        "component_count": 1,
+        "interval_95": null,
+        "point_difference": 0.0,
+        "status": "unresolved_observing_environment_uncertainty_single_component"
+      },
+      "peak_power_sigma": 0.25
+    },
+    {
+      "conservative": {
+        "ambiguity_policy": "count ambiguous as unrecovered",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "generated": 8
+        },
+        "full_declared_domain_recovery": 0.0,
+        "retained_weight": 0.0,
+        "searchable_count": 8,
+        "searchable_domain_recovery": 0.0,
+        "searchable_weight": 8.0,
+        "signal_count": 8
+      },
+      "family": "continuous_linear",
+      "optimistic": {
+        "ambiguity_policy": "compatible outcomes counted optimistically",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "generated": 8
+        },
+        "full_declared_domain_recovery": 0.0,
+        "retained_weight": 0.0,
+        "searchable_count": 8,
+        "searchable_domain_recovery": 0.0,
+        "searchable_weight": 8.0,
+        "signal_count": 8
+      },
+      "paired": {
+        "component_count": 1,
+        "interval_95": null,
+        "point_difference": 0.0,
+        "status": "unresolved_observing_environment_uncertainty_single_component"
+      },
+      "peak_power_sigma": 0.5
+    },
+    {
+      "conservative": {
+        "ambiguity_policy": "count ambiguous as unrecovered",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "generated": 8
+        },
+        "full_declared_domain_recovery": 0.0,
+        "retained_weight": 0.0,
+        "searchable_count": 8,
+        "searchable_domain_recovery": 0.0,
+        "searchable_weight": 8.0,
+        "signal_count": 8
+      },
+      "family": "continuous_linear",
+      "optimistic": {
+        "ambiguity_policy": "compatible outcomes counted optimistically",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "generated": 8
+        },
+        "full_declared_domain_recovery": 0.0,
+        "retained_weight": 0.0,
+        "searchable_count": 8,
+        "searchable_domain_recovery": 0.0,
+        "searchable_weight": 8.0,
+        "signal_count": 8
+      },
+      "paired": {
+        "component_count": 1,
+        "interval_95": null,
+        "point_difference": 0.0,
+        "status": "unresolved_observing_environment_uncertainty_single_component"
+      },
+      "peak_power_sigma": 1.0
+    },
+    {
+      "conservative": {
+        "ambiguity_policy": "count ambiguous as unrecovered",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "generated": 2,
+          "retained": 5,
+          "searchable": 1
+        },
+        "full_declared_domain_recovery": 0.625,
+        "retained_weight": 5.0,
+        "searchable_count": 7,
+        "searchable_domain_recovery": 0.7142857142857143,
+        "searchable_weight": 7.0,
+        "signal_count": 8
+      },
+      "family": "continuous_linear",
+      "optimistic": {
+        "ambiguity_policy": "compatible outcomes counted optimistically",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "generated": 2,
+          "retained": 5,
+          "searchable": 1
+        },
+        "full_declared_domain_recovery": 0.625,
+        "retained_weight": 5.0,
+        "searchable_count": 7,
+        "searchable_domain_recovery": 0.7142857142857143,
+        "searchable_weight": 7.0,
+        "signal_count": 8
+      },
+      "paired": {
+        "component_count": 1,
+        "interval_95": null,
+        "point_difference": 0.125,
+        "status": "unresolved_observing_environment_uncertainty_single_component"
+      },
+      "peak_power_sigma": 2.0
+    },
+    {
+      "conservative": {
+        "ambiguity_policy": "count ambiguous as unrecovered",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "retained": 7,
+          "searchable": 1
+        },
+        "full_declared_domain_recovery": 0.875,
+        "retained_weight": 7.0,
+        "searchable_count": 7,
+        "searchable_domain_recovery": 1.0,
+        "searchable_weight": 7.0,
+        "signal_count": 8
+      },
+      "family": "continuous_linear",
+      "optimistic": {
+        "ambiguity_policy": "compatible outcomes counted optimistically",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "retained": 7,
+          "searchable": 1
+        },
+        "full_declared_domain_recovery": 0.875,
+        "retained_weight": 7.0,
+        "searchable_count": 7,
+        "searchable_domain_recovery": 1.0,
+        "searchable_weight": 7.0,
+        "signal_count": 8
+      },
+      "paired": {
+        "component_count": 1,
+        "interval_95": null,
+        "point_difference": 0.25,
+        "status": "unresolved_observing_environment_uncertainty_single_component"
+      },
+      "peak_power_sigma": 4.0
+    },
+    {
+      "conservative": {
+        "ambiguity_policy": "count ambiguous as unrecovered",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "retained": 7,
+          "searchable": 1
+        },
+        "full_declared_domain_recovery": 0.875,
+        "retained_weight": 7.0,
+        "searchable_count": 7,
+        "searchable_domain_recovery": 1.0,
+        "searchable_weight": 7.0,
+        "signal_count": 8
+      },
+      "family": "continuous_linear",
+      "optimistic": {
+        "ambiguity_policy": "compatible outcomes counted optimistically",
+        "ambiguous_signal_count": 0,
+        "eligible_count": 8,
+        "eligible_weight": 8.0,
+        "first_loss_counts": {
+          "retained": 7,
+          "searchable": 1
+        },
+        "full_declared_domain_recovery": 0.875,
+        "retained_weight": 7.0,
+        "searchable_count": 7,
+        "searchable_domain_recovery": 1.0,
+        "searchable_weight": 7.0,
+        "signal_count": 8
+      },
+      "paired": {
+        "component_count": 1,
+        "interval_95": null,
+        "point_difference": 0.25,
+        "status": "unresolved_observing_environment_uncertainty_single_component"
+      },
+      "peak_power_sigma": 8.0
+    }
+  ],
+  "cadence_filtering_applied": false,
+  "conservative": {
+    "ambiguity_policy": "count ambiguous as unrecovered",
+    "ambiguous_signal_count": 0,
+    "eligible_count": 48,
+    "eligible_weight": 48.0,
+    "first_loss_counts": {
+      "generated": 26,
+      "retained": 19,
+      "searchable": 3
+    },
+    "full_declared_domain_recovery": 0.3958333333333333,
+    "retained_weight": 19.0,
+    "searchable_count": 45,
+    "searchable_domain_recovery": 0.4222222222222222,
+    "searchable_weight": 45.0,
+    "signal_count": 48
+  },
+  "optimistic": {
+    "ambiguity_policy": "compatible outcomes counted optimistically",
+    "ambiguous_signal_count": 0,
+    "eligible_count": 48,
+    "eligible_weight": 48.0,
+    "first_loss_counts": {
+      "generated": 26,
+      "retained": 19,
+      "searchable": 3
+    },
+    "full_declared_domain_recovery": 0.3958333333333333,
+    "retained_weight": 19.0,
+    "searchable_count": 45,
+    "searchable_domain_recovery": 0.4222222222222222,
+    "searchable_weight": 45.0,
+    "signal_count": 48
+  },
+  "paired": {
+    "component_count": 1,
+    "interval_95": null,
+    "point_difference": 0.10416666666666667,
+    "status": "unresolved_observing_environment_uncertainty_single_component"
+  },
+  "representative_cohort_gate_passed": false,
+  "scope": "conditional development-background injection recovery, not representative-cohort sensitivity",
+  "score_configuration": {
+    "boxcar_width_channels": 3,
+    "max_abs_drift_hz_per_s": 4.0,
+    "max_endpoint_grid_error_channels": 0.5,
+    "max_score_cells": 20000000,
+    "score_threshold": 10.0,
+    "tile_core_channels": 256
+  },
+  "signal_rows": [
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000000_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 1.7358060962734203,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000000_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000000_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000000_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.25,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000000",
+      "truth_id": "trial_000000_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000001_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 2.2312375051106823,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000001_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000001_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000001_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.25,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000001",
+      "truth_id": "trial_000001_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000002_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 1.678945824395698,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000002_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000002_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000002_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.25,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000002",
+      "truth_id": "trial_000002_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000003_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 2.5073782518436643,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000003_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000003_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000003_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.25,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000003",
+      "truth_id": "trial_000003_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000004_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 3.027259281261299,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000004_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000004_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000004_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.25,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000004",
+      "truth_id": "trial_000004_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000005_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 1.870805188983759,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000005_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000005_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000005_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.25,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000005",
+      "truth_id": "trial_000005_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000006_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 2.1441838819384613,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000006_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000006_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000006_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.25,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000006",
+      "truth_id": "trial_000006_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000007_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 2.6024945979620697,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000007_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000007_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000007_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.25,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000007",
+      "truth_id": "trial_000007_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000008_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 2.0289417081010686,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000008_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000008_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000008_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.5,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000008",
+      "truth_id": "trial_000008_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000009_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 3.47403984663907,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000009_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000009_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000009_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.5,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000009",
+      "truth_id": "trial_000009_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000010_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 3.361222438559835,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000010_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000010_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000010_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.5,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000010",
+      "truth_id": "trial_000010_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000011_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 2.6788246144932426,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000011_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000011_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000011_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.5,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000011",
+      "truth_id": "trial_000011_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000012_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 3.1385752076193127,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000012_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000012_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000012_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.5,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000012",
+      "truth_id": "trial_000012_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000013_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 3.6374742184210858,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000013_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000013_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000013_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.5,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000013",
+      "truth_id": "trial_000013_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000014_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 4.560038146894945,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000014_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000014_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000014_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.5,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000014",
+      "truth_id": "trial_000014_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000015_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 3.0770932359340994,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000015_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000015_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000015_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 0.5,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000015",
+      "truth_id": "trial_000015_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000016_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 7.2628218269396445,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000016_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000016_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000016_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 1.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000016",
+      "truth_id": "trial_000016_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000017_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 6.745695762971326,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000017_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000017_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000017_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 1.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000017",
+      "truth_id": "trial_000017_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000018_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 5.996446979693241,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000018_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000018_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000018_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 1.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000018",
+      "truth_id": "trial_000018_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000019_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 6.506472029523016,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000019_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000019_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000019_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 1.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000019",
+      "truth_id": "trial_000019_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000020_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 6.889508576421334,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000020_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000020_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000020_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 1.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000020",
+      "truth_id": "trial_000020_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000021_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 4.59756832281026,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000021_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000021_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000021_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 1.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000021",
+      "truth_id": "trial_000021_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000022_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 4.547621334179549,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000022_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000022_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000022_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 1.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000022",
+      "truth_id": "trial_000022_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000023_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 6.946768743837181,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000023_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000023_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000023_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 1.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000023",
+      "truth_id": "trial_000023_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000024_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 12.08114515855818,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.5741150593510299,
+        "truth_id": "trial_000024_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00172_c00000531",
+        "max_path_error_channels": 0.5741150593510299,
+        "truth_id": "trial_000024_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 1.0724582276337957,
+        "truth_id": "trial_000024_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 2.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000024",
+      "truth_id": "trial_000024_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000025_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 11.451500458817003,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.8856683715125979,
+        "truth_id": "trial_000025_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00264_c00000680",
+        "max_path_error_channels": 0.8856683715125979,
+        "truth_id": "trial_000025_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.4899982523736316,
+        "truth_id": "trial_000025_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 2.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000025",
+      "truth_id": "trial_000025_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000026_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": null,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000026_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "searchable",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000026_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000026_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 2.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": false,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000026",
+      "truth_id": "trial_000026_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000027_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 11.97812754106769,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.707476700590643,
+        "truth_id": "trial_000027_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00384_c00000633",
+        "max_path_error_channels": 0.707476700590643,
+        "truth_id": "trial_000027_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.707476700590643,
+        "truth_id": "trial_000027_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 2.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000027",
+      "truth_id": "trial_000027_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000028_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 9.193709644618101,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000028_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000028_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000028_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 2.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000028",
+      "truth_id": "trial_000028_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000029_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 9.040932281957092,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000029_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "generated",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000029_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000029_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 2.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000029",
+      "truth_id": "trial_000029_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000030_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 13.65508649809813,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 1.157781989071874,
+        "truth_id": "trial_000030_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00191_c00000057",
+        "max_path_error_channels": 1.157781989071874,
+        "truth_id": "trial_000030_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000030_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 2.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000030",
+      "truth_id": "trial_000030_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000031_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 14.173411754624588,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 1.2669492451073288,
+        "truth_id": "trial_000031_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00195_c00000647",
+        "max_path_error_channels": 1.2669492451073288,
+        "truth_id": "trial_000031_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 1.2669492451073288,
+        "truth_id": "trial_000031_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 2.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000031",
+      "truth_id": "trial_000031_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000032_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": null,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000032_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "searchable",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000032_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000032_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 4.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": false,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000032",
+      "truth_id": "trial_000032_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000033_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 21.83940739969407,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.10174735330178504,
+        "truth_id": "trial_000033_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00339_c00000557",
+        "max_path_error_channels": 0.10174735330178504,
+        "truth_id": "trial_000033_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.4855383918014478,
+        "truth_id": "trial_000033_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 4.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000033",
+      "truth_id": "trial_000033_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000034_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 22.261179930762594,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.5216016176466572,
+        "truth_id": "trial_000034_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00140_c00000854",
+        "max_path_error_channels": 0.5216016176466572,
+        "truth_id": "trial_000034_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.5216016176466572,
+        "truth_id": "trial_000034_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 4.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000034",
+      "truth_id": "trial_000034_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000035_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 20.58988408611561,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.5965324635251262,
+        "truth_id": "trial_000035_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00426_c00000070",
+        "max_path_error_channels": 0.5965324635251262,
+        "truth_id": "trial_000035_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000035_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 4.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000035",
+      "truth_id": "trial_000035_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000036_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 23.14432645040494,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.7542728099374404,
+        "truth_id": "trial_000036_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00356_c00000289",
+        "max_path_error_channels": 0.7542728099374404,
+        "truth_id": "trial_000036_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.7542728099374404,
+        "truth_id": "trial_000036_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 4.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000036",
+      "truth_id": "trial_000036_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000037_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 21.133272275106208,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.3245396779452283,
+        "truth_id": "trial_000037_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00357_c00000223",
+        "max_path_error_channels": 0.3245396779452283,
+        "truth_id": "trial_000037_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.7000636245224747,
+        "truth_id": "trial_000037_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 4.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000037",
+      "truth_id": "trial_000037_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000038_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 20.877365150435942,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.5073885000723627,
+        "truth_id": "trial_000038_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00385_c00000082",
+        "max_path_error_channels": 0.5073885000723627,
+        "truth_id": "trial_000038_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000038_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 4.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000038",
+      "truth_id": "trial_000038_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000039_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 23.357614668764604,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.3971323908894053,
+        "truth_id": "trial_000039_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00237_c00000885",
+        "max_path_error_channels": 0.3971323908894053,
+        "truth_id": "trial_000039_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.6028676091105947,
+        "truth_id": "trial_000039_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 4.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000039",
+      "truth_id": "trial_000039_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000040_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 44.236799598241355,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.36763573459016796,
+        "truth_id": "trial_000040_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00313_c00000719",
+        "max_path_error_channels": 0.36763573459016796,
+        "truth_id": "trial_000040_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.36763573459016796,
+        "truth_id": "trial_000040_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 8.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000040",
+      "truth_id": "trial_000040_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000041_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 48.17271602438134,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.8521023399078673,
+        "truth_id": "trial_000041_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00222_c00000118",
+        "max_path_error_channels": 0.8521023399078673,
+        "truth_id": "trial_000041_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000041_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 8.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000041",
+      "truth_id": "trial_000041_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000042_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 36.682169477282564,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.5506470313562399,
+        "truth_id": "trial_000042_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00058_c00000559",
+        "max_path_error_channels": 0.5506470313562399,
+        "truth_id": "trial_000042_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.5506470313562399,
+        "truth_id": "trial_000042_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 8.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000042",
+      "truth_id": "trial_000042_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000043_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": null,
+      "cadence_retained": false,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000043_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "searchable",
+      "generated": false,
+      "grouped": false,
+      "hit_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000043_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000043_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": false,
+      "new_retained_optimistic": false,
+      "peak_power_sigma": 8.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": false,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000043",
+      "truth_id": "trial_000043_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000044_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 43.195888782861395,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 1.006708564188405,
+        "truth_id": "trial_000044_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00164_c00000382",
+        "max_path_error_channels": 1.006708564188405,
+        "truth_id": "trial_000044_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 1.006708564188405,
+        "truth_id": "trial_000044_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 8.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000044",
+      "truth_id": "trial_000044_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000045_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 42.64917303018352,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.1617639830589469,
+        "truth_id": "trial_000045_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00317_c00000987",
+        "max_path_error_channels": 0.1617639830589469,
+        "truth_id": "trial_000045_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000045_signal_0"
+      },
+      "legacy_retained_conservative": false,
+      "legacy_retained_optimistic": false,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 8.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000045",
+      "truth_id": "trial_000045_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000046_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 35.8762089168089,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.5318866718913413,
+        "truth_id": "trial_000046_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00006_c00000867",
+        "max_path_error_channels": 0.5318866718913413,
+        "truth_id": "trial_000046_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.5318866718913413,
+        "truth_id": "trial_000046_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 8.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000046",
+      "truth_id": "trial_000046_signal_0",
+      "weight": 1.0
+    },
+    {
+      "ambiguity_native_match": {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "trial_000047_signal_0"
+      },
+      "ambiguous_native_match": false,
+      "best_compatible_grid_score": 46.81403492362053,
+      "cadence_retained": true,
+      "component_id": "development_fixture",
+      "eligible": true,
+      "event_match": {
+        "matched_id": "baseline_regression_event_000000",
+        "max_path_error_channels": 0.5508231593261808,
+        "truth_id": "trial_000047_signal_0"
+      },
+      "failure_type": null,
+      "family": "continuous_linear",
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "hit_match": {
+        "matched_id": "baseline_regression_d00228_c00000146",
+        "max_path_error_channels": 0.5508231593261808,
+        "truth_id": "trial_000047_signal_0"
+      },
+      "legacy_ambiguous_native_match": false,
+      "legacy_match": {
+        "matched_id": "legacy_0",
+        "max_path_error_channels": 0.12198773384742675,
+        "truth_id": "trial_000047_signal_0"
+      },
+      "legacy_retained_conservative": true,
+      "legacy_retained_optimistic": true,
+      "new_retained_conservative": true,
+      "new_retained_optimistic": true,
+      "peak_power_sigma": 8.0,
+      "raw_assignment_constrained_by_grouped_recovery": true,
+      "searchable": true,
+      "source_kind": "synthetic_injection_on_real_development_observation",
+      "terminal_boundary": "single_scan_grouped_events; cadence_not_applied",
+      "trial_id": "trial_000047",
+      "truth_id": "trial_000047_signal_0",
+      "weight": 1.0
+    }
+  ],
+  "stage_assignment": "event representatives reserved first, remaining hits matched one to one; unconstrained raw maximum reported separately",
+  "technical_failure_signal_count": 0,
+  "time_matching": "physical injection paths at integration midpoints; candidate frequency reference is first midpoint",
+  "trial_details": [
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 55864.816452430794,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          587,
+          716
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 223459.26580972318,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000000",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 3.726979864411108,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 4.885633119921996,
+          "start_frequency_hz": 6663999481.20286,
+          "truth_id": "trial_000000_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 55957.17214609685,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          920,
+          1024
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 223828.6885843874,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000001",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 0.3406891258559037,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.39747270776170057,
+          "start_frequency_hz": 6663999945.541979,
+          "truth_id": "trial_000001_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 56040.678557771185,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          477,
+          606
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 224162.71423108474,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000002",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 0.6449429499540811,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 1.7445856200441194,
+          "start_frequency_hz": 6663999327.501905,
+          "truth_id": "trial_000002_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 56137.81796015789,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          457,
+          586
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 224551.27184063155,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000003",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 0.008638769305404637,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.686637597070505,
+          "start_frequency_hz": 6663999298.903563,
+          "truth_id": "trial_000003_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 55383.79890374947,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          763,
+          892
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 221535.19561499788,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000004",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -0.4780304471947483,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.9560250300895774,
+          "start_frequency_hz": 6663999727.298737,
+          "truth_id": "trial_000004_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 58018.82898498246,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          38,
+          167
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 232075.31593992983,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000005",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -0.5642604250126579,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 1.6311628670453286,
+          "start_frequency_hz": 6663998714.269328,
+          "truth_id": "trial_000005_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 57496.805322988126,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          906,
+          1024
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 229987.2212919525,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000006",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -3.9181573865593817,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 2.392066603242975,
+          "start_frequency_hz": 6663999926.33427,
+          "truth_id": "trial_000006_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 56949.48476064054,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          855,
+          984
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 227797.93904256215,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000007",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 0.6386563210813447,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 4.19761791378472,
+          "start_frequency_hz": 6663999855.373672,
+          "truth_id": "trial_000007_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 114887.51771612937,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          317,
+          446
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 229775.03543225874,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000008",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -2.8527655364529005,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 4.139831380159292,
+          "start_frequency_hz": 6663999103.618736,
+          "truth_id": "trial_000008_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 114471.69412515787,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          154,
+          283
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 228943.38825031574,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000009",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 2.849861947076322,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 5.295678941903806,
+          "start_frequency_hz": 6663998876.206358,
+          "truth_id": "trial_000009_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 116057.20978672146,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          30,
+          159
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 232114.41957344292,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000010",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 2.7998523602681304,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 2.28938762308455,
+          "start_frequency_hz": 6663998703.107312,
+          "truth_id": "trial_000010_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 111361.41474449993,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          707,
+          836
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 222722.82948899985,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000011",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -2.912277092830932,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 2.1193826613569375,
+          "start_frequency_hz": 6663999648.44316,
+          "truth_id": "trial_000011_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 110830.43465933795,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          662,
+          791
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 221660.8693186759,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000012",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -3.6730082739984837,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 1.3615186004102215,
+          "start_frequency_hz": 6663999585.280777,
+          "truth_id": "trial_000012_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 119937.95005073445,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          231,
+          360
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 239875.9001014689,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000013",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 0.17455741378289513,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 2.3229010849096166,
+          "start_frequency_hz": 6663998982.943435,
+          "truth_id": "trial_000013_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 113134.42167255531,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          627,
+          756
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 226268.84334511062,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000014",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 1.6100974346577575,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 2.188707316120678,
+          "start_frequency_hz": 6663999536.594354,
+          "truth_id": "trial_000014_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 117399.32386219382,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          193,
+          322
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 234798.64772438764,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000015",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -2.742148673890414,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 1.6612313598084605,
+          "start_frequency_hz": 6663998930.869886,
+          "truth_id": "trial_000015_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 230001.50292113546,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          848,
+          977
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 230001.50292113546,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000016",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 2.0446655468768062,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 4.890979614498014,
+          "start_frequency_hz": 6663999845.183973,
+          "truth_id": "trial_000016_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 227567.6260541812,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          126,
+          255
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 227567.6260541812,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000017",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 0.7235646914748521,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 2.036589568539236,
+          "start_frequency_hz": 6663998836.448463,
+          "truth_id": "trial_000017_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 228504.1441774238,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          795,
+          924
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 228504.1441774238,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000018",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -0.2791237114200964,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 4.177367553188759,
+          "start_frequency_hz": 6663999771.457443,
+          "truth_id": "trial_000018_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 231130.24968827114,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          102,
+          231
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 231130.24968827114,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000019",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 1.7225732675448109,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.8002124957836629,
+          "start_frequency_hz": 6663998803.206229,
+          "truth_id": "trial_000019_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 238612.87358808995,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          185,
+          314
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 238612.87358808995,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000020",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 0.20328470812618438,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 6.073508154062724,
+          "start_frequency_hz": 6663998918.748047,
+          "truth_id": "trial_000020_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 238612.87358808995,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          185,
+          314
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 238612.87358808995,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000021",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -2.1727908980684845,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.2802020930702594,
+          "start_frequency_hz": 6663998918.858979,
+          "truth_id": "trial_000021_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 229740.49543369949,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          413,
+          542
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 229740.49543369949,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000022",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -3.191636756923109,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 3.6235563829124215,
+          "start_frequency_hz": 6663999238.092083,
+          "truth_id": "trial_000022_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 221775.84048758907,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          715,
+          844
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 221775.84048758907,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000023",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -0.6532141342794109,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 1.1015427593098925,
+          "start_frequency_hz": 6663999660.317157,
+          "truth_id": "trial_000023_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 459155.9766623109,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          468,
+          597
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 229577.98833115544,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 1,
+      "legacy_uncapped_candidates": 1,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000024",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -1.332941278067337,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.9792748864890412,
+          "start_frequency_hz": 6663999314.084362,
+          "truth_id": "trial_000024_signal_0"
+        }
+      ],
+      "v2_event_count": 1,
+      "v2_hit_count": 3
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 460583.3519481772,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          615,
+          744
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 230291.6759740886,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 1,
+      "legacy_uncapped_candidates": 1,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000025",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 0.18447810757685001,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 5.045885685498517,
+          "start_frequency_hz": 6663999519.891301,
+          "truth_id": "trial_000025_signal_0"
+        }
+      ],
+      "v2_event_count": 1,
+      "v2_hit_count": 3
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 460045.6190732231,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          0,
+          88
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 230022.80953661154,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000026",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -2.180462773255977,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 4.573734784477705,
+          "start_frequency_hz": 6663998604.125428,
+          "truth_id": "trial_000026_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 453891.3951783555,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          567,
+          696
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 226945.69758917775,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 1,
+      "legacy_uncapped_candidates": 1,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000027",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 2.0529857620795804,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 3.545288977256263,
+          "start_frequency_hz": 6663999453.261071,
+          "truth_id": "trial_000027_signal_0"
+        }
+      ],
+      "v2_event_count": 2,
+      "v2_hit_count": 5
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 447756.0628789441,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          471,
+          600
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 223878.03143947205,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000028",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 3.129197752467472,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 4.214900552763609,
+          "start_frequency_hz": 6663999318.904513,
+          "truth_id": "trial_000028_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 449815.8606736416,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          400,
+          529
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 224907.9303368208,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000029",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -3.2261320975084233,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 2.5163795755178064,
+          "start_frequency_hz": 6663999219.896026,
+          "truth_id": "trial_000029_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 466587.8677674652,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          0,
+          123
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 233293.9338837326,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000030",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -1.0710921942318503,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 3.7519991266178137,
+          "start_frequency_hz": 6663998652.517365,
+          "truth_id": "trial_000030_signal_0"
+        }
+      ],
+      "v2_event_count": 2,
+      "v2_hit_count": 6
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 452308.62464746216,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          582,
+          711
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 226154.31232373108,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 1,
+      "legacy_uncapped_candidates": 1,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000031",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -0.8896431075497846,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.6289756156281511,
+          "start_frequency_hz": 6663999473.474332,
+          "truth_id": "trial_000031_signal_0"
+        }
+      ],
+      "v2_event_count": 1,
+      "v2_hit_count": 4
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 893713.9145921181,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          947,
+          1024
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 223428.47864802953,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000032",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 1.2099314112595403,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.36118106702947256,
+          "start_frequency_hz": 6663999984.181009,
+          "truth_id": "trial_000032_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 906226.8919910281,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          492,
+          621
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 226556.72299775702,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 1,
+      "legacy_uncapped_candidates": 1,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000033",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 1.3148474362977849,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 3.0561774872427874,
+          "start_frequency_hz": 6663999348.079796,
+          "truth_id": "trial_000033_signal_0"
+        }
+      ],
+      "v2_event_count": 2,
+      "v2_hit_count": 5
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 912243.9404321944,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          791,
+          920
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 228060.9851080486,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 1,
+      "legacy_uncapped_candidates": 1,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000034",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -1.7973428081958138,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 5.869348834241311,
+          "start_frequency_hz": 6663999765.5063505,
+          "truth_id": "trial_000034_signal_0"
+        }
+      ],
+      "v2_event_count": 3,
+      "v2_hit_count": 7
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 909659.3014521458,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          5,
+          134
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 227414.82536303645,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000035",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 2.6455207400873295,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 5.711918272720592,
+          "start_frequency_hz": 6663998667.487329,
+          "truth_id": "trial_000035_signal_0"
+        }
+      ],
+      "v2_event_count": 2,
+      "v2_hit_count": 4
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 947063.2241843531,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          223,
+          352
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 236765.80604608828,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 1,
+      "legacy_uncapped_candidates": 1,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000036",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 1.622519534572893,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 6.008477265933196,
+          "start_frequency_hz": 6663998972.683824,
+          "truth_id": "trial_000036_signal_0"
+        }
+      ],
+      "v2_event_count": 3,
+      "v2_hit_count": 6
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 916339.5363981775,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          158,
+          287
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 229084.88409954438,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 1,
+      "legacy_uncapped_candidates": 1,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000037",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 1.6007744554865706,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 1.9624284315444844,
+          "start_frequency_hz": 6663998881.559378,
+          "truth_id": "trial_000037_signal_0"
+        }
+      ],
+      "v2_event_count": 3,
+      "v2_hit_count": 7
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 909581.0941851197,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          17,
+          146
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 227395.27354627993,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000038",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 2.0427126475773205,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.5930633550613906,
+          "start_frequency_hz": 6663998684.402909,
+          "truth_id": "trial_000038_signal_0"
+        }
+      ],
+      "v2_event_count": 2,
+      "v2_hit_count": 5
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 933477.0281045224,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          820,
+          949
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 233369.2570261306,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 1,
+      "legacy_uncapped_candidates": 1,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000039",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -0.2655909881554237,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 3.103540279997045,
+          "start_frequency_hz": 6663999806.724897,
+          "truth_id": "trial_000039_signal_0"
+        }
+      ],
+      "v2_event_count": 3,
+      "v2_hit_count": 7
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 1820437.6895913475,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          654,
+          783
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 227554.71119891843,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 3,
+      "legacy_uncapped_candidates": 3,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000040",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 0.8937157498407444,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 3.367994987230285,
+          "start_frequency_hz": 6663999575.064081,
+          "truth_id": "trial_000040_signal_0"
+        }
+      ],
+      "v2_event_count": 10,
+      "v2_hit_count": 20
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 1814451.405146215,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          53,
+          182
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 226806.4256432769,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 1,
+      "legacy_uncapped_candidates": 1,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000041",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -0.4790601021426655,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 4.295967915084338,
+          "start_frequency_hz": 6663998735.423702,
+          "truth_id": "trial_000041_signal_0"
+        }
+      ],
+      "v2_event_count": 8,
+      "v2_hit_count": 19
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 1784227.8176208693,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          496,
+          625
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 223028.47720260866,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 3,
+      "legacy_uncapped_candidates": 3,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000042",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -3.0606162444003067,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 4.796548739213721,
+          "start_frequency_hz": 6663999353.094458,
+          "truth_id": "trial_000042_signal_0"
+        }
+      ],
+      "v2_event_count": 8,
+      "v2_hit_count": 15
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 1834593.6682362775,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          1,
+          130
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 229324.2085295347,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 0,
+        "unconstrained_maximum_raw_hit_recovery": 0
+      },
+      "trial_id": "trial_000043",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -2.994930102419289,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 5.0356579330754165,
+          "start_frequency_hz": 6663998662.493469,
+          "truth_id": "trial_000043_signal_0"
+        }
+      ],
+      "v2_event_count": 0,
+      "v2_hit_count": 0
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 1831710.7482223934,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          318,
+          447
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 228963.84352779918,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 3,
+      "legacy_uncapped_candidates": 3,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000044",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -1.3794813239412012,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.498474256733104,
+          "start_frequency_hz": 6663999104.6715555,
+          "truth_id": "trial_000044_signal_0"
+        }
+      ],
+      "v2_event_count": 7,
+      "v2_hit_count": 17
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 1788313.9619977092,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          922,
+          1024
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 223539.24524971365,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 0,
+      "legacy_uncapped_candidates": 0,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000045",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": 0.9765880657141395,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 3.671238441098936,
+          "start_frequency_hz": 6663999948.929575,
+          "truth_id": "trial_000045_signal_0"
+        }
+      ],
+      "v2_event_count": 5,
+      "v2_hit_count": 10
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 1827306.8636575998,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          804,
+          933
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 228413.35795719997,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 2,
+      "legacy_uncapped_candidates": 2,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000046",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -3.9036719944424787,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 0.5084719549958591,
+          "start_frequency_hz": 6663999783.995177,
+          "truth_id": "trial_000046_signal_0"
+        }
+      ],
+      "v2_event_count": 3,
+      "v2_hit_count": 8
+    },
+    {
+      "injection": {
+        "beam_calibrated": false,
+        "continuous_peak_power_before_bin_time_averaging": 1855263.7377161281,
+        "frequency_bin_integration": "analytic Gaussian CDF",
+        "noise_channel_window_half_open": [
+          82,
+          211
+        ],
+        "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+        "noise_estimate_power": 231907.96721451601,
+        "off_response": 0.0,
+        "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+        "time_midpoint_subsamples": 32
+      },
+      "legacy_candidates_lost_to_cap": 0,
+      "legacy_retained_candidates": 3,
+      "legacy_uncapped_candidates": 3,
+      "recovery_assignment_audit": {
+        "ancestry_constrained_raw_hit_recovery": 1,
+        "unconstrained_maximum_raw_hit_recovery": 1
+      },
+      "trial_id": "trial_000047",
+      "truths": [
+        {
+          "curvature_hz_per_s2": 0.0,
+          "drift_hz_per_s": -0.4100310134098395,
+          "epoch_s": 0.0,
+          "fwhm_hz": 2.7939682006835938,
+          "modulation_phase": 4.633425009527207,
+          "start_frequency_hz": 6663998775.18242,
+          "truth_id": "trial_000047_signal_0"
+        }
+      ],
+      "v2_event_count": 9,
+      "v2_hit_count": 23
+    }
+  ]
+}

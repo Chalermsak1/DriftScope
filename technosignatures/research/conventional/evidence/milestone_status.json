@@ -1,0 +1,51 @@
+{
+  "components": {
+    "cadence_filtering": "PASS for actual timing, endpoint-corridor association, forced OFF measurements and two explicit policies on stated fixtures; operational calibration and broader tests open",
+    "coverage_remediation": "PASS for complete unmasked discrete linear support, masks, whole/tile equivalence and recorded fixtures; production streaming open",
+    "event_grouping": "PASS for complete-link path grouping, unique memberships, ancestry and one-to-one matching; 80/80 and 2/2 controlled tracks; general native deblending open",
+    "representative_cohort_sensitivity": "PARTIAL: candidate-independent frame and header access, linkage/sampling/split APIs, conditional development trials, domain/cluster statistics implemented; representative spectral cohort, conditional placement intervals and confirmatory study NOT COMPLETE"
+  },
+  "executed_evidence": {
+    "additional_valid_discrete_tracks_searched": 99326,
+    "executed_conditional_sensitivity_signals": 48,
+    "executed_conditional_sensitivity_trials": 48,
+    "fully_synthetic_80_line_recovered": 80,
+    "generated_full_design_signals_not_executed": 1344,
+    "generated_full_design_trials_not_executed": 1152,
+    "integration_convergence_passed": true,
+    "llm_introduced": false,
+    "locked_test_opened": false,
+    "native_cadence_engineering_cases": 4,
+    "population_sensitivity_estimated": false,
+    "preservation": {
+      "all_preserved": true,
+      "approved_plan_manifest_files_verified": 8,
+      "changed": [],
+      "changed_plan_files": [],
+      "original_manifest_files_verified": 31
+    },
+    "release_connected_components": 5,
+    "representative_cohort_gate_passed": false,
+    "scope": "Validated conventional-development implementation and specified engineering experiments; representative cohort acquisition remains a separate unmet scientific gate.",
+    "v2_valid_discrete_support_coverage": 1.0,
+    "version": "conventional-v2-development-1"
+  },
+  "milestone": "conventional-v2-development-increment",
+  "next_increment": "Instrument-justified pointing/receiver selection, bounded spectral-tile acquisition across independent complete cadences, conditional uncertainty and comparator calibration; see BACKLOG_STATUS.md.",
+  "open_gates": {
+    "conditional_placement_intervals": false,
+    "established_comparator_at_matched_native_burden": false,
+    "full_1152_trial_design_executed": false,
+    "instrument_specific_pointing_receiver_definition": false,
+    "locked_cohort_and_protocol_frozen": false,
+    "representative_samples_and_sufficient_components": false
+  },
+  "repeat_comparisons_passed": 17,
+  "status": "PASS_FOR_EXECUTED_SCOPE_WITH_OPEN_SCIENTIFIC_GATES",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 115
+  }
+}

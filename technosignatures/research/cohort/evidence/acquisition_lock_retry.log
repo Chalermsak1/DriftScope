@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/cohort/acquire.py", line 263, in <module>
+    if __name__ == '__main__': main()
+                               ^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/cohort/acquire.py", line 258, in main
+    result = acquire(args.selection, args.data, args.offline); write(target, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/cohort/acquire.py", line 200, in acquire
+    with exclusive_transfer_lock(Path(directory)/'acquisition.lock'):
+  File "/opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/Users/chalermsak/Documents/ChatGPT/New project/DriftScope/technosignatures/research/pilot/range_access.py", line 21, in exclusive_transfer_lock
+    raise RuntimeError("Another archive extraction is already running") from None
+RuntimeError: Another archive extraction is already running

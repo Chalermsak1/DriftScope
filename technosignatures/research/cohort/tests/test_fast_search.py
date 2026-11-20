@@ -4,6 +4,7 @@ import pytest
 
 from research.conventional.search import search, SearchConfig
 from research.cohort.fast_search import search as fast
+from research.cohort.acquire import array_hash
 from test_evaluation import background
 
 
@@ -17,4 +18,5 @@ def test_vectorized_scores_hits_masks_and_coverage_match_reference(batch, tile):
     config = SearchConfig(max_abs_drift_hz_per_s=.25, tile_core_channels=tile)
     actual, expected = fast(scan, config, batch), search(scan, config)
     np.testing.assert_array_equal(actual.scores, expected.scores)
+    assert array_hash(actual.scores) == array_hash(expected.scores)
     assert actual.hits == expected.hits and actual.coverage == expected.coverage and actual.tiles == expected.tiles

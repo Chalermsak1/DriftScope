@@ -1,0 +1,108 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "all_42_source_maps_exact": true,
+    "all_42_sources_acquired": true,
+    "coverage_decomposition": true,
+    "experiment_inputs_unchanged": true,
+    "fresh_numerical_repeat_exact": true,
+    "full_design_weight_sum": true,
+    "full_regression_suite_passed": true,
+    "legacy_safe_loss_reconciliation": true,
+    "legacy_safe_weighted_rate_reconciliation": true,
+    "legacy_strict_loss_reconciliation": true,
+    "legacy_strict_weighted_rate_reconciliation": true,
+    "new_safe_loss_reconciliation": true,
+    "new_safe_weighted_rate_reconciliation": true,
+    "new_strict_loss_reconciliation": true,
+    "new_strict_weighted_rate_reconciliation": true,
+    "no_technical_failures": true,
+    "offline_reconstruction_exact": true,
+    "physical_signal_count_reconciles": true,
+    "planned_trials_executed": true,
+    "strict_implies_safe": true
+  },
+  "coverage": {
+    "legacy_evaluated_track_trials": 5692140,
+    "legacy_native_candidates_lost_to_cap": 0,
+    "legacy_valid_tracks_omitted_by_common_guard": 384876,
+    "new_evaluated_track_trials": 6077016,
+    "new_masked_track_trials": 0,
+    "new_physical_track_trials": 6077016,
+    "new_unscorable_track_trials": 0,
+    "scope": "Once per source scan in uninjected controls; repeated OFF reuse and injected trials are not multiplied into observing coverage."
+  },
+  "main_60_component_gate_passed": false,
+  "native_burden_caution": "Native origin is unresolved. These are candidate/association counts, not transmitter counts or labeled false positives.",
+  "native_control_burden": {
+    "legacy": {
+      "cadence_event_count": 0,
+      "hit_count": 0,
+      "strict_retained_events": 0
+    },
+    "new": {
+      "cadence_event_count": 0,
+      "hit_count": 0,
+      "strict_retained_events": 0
+    }
+  },
+  "observational_samples": {
+    "cadences": 7,
+    "exposure_s": 17523.466567680003,
+    "full_original_checksums_verified": false,
+    "linked_components": 7,
+    "on_exposure_s": 8761.733283840002,
+    "power_samples": 983040,
+    "source_files": 42,
+    "stored_integrations": 960,
+    "usable_samples": 983040
+  },
+  "outside_declared_domain_signals": 1,
+  "preservation": {
+    "all_preserved": true,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "original_manifest_files_verified": 31
+  },
+  "quadrature_max_abs_difference_over_continuous_peak": {
+    "amplitude_modulated": {
+      "32": 0.00011051850707228732,
+      "64": 2.2100540469379194e-05
+    },
+    "broadened_narrowband": {
+      "32": 4.41362451197866e-06,
+      "64": 8.82718283901214e-07
+    },
+    "collision_or_crowded": {
+      "32": 5.629811958336112e-05,
+      "64": 1.1258422228208822e-05
+    },
+    "continuous_linear": {
+      "32": 7.158728982537697e-05,
+      "64": 1.4315479620213178e-05
+    },
+    "curved_drift": {
+      "32": 6.476927746813784e-05,
+      "64": 1.2952248018261741e-05
+    },
+    "intermittent": {
+      "32": 0.014108389316856257,
+      "64": 0.0073223356353187136
+    }
+  },
+  "scope": "Exploratory reduced finite-frame sensitivity pilot. No calibrated flux sensitivity, population completeness, main-study precision, noninferiority or confirmed origin claim.",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 154
+  },
+  "unweighted_eligible_signals": 1343,
+  "unweighted_recoveries": {
+    "legacy_safe": 544,
+    "legacy_strict": 421,
+    "new_safe": 521,
+    "new_strict": 402
+  }
+}

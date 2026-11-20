@@ -1,0 +1,166 @@
+{
+  "acquired_cadences": 7,
+  "arms": {
+    "legacy_safe": {
+      "conservative": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 2517.0000000000005,
+        "rate": 0.38427480916030465
+      },
+      "optimistic": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 2542.600000000001,
+        "rate": 0.38818320610686957
+      },
+      "searchable": {
+        "denominator": 6352.650000000011,
+        "eligible_signals": 1285,
+        "numerator": 2517.0000000000005,
+        "rate": 0.3962126041888025
+      }
+    },
+    "legacy_strict": {
+      "conservative": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 1901.1500000000005,
+        "rate": 0.2902519083969461
+      },
+      "optimistic": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 1913.9500000000005,
+        "rate": 0.2922061068702285
+      },
+      "searchable": {
+        "denominator": 6352.650000000011,
+        "eligible_signals": 1285,
+        "numerator": 1901.1500000000005,
+        "rate": 0.299268809079675
+      }
+    },
+    "new_safe": {
+      "conservative": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 2232.45,
+        "rate": 0.3408320610687016
+      },
+      "optimistic": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 2270.8500000000004,
+        "rate": 0.346694656488549
+      },
+      "searchable": {
+        "denominator": 6489.000000000011,
+        "eligible_signals": 1315,
+        "numerator": 2232.45,
+        "rate": 0.3440360610263517
+      }
+    },
+    "new_strict": {
+      "conservative": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 1598.499999999999,
+        "rate": 0.24404580152671695
+      },
+      "optimistic": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 1611.299999999999,
+        "rate": 0.24599999999999939
+      },
+      "searchable": {
+        "denominator": 6489.000000000011,
+        "eligible_signals": 1315,
+        "numerator": 1598.499999999999,
+        "rate": 0.24633995993219238
+      }
+    }
+  },
+  "first_loss_counts": {
+    "legacy": {
+      "ambiguous_attribution": 2,
+      "below_threshold": 680,
+      "cadence_association": 53,
+      "frequency_suppression_or_assignment": 6,
+      "outside_declared_domain": 1,
+      "retained": 544,
+      "unsearched_or_unavailable_support": 58
+    },
+    "new": {
+      "ambiguous_attribution": 3,
+      "below_threshold": 692,
+      "cadence_ancestry_or_assignment": 45,
+      "cadence_association": 53,
+      "grouping_or_assignment": 1,
+      "outside_declared_domain": 1,
+      "retained": 521,
+      "unsearched_or_unavailable_support": 28
+    }
+  },
+  "independent_components": 7,
+  "llm_introduced": false,
+  "locked_test_accessed": false,
+  "main_60_component_gate_passed": false,
+  "physical_signal_count": 1344,
+  "policy_first_loss_counts": {
+    "legacy_safe": {
+      "ambiguous_attribution": 2,
+      "below_threshold": 680,
+      "cadence_association": 53,
+      "frequency_suppression_or_assignment": 6,
+      "outside_declared_domain": 1,
+      "retained": 544,
+      "unsearched_or_unavailable_support": 58
+    },
+    "legacy_strict": {
+      "ambiguous_attribution": 2,
+      "below_threshold": 680,
+      "cadence_association": 53,
+      "cadence_policy_reject_missing_on_persistence": 123,
+      "frequency_suppression_or_assignment": 6,
+      "outside_declared_domain": 1,
+      "retained": 421,
+      "unsearched_or_unavailable_support": 58
+    },
+    "new_safe": {
+      "ambiguous_attribution": 3,
+      "below_threshold": 692,
+      "cadence_ancestry_or_assignment": 45,
+      "cadence_association": 53,
+      "grouping_or_assignment": 1,
+      "outside_declared_domain": 1,
+      "retained": 521,
+      "unsearched_or_unavailable_support": 28
+    },
+    "new_strict": {
+      "ambiguous_attribution": 3,
+      "below_threshold": 692,
+      "cadence_ancestry_or_assignment": 45,
+      "cadence_association": 53,
+      "cadence_policy_reject_missing_on_persistence": 119,
+      "grouping_or_assignment": 1,
+      "outside_declared_domain": 1,
+      "retained": 402,
+      "unsearched_or_unavailable_support": 28
+    }
+  },
+  "preservation": {
+    "all_preserved": true,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "original_manifest_files_verified": 31
+  },
+  "receiver_hardware_identity_independently_verified": false,
+  "smoke_only": false,
+  "statistical_scope": "Exploratory finite-frame spectral-tile cohort. Confidence procedures do not validate transport to arbitrary observations.",
+  "technical_failure_signals": 0,
+  "trial_count": 1152,
+  "version": "prospective-cohort-sensitivity-v1-development"
+}

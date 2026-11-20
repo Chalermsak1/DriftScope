@@ -1,0 +1,23 @@
+{
+  "input_acquisition_sha256": "4705e0aa539144b9eb39ab5041b44d2b1b4b711dd0cabc6dfaf076d6bf447da6",
+  "numerical_repeat": {
+    "all_checks_passed": true,
+    "checks": {
+      "all_trial_checkpoints": true,
+      "checkpoint_ids": true,
+      "conditional_binomial_diagnostics.json": true,
+      "execution_config.json": true,
+      "injection_design.json": true,
+      "input_manifest.json": true,
+      "native_controls.json": true,
+      "sensitivity_cells.json": true,
+      "signal_rows.jsonl": true,
+      "source_manifest.json": true,
+      "summary.json": true,
+      "trial_metrics.jsonl": true,
+      "uncertainty.json": true
+    },
+    "scope": "Exact scientific JSON/JSONL and all trial records in the same environment. PNG container bytes and wall time are excluded.",
+    "trial_checkpoints_compared": 1152
+  }
+}

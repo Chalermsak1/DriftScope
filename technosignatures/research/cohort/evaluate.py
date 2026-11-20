@@ -122,6 +122,7 @@ def evaluate_trial(cadence, parameters, controls, settings, component_id, sampli
         for arm in ['new', 'legacy']:
             processed = process(altered, settings, arm, controls[arm], group_tolerance, off_threshold)
             by_truth = {t['truth_id']: {'searchable': False, 'generated': False, 'grouped': False, 'best_score': None, 'on_piece_count': 0,
+                                      'matched_on_event_ids': [],
                                       'local_maximum_compatible': False, 'after_frequency_suppression_compatible': False} for t in truths}
             for scan, offset in zip(altered.scans, altered.offsets_s):
                 if scan.role != 'ON': continue
@@ -143,6 +144,7 @@ def evaluate_trial(cadence, parameters, controls, settings, component_id, sampli
                     cell['generated'] |= hit['matched_id'] is not None
                     cell['grouped'] |= event['matched_id'] is not None
                     cell['on_piece_count'] += event['matched_id'] is not None
+                    if event['matched_id'] is not None: cell['matched_on_event_ids'].append(event['matched_id'])
                     for label, matches in compatibility.items():
                         cell[label] |= matches[truths.index(t)]['matched_id'] is not None
                     if arm == 'new':
@@ -165,7 +167,8 @@ def evaluate_trial(cadence, parameters, controls, settings, component_id, sampli
                 companion_ambiguous = any(other['truth_id'] != truth['truth_id'] and path_distance(truth, other, physical) <= 6*df for other in truths)
                 ambiguous = native[truth['truth_id']] or companion_ambiguous
                 event = events.get(match['matched_id'])
-                chain = row['eligible'] and facts['searchable'] and facts['generated'] and facts['grouped'] and event is not None
+                coherent_parents = sorted(set(facts['matched_on_event_ids']) & set(event['member_on_event_ids'])) if event else []
+                chain = row['eligible'] and facts['searchable'] and facts['generated'] and facts['grouped'] and bool(coherent_parents)
                 for suffix, policy in [('safe', 'review_safe'), ('strict', 'strict_experimental')]:
                     compatible = bool(chain and event[policy]['retained'])
                     row[arm+'_'+suffix+'_optimistic'] = compatible
@@ -173,6 +176,8 @@ def evaluate_trial(cadence, parameters, controls, settings, component_id, sampli
                 row[arm+'_stages'] = {**facts, 'associated': event is not None,
                                      'native_ambiguous': native[truth['truth_id']], 'companion_overlap_ambiguous': companion_ambiguous,
                                      'association_localization_rescue_not_counted': event is not None and not facts['grouped'],
+                                     'coherent_association_parent_event_ids': coherent_parents,
+                                     'association_ancestry_competition_not_counted': event is not None and facts['grouped'] and not coherent_parents,
                                      'association_max_path_error_channels': match['max_path_error_channels'],
                                      'strict_decision': event['strict_experimental']['decision'] if event else 'not_reached'}
                 if not row['eligible']: reason = 'outside_declared_domain'
@@ -183,6 +188,7 @@ def evaluate_trial(cadence, parameters, controls, settings, component_id, sampli
                 elif not facts['generated']: reason = 'catalogue_truncation_or_assignment' if arm == 'legacy' else 'candidate_assignment'
                 elif not facts['grouped']: reason = 'grouping_or_assignment'
                 elif event is None: reason = 'cadence_association'
+                elif not coherent_parents: reason = 'cadence_ancestry_or_assignment'
                 elif ambiguous: reason = 'ambiguous_attribution'
                 else: reason = 'retained'
                 row[arm+'_first_loss'] = reason

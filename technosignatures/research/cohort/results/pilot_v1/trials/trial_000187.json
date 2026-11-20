@@ -1,0 +1,212 @@
+{
+  "metrics": {
+    "arm_metrics": {
+      "legacy": {
+        "candidate_cap_loss_count": 0,
+        "event_count": 2,
+        "hit_count": 3,
+        "preprocessing_failures": {},
+        "scan_coverage": {
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_1": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_3": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_5": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          }
+        }
+      },
+      "new": {
+        "candidate_cap_loss_count": 0,
+        "event_count": 11,
+        "hit_count": 33,
+        "preprocessing_failures": {},
+        "scan_coverage": {
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_1": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_3": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_5": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          }
+        }
+      }
+    },
+    "injection": {
+      "beam_calibrated": false,
+      "continuous_peak_power_before_bin_time_averaging": 3876417.6909136213,
+      "frequency_bin_integration": "analytic Gaussian CDF",
+      "noise_channel_window_half_open": [
+        939,
+        1024
+      ],
+      "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+      "noise_estimate_power": 484552.21136420267,
+      "off_response": 0.0,
+      "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+      "time_midpoint_subsamples": 32
+    },
+    "trial_id": "trial_000187"
+  },
+  "parameters": {
+    "active_intervals_s": null,
+    "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+    "collision_offset_channels": null,
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "curvature_hz_per_s2": 0.0,
+    "drift_hz_per_s": -0.006507303681005883,
+    "family": "continuous_linear",
+    "fwhm_channels": 2.0,
+    "modulation_period_s": null,
+    "modulation_phase": 1.5946766881525112,
+    "off_response": 0.0,
+    "partition": "development",
+    "peak_power_sigma": 8.0,
+    "placements_in_cell": 5,
+    "sampling_weight": 2.0,
+    "start_channel": 1003.3401841269805,
+    "trial_id": "trial_000187"
+  },
+  "rows": [
+    {
+      "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+      "component_id": "component_9876f0d8b0bfbf2f",
+      "eligible": true,
+      "failure_type": null,
+      "family": "continuous_linear",
+      "legacy_first_loss": "unsearched_or_unavailable_support",
+      "legacy_safe": false,
+      "legacy_safe_first_loss": "unsearched_or_unavailable_support",
+      "legacy_safe_optimistic": false,
+      "legacy_stages": {
+        "after_frequency_suppression_compatible": false,
+        "associated": false,
+        "association_ancestry_competition_not_counted": false,
+        "association_localization_rescue_not_counted": false,
+        "association_max_path_error_channels": null,
+        "best_score": null,
+        "coherent_association_parent_event_ids": [],
+        "companion_overlap_ambiguous": false,
+        "generated": false,
+        "grouped": false,
+        "local_maximum_compatible": false,
+        "matched_on_event_ids": [],
+        "native_ambiguous": false,
+        "on_piece_count": 0,
+        "searchable": false,
+        "strict_decision": "not_reached"
+      },
+      "legacy_strict": false,
+      "legacy_strict_first_loss": "unsearched_or_unavailable_support",
+      "legacy_strict_optimistic": false,
+      "new_first_loss": "retained",
+      "new_safe": true,
+      "new_safe_first_loss": "retained",
+      "new_safe_optimistic": true,
+      "new_stages": {
+        "after_frequency_suppression_compatible": true,
+        "associated": true,
+        "association_ancestry_competition_not_counted": false,
+        "association_localization_rescue_not_counted": false,
+        "association_max_path_error_channels": 0.22514718290821412,
+        "best_score": 35.83087637374227,
+        "coherent_association_parent_event_ids": [
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000000"
+        ],
+        "companion_overlap_ambiguous": false,
+        "generated": true,
+        "grouped": true,
+        "local_maximum_compatible": true,
+        "matched_on_event_ids": [
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000000"
+        ],
+        "native_ambiguous": false,
+        "on_piece_count": 3,
+        "searchable": true,
+        "strict_decision": "retain"
+      },
+      "new_strict": true,
+      "new_strict_first_loss": "retained",
+      "new_strict_optimistic": true,
+      "peak_power_sigma": 8.0,
+      "searchable": true,
+      "trial_id": "trial_000187",
+      "truth_id": "trial_000187_signal_0",
+      "weight": 0.4
+    }
+  ]
+}

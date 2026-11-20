@@ -9,7 +9,7 @@ import numpy as np
 from research.conventional.search import search as reference_search, SearchConfig
 from research.conventional.injection import inject, parameter_manifest
 from .fast_search import search as vectorized_search
-from .acquire import load_cadence
+from .acquire import load_cadence, array_hash
 from .frame import HERE, write, digest
 
 
@@ -39,11 +39,13 @@ def source_checks(acquisition, directory, config):
         for scan in cadence.scans:
             start = time.perf_counter(); a = reference_search(scan, search_config); scalar_time = time.perf_counter()-start
             start = time.perf_counter(); b = vectorized_search(scan, search_config); vector_time = time.perf_counter()-start
-            check = {'scan_id': scan.scan_id, 'score_maps_bitwise_equal': np.array_equal(a.scores, b.scores, equal_nan=True),
+            check = {'scan_id': scan.scan_id, 'score_maps_bitwise_equal': array_hash(a.scores) == array_hash(b.scores),
+                     'score_values_equal': np.array_equal(a.scores, b.scores, equal_nan=True),
+                     'reference_score_sha256': array_hash(a.scores), 'vectorized_score_sha256': array_hash(b.scores),
                      'hits_identical': a.hits == b.hits, 'coverage_identical': a.coverage == b.coverage,
                      'tiles_identical': a.tiles == b.tiles, 'reference_wall_s': scalar_time, 'vectorized_wall_s': vector_time}
             maps.append(check)
-            if not all(check[k] for k in ['score_maps_bitwise_equal', 'hits_identical', 'coverage_identical', 'tiles_identical']):
+            if not all(check[k] for k in ['score_maps_bitwise_equal', 'score_values_equal', 'hits_identical', 'coverage_identical', 'tiles_identical']):
                 raise AssertionError(check)
         span = float(cadence.offsets_s[-1]+len(cadence.scans[-1].time_s)*cadence.scans[-1].dt)
         design = parameter_manifest(cadence.cadence_id, len(cadence.scans[0].frequency_hz), span, cadence.scans[0].df,

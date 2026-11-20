@@ -1,0 +1,208 @@
+{
+  "arms": {
+    "legacy_safe": {
+      "conditional_placement": {
+        "empirical_percentiles_95": [
+          0.3657656554527735,
+          0.4018393379680116
+        ],
+        "interval_95": [
+          0.3657656554527735,
+          0.4018393379680116
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "full_declared_domain": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 2517.0000000000005,
+        "rate": 0.38427480916030465
+      },
+      "observing_environment": {
+        "empirical_percentiles_95": [
+          0.36506505026611413,
+          0.4214238102816211
+        ],
+        "interval_95": [
+          0.36506505026611413,
+          0.4214238102816211
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "searchable_domain": {
+        "denominator": 6352.650000000011,
+        "eligible_signals": 1285,
+        "numerator": 2517.0000000000005,
+        "rate": 0.3962126041888025
+      }
+    },
+    "legacy_strict": {
+      "conditional_placement": {
+        "empirical_percentiles_95": [
+          0.2732598824786325,
+          0.307158692002442
+        ],
+        "interval_95": [
+          0.2732598824786325,
+          0.307158692002442
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "full_declared_domain": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 1901.1500000000005,
+        "rate": 0.2902519083969461
+      },
+      "observing_environment": {
+        "empirical_percentiles_95": [
+          0.27205774853801123,
+          0.32987136974669085
+        ],
+        "interval_95": [
+          0.27205774853801123,
+          0.32987136974669085
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "searchable_domain": {
+        "denominator": 6352.650000000011,
+        "eligible_signals": 1285,
+        "numerator": 1901.1500000000005,
+        "rate": 0.299268809079675
+      }
+    },
+    "new_safe": {
+      "conditional_placement": {
+        "empirical_percentiles_95": [
+          0.3109043770721904,
+          0.3702507806707485
+        ],
+        "interval_95": [
+          0.3109043770721904,
+          0.3702507806707485
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "full_declared_domain": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 2232.45,
+        "rate": 0.3408320610687016
+      },
+      "observing_environment": {
+        "empirical_percentiles_95": [
+          0.32871485268397627,
+          0.4066610632400156
+        ],
+        "interval_95": [
+          0.32871485268397627,
+          0.4066610632400156
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "searchable_domain": {
+        "denominator": 6489.000000000011,
+        "eligible_signals": 1315,
+        "numerator": 2232.45,
+        "rate": 0.3440360610263517
+      }
+    },
+    "new_strict": {
+      "conditional_placement": {
+        "empirical_percentiles_95": [
+          0.21930642217180088,
+          0.2679546219170704
+        ],
+        "interval_95": [
+          0.21930642217180088,
+          0.2679546219170704
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "full_declared_domain": {
+        "denominator": 6550.000000000013,
+        "eligible_signals": 1343,
+        "numerator": 1598.499999999999,
+        "rate": 0.24404580152671695
+      },
+      "observing_environment": {
+        "empirical_percentiles_95": [
+          0.23266237251744465,
+          0.30888157894736834
+        ],
+        "interval_95": [
+          0.23266237251744465,
+          0.30888157894736834
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "searchable_domain": {
+        "denominator": 6489.000000000011,
+        "eligible_signals": 1315,
+        "numerator": 1598.499999999999,
+        "rate": 0.24633995993219238
+      }
+    }
+  },
+  "component_count": 7,
+  "contrasts": {
+    "new_safe_minus_legacy_safe": {
+      "conditional_placement": {
+        "empirical_percentiles_95": [
+          -0.0681725709590451,
+          -0.019142486255345044
+        ],
+        "interval_95": [
+          -0.0681725709590451,
+          -0.019142486255345044
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "observing_environment": {
+        "empirical_percentiles_95": [
+          -0.05745370370370356,
+          0.006556026365348466
+        ],
+        "interval_95": [
+          -0.05745370370370356,
+          0.006556026365348466
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "point_difference": -0.043442748091603034
+    },
+    "new_safe_minus_new_strict": {
+      "conditional_placement": {
+        "empirical_percentiles_95": [
+          0.07651125954198473,
+          0.11733821733821725
+        ],
+        "interval_95": [
+          0.07651125954198473,
+          0.11733821733821725
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "observing_environment": {
+        "empirical_percentiles_95": [
+          0.09547401879491405,
+          0.10232884671693142
+        ],
+        "interval_95": [
+          0.09547401879491405,
+          0.10232884671693142
+        ],
+        "status": "exploratory_percentile_interval"
+      },
+      "point_difference": 0.09678625954198466
+    }
+  },
+  "environment_unit": "whole acquisition/target/raw-data component, paired outcomes and weights retained",
+  "observing_environment_few_group_warning": true,
+  "placement_unit": "whole randomized trial within fixed component/family/amplitude strata",
+  "population_precision_gate_passed": false,
+  "replicates": 10000,
+  "seed": 20261124,
+  "trial_count": 1152
+}

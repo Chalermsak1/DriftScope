@@ -1,0 +1,167 @@
+{
+  "allocation": [
+    {
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "family": "continuous_linear",
+      "peak_power_sigma": 8.0,
+      "trials": 1
+    },
+    {
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "family": "broadened_narrowband",
+      "peak_power_sigma": 8.0,
+      "trials": 1
+    },
+    {
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "family": "intermittent",
+      "peak_power_sigma": 8.0,
+      "trials": 1
+    },
+    {
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "family": "amplitude_modulated",
+      "peak_power_sigma": 8.0,
+      "trials": 1
+    },
+    {
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "family": "curved_drift",
+      "peak_power_sigma": 8.0,
+      "trials": 1
+    },
+    {
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "family": "collision_or_crowded",
+      "peak_power_sigma": 8.0,
+      "trials": 1
+    }
+  ],
+  "created_before_injected_outcomes": true,
+  "seed": 20261126,
+  "signal_count": 7,
+  "trial_count": 6,
+  "trials": [
+    {
+      "active_intervals_s": null,
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "collision_offset_channels": null,
+      "component_id": "component_68b9b5320e42e964",
+      "curvature_hz_per_s2": 0.0,
+      "drift_hz_per_s": -0.20995030006929205,
+      "family": "continuous_linear",
+      "fwhm_channels": 2.0,
+      "modulation_period_s": null,
+      "modulation_phase": 4.509212115102195,
+      "off_response": 0.0,
+      "partition": "development",
+      "peak_power_sigma": 8.0,
+      "placements_in_cell": 1,
+      "sampling_weight": 2.0,
+      "start_channel": 1022.5595144200058,
+      "trial_id": "trial_000000"
+    },
+    {
+      "active_intervals_s": null,
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "collision_offset_channels": null,
+      "component_id": "component_68b9b5320e42e964",
+      "curvature_hz_per_s2": 0.0,
+      "drift_hz_per_s": -0.20833918741226948,
+      "family": "broadened_narrowband",
+      "fwhm_channels": 6.0,
+      "modulation_period_s": null,
+      "modulation_phase": 2.4948778030197776,
+      "off_response": 0.0,
+      "partition": "development",
+      "peak_power_sigma": 8.0,
+      "placements_in_cell": 1,
+      "sampling_weight": 2.0,
+      "start_channel": 942.2077384814087,
+      "trial_id": "trial_000001"
+    },
+    {
+      "active_intervals_s": [
+        [
+          932.2788881385059,
+          2796.8366644155176
+        ]
+      ],
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "collision_offset_channels": null,
+      "component_id": "component_68b9b5320e42e964",
+      "curvature_hz_per_s2": 0.0,
+      "drift_hz_per_s": -0.24043581607580783,
+      "family": "intermittent",
+      "fwhm_channels": 2.0,
+      "modulation_period_s": null,
+      "modulation_phase": 4.1126138665123335,
+      "off_response": 0.0,
+      "partition": "development",
+      "peak_power_sigma": 8.0,
+      "placements_in_cell": 1,
+      "sampling_weight": 2.0,
+      "start_channel": 128.69279203776898,
+      "trial_id": "trial_000002"
+    },
+    {
+      "active_intervals_s": null,
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "collision_offset_channels": null,
+      "component_id": "component_68b9b5320e42e964",
+      "curvature_hz_per_s2": 0.0,
+      "drift_hz_per_s": -0.23385816319497638,
+      "family": "amplitude_modulated",
+      "fwhm_channels": 2.0,
+      "modulation_period_s": 1864.5577762770117,
+      "modulation_phase": 4.754373725238552,
+      "off_response": 0.0,
+      "partition": "development",
+      "peak_power_sigma": 8.0,
+      "placements_in_cell": 1,
+      "sampling_weight": 2.0,
+      "start_channel": 936.4041570117452,
+      "trial_id": "trial_000003"
+    },
+    {
+      "active_intervals_s": null,
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "collision_offset_channels": null,
+      "component_id": "component_68b9b5320e42e964",
+      "curvature_hz_per_s2": -8.03654943036416e-07,
+      "drift_hz_per_s": 0.030215612658349766,
+      "family": "curved_drift",
+      "fwhm_channels": 2.0,
+      "modulation_period_s": null,
+      "modulation_phase": 1.921410687009554,
+      "off_response": 0.0,
+      "partition": "development",
+      "peak_power_sigma": 8.0,
+      "placements_in_cell": 1,
+      "sampling_weight": 2.0,
+      "start_channel": 976.2486067806369,
+      "trial_id": "trial_000004"
+    },
+    {
+      "active_intervals_s": null,
+      "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+      "collision_offset_channels": 5.0,
+      "component_id": "component_68b9b5320e42e964",
+      "curvature_hz_per_s2": 0.0,
+      "drift_hz_per_s": 0.11770887693481596,
+      "family": "collision_or_crowded",
+      "fwhm_channels": 2.0,
+      "modulation_period_s": null,
+      "modulation_phase": 0.3768555788284187,
+      "off_response": 0.0,
+      "partition": "development",
+      "peak_power_sigma": 8.0,
+      "placements_in_cell": 1,
+      "sampling_weight": 2.0,
+      "start_channel": 911.3757898034139,
+      "trial_id": "trial_000005"
+    }
+  ],
+  "version": "prospective-cohort-sensitivity-v1-development",
+  "weight_definition": "inverse cadence inclusion probability divided by placements in component/cell and physical companions per trial; equal family/amplitude contribution"
+}

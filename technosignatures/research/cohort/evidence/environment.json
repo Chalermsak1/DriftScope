@@ -1,0 +1,392 @@
+{
+  "all_locked_versions_match": true,
+  "distributions": [
+    {
+      "distribution": "alabaster",
+      "installed": "1.0.0",
+      "locked": "1.0.0",
+      "matches": true
+    },
+    {
+      "distribution": "astropy",
+      "installed": "8.0.3",
+      "locked": "8.0.3",
+      "matches": true
+    },
+    {
+      "distribution": "astropy-iers-data",
+      "installed": "0.2026.11.16.0.37.44",
+      "locked": "0.2026.11.16.0.37.44",
+      "matches": true
+    },
+    {
+      "distribution": "attrs",
+      "installed": "26.1.0",
+      "locked": "26.1.0",
+      "matches": true
+    },
+    {
+      "distribution": "babel",
+      "installed": "2.18.0",
+      "locked": "2.18.0",
+      "matches": true
+    },
+    {
+      "distribution": "blimpy",
+      "installed": "2.0.31",
+      "locked": "2.0.31",
+      "matches": true
+    },
+    {
+      "distribution": "certifi",
+      "installed": "2026.10.23",
+      "locked": "2026.10.23",
+      "matches": true
+    },
+    {
+      "distribution": "charset-normalizer",
+      "installed": "3.5.2",
+      "locked": "3.5.2",
+      "matches": true
+    },
+    {
+      "distribution": "contourpy",
+      "installed": "1.3.3",
+      "locked": "1.3.3",
+      "matches": true
+    },
+    {
+      "distribution": "cycler",
+      "installed": "0.12.1",
+      "locked": "0.12.1",
+      "matches": true
+    },
+    {
+      "distribution": "cython",
+      "installed": "3.3.1",
+      "locked": "3.3.1",
+      "matches": true
+    },
+    {
+      "distribution": "docutils",
+      "installed": "0.22.4",
+      "locked": "0.22.4",
+      "matches": true
+    },
+    {
+      "distribution": "fastjsonschema",
+      "installed": "2.22.3",
+      "locked": "2.22.3",
+      "matches": true
+    },
+    {
+      "distribution": "fonttools",
+      "installed": "4.68.0",
+      "locked": "4.68.0",
+      "matches": true
+    },
+    {
+      "distribution": "h5py",
+      "installed": "3.16.0",
+      "locked": "3.16.0",
+      "matches": true
+    },
+    {
+      "distribution": "hdf5plugin",
+      "installed": "7.1.0",
+      "locked": "7.1.0",
+      "matches": true
+    },
+    {
+      "distribution": "idna",
+      "installed": "3.20",
+      "locked": "3.20",
+      "matches": true
+    },
+    {
+      "distribution": "imagesize",
+      "installed": "2.0.1",
+      "locked": "2.0.1",
+      "matches": true
+    },
+    {
+      "distribution": "iniconfig",
+      "installed": "2.3.1",
+      "locked": "2.3.1",
+      "matches": true
+    },
+    {
+      "distribution": "jinja2",
+      "installed": "3.1.6",
+      "locked": "3.1.6",
+      "matches": true
+    },
+    {
+      "distribution": "jsonschema",
+      "installed": "4.26.0",
+      "locked": "4.26.0",
+      "matches": true
+    },
+    {
+      "distribution": "jsonschema-specifications",
+      "installed": "2025.9.1",
+      "locked": "2025.9.1",
+      "matches": true
+    },
+    {
+      "distribution": "jupyter-core",
+      "installed": "5.9.1",
+      "locked": "5.9.1",
+      "matches": true
+    },
+    {
+      "distribution": "kiwisolver",
+      "installed": "1.5.1",
+      "locked": "1.5.1",
+      "matches": true
+    },
+    {
+      "distribution": "markupsafe",
+      "installed": "3.0.4",
+      "locked": "3.0.4",
+      "matches": true
+    },
+    {
+      "distribution": "matplotlib",
+      "installed": "3.11.2",
+      "locked": "3.11.2",
+      "matches": true
+    },
+    {
+      "distribution": "nbformat",
+      "installed": "5.11.1",
+      "locked": "5.11.1",
+      "matches": true
+    },
+    {
+      "distribution": "numpy",
+      "installed": "2.4.6",
+      "locked": "2.4.6",
+      "matches": true
+    },
+    {
+      "distribution": "packaging",
+      "installed": "26.3",
+      "locked": "26.3",
+      "matches": true
+    },
+    {
+      "distribution": "pandas",
+      "installed": "3.1.1",
+      "locked": "3.1.1",
+      "matches": true
+    },
+    {
+      "distribution": "pillow",
+      "installed": "13.0.0",
+      "locked": "13.0.0",
+      "matches": true
+    },
+    {
+      "distribution": "platformdirs",
+      "installed": "4.14.7",
+      "locked": "4.14.7",
+      "matches": true
+    },
+    {
+      "distribution": "pluggy",
+      "installed": "1.7.0",
+      "locked": "1.7.0",
+      "matches": true
+    },
+    {
+      "distribution": "psutil",
+      "installed": "7.2.2",
+      "locked": "7.2.2",
+      "matches": true
+    },
+    {
+      "distribution": "pyerfa",
+      "installed": "2.0.1.5",
+      "locked": "2.0.1.5",
+      "matches": true
+    },
+    {
+      "distribution": "pygments",
+      "installed": "2.21.0",
+      "locked": "2.21.0",
+      "matches": true
+    },
+    {
+      "distribution": "pyparsing",
+      "installed": "3.3.3",
+      "locked": "3.3.3",
+      "matches": true
+    },
+    {
+      "distribution": "pytest",
+      "installed": "9.2.0",
+      "locked": "9.2.0",
+      "matches": true
+    },
+    {
+      "distribution": "python-dateutil",
+      "installed": "4.0.0",
+      "locked": "4.0.0",
+      "matches": true
+    },
+    {
+      "distribution": "pyyaml",
+      "installed": "6.0.3",
+      "locked": "6.0.3",
+      "matches": true
+    },
+    {
+      "distribution": "referencing",
+      "installed": "0.37.0",
+      "locked": "0.37.0",
+      "matches": true
+    },
+    {
+      "distribution": "requests",
+      "installed": "2.34.2",
+      "locked": "2.34.2",
+      "matches": true
+    },
+    {
+      "distribution": "roman-numerals",
+      "installed": "4.1.0",
+      "locked": "4.1.0",
+      "matches": true
+    },
+    {
+      "distribution": "rpds-py",
+      "installed": "2026.9.1",
+      "locked": "2026.9.1",
+      "matches": true
+    },
+    {
+      "distribution": "scipy",
+      "installed": "1.17.1",
+      "locked": "1.17.1",
+      "matches": true
+    },
+    {
+      "distribution": "setigen",
+      "installed": "2.4.0",
+      "locked": "2.4.0",
+      "matches": true
+    },
+    {
+      "distribution": "setuptools",
+      "installed": "80.9.0",
+      "locked": "80.9.0",
+      "matches": true
+    },
+    {
+      "distribution": "six",
+      "installed": "1.17.0",
+      "locked": "1.17.0",
+      "matches": true
+    },
+    {
+      "distribution": "snowballstemmer",
+      "installed": "3.1.1",
+      "locked": "3.1.1",
+      "matches": true
+    },
+    {
+      "distribution": "sphinx",
+      "installed": "9.0.4",
+      "locked": "9.0.4",
+      "matches": true
+    },
+    {
+      "distribution": "sphinx-rtd-theme",
+      "installed": "3.1.0",
+      "locked": "3.1.0",
+      "matches": true
+    },
+    {
+      "distribution": "sphinxcontrib-applehelp",
+      "installed": "2.0.0",
+      "locked": "2.0.0",
+      "matches": true
+    },
+    {
+      "distribution": "sphinxcontrib-devhelp",
+      "installed": "2.0.0",
+      "locked": "2.0.0",
+      "matches": true
+    },
+    {
+      "distribution": "sphinxcontrib-htmlhelp",
+      "installed": "2.1.0",
+      "locked": "2.1.0",
+      "matches": true
+    },
+    {
+      "distribution": "sphinxcontrib-jquery",
+      "installed": "4.1",
+      "locked": "4.1",
+      "matches": true
+    },
+    {
+      "distribution": "sphinxcontrib-jsmath",
+      "installed": "2.0.0",
+      "locked": "2.0.0",
+      "matches": true
+    },
+    {
+      "distribution": "sphinxcontrib-qthelp",
+      "installed": "2.0.0",
+      "locked": "2.0.0",
+      "matches": true
+    },
+    {
+      "distribution": "sphinxcontrib-serializinghtml",
+      "installed": "2.0.0",
+      "locked": "2.0.0",
+      "matches": true
+    },
+    {
+      "distribution": "tqdm",
+      "installed": "4.70.1",
+      "locked": "4.70.1",
+      "matches": true
+    },
+    {
+      "distribution": "traitlets",
+      "installed": "5.16.1",
+      "locked": "5.16.1",
+      "matches": true
+    },
+    {
+      "distribution": "typing-extensions",
+      "installed": "4.16.0",
+      "locked": "4.16.0",
+      "matches": true
+    },
+    {
+      "distribution": "tzdata",
+      "installed": "2026.6",
+      "locked": "2026.6",
+      "matches": true
+    },
+    {
+      "distribution": "urllib3",
+      "installed": "2.8.0",
+      "locked": "2.8.0",
+      "matches": true
+    }
+  ],
+  "implementation": "CPython",
+  "limitations": [
+    "Existing installed environment, not a clean installation test.",
+    "Version lock without wheel hashes or container digest.",
+    "No independent cross-platform numerical reproduction."
+  ],
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "python": "3.11.16",
+  "requirements_lock_sha256": "13198dbd007dfe6c25e6f4fa9a0182b8c10281157dba88e78557a80b8263d79c"
+}

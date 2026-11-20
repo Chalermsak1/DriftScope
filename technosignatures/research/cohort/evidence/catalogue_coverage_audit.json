@@ -1,0 +1,150 @@
+{
+  "all_frame_and_canonical_response_hashes_verified": true,
+  "eligible_cadence_product_proposals": 182,
+  "eligible_proposal_count_by_selected_component": [
+    2.0,
+    21.0,
+    5.0,
+    20.0,
+    4.0,
+    2.0,
+    128.0
+  ],
+  "frames": [
+    {
+      "api_frame_complete": true,
+      "canonical_response_hashes_verified": true,
+      "effective_http_query_count": 1,
+      "failed_queries": 0,
+      "indexed_rows": 0,
+      "queries": 1,
+      "saturated_parent_queries": 0,
+      "selection_bound_file_hash_verified": true,
+      "year": 2016
+    },
+    {
+      "api_frame_complete": true,
+      "canonical_response_hashes_verified": true,
+      "effective_http_query_count": 1,
+      "failed_queries": 0,
+      "indexed_rows": 0,
+      "queries": 1,
+      "saturated_parent_queries": 0,
+      "selection_bound_file_hash_verified": true,
+      "year": 2017
+    },
+    {
+      "api_frame_complete": true,
+      "canonical_response_hashes_verified": true,
+      "effective_http_query_count": 1,
+      "failed_queries": 0,
+      "indexed_rows": 102,
+      "queries": 1,
+      "saturated_parent_queries": 0,
+      "selection_bound_file_hash_verified": true,
+      "year": 2018
+    },
+    {
+      "api_frame_complete": true,
+      "canonical_response_hashes_verified": true,
+      "effective_http_query_count": 41,
+      "failed_queries": 0,
+      "indexed_rows": 6249,
+      "queries": 41,
+      "saturated_parent_queries": 20,
+      "selection_bound_file_hash_verified": true,
+      "year": 2019
+    },
+    {
+      "api_frame_complete": true,
+      "canonical_response_hashes_verified": true,
+      "effective_http_query_count": 3,
+      "failed_queries": 0,
+      "indexed_rows": 1584,
+      "queries": 3,
+      "saturated_parent_queries": 1,
+      "selection_bound_file_hash_verified": true,
+      "year": 2020
+    },
+    {
+      "api_frame_complete": true,
+      "canonical_response_hashes_verified": true,
+      "effective_http_query_count": 21,
+      "failed_queries": 0,
+      "indexed_rows": 2550,
+      "queries": 21,
+      "saturated_parent_queries": 10,
+      "selection_bound_file_hash_verified": true,
+      "year": 2021
+    },
+    {
+      "api_frame_complete": true,
+      "canonical_response_hashes_verified": true,
+      "effective_http_query_count": 17,
+      "failed_queries": 0,
+      "indexed_rows": 1890,
+      "queries": 17,
+      "saturated_parent_queries": 8,
+      "selection_bound_file_hash_verified": true,
+      "year": 2022
+    },
+    {
+      "api_frame_complete": true,
+      "canonical_response_hashes_verified": true,
+      "effective_http_query_count": 1,
+      "failed_queries": 0,
+      "indexed_rows": 0,
+      "queries": 1,
+      "saturated_parent_queries": 0,
+      "selection_bound_file_hash_verified": true,
+      "year": 2023
+    },
+    {
+      "api_frame_complete": true,
+      "canonical_response_hashes_verified": true,
+      "effective_http_query_count": 1,
+      "failed_queries": 0,
+      "indexed_rows": 0,
+      "queries": 1,
+      "saturated_parent_queries": 0,
+      "selection_bound_file_hash_verified": true,
+      "year": 2024
+    },
+    {
+      "api_frame_complete": true,
+      "canonical_response_hashes_verified": true,
+      "effective_http_query_count": 1,
+      "failed_queries": 0,
+      "indexed_rows": 0,
+      "queries": 1,
+      "saturated_parent_queries": 0,
+      "selection_bound_file_hash_verified": true,
+      "year": 2025
+    }
+  ],
+  "largest_component_fraction_of_eligible_proposals": 0.7032967032967034,
+  "linked_components": 7,
+  "main_60_component_gate_passed": false,
+  "metadata_transport_limit": "Some archived effective API URLs use HTTP after redirects. Canonical response hashes prove record integrity and repeatability, not end-to-end authenticated catalogue provenance. Source byte-range acquisition separately enforces HTTPS.",
+  "parent_cadence_product_proposals": 251,
+  "recorded_rejection_reason_counts": {
+    "duplicate_product_at_same_target_and_time": 2256,
+    "explicit_off_primary": 11,
+    "nonchronological_or_excessive_scan_gap": 1,
+    "off_pointing_inside_declared_beam_separation": 99,
+    "on_pairwise_pointing_exceeds_beam_fraction": 891,
+    "product_center_outside_declared_spectral_regime": 3324
+  },
+  "rejection_unit_caution": "Rows, duplicate products and six-scan sequences are different units; reasons overlap and these counts are not a mutually exclusive attrition denominator. Target-pattern windows rejected before geometry are not separately recorded by the frozen assembly.",
+  "selected_components": 7,
+  "selection_coverage_limits": [
+    "API completeness is conditional on the fixed time/frequency/telescope/product queries, not independently verified sky or archive completeness.",
+    "The query uses product center frequencies, not an exhaustive overlap inventory of all possible spectral products.",
+    "Only declared six-scan alternating target patterns meeting beam-relative geometry enter the frame.",
+    "Dependency linkage is conservative but unidentified campaign/target aliases may remain."
+  ],
+  "selection_sha256": "bc0fc3954e0140a5e3b92ce5928e5984e0de0ad1e29fc3e8259be1e6e6a184c4",
+  "total_inverse_inclusion_weight": 182.0,
+  "weight_concentration_kish_diagnostic": 1.9175639689707074,
+  "weight_diagnostic_caution": "Describes concentration of the seven component weights only; not an inferred number of independent astronomical samples."
+}

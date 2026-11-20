@@ -1,0 +1,824 @@
+{
+  "input_acquisition_sha256": "4705e0aa539144b9eb39ab5041b44d2b1b4b711dd0cabc6dfaf076d6bf447da6",
+  "offline_reconstruction": {
+    "all_checks_passed": true,
+    "checks": {
+      "815634": true,
+      "815637": true,
+      "815640": true,
+      "815643": true,
+      "815646": true,
+      "815649": true,
+      "858826": true,
+      "858827": true,
+      "858828": true,
+      "858829": true,
+      "858830": true,
+      "858831": true,
+      "858868": true,
+      "858869": true,
+      "858870": true,
+      "858871": true,
+      "858872": true,
+      "858873": true,
+      "858892": true,
+      "858893": true,
+      "858894": true,
+      "858895": true,
+      "858896": true,
+      "858897": true,
+      "877666": true,
+      "877667": true,
+      "877668": true,
+      "877669": true,
+      "877670": true,
+      "877671": true,
+      "878728": true,
+      "878729": true,
+      "878730": true,
+      "878731": true,
+      "878732": true,
+      "878733": true,
+      "882142": true,
+      "882143": true,
+      "882144": true,
+      "882145": true,
+      "882146": true,
+      "882147": true,
+      "acquired_complete_cadences": true,
+      "files_acquired": true,
+      "frequency_plan_sha256": true,
+      "offline_no_network": true,
+      "selected_cadences": true,
+      "selection_sha256": true,
+      "source_ids": true
+    },
+    "scope": "Every power, physical frequency, integration-start time and usable-mask array; whole originals remain unverified."
+  },
+  "source_checks": {
+    "all_source_maps_identical": true,
+    "quadrature_audits": [
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 7.158619641580968e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.4315260983485019e-05,
+        "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+        "family": "continuous_linear"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 4.413623769071573e-06,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 8.827181349846687e-07,
+        "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+        "family": "broadened_narrowband"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 0.006344661719349672,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 0.006330579531199975,
+        "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+        "family": "intermittent"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 8.666750676299402e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.7331106108431192e-05,
+        "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+        "family": "amplitude_modulated"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 6.3690176372031e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.273648260436281e-05,
+        "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+        "family": "curved_drift"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 5.629811958336112e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.1258422228208822e-05,
+        "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+        "family": "collision_or_crowded"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 7.157948063919316e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.4313918136216525e-05,
+        "cadence_id": "cohort_815634_815637_815640_815643_815646_815649",
+        "family": "continuous_linear"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 4.413619646139153e-06,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 8.827173104899066e-07,
+        "cadence_id": "cohort_815634_815637_815640_815643_815646_815649",
+        "family": "broadened_narrowband"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 3.378384566796344e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 6.756348490645625e-06,
+        "cadence_id": "cohort_815634_815637_815640_815643_815646_815649",
+        "family": "intermittent"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 0.00011047549289714645,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 2.2091945143556232e-05,
+        "cadence_id": "cohort_815634_815637_815640_815643_815646_815649",
+        "family": "amplitude_modulated"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 6.469564110356729e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.2937523979319128e-05,
+        "cadence_id": "cohort_815634_815637_815640_815643_815646_815649",
+        "family": "curved_drift"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 5.629811897025603e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.125842210513303e-05,
+        "cadence_id": "cohort_815634_815637_815640_815643_815646_815649",
+        "family": "collision_or_crowded"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 7.15872693422159e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.4315475527241445e-05,
+        "cadence_id": "cohort_858892_858893_858894_858895_858896_858897",
+        "family": "continuous_linear"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 4.41362451197866e-06,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 8.82718283901214e-07,
+        "cadence_id": "cohort_858892_858893_858894_858895_858896_858897",
+        "family": "broadened_narrowband"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 0.007310195741424847,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 0.0073223356353187136,
+        "cadence_id": "cohort_858892_858893_858894_858895_858896_858897",
+        "family": "intermittent"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 8.6815620681115e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.7360724811684043e-05,
+        "cadence_id": "cohort_858892_858893_858894_858895_858896_858897",
+        "family": "amplitude_modulated"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 6.373281039155126e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.2745007426362757e-05,
+        "cadence_id": "cohort_858892_858893_858894_858895_858896_858897",
+        "family": "curved_drift"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 5.629811958329401e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.1258422228045045e-05,
+        "cadence_id": "cohort_858892_858893_858894_858895_858896_858897",
+        "family": "collision_or_crowded"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 7.158186891970681e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.4314395684960236e-05,
+        "cadence_id": "cohort_877666_877667_877668_877669_877670_877671",
+        "family": "continuous_linear"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 4.413619644530577e-06,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 8.827173102568161e-07,
+        "cadence_id": "cohort_877666_877667_877668_877669_877670_877671",
+        "family": "broadened_narrowband"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 3.380712880097236e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 6.7610046391245085e-06,
+        "cadence_id": "cohort_877666_877667_877668_877669_877670_877671",
+        "family": "intermittent"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 0.00010996977558385302,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 2.1990810464913844e-05,
+        "cadence_id": "cohort_877666_877667_877668_877669_877670_877671",
+        "family": "amplitude_modulated"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 6.425923482954604e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.2850262088831136e-05,
+        "cadence_id": "cohort_877666_877667_877668_877669_877670_877671",
+        "family": "curved_drift"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 5.629811899797075e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.1258422111560894e-05,
+        "cadence_id": "cohort_877666_877667_877668_877669_877670_877671",
+        "family": "collision_or_crowded"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 7.157959151978938e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.4313940304362356e-05,
+        "cadence_id": "cohort_858826_858827_858828_858829_858830_858831",
+        "family": "continuous_linear"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 4.413619646457969e-06,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 8.827173105700997e-07,
+        "cadence_id": "cohort_858826_858827_858828_858829_858830_858831",
+        "family": "broadened_narrowband"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 0.006788409470750166,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 0.006776903528159568,
+        "cadence_id": "cohort_858826_858827_858828_858829_858830_858831",
+        "family": "intermittent"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 8.557198207658398e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.711203131623531e-05,
+        "cadence_id": "cohort_858826_858827_858828_858829_858830_858831",
+        "family": "amplitude_modulated"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 6.373538682728829e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.2745522998825528e-05,
+        "cadence_id": "cohort_858826_858827_858828_858829_858830_858831",
+        "family": "curved_drift"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 5.629811897036471e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.1258422105626656e-05,
+        "cadence_id": "cohort_858826_858827_858828_858829_858830_858831",
+        "family": "collision_or_crowded"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 7.158728982537697e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.4315479620213178e-05,
+        "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+        "family": "continuous_linear"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 4.413621068816706e-06,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 8.827175943016168e-07,
+        "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+        "family": "broadened_narrowband"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 3.379245789307251e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 6.758070759324214e-06,
+        "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+        "family": "intermittent"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 0.00011036731308982934,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 2.2070306133459525e-05,
+        "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+        "family": "amplitude_modulated"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 6.476927746813784e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.2952248018261741e-05,
+        "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+        "family": "curved_drift"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 5.6298118969726325e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.1258422105424693e-05,
+        "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+        "family": "collision_or_crowded"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 7.158228931325832e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.4314479741485336e-05,
+        "cadence_id": "cohort_882142_882143_882144_882145_882146_882147",
+        "family": "continuous_linear"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 4.41362377037682e-06,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 8.827181344916095e-07,
+        "cadence_id": "cohort_882142_882143_882144_882145_882146_882147",
+        "family": "broadened_narrowband"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 0.014108389316856257,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 6.758962577224251e-06,
+        "cadence_id": "cohort_882142_882143_882144_882145_882146_882147",
+        "family": "intermittent"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 0.00011051850707228732,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 2.2100540469379194e-05,
+        "cadence_id": "cohort_882142_882143_882144_882145_882146_882147",
+        "family": "amplitude_modulated"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 6.419801876849103e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.2838021118268743e-05,
+        "cadence_id": "cohort_882142_882143_882144_882145_882146_882147",
+        "family": "curved_drift"
+      },
+      {
+        "32_versus_128_max_abs_difference_over_continuous_peak": 5.629811953929257e-05,
+        "64_versus_128_max_abs_difference_over_continuous_peak": 1.1258422219076245e-05,
+        "cadence_id": "cohort_882142_882143_882144_882145_882146_882147",
+        "family": "collision_or_crowded"
+      }
+    ],
+    "quadrature_scope": "One independently seeded placement per family/component. Comparisons are numerical diagnostics, not exhaustive error bounds. Intermittent edges use midpoint sampling and can have larger error.",
+    "source_map_count": 42,
+    "source_maps": [
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "b25c612f5d74994727e6d14232d8632836e8d184d9fe7f35a694772c1db653f7",
+        "reference_wall_s": 0.1862316250008007,
+        "scan_id": "cohort_858868_858869_858870_858871_858872_858873_scan_0",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "b25c612f5d74994727e6d14232d8632836e8d184d9fe7f35a694772c1db653f7",
+        "vectorized_wall_s": 0.18318887500208803
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "ec20d54b0d150ee39f713a40f37f15b817a9d0df4f69e5e5089bd3c6cc858fa5",
+        "reference_wall_s": 0.1791992090002168,
+        "scan_id": "cohort_858868_858869_858870_858871_858872_858873_scan_1",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "ec20d54b0d150ee39f713a40f37f15b817a9d0df4f69e5e5089bd3c6cc858fa5",
+        "vectorized_wall_s": 0.17571016600049916
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "8094926453f8da85a0582bbd5e9abdb0ff1d6c39b5ab5069d78ccb1458283d5d",
+        "reference_wall_s": 0.17823712499739486,
+        "scan_id": "cohort_858868_858869_858870_858871_858872_858873_scan_2",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "8094926453f8da85a0582bbd5e9abdb0ff1d6c39b5ab5069d78ccb1458283d5d",
+        "vectorized_wall_s": 0.17047462499976973
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "98cfe83b824f7fb9ef87a06483dfe17bef18f2f9635309422cabfb57b601d320",
+        "reference_wall_s": 0.20554966700001387,
+        "scan_id": "cohort_858868_858869_858870_858871_858872_858873_scan_3",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "98cfe83b824f7fb9ef87a06483dfe17bef18f2f9635309422cabfb57b601d320",
+        "vectorized_wall_s": 0.1773439579992555
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "31f6bd41a3731083cd9f093cbcdf800991f7bcb4f880ae7cee203cbdc4255046",
+        "reference_wall_s": 0.17971970900180168,
+        "scan_id": "cohort_858868_858869_858870_858871_858872_858873_scan_4",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "31f6bd41a3731083cd9f093cbcdf800991f7bcb4f880ae7cee203cbdc4255046",
+        "vectorized_wall_s": 0.17524266699911095
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "bdcdf6c58ad06826e211df61b7413a2a14e2599d9b7129c5c3aa77d2eea2652a",
+        "reference_wall_s": 0.17955787499886355,
+        "scan_id": "cohort_858868_858869_858870_858871_858872_858873_scan_5",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "bdcdf6c58ad06826e211df61b7413a2a14e2599d9b7129c5c3aa77d2eea2652a",
+        "vectorized_wall_s": 0.17367937499875552
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "7a39ffef1101277d5a569426d4c0bb788d970c769280c656c6f25c9c66c908df",
+        "reference_wall_s": 0.05354329200054053,
+        "scan_id": "cohort_815634_815637_815640_815643_815646_815649_scan_0",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "7a39ffef1101277d5a569426d4c0bb788d970c769280c656c6f25c9c66c908df",
+        "vectorized_wall_s": 0.04631970800255658
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "1661a253bf06dc360ac92b32e6bab70bce7cd80c8624b439a76da1cc8a17279b",
+        "reference_wall_s": 0.050729250000586035,
+        "scan_id": "cohort_815634_815637_815640_815643_815646_815649_scan_1",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "1661a253bf06dc360ac92b32e6bab70bce7cd80c8624b439a76da1cc8a17279b",
+        "vectorized_wall_s": 0.04638725000040722
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "d0c6496c486ff78449286cea47b37b290e477c2a6cbaf8fe340c11bf49eb5d16",
+        "reference_wall_s": 0.051153040996723576,
+        "scan_id": "cohort_815634_815637_815640_815643_815646_815649_scan_2",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "d0c6496c486ff78449286cea47b37b290e477c2a6cbaf8fe340c11bf49eb5d16",
+        "vectorized_wall_s": 0.04593487500096671
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "d08e0838968ccb237516a16994972900ab56ff054631e3a0f9f363a529ab18dd",
+        "reference_wall_s": 0.050852749998739455,
+        "scan_id": "cohort_815634_815637_815640_815643_815646_815649_scan_3",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "d08e0838968ccb237516a16994972900ab56ff054631e3a0f9f363a529ab18dd",
+        "vectorized_wall_s": 0.04580420800266438
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "2b93e19d3050e992f20ed632e760c97887bbc173cd3a05f7e0bbbc9f4025c2ad",
+        "reference_wall_s": 0.05089116699673468,
+        "scan_id": "cohort_815634_815637_815640_815643_815646_815649_scan_4",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "2b93e19d3050e992f20ed632e760c97887bbc173cd3a05f7e0bbbc9f4025c2ad",
+        "vectorized_wall_s": 0.046622208999906434
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "fe9cddc4ea7552b6ace6faf2d5661f59e74bf8fd46579e0f89522e3a89820e5c",
+        "reference_wall_s": 0.051284165998367826,
+        "scan_id": "cohort_815634_815637_815640_815643_815646_815649_scan_5",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "fe9cddc4ea7552b6ace6faf2d5661f59e74bf8fd46579e0f89522e3a89820e5c",
+        "vectorized_wall_s": 0.04601766600171686
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "45975661f4bd17f6c6dfe82dcfcf716c26f11b6c09543810af68e205f0909374",
+        "reference_wall_s": 0.17184008399999584,
+        "scan_id": "cohort_858892_858893_858894_858895_858896_858897_scan_0",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "45975661f4bd17f6c6dfe82dcfcf716c26f11b6c09543810af68e205f0909374",
+        "vectorized_wall_s": 0.16727445799915586
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "3398f57cdfc18d93e87735771f3548874dc792e9decfc8486e2f53781ed3080b",
+        "reference_wall_s": 0.1709305000003951,
+        "scan_id": "cohort_858892_858893_858894_858895_858896_858897_scan_1",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "3398f57cdfc18d93e87735771f3548874dc792e9decfc8486e2f53781ed3080b",
+        "vectorized_wall_s": 0.16634254100063117
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "7e0cb16d5cc8a3e54229b3406b52050fb757b4e12cedfdfbc54b211f1205b8dc",
+        "reference_wall_s": 0.17063958300059312,
+        "scan_id": "cohort_858892_858893_858894_858895_858896_858897_scan_2",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "7e0cb16d5cc8a3e54229b3406b52050fb757b4e12cedfdfbc54b211f1205b8dc",
+        "vectorized_wall_s": 0.16346791599789867
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "432521ac4e8dc669390ab6025a1b4705c096bc6fa04c4c4c1d4079fc8434ab4a",
+        "reference_wall_s": 0.1709647079987917,
+        "scan_id": "cohort_858892_858893_858894_858895_858896_858897_scan_3",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "432521ac4e8dc669390ab6025a1b4705c096bc6fa04c4c4c1d4079fc8434ab4a",
+        "vectorized_wall_s": 0.16351524999845424
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "ef1f563f30ff070d82f5ac75d2e3f6e16b5f4f827eb01125a5e3289d2da2af49",
+        "reference_wall_s": 0.17186399999991409,
+        "scan_id": "cohort_858892_858893_858894_858895_858896_858897_scan_4",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "ef1f563f30ff070d82f5ac75d2e3f6e16b5f4f827eb01125a5e3289d2da2af49",
+        "vectorized_wall_s": 0.16531975000179955
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "13c234aacaad87fa24ec6119f5842d2b0646675e56ad58ee9f6f9d63340a2b62",
+        "reference_wall_s": 0.17081079199851956,
+        "scan_id": "cohort_858892_858893_858894_858895_858896_858897_scan_5",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "13c234aacaad87fa24ec6119f5842d2b0646675e56ad58ee9f6f9d63340a2b62",
+        "vectorized_wall_s": 0.16334733400071855
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "d67d9ed29f4e12f40ba7b7b34113a0765a5aeeca278fae1ae1c47a10b53dcda6",
+        "reference_wall_s": 0.04756937499769265,
+        "scan_id": "cohort_877666_877667_877668_877669_877670_877671_scan_0",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "d67d9ed29f4e12f40ba7b7b34113a0765a5aeeca278fae1ae1c47a10b53dcda6",
+        "vectorized_wall_s": 0.044375582998327445
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "6c7e691c5c7df4db0a2607f03b7ec4b26c32c768771ac4746a48a8585530fe09",
+        "reference_wall_s": 0.04678991699984181,
+        "scan_id": "cohort_877666_877667_877668_877669_877670_877671_scan_1",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "6c7e691c5c7df4db0a2607f03b7ec4b26c32c768771ac4746a48a8585530fe09",
+        "vectorized_wall_s": 0.04344054099783534
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "c64bc9f5607b506bc9d5f6883e9c1f35ba88139d4222ebb65e51c9f247655ff2",
+        "reference_wall_s": 0.04757087499820045,
+        "scan_id": "cohort_877666_877667_877668_877669_877670_877671_scan_2",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "c64bc9f5607b506bc9d5f6883e9c1f35ba88139d4222ebb65e51c9f247655ff2",
+        "vectorized_wall_s": 0.043443624999781605
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "0853cb3f99cda2f9e31d357db12f14e208bf6613f5e8457d8924900b74fa67fa",
+        "reference_wall_s": 0.047562417003064184,
+        "scan_id": "cohort_877666_877667_877668_877669_877670_877671_scan_3",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "0853cb3f99cda2f9e31d357db12f14e208bf6613f5e8457d8924900b74fa67fa",
+        "vectorized_wall_s": 0.04404708300353377
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "b7a53f1946f7f0c045b44af4e4c6bb4ede93087ee637ff8008aa3528450be1d7",
+        "reference_wall_s": 0.04712104200007161,
+        "scan_id": "cohort_877666_877667_877668_877669_877670_877671_scan_4",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "b7a53f1946f7f0c045b44af4e4c6bb4ede93087ee637ff8008aa3528450be1d7",
+        "vectorized_wall_s": 0.04360762499709381
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "8d0273182015320da4adaeafb884d473470e50a7c0e6b5d7abbe20ced45d5d49",
+        "reference_wall_s": 0.047098957998969126,
+        "scan_id": "cohort_877666_877667_877668_877669_877670_877671_scan_5",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "8d0273182015320da4adaeafb884d473470e50a7c0e6b5d7abbe20ced45d5d49",
+        "vectorized_wall_s": 0.04360216699933517
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "0baef65ccb3bf430fddbc658cce2fc90190a1cad7036857024474984de77c3d6",
+        "reference_wall_s": 0.17748408400075277,
+        "scan_id": "cohort_858826_858827_858828_858829_858830_858831_scan_0",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "0baef65ccb3bf430fddbc658cce2fc90190a1cad7036857024474984de77c3d6",
+        "vectorized_wall_s": 0.17112437499963562
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "442382cfd6527ba71e00488014828d919da2ab1d836493c5224d11f5c0e1b277",
+        "reference_wall_s": 0.1736727499992412,
+        "scan_id": "cohort_858826_858827_858828_858829_858830_858831_scan_1",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "442382cfd6527ba71e00488014828d919da2ab1d836493c5224d11f5c0e1b277",
+        "vectorized_wall_s": 0.1696832080015156
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "d02b98c9b5f2254c499d966e12a05182995495ee368f5f20c3c6718c27db0e9a",
+        "reference_wall_s": 0.20988787500027684,
+        "scan_id": "cohort_858826_858827_858828_858829_858830_858831_scan_2",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "d02b98c9b5f2254c499d966e12a05182995495ee368f5f20c3c6718c27db0e9a",
+        "vectorized_wall_s": 0.17312233399934485
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "d1da587b5f55e78255c8662bae8f98e1e8768f339dbb0136fb6c94b53f0223ba",
+        "reference_wall_s": 0.19291225000051782,
+        "scan_id": "cohort_858826_858827_858828_858829_858830_858831_scan_3",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "d1da587b5f55e78255c8662bae8f98e1e8768f339dbb0136fb6c94b53f0223ba",
+        "vectorized_wall_s": 0.16938845799813862
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "1a706562cd753344961f1faed80c5ff3ba3122ddacbe85998af967004eaa3628",
+        "reference_wall_s": 0.1767644579995249,
+        "scan_id": "cohort_858826_858827_858828_858829_858830_858831_scan_4",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "1a706562cd753344961f1faed80c5ff3ba3122ddacbe85998af967004eaa3628",
+        "vectorized_wall_s": 0.17617766699913773
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "1c8ba3946615af01e203ff43c215cdc174397cbabcd826964220bec4de0a896c",
+        "reference_wall_s": 0.18681954100247822,
+        "scan_id": "cohort_858826_858827_858828_858829_858830_858831_scan_5",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "1c8ba3946615af01e203ff43c215cdc174397cbabcd826964220bec4de0a896c",
+        "vectorized_wall_s": 0.18906308300211094
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "a4ce7d952cb90b54f5f99ceffca0cc9a3500f425b131b6016ef5ada0ec9f8b29",
+        "reference_wall_s": 0.04846199999883538,
+        "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "a4ce7d952cb90b54f5f99ceffca0cc9a3500f425b131b6016ef5ada0ec9f8b29",
+        "vectorized_wall_s": 0.04439875000025495
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "3d9d36592933ca8e5a2cd0d7651e7797ba6c71f82c69dce70ef955ec3baef7aa",
+        "reference_wall_s": 0.047628374999476364,
+        "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_1",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "3d9d36592933ca8e5a2cd0d7651e7797ba6c71f82c69dce70ef955ec3baef7aa",
+        "vectorized_wall_s": 0.04481537500032573
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "2457ec082663f588a117d9480c486a4aef6a2df5d4b38fe8431591f07e7422d1",
+        "reference_wall_s": 0.04821908300073119,
+        "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "2457ec082663f588a117d9480c486a4aef6a2df5d4b38fe8431591f07e7422d1",
+        "vectorized_wall_s": 0.04593712499990943
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "07bfefed7fbd6b9993119027485382273e72aac5e4ebc47ecc6f39ce736f4bea",
+        "reference_wall_s": 0.12118045799797983,
+        "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_3",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "07bfefed7fbd6b9993119027485382273e72aac5e4ebc47ecc6f39ce736f4bea",
+        "vectorized_wall_s": 0.05838108300304157
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "813b314755963f3f3cdff9b1b483d52b57800ffc87a3c7a209d6b6c2b7d1accf",
+        "reference_wall_s": 0.05197762500029057,
+        "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "813b314755963f3f3cdff9b1b483d52b57800ffc87a3c7a209d6b6c2b7d1accf",
+        "vectorized_wall_s": 0.047618999997212086
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "28efe7387bf3c6a780a3e7ee7fe55660dd95322aca96947a3edc3d72211e92dc",
+        "reference_wall_s": 0.051235249997262144,
+        "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_5",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "28efe7387bf3c6a780a3e7ee7fe55660dd95322aca96947a3edc3d72211e92dc",
+        "vectorized_wall_s": 0.047381665997818345
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "02c4e3f192d695ba2f637875bbbf1f28144eeda6390e54513f16c4d32b2d2663",
+        "reference_wall_s": 0.048831500000233063,
+        "scan_id": "cohort_882142_882143_882144_882145_882146_882147_scan_0",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "02c4e3f192d695ba2f637875bbbf1f28144eeda6390e54513f16c4d32b2d2663",
+        "vectorized_wall_s": 0.04420575000040117
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "2bd3b853807b56d580a5d7f6bb2d7c4de151575368f35759f9ef9d28e8dc19f8",
+        "reference_wall_s": 0.048820708001585444,
+        "scan_id": "cohort_882142_882143_882144_882145_882146_882147_scan_1",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "2bd3b853807b56d580a5d7f6bb2d7c4de151575368f35759f9ef9d28e8dc19f8",
+        "vectorized_wall_s": 0.042712624999694526
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "441136dd2944c046ca373bd7eebef99a96152d540cacfa41850e608e11129f3e",
+        "reference_wall_s": 0.048596790998999495,
+        "scan_id": "cohort_882142_882143_882144_882145_882146_882147_scan_2",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "441136dd2944c046ca373bd7eebef99a96152d540cacfa41850e608e11129f3e",
+        "vectorized_wall_s": 0.04370750000089174
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "b05aaa557e5edff17e6decafad6323b2024a95f3fab1c6018fc51cc10d7411e5",
+        "reference_wall_s": 0.048946250000881264,
+        "scan_id": "cohort_882142_882143_882144_882145_882146_882147_scan_3",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "b05aaa557e5edff17e6decafad6323b2024a95f3fab1c6018fc51cc10d7411e5",
+        "vectorized_wall_s": 0.04893637499844772
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "afdd21213d1b7bbea454cce53cc704425b7bb0626bbbc53d44521a9f65eb6c9b",
+        "reference_wall_s": 0.05199045799963642,
+        "scan_id": "cohort_882142_882143_882144_882145_882146_882147_scan_4",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "afdd21213d1b7bbea454cce53cc704425b7bb0626bbbc53d44521a9f65eb6c9b",
+        "vectorized_wall_s": 0.047148416997515596
+      },
+      {
+        "coverage_identical": true,
+        "hits_identical": true,
+        "reference_score_sha256": "0d89bd0f0077e28015ebb1bb8fe56fcac51529818007aa9f808ebc31bed7dbcb",
+        "reference_wall_s": 0.049794167000072775,
+        "scan_id": "cohort_882142_882143_882144_882145_882146_882147_scan_5",
+        "score_maps_bitwise_equal": true,
+        "score_values_equal": true,
+        "tiles_identical": true,
+        "vectorized_score_sha256": "0d89bd0f0077e28015ebb1bb8fe56fcac51529818007aa9f808ebc31bed7dbcb",
+        "vectorized_wall_s": 0.04262575000029756
+      }
+    ],
+    "timing_scope": "Individual executions with concurrent workloads; not a dedicated performance benchmark."
+  }
+}

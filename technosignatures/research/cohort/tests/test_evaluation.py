@@ -45,6 +45,28 @@ def test_one_control_event_can_ambiguously_explain_two_truths():
     assert all(result.values())
 
 
+def test_unrelated_cadence_parent_cannot_satisfy_a_truth_matched_local_chain(monkeypatch):
+    import research.cohort.evaluate as module
+    cadence = background(); config = SearchConfig(max_abs_drift_hz_per_s=.25)
+    controls = {arm: process(cadence, config, arm) for arm in ['new', 'legacy']}
+    normal, _ = evaluate_trial(cadence, parameters(), controls, config, 'synthetic', 1., 1)
+    assert normal[0]['new_safe']
+    original = module.filter_cadence
+    def unrelated_parent(*args, **kwargs):
+        result = original(*args, **kwargs)
+        # Deliberately break only the final parent identity while keeping the
+        # fitted track and every local hit/event unchanged. Independent truth
+        # matches at both stages must not create a fabricated survival chain.
+        result['events'] = [{**e, 'member_on_event_ids': ['unrelated_synthetic_parent']} for e in result['events']]
+        return result
+    monkeypatch.setattr(module, 'filter_cadence', unrelated_parent)
+    rows, _ = evaluate_trial(cadence, parameters(), controls, config, 'synthetic', 1., 1)
+    assert rows[0]['failure_type'] is None and not rows[0]['new_safe']
+    assert rows[0]['new_stages']['grouped'] and rows[0]['new_stages']['associated']
+    assert rows[0]['new_first_loss'] == 'cadence_ancestry_or_assignment'
+    assert rows[0]['new_stages']['association_ancestry_competition_not_counted']
+
+
 def test_injector_failure_stays_in_known_physical_signal_denominator(monkeypatch):
     cadence = background(); config = SearchConfig(max_abs_drift_hz_per_s=0.25)
     def failed(*args, **kwargs): raise RuntimeError('synthetic unit failure')

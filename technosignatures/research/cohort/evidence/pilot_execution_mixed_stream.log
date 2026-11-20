@@ -1,0 +1,192 @@
+Native controls: cohort_858868_858869_858870_858871_858872_858873
+Native controls: cohort_815634_815637_815640_815643_815646_815649
+Native controls: cohort_858892_858893_85889Passed pilot
+Starting repeat
+Passed repeat
+Starting repeat_verification
+Passed repeat_verification
+All selected-cadence pilot execution steps passed
+58831
+Native controls: cohort_878728_878729_878730_878731_878732_878733
+Native controls: cohort_882142_882143_882144_882145_882146_882147
+Trial 1/1152; signal rows 1; elapsed 5.9s
+Trial 13/1152; signal rows 13; elapsed 8.5s
+Trial 25/1152; signal rows 25; elapsed 11.1s
+Trial 37/1152; signal rows 37; elapsed 13.5s
+Trial 49/1152; signal rows 49; elapsed 16.2s
+Trial 61/1152; signal rows 61; elapsed 18.9s
+Trial 73/1152; signal rows 73; elapsed 21.7s
+Trial 85/1152; signal rows 85; elapsed 24.9s
+Trial 97/1152; signal rows 97; elapsed 27.4s
+Trial 109/1152; signal rows 109; elapsed 30.7s
+Trial 121/1152; signal rows 121; elapsed 33.7s
+Trial 133/1152; signal rows 133; elapsed 36.6s
+Trial 145/1152; signal rows 145; elapsed 38.9s
+Trial 157/1152; signal rows 157; elapsed 41.9s
+Trial 169/1152; signal rows 169; elapsed 45.5s
+Trial 181/1152; signal rows 181; elapsed 48.8s
+Trial 193/1152; signal rows 193; elapsed 51.3s
+Trial 205/1152; signal rows 205; elapsed 54.8s
+Trial 217/1152; signal rows 217; elapsed 57.2s
+Trial 229/1152; signal rows 229; elapsed 59.7s
+Trial 241/1152; signal rows 241; elapsed 62.2s
+Trial 253/1152; signal rows 253; elapsed 65.5s
+Trial 265/1152; signal rows 265; elapsed 68.6s
+Trial 277/1152; signal rows 277; elapsed 72.5s
+Trial 289/1152; signal rows 289; elapsed 74.6s
+Trial 301/1152; signal rows 301; elapsed 77.9s
+Trial 313/1152; signal rows 313; elapsed 81.1s
+Trial 325/1152; signal rows 325; elapsed 84.4s
+Trial 337/1152; signal rows 337; elapsed 87.6s
+Trial 349/1152; signal rows 349; elapsed 90.5s
+Trial 361/1152; signal rows 361; elapsed 94.0s
+Trial 373/1152; signal rows 373; elapsed 99.2s
+Trial 385/1152; signal rows 385; elapsed 102.5s
+Trial 397/1152; signal rows 397; elapsed 105.0s
+Trial 409/1152; signal rows 409; elapsed 107.2s
+Trial 421/1152; signal rows 421; elapsed 109.0s
+Trial 433/1152; signal rows 433; elapsed 111.2s
+Trial 445/1152; signal rows 445; elapsed 113.7s
+Trial 457/1152; signal rows 457; elapsed 115.6s
+Trial 469/1152; signal rows 469; elapsed 118.3s
+Trial 481/1152; signal rows 481; elapsed 120.3s
+Trial 493/1152; signal rows 493; elapsed 122.5s
+Trial 505/1152; signal rows 505; elapsed 125.1s
+Trial 517/1152; signal rows 517; elapsed 127.5s
+Trial 529/1152; signal rows 529; elapsed 129.4s
+Trial 541/1152; signal rows 541; elapsed 131.1s
+Trial 553/1152; signal rows 553; elapsed 132.8s
+Trial 565/1152; signal rows 565; elapsed 135.4s
+Trial 577/1152; signal rows 577; elapsed 137.2s
+Trial 589/1152; signal rows 589; elapsed 140.7s
+Trial 601/1152; signal rows 601; elapsed 143.6s
+Trial 613/1152; signal rows 613; elapsed 146.7s
+Trial 625/1152; signal rows 625; elapsed 149.2s
+Trial 637/1152; signal rows 637; elapsed 151.7s
+Trial 649/1152; signal rows 649; elapsed 154.7s
+Trial 661/1152; signal rows 661; elapsed 158.3s
+Trial 673/1152; signal rows 673; elapsed 160.8s
+Trial 685/1152; signal rows 685; elapsed 164.2s
+Trial 697/1152; signal rows 697; elapsed 167.7s
+Trial 709/1152; signal rows 709; elapsed 170.7s
+Trial 721/1152; signal rows 721; elapsed 173.7s
+Trial 733/1152; signal rows 733; elapsed 176.3s
+Trial 745/1152; signal rows 745; elapsed 179.0s
+Trial 757/1152; signal rows 757; elapsed 182.5s
+Trial 769/1152; signal rows 769; elapsed 185.2s
+Trial 781/1152; signal rows 781; elapsed 188.9s
+Trial 793/1152; signal rows 793; elapsed 191.8s
+Trial 805/1152; signal rows 805; elapsed 193.9s
+Trial 817/1152; signal rows 817; elapsed 196.2s
+Trial 829/1152; signal rows 829; elapsed 199.4s
+Trial 841/1152; signal rows 841; elapsed 202.2s
+Trial 853/1152; signal rows 853; elapsed 206.0s
+Trial 865/1152; signal rows 865; elapsed 208.5s
+Trial 877/1152; signal rows 877; elapsed 212.3s
+Trial 889/1152; signal rows 889; elapsed 215.0s
+Trial 901/1152; signal rows 901; elapsed 217.9s
+Trial 913/1152; signal rows 913; elapsed 220.3s
+Trial 925/1152; signal rows 925; elapsed 223.3s
+Trial 937/1152; signal rows 937; elapsed 226.0s
+Trial 949/1152; signal rows 949; elapsed 230.3s
+Trial 961/1152; signal rows 962; elapsed 232.7s
+Trial 973/1152; signal rows 986; elapsed 236.8s
+Trial 985/1152; signal rows 1010; elapsed 239.9s
+Trial 997/1152; signal rows 1034; elapsed 242.9s
+Trial 1009/1152; signal rows 1058; elapsed 246.8s
+Trial 1021/1152; signal rows 1082; elapsed 249.9s
+Trial 1033/1152; signal rows 1106; elapsed 253.1s
+Trial 1045/1152; signal rows 1130; elapsed 257.5s
+Trial 1057/1152; signal rows 1154; elapsed 260.1s
+Trial 1069/1152; signal rows 1178; elapsed 264.0s
+Trial 1081/1152; signal rows 1202; elapsed 267.6s
+Trial 1093/1152; signal rows 1226; elapsed 271.5s
+Trial 1105/1152; signal rows 1250; elapsed 274.7s
+Trial 1117/1152; signal rows 1274; elapsed 278.4s
+Trial 1129/1152; signal rows 1298; elapsed 282.4s
+Trial 1141/1152; signal rows 1322; elapsed 287.8s
+Trial 1152/1152; signal rows 1344; elapsed 290.1s
+{
+  "version": "prospective-cohort-sensitivity-v1-development",
+  "smoke_only": false,
+  "trial_count": 1152,
+  "physical_signal_count": 1344,
+  "acquired_cadences": 7,
+  "independent_components": 7,
+  "technical_failure_signals": 0,
+  "first_loss_counts": {
+    "new": {
+      "below_threshold": 692,
+      "unsearched_or_unavailable_support": 28,
+      "retained": 521,
+      "cadence_association": 53,
+      "cadence_ancestry_or_assignment": 45,
+      "outside_declared_domain": 1,
+      "grouping_or_assignment": 1,
+      "ambiguous_attribution": 3
+    },
+    "legacy": {
+      "below_threshold": 680,
+      "unsearched_or_unavailable_support": 58,
+      "retained": 544,
+      "cadence_association": 53,
+      "outside_declared_domain": 1,
+      "frequency_suppression_or_assignment": 6,
+      "ambiguous_attribution": 2
+    }
+  },
+  "policy_first_loss_counts": {
+    "new_safe": {
+      "below_threshold": 692,
+      "unsearched_or_unavailable_support": 28,
+      "retained": 521,
+      "cadence_association": 53,
+      "cadence_ancestry_or_assignment": 45,
+      "outside_declared_domain": 1,
+      "grouping_or_assignment": 1,
+      "ambiguous_attribution": 3
+    },
+    "new_strict": {
+      "below_threshold": 692,
+      "unsearched_or_unavailable_support": 28,
+      "retained": 402,
+      "cadence_policy_reject_missing_on_persistence": 119,
+      "cadence_association": 53,
+      "cadence_ancestry_or_assignment": 45,
+      "outside_declared_domain": 1,
+      "grouping_or_assignment": 1,
+      "ambiguous_attribution": 3
+    },
+    "legacy_safe": {
+      "below_threshold": 680,
+      "unsearched_or_unavailable_support": 58,
+      "retained": 544,
+      "cadence_association": 53,
+      "outside_declared_domain": 1,
+      "frequency_suppression_or_assignment": 6,
+      "ambiguous_attribution": 2
+    },
+    "legacy_strict": {
+      "below_threshold": 680,
+      "unsearched_or_unavailable_support": 58,
+      "retained": 421,
+      "cadence_policy_reject_missing_on_persistence": 123,
+      "cadence_association": 53,
+      "outside_declared_domain": 1,
+      "frequency_suppression_or_assignment": 6,
+      "ambiguous_attribution": 2
+    }
+  },
+  "statistical_scope": "Exploratory finite-frame spectral-tile cohort. Confidence procedures do not validate transport to arbitrary observations.",
+  "main_60_component_gate_passed": false,
+  "receiver_hardware_identity_independently_verified": false,
+  "locked_test_accessed": false,
+  "llm_introduced": false,
+  "preservation": {
+    "original_manifest_files_verified": 31,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "all_preserved": true
+  }
+}

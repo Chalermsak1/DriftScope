@@ -1,0 +1,110 @@
+{
+  "ON_scan_diagnostics": [
+    {
+      "active_center_channels": [],
+      "active_midpoint_integrations": 0,
+      "offset_s": 0.0,
+      "scan_id": "cohort_858868_858869_858870_858871_858872_858873_scan_0",
+      "stored_channel_center_domain": [
+        0,
+        1023
+      ]
+    },
+    {
+      "active_center_channels": [
+        19.649757465558608,
+        18.07893641880515,
+        16.50811571338508,
+        14.937295007965014,
+        13.366474302544948,
+        11.795653255791489,
+        10.224832550371422,
+        8.654011844951356,
+        7.083191139531288,
+        5.512370092777829,
+        3.941549387357762,
+        2.370728681937695,
+        0.799907976517628,
+        -0.7709130702358307,
+        -2.341733775655898,
+        -3.912554481075965,
+        -5.483375527829423,
+        -7.05419623324949,
+        -8.625016938669557,
+        -10.195837644089625,
+        -11.766658690843084,
+        -13.33747939626315,
+        -14.908300101683217,
+        -16.479120807103286,
+        -18.049941853856744,
+        -19.62076255927681,
+        -21.191583264696877,
+        -22.762404311450336,
+        -24.333225016870404,
+        -25.90404572229047,
+        -27.474866427710538,
+        -29.045687474463996
+      ],
+      "active_midpoint_integrations": 32,
+      "offset_s": 1257.9999998677522,
+      "scan_id": "cohort_858868_858869_858870_858871_858872_858873_scan_2",
+      "stored_channel_center_domain": [
+        0,
+        1023
+      ]
+    },
+    {
+      "active_center_channels": [
+        -88.60786698374264,
+        -90.1786876891627,
+        -91.74950873591615,
+        -93.32032944133623,
+        -94.89115014675629,
+        -96.46197085217636,
+        -98.03279189892982,
+        -99.60361260434989,
+        -101.17443330976995,
+        -102.74525401519001,
+        -104.31607506194348,
+        -105.88689576736354,
+        -107.45771647278362,
+        -109.02853751953707,
+        -110.59935822495714
+      ],
+      "active_midpoint_integrations": 15,
+      "offset_s": 2516.000000364147,
+      "scan_id": "cohort_858868_858869_858870_858871_858872_858873_scan_4",
+      "stored_channel_center_domain": [
+        0,
+        1023
+      ]
+    }
+  ],
+  "finding": "The signal is inside the band at the start of the middle ON scan and exits during that scan; the final ON starts outside the band. No active full-scan supported search path matches the truth under the declared baseline.",
+  "limitation": "This diagnostic uses integration-midpoint track centers. Full-scan support, boxcar margins, masks and matching tolerance are the search contract; partial-time/windowed searches are not implemented.",
+  "not_a_population_estimate": true,
+  "trial_parameters": {
+    "active_intervals_s": [
+      [
+        932.2788881385059,
+        2796.8366644155176
+      ]
+    ],
+    "cadence_id": "cohort_858868_858869_858870_858871_858872_858873",
+    "collision_offset_channels": null,
+    "component_id": "component_68b9b5320e42e964",
+    "curvature_hz_per_s2": 0.0,
+    "drift_hz_per_s": -0.24043581607580783,
+    "family": "intermittent",
+    "fwhm_channels": 2.0,
+    "modulation_period_s": null,
+    "modulation_phase": 4.1126138665123335,
+    "off_response": 0.0,
+    "partition": "development",
+    "peak_power_sigma": 8.0,
+    "placements_in_cell": 1,
+    "sampling_weight": 2.0,
+    "start_channel": 128.69279203776898,
+    "trial_id": "trial_000002"
+  }
+}

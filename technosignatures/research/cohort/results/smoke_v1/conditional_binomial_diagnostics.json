@@ -1,0 +1,142 @@
+[
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.975
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.025000000000000022,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.025000000000000022,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.025000000000000022,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.975
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.025000000000000022,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.025000000000000022,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.025000000000000022,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.025000000000000022,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.975
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.975
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.025000000000000022,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.025000000000000022,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.975
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  }
+]

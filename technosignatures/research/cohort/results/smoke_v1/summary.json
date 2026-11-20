@@ -1,0 +1,142 @@
+{
+  "acquired_cadences": 7,
+  "arms": {
+    "legacy_safe": {
+      "conservative": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 211.0,
+        "rate": 0.5796703296703297
+      },
+      "optimistic": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 211.0,
+        "rate": 0.5796703296703297
+      },
+      "searchable": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 211.0,
+        "rate": 0.5796703296703297
+      }
+    },
+    "legacy_strict": {
+      "conservative": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 191.0,
+        "rate": 0.5247252747252747
+      },
+      "optimistic": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 191.0,
+        "rate": 0.5247252747252747
+      },
+      "searchable": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 191.0,
+        "rate": 0.5247252747252747
+      }
+    },
+    "new_safe": {
+      "conservative": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 207.0,
+        "rate": 0.5686813186813187
+      },
+      "optimistic": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 207.0,
+        "rate": 0.5686813186813187
+      },
+      "searchable": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 207.0,
+        "rate": 0.5686813186813187
+      }
+    },
+    "new_strict": {
+      "conservative": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 187.0,
+        "rate": 0.5137362637362637
+      },
+      "optimistic": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 187.0,
+        "rate": 0.5137362637362637
+      },
+      "searchable": {
+        "denominator": 364.0,
+        "eligible_signals": 14,
+        "numerator": 187.0,
+        "rate": 0.5137362637362637
+      }
+    }
+  },
+  "first_loss_counts": {
+    "legacy": {
+      "below_threshold": 3,
+      "cadence_association": 1,
+      "retained": 10
+    },
+    "new": {
+      "below_threshold": 3,
+      "cadence_ancestry_or_assignment": 1,
+      "cadence_association": 1,
+      "retained": 9
+    }
+  },
+  "independent_components": 7,
+  "llm_introduced": false,
+  "locked_test_accessed": false,
+  "main_60_component_gate_passed": false,
+  "physical_signal_count": 14,
+  "policy_first_loss_counts": {
+    "legacy_safe": {
+      "below_threshold": 3,
+      "cadence_association": 1,
+      "retained": 10
+    },
+    "legacy_strict": {
+      "below_threshold": 3,
+      "cadence_association": 1,
+      "cadence_policy_reject_missing_on_persistence": 1,
+      "retained": 9
+    },
+    "new_safe": {
+      "below_threshold": 3,
+      "cadence_ancestry_or_assignment": 1,
+      "cadence_association": 1,
+      "retained": 9
+    },
+    "new_strict": {
+      "below_threshold": 3,
+      "cadence_ancestry_or_assignment": 1,
+      "cadence_association": 1,
+      "cadence_policy_reject_missing_on_persistence": 1,
+      "retained": 8
+    }
+  },
+  "preservation": {
+    "all_preserved": true,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "original_manifest_files_verified": 31
+  },
+  "receiver_hardware_identity_independently_verified": false,
+  "smoke_only": true,
+  "statistical_scope": "Exploratory finite-frame spectral-tile cohort. Confidence procedures do not validate transport to arbitrary observations.",
+  "technical_failure_signals": 0,
+  "trial_count": 14,
+  "version": "prospective-cohort-sensitivity-v1-development"
+}

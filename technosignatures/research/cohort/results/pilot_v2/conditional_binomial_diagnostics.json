@@ -1,0 +1,2396 @@
+[
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.19412044968324346,
+      0.9936905367902902
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.25,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.5,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 1.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 2.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 4.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 8.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.14663279963467318,
+      0.9472550494736831
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "curved_drift",
+    "interval_95": [
+      0.005050763379468061,
+      0.7164179361180895
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "curved_drift",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "curved_drift",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "intermittent",
+    "interval_95": [
+      0.067585986488543,
+      0.932414013511457
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "intermittent",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_1d6eadc23cfdaf66",
+    "family": "intermittent",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.28358206388191054,
+      0.9949492366205319
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.25,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.5,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 1.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 2.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 4.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 8.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.28358206388191054,
+      0.9949492366205319
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.19412044968324346,
+      0.9936905367902902
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.28358206388191054,
+      0.9949492366205319
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "curved_drift",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "curved_drift",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "curved_drift",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "intermittent",
+    "interval_95": [
+      0.14663279963467318,
+      0.9472550494736831
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "intermittent",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_24a89e5207612961",
+    "family": "intermittent",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.19412044968324346,
+      0.9936905367902902
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.19412044968324346,
+      0.9936905367902902
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.25,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.5,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 1.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 2.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 4.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 8.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.005050763379468061,
+      0.7164179361180895
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "curved_drift",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "curved_drift",
+    "interval_95": [
+      0.28358206388191054,
+      0.9949492366205319
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "intermittent",
+    "interval_95": [
+      0.05274495052631693,
+      0.8533672003653268
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "intermittent",
+    "interval_95": [
+      0.05274495052631693,
+      0.8533672003653268
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_4bee0c9679081612",
+    "family": "intermittent",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.067585986488543,
+      0.932414013511457
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.25,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.5,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 1.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 2.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 4.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 8.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.006309463209709871,
+      0.8058795503167565
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "curved_drift",
+    "interval_95": [
+      0.05274495052631693,
+      0.8533672003653268
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "curved_drift",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "curved_drift",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "intermittent",
+    "interval_95": [
+      0.05274495052631693,
+      0.8533672003653268
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "intermittent",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_60d25a7aded33553",
+    "family": "intermittent",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.005050763379468061,
+      0.7164179361180895
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.14663279963467318,
+      0.9472550494736831
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.19412044968324346,
+      0.9936905367902902
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.28358206388191054,
+      0.9949492366205319
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.25,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.5,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 1.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 2.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 4.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 8.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.19412044968324346,
+      0.9936905367902902
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "curved_drift",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "curved_drift",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "curved_drift",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "intermittent",
+    "interval_95": [
+      0.19412044968324346,
+      0.9936905367902902
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "intermittent",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_68b9b5320e42e964",
+    "family": "intermittent",
+    "interval_95": [
+      0.28358206388191054,
+      0.9949492366205319
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.067585986488543,
+      0.932414013511457
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.28358206388191054,
+      0.9949492366205319
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.25,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.5,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 1.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 2.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 4.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 8.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.006309463209709871,
+      0.8058795503167565
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "curved_drift",
+    "interval_95": [
+      0.005050763379468061,
+      0.7164179361180895
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "curved_drift",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "curved_drift",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "intermittent",
+    "interval_95": [
+      0.006309463209709871,
+      0.8058795503167565
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "intermittent",
+    "interval_95": [
+      0.19412044968324346,
+      0.9936905367902902
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "family": "intermittent",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "amplitude_modulated",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.067585986488543,
+      0.932414013511457
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "broadened_narrowband",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.25,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 0.5,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 1.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 2.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 4.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "collision_or_crowded",
+    "interval_95": null,
+    "peak_power_sigma": 8.0,
+    "status": "companion_signals_correlated_use_trial_bootstrap"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "continuous_linear",
+    "interval_95": [
+      0.47817624989501856,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "curved_drift",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "curved_drift",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "curved_drift",
+    "interval_95": [
+      0.14663279963467318,
+      0.9472550494736831
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "curved_drift",
+    "interval_95": [
+      0.28358206388191054,
+      0.9949492366205319
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "peak_power_sigma": 0.25,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 0.5,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "intermittent",
+    "interval_95": [
+      0.0,
+      0.5218237501049814
+    ],
+    "peak_power_sigma": 1.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "intermittent",
+    "interval_95": [
+      0.28358206388191054,
+      0.9949492366205319
+    ],
+    "peak_power_sigma": 2.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "intermittent",
+    "interval_95": [
+      0.14663279963467318,
+      0.9472550494736831
+    ],
+    "peak_power_sigma": 4.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  },
+  {
+    "component_id": "component_db90c4bff9a873d5",
+    "family": "intermittent",
+    "interval_95": [
+      0.3976353643835254,
+      1.0
+    ],
+    "peak_power_sigma": 8.0,
+    "status": "conditional_independent_random_placements_on_one_fixed_background"
+  }
+]

@@ -2,7 +2,7 @@
 
 Reproducible radio technosignature experiments: **load observations → inject a synthetic signal → detect it → account for pipeline losses**.
 
-This first code release contains the conventional Python baseline, its original recorded experiment, an observational cadence-access pilot, search-coverage and candidate-truncation audits, signal-survival tracking, tests, and the research/statistical plans. No LLM is used.
+This repository contains the conventional Python baseline, preserved experiments and plans, observational cadence-access pilots, search-coverage and truncation audits, signal-survival tracking, tests, and reproducible sensitivity experiments. No LLM is used.
 
 The experiments validate software and quantify specified engineering cases. They do not establish an extraterrestrial detection or population-level search completeness.
 
@@ -42,6 +42,10 @@ The original cadence pilot validates all stored integrations over one approximat
 The [v2 development module](technosignatures/research/conventional/README.md) adds per-drift coverage remediation, uncapped hits, path-based event grouping, timestamp-aware cadence policies, and cohort/sensitivity infrastructure. Its [milestone report](technosignatures/research/conventional/evidence/MILESTONE_REPORT.md) records 115 passing regression tests and 17 complete-repeat comparisons.
 
 The [prospective C-band cohort pilot](technosignatures/research/cohort/README.md) adds complete original-source cadence extraction, verified resumable HTTPS ranges, paired loss accounting, and component-aware sensitivity experiments. The metadata frame contains 182 eligible cadence/product proposals in **seven linked components**; all seven are selected before inspecting spectra. Acquisition and evaluation status are recorded in its [milestone report](technosignatures/research/cohort/evidence/MILESTONE_REPORT.md).
+
+The completed reduced pilot acquires **42 files / seven full cadences / 983,040 usable power samples** and executes **1,152 trials containing 1,344 synthetic signals**. All 42 source score maps match the scalar reference exactly; **159 tests pass**, and a fresh full execution reproduces every scientific file and trial checkpoint. A documented ancestry-assignment correction resolves 45 evaluation conflicts while preserving identical observations, injection parameters and blind-output metrics. Weighted review-safe recovery is 39.68% versus 38.43% for the legacy arm; strict-policy retention remains lower by the weighted comparison. These are exploratory development benchmarks, not evidence of population completeness or confirmatory superiority.
+
+Published ledger consistency can be checked from the repository root with `technosignatures/.venv/bin/python scripts/cohort_validation.py`. This validates retained evidence; acquiring and independently reproducing the observations requires the [cohort reproduction steps](technosignatures/research/cohort/README.md).
 
 Representative-cohort sensitivity remains incomplete. The approved main study requires 60 independent components; more injections into seven backgrounds cannot meet that requirement. Full observing-band coverage, statistical precision, independently verified receiver identity, flux sensitivity and locked-test evaluation remain open gates.
 

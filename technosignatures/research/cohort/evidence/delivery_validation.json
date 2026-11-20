@@ -1,5 +1,29 @@
 {
+  "actual_legacy_cap_losses_in_represented_trial_searches": 0,
   "all_checks_passed": true,
+  "assignment_amendment_comparison": {
+    "checks": {
+      "same_native_control_scores_and_coverage": true,
+      "same_observational_inputs": true,
+      "same_per_trial_injection_and_blind_output_metrics": true,
+      "same_trial_parameters": true
+    },
+    "former_conflicts": 45,
+    "former_conflicts_now_retained": 45,
+    "interpretation": "Post-search evaluator correction on the same fixed development experiment; not a new independent observing cohort or confirmatory validation.",
+    "v1_unweighted_recoveries": {
+      "legacy_safe": 544,
+      "legacy_strict": 421,
+      "new_safe": 521,
+      "new_strict": 402
+    },
+    "v2_unweighted_recoveries": {
+      "legacy_safe": 544,
+      "legacy_strict": 421,
+      "new_safe": 566,
+      "new_strict": 433
+    }
+  },
   "checks": {
     "all_42_source_maps_exact": true,
     "all_42_sources_acquired": true,
@@ -20,6 +44,10 @@
     "offline_reconstruction_exact": true,
     "physical_signal_count_reconciles": true,
     "planned_trials_executed": true,
+    "same_native_control_scores_and_coverage": true,
+    "same_observational_inputs": true,
+    "same_per_trial_injection_and_blind_output_metrics": true,
+    "same_trial_parameters": true,
     "strict_implies_safe": true
   },
   "coverage": {
@@ -92,17 +120,27 @@
     }
   },
   "scope": "Exploratory reduced finite-frame sensitivity pilot. No calibrated flux sensitivity, population completeness, main-study precision, noninferiority or confirmed origin claim.",
+  "strict_retention_decisions": {
+    "legacy": {
+      "escalate_incomplete_search_or_cadence": 76,
+      "retain": 345
+    },
+    "new": {
+      "escalate_incomplete_search_or_cadence": 52,
+      "retain": 381
+    }
+  },
   "tests": {
     "errors": 0,
     "failures": 0,
     "skipped": 0,
-    "tests": 154
+    "tests": 159
   },
   "unweighted_eligible_signals": 1343,
   "unweighted_recoveries": {
     "legacy_safe": 544,
     "legacy_strict": 421,
-    "new_safe": 521,
-    "new_strict": 402
+    "new_safe": 566,
+    "new_strict": 433
   }
 }

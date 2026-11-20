@@ -29,6 +29,7 @@ from .statistics import rate, uncertainty, independent_cell_intervals
 
 OUTCOMES = ['new_safe', 'new_strict', 'legacy_safe', 'legacy_strict']
 ROOT = HERE.parents[1]
+ASSIGNMENT_METHOD = 'ancestry_feasible_final_first_one_to_one_v2'
 
 
 def make_design(cadences, selections, config):
@@ -78,6 +79,9 @@ def run(output, acquisition_path, data_directory, config_path, smoke=False, resu
     if existing and not resume: raise FileExistsError('Use a new results directory or explicit verified resume')
     output.mkdir(parents=True, exist_ok=True)
     config = json.loads(Path(config_path).read_text())
+    if config.get('cadence_assignment_method', ASSIGNMENT_METHOD) != ASSIGNMENT_METHOD:
+        raise ValueError('Configuration names a different evaluator; use its recorded Git revision')
+    config = {**config, 'cadence_assignment_method': ASSIGNMENT_METHOD}
     if config['legacy_cap'] != 50: raise ValueError('Historical reference cap is fixed at 50')
     acquisition = json.loads(Path(acquisition_path).read_text())
     if acquisition['acquired_complete_cadences'] != acquisition['selected_cadences']:
@@ -219,7 +223,7 @@ def main():
     p.add_argument('--acquisition', type=Path, default=HERE/'evidence/acquisition.json')
     p.add_argument('--data', type=Path, default=HERE/'data')
     p.add_argument('--config', type=Path, default=HERE/'configs/evaluation.json')
-    p.add_argument('--output', type=Path, default=HERE/'results/pilot_v1')
+    p.add_argument('--output', type=Path, default=HERE/'results/pilot_v2')
     p.add_argument('--smoke', action='store_true')
     p.add_argument('--resume', action='store_true')
     a = p.parse_args(); run(a.output, a.acquisition, a.data, a.config, a.smoke, a.resume)

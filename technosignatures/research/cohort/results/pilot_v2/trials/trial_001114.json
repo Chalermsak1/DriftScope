@@ -1,0 +1,412 @@
+{
+  "metrics": {
+    "arm_metrics": {
+      "legacy": {
+        "candidate_cap_loss_count": 0,
+        "event_count": 2,
+        "hit_count": 6,
+        "preprocessing_failures": {},
+        "scan_coverage": {
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_1": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_3": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_5": {
+            "candidates_lost_to_cap": 0,
+            "evaluated_track_trials": 96030,
+            "masked_track_trials": null,
+            "physical_track_trials": null,
+            "unscorable_track_trials": null
+          }
+        }
+      },
+      "new": {
+        "candidate_cap_loss_count": 0,
+        "event_count": 5,
+        "hit_count": 39,
+        "preprocessing_failures": {},
+        "scan_coverage": {
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_1": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_3": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          },
+          "cohort_878728_878729_878730_878731_878732_878733_scan_5": {
+            "candidates_lost_to_cap": null,
+            "evaluated_track_trials": 99978,
+            "masked_track_trials": 0,
+            "physical_track_trials": 99978,
+            "unscorable_track_trials": 0
+          }
+        }
+      }
+    },
+    "injection": {
+      "beam_calibrated": false,
+      "continuous_peak_power_before_bin_time_averaging": 2049831.0012836603,
+      "frequency_bin_integration": "analytic Gaussian CDF",
+      "noise_channel_window_half_open": [
+        630,
+        759
+      ],
+      "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+      "noise_estimate_power": 512457.7503209151,
+      "off_response": 0.0,
+      "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+      "time_midpoint_subsamples": 32
+    },
+    "trial_id": "trial_001114"
+  },
+  "parameters": {
+    "active_intervals_s": null,
+    "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+    "collision_offset_channels": 5.0,
+    "component_id": "component_9876f0d8b0bfbf2f",
+    "curvature_hz_per_s2": 0.0,
+    "drift_hz_per_s": 0.07095843973107113,
+    "family": "collision_or_crowded",
+    "fwhm_channels": 2.0,
+    "modulation_period_s": null,
+    "modulation_phase": 4.77277673160265,
+    "off_response": 0.0,
+    "partition": "development",
+    "peak_power_sigma": 4.0,
+    "placements_in_cell": 4,
+    "sampling_weight": 2.0,
+    "start_channel": 694.1072587054892,
+    "trial_id": "trial_001114"
+  },
+  "rows": [
+    {
+      "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+      "component_id": "component_9876f0d8b0bfbf2f",
+      "eligible": true,
+      "failure_type": null,
+      "family": "collision_or_crowded",
+      "legacy_first_loss": "retained",
+      "legacy_safe": true,
+      "legacy_safe_first_loss": "retained",
+      "legacy_safe_optimistic": true,
+      "legacy_stages": {
+        "after_frequency_suppression_compatible": true,
+        "ancestry_feasible_cadence_events": 1,
+        "associated": true,
+        "association_ancestry_competition_not_counted": false,
+        "association_localization_rescue_not_counted": false,
+        "association_max_path_error_channels": 0.8937569461321478,
+        "best_score": 22.065634254026502,
+        "coherent_association_parent_event_ids": [
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000001"
+        ],
+        "companion_overlap_ambiguous": false,
+        "generated": true,
+        "grouped": true,
+        "local_maximum_compatible": true,
+        "matched_cadence_event_id": "cohort_878728_878729_878730_878731_878732_878733_ce_000001",
+        "matched_on_ancestry": [
+          {
+            "active_integration_midpoints": 16,
+            "event_id": null,
+            "event_max_path_error_channels": null,
+            "hit_id": null,
+            "hit_max_path_error_channels": null,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0"
+          },
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000000",
+            "event_max_path_error_channels": 0.5845188975754415,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2_legacy_000000",
+            "hit_max_path_error_channels": 0.5845188975754415,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2"
+          },
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000001",
+            "event_max_path_error_channels": 0.4828114802668407,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4_legacy_000001",
+            "hit_max_path_error_channels": 0.4828114802668407,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4"
+          }
+        ],
+        "matched_on_event_ids": [
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000001"
+        ],
+        "native_ambiguous": false,
+        "on_piece_count": 2,
+        "searchable": true,
+        "strict_decision": "retain",
+        "unconstrained_cadence_compatible_events": 1
+      },
+      "legacy_strict": true,
+      "legacy_strict_first_loss": "retained",
+      "legacy_strict_optimistic": true,
+      "new_first_loss": "retained",
+      "new_safe": true,
+      "new_safe_first_loss": "retained",
+      "new_safe_optimistic": true,
+      "new_stages": {
+        "after_frequency_suppression_compatible": true,
+        "ancestry_feasible_cadence_events": 1,
+        "associated": true,
+        "association_ancestry_competition_not_counted": false,
+        "association_localization_rescue_not_counted": false,
+        "association_max_path_error_channels": 0.5705402759611262,
+        "best_score": 22.39051603752736,
+        "coherent_association_parent_event_ids": [
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000001",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000001"
+        ],
+        "companion_overlap_ambiguous": false,
+        "generated": true,
+        "grouped": true,
+        "local_maximum_compatible": true,
+        "matched_cadence_event_id": "cohort_878728_878729_878730_878731_878732_878733_ce_000001",
+        "matched_on_ancestry": [
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000001",
+            "event_max_path_error_channels": 0.6608290712185052,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0_d00062_c00000695",
+            "hit_max_path_error_channels": 0.6608290712185052,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0"
+          },
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000000",
+            "event_max_path_error_channels": 0.5845188975754415,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2_d00061_c00000711",
+            "hit_max_path_error_channels": 0.5845188975754415,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2"
+          },
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000001",
+            "event_max_path_error_channels": 0.4828114802668407,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4_d00061_c00000727",
+            "hit_max_path_error_channels": 0.4828114802668407,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4"
+          }
+        ],
+        "matched_on_event_ids": [
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000001",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000001"
+        ],
+        "native_ambiguous": false,
+        "on_piece_count": 3,
+        "searchable": true,
+        "strict_decision": "retain",
+        "unconstrained_cadence_compatible_events": 1
+      },
+      "new_strict": true,
+      "new_strict_first_loss": "retained",
+      "new_strict_optimistic": true,
+      "peak_power_sigma": 4.0,
+      "searchable": true,
+      "trial_id": "trial_001114",
+      "truth_id": "trial_001114_signal_0",
+      "weight": 0.25
+    },
+    {
+      "cadence_id": "cohort_878728_878729_878730_878731_878732_878733",
+      "component_id": "component_9876f0d8b0bfbf2f",
+      "eligible": true,
+      "failure_type": null,
+      "family": "collision_or_crowded",
+      "legacy_first_loss": "retained",
+      "legacy_safe": true,
+      "legacy_safe_first_loss": "retained",
+      "legacy_safe_optimistic": true,
+      "legacy_stages": {
+        "after_frequency_suppression_compatible": true,
+        "ancestry_feasible_cadence_events": 1,
+        "associated": true,
+        "association_ancestry_competition_not_counted": false,
+        "association_localization_rescue_not_counted": false,
+        "association_max_path_error_channels": 0.45771768188284895,
+        "best_score": 22.837759341081856,
+        "coherent_association_parent_event_ids": [
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000001",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000000"
+        ],
+        "companion_overlap_ambiguous": false,
+        "generated": true,
+        "grouped": true,
+        "local_maximum_compatible": true,
+        "matched_cadence_event_id": "cohort_878728_878729_878730_878731_878732_878733_ce_000000",
+        "matched_on_ancestry": [
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000000",
+            "event_max_path_error_channels": 0.8755840212336604,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0_legacy_000000",
+            "hit_max_path_error_channels": 0.8755840212336604,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0"
+          },
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000001",
+            "event_max_path_error_channels": 1.1546195362782659,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2_legacy_000001",
+            "hit_max_path_error_channels": 1.1546195362782659,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2"
+          },
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000000",
+            "event_max_path_error_channels": 1.3024328870514539,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4_legacy_000000",
+            "hit_max_path_error_channels": 1.3024328870514539,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4"
+          }
+        ],
+        "matched_on_event_ids": [
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000001",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000000"
+        ],
+        "native_ambiguous": false,
+        "on_piece_count": 3,
+        "searchable": true,
+        "strict_decision": "retain",
+        "unconstrained_cadence_compatible_events": 1
+      },
+      "legacy_strict": true,
+      "legacy_strict_first_loss": "retained",
+      "legacy_strict_optimistic": true,
+      "new_first_loss": "retained",
+      "new_safe": true,
+      "new_safe_first_loss": "retained",
+      "new_safe_optimistic": true,
+      "new_stages": {
+        "after_frequency_suppression_compatible": true,
+        "ancestry_feasible_cadence_events": 3,
+        "associated": true,
+        "association_ancestry_competition_not_counted": false,
+        "association_localization_rescue_not_counted": false,
+        "association_max_path_error_channels": 0.4518965842096496,
+        "best_score": 23.352286441842573,
+        "coherent_association_parent_event_ids": [
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000001",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000000"
+        ],
+        "companion_overlap_ambiguous": false,
+        "generated": true,
+        "grouped": true,
+        "local_maximum_compatible": true,
+        "matched_cadence_event_id": "cohort_878728_878729_878730_878731_878732_878733_ce_000000",
+        "matched_on_ancestry": [
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000000",
+            "event_max_path_error_channels": 0.8755840212336604,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0_d00037_c00000698",
+            "hit_max_path_error_channels": 0.8755840212336604,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_0"
+          },
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000001",
+            "event_max_path_error_channels": 1.1546195362782659,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2_d00039_c00000682",
+            "hit_max_path_error_channels": 1.1546195362782659,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_2"
+          },
+          {
+            "active_integration_midpoints": 16,
+            "event_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000000",
+            "event_max_path_error_channels": 0.302433228384729,
+            "hit_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4_d00034_c00000667",
+            "hit_max_path_error_channels": 0.302433228384729,
+            "scan_id": "cohort_878728_878729_878730_878731_878732_878733_scan_4"
+          }
+        ],
+        "matched_on_event_ids": [
+          "cohort_878728_878729_878730_878731_878732_878733_scan_0_event_000000",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_2_event_000001",
+          "cohort_878728_878729_878730_878731_878732_878733_scan_4_event_000000"
+        ],
+        "native_ambiguous": false,
+        "on_piece_count": 3,
+        "searchable": true,
+        "strict_decision": "retain",
+        "unconstrained_cadence_compatible_events": 3
+      },
+      "new_strict": true,
+      "new_strict_first_loss": "retained",
+      "new_strict_optimistic": true,
+      "peak_power_sigma": 4.0,
+      "searchable": true,
+      "trial_id": "trial_001114",
+      "truth_id": "trial_001114_signal_1",
+      "weight": 0.25
+    }
+  ]
+}

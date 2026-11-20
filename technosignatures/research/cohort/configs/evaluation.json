@@ -1,5 +1,6 @@
 {
-  "version": "prospective-cohort-sensitivity-v1-development",
+  "version": "prospective-cohort-sensitivity-v2-development",
+  "cadence_assignment_method": "ancestry_feasible_final_first_one_to_one_v2",
   "seed": 20261123,
   "placements_per_family_amplitude_total": 32,
   "families": [

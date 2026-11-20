@@ -1,0 +1,38 @@
+{
+  "amplitudes": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "bootstrap_replicates": 10000,
+  "cadence_assignment_method": "ancestry_feasible_final_first_one_to_one_v2",
+  "cadence_off_score_threshold": 6.0,
+  "families": [
+    "continuous_linear",
+    "broadened_narrowband",
+    "intermittent",
+    "amplitude_modulated",
+    "curved_drift",
+    "collision_or_crowded"
+  ],
+  "group_tolerance_channels": 3.0,
+  "legacy_cap": 50,
+  "max_wall_s": 2400,
+  "placements_per_family_amplitude_total": 32,
+  "scope": "Exploratory reduced finite-frame cohort; not the frozen 60-component main study or a noninferiority test.",
+  "search": {
+    "boxcar_width_channels": 3,
+    "max_abs_drift_hz_per_s": 0.25,
+    "max_endpoint_grid_error_channels": 0.5,
+    "max_score_cells": 20000000,
+    "score_threshold": 10.0,
+    "tile_core_channels": 256
+  },
+  "seed": 20261123,
+  "time_subsamples": 32,
+  "trial_workers": 2,
+  "version": "prospective-cohort-sensitivity-v2-development"
+}

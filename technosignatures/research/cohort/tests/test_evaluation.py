@@ -61,10 +61,9 @@ def test_unrelated_cadence_parent_cannot_satisfy_a_truth_matched_local_chain(mon
         return result
     monkeypatch.setattr(module, 'filter_cadence', unrelated_parent)
     rows, _ = evaluate_trial(cadence, parameters(), controls, config, 'synthetic', 1., 1)
-    assert rows[0]['failure_type'] is None and not rows[0]['new_safe']
-    assert rows[0]['new_stages']['grouped'] and rows[0]['new_stages']['associated']
-    assert rows[0]['new_first_loss'] == 'cadence_ancestry_or_assignment'
-    assert rows[0]['new_stages']['association_ancestry_competition_not_counted']
+    assert not rows[0]['new_safe'] and rows[0]['failure_type'] == 'ValueError'
+    assert rows[0]['new_first_loss'] == 'technical_failure'
+    assert 'missing local-event ancestry' in rows[0]['failure']
 
 
 def test_injector_failure_stays_in_known_physical_signal_denominator(monkeypatch):

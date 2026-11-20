@@ -1,0 +1,67 @@
+Native controls: cohort_858868_858869_858870_858871_858872_858873
+Native controls: cohort_815634_815637_815640_815643_815646_815649
+Native controls: cohort_858892_858893_858894_858895_858896_858897
+Native controls: cohort_877666_877667_877668_877669_877670_877671
+Native controls: cohort_858826_858827_858828_858829_858830_858831
+Native controls: cohort_878728_878729_878730_878731_878732_878733
+Native controls: cohort_882142_882143_882144_882145_882146_882147
+Trial 1/14; signal rows 1; elapsed 6.1s
+Trial 13/14; signal rows 13; elapsed 10.0s
+Trial 14/14; signal rows 14; elapsed 10.3s
+{
+  "version": "prospective-cohort-sensitivity-v2-development",
+  "smoke_only": true,
+  "trial_count": 14,
+  "physical_signal_count": 14,
+  "acquired_cadences": 7,
+  "independent_components": 7,
+  "technical_failure_signals": 0,
+  "first_loss_counts": {
+    "new": {
+      "retained": 10,
+      "below_threshold": 3,
+      "cadence_association": 1
+    },
+    "legacy": {
+      "retained": 10,
+      "below_threshold": 3,
+      "cadence_association": 1
+    }
+  },
+  "policy_first_loss_counts": {
+    "new_safe": {
+      "retained": 10,
+      "below_threshold": 3,
+      "cadence_association": 1
+    },
+    "new_strict": {
+      "retained": 8,
+      "below_threshold": 3,
+      "cadence_policy_reject_missing_on_persistence": 2,
+      "cadence_association": 1
+    },
+    "legacy_safe": {
+      "retained": 10,
+      "below_threshold": 3,
+      "cadence_association": 1
+    },
+    "legacy_strict": {
+      "retained": 9,
+      "below_threshold": 3,
+      "cadence_policy_reject_missing_on_persistence": 1,
+      "cadence_association": 1
+    }
+  },
+  "statistical_scope": "Exploratory finite-frame spectral-tile cohort. Confidence procedures do not validate transport to arbitrary observations.",
+  "main_60_component_gate_passed": false,
+  "receiver_hardware_identity_independently_verified": false,
+  "locked_test_accessed": false,
+  "llm_introduced": false,
+  "preservation": {
+    "original_manifest_files_verified": 31,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "all_preserved": true
+  }
+}

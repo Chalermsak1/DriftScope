@@ -11,6 +11,8 @@ The first full matrix executed **1,152 randomized trials / 1,344 physical signal
 | New strict experimental | 402 | 24.4046% |
 | Legacy + same downstream strict | 421 | 29.0252% |
 
+Strict-policy retention includes coverage-unknown escalation and must not be described as a fully satisfied strict-gate count. Per-signal `strict_decision` values distinguish retention, rejection and escalation.
+
 The new-minus-legacy review-safe difference is **−4.3443 percentage points**. Exploratory 95% percentile intervals are −6.8173 to −1.9142 points conditional on the selected backgrounds/placements, and −5.7454 to +0.6556 points under whole-component resampling. These are not confirmatory main-study confidence statements or a design-based variance estimate for all catalogue cadences.
 
 The new arm evaluates **6,077,016** valid discrete full-scan tracks, compared with **5,692,140** under the legacy common guard: **384,876 additional tracks**. No selected source samples were masked or unscorable. Nevertheless, greater geometric coverage does not establish higher end-to-end recovery. First-loss counts include 28 new versus 58 legacy unsearched signals, but the conservative new evaluator records **45 cadence ancestry/assignment conflicts**. There are also 53 association losses in each arm, 692 versus 680 below-threshold losses, and other separately recorded grouping/suppression/ambiguity losses. These are stage observations, not isolated causal effects of individual code changes.

@@ -6,6 +6,7 @@ import pipeline as legacy
 from research.pilot.accounting import catalogue_trace, coverage as legacy_coverage
 from research.conventional.search import SearchConfig, SearchResult
 from .fast_search import search
+from .matching import cadence_matches, local_matches
 from research.conventional.events import group_events, hierarchical_matches, match_tracks, track_values, path_distance
 from research.conventional.cadence import filter_cadence, CadenceConfig
 from research.conventional.injection import inject
@@ -121,15 +122,18 @@ def evaluate_trial(cadence, parameters, controls, settings, component_id, sampli
         stages = {}
         for arm in ['new', 'legacy']:
             processed = process(altered, settings, arm, controls[arm], group_tolerance, off_threshold)
+            assignments, reservations = cadence_matches(truths, altered, processed)
             by_truth = {t['truth_id']: {'searchable': False, 'generated': False, 'grouped': False, 'best_score': None, 'on_piece_count': 0,
                                       'matched_on_event_ids': [],
+                                      'matched_on_ancestry': [],
                                       'local_maximum_compatible': False, 'after_frequency_suppression_compatible': False} for t in truths}
             for scan, offset in zip(altered.scans, altered.offsets_s):
                 if scan.role != 'ON': continue
                 result = processed['searches'][scan.scan_id]; group = processed['grouped'][scan.scan_id]
                 epoch = float(offset)+scan.dt/2
-                ancestors = hierarchical_matches(truths, [{**h, 'epoch_s': epoch} for h in result.hits],
-                                                 [{**e, 'epoch_s': epoch} for e in group['events']], scan.time_s+epoch, scan.df)
+                ancestors = local_matches(truths, [{**h, 'epoch_s': epoch} for h in result.hits],
+                                          [{**e, 'epoch_s': epoch} for e in group['events']], scan.time_s+epoch, scan.df,
+                                          reservations[scan.scan_id])
                 trace = getattr(result, 'catalogue_trace', None)
                 compatibility = {}
                 if trace:
@@ -145,13 +149,16 @@ def evaluate_trial(cadence, parameters, controls, settings, component_id, sampli
                     cell['grouped'] |= event['matched_id'] is not None
                     cell['on_piece_count'] += event['matched_id'] is not None
                     if event['matched_id'] is not None: cell['matched_on_event_ids'].append(event['matched_id'])
+                    cell['matched_on_ancestry'].append({'scan_id': scan.scan_id, 'hit_id': hit['matched_id'],
+                        'event_id': event['matched_id'], 'hit_max_path_error_channels': hit['max_path_error_channels'],
+                        'event_max_path_error_channels': event['max_path_error_channels'],
+                        'active_integration_midpoints': int(active_times(t, scan.time_s+epoch).sum())})
                     for label, matches in compatibility.items():
                         cell[label] |= matches[truths.index(t)]['matched_id'] is not None
                     if arm == 'new':
                         cell['local_maximum_compatible'] |= hit['matched_id'] is not None
                         cell['after_frequency_suppression_compatible'] |= hit['matched_id'] is not None
             all_events = processed['cadence']['events']
-            assignments = match_tracks(truths, all_events, physical, df, id_key='cadence_event_id')
             native = native_ambiguities(truths, controls[arm]['cadence']['events'], physical, df)
             events = {e['cadence_event_id']: e for e in all_events}
             stages[arm] = {'by_truth': by_truth, 'assigned': assignments, 'native_ambiguous': native,
@@ -174,11 +181,14 @@ def evaluate_trial(cadence, parameters, controls, settings, component_id, sampli
                     row[arm+'_'+suffix+'_optimistic'] = compatible
                     row[arm+'_'+suffix] = compatible and not ambiguous
                 row[arm+'_stages'] = {**facts, 'associated': event is not None,
+                                     'matched_cadence_event_id': match['matched_id'],
                                      'native_ambiguous': native[truth['truth_id']], 'companion_overlap_ambiguous': companion_ambiguous,
                                      'association_localization_rescue_not_counted': event is not None and not facts['grouped'],
                                      'coherent_association_parent_event_ids': coherent_parents,
                                      'association_ancestry_competition_not_counted': event is not None and facts['grouped'] and not coherent_parents,
                                      'association_max_path_error_channels': match['max_path_error_channels'],
+                                     'unconstrained_cadence_compatible_events': match['unconstrained_compatible_event_count'],
+                                     'ancestry_feasible_cadence_events': match['ancestry_feasible_event_count'],
                                      'strict_decision': event['strict_experimental']['decision'] if event else 'not_reached'}
                 if not row['eligible']: reason = 'outside_declared_domain'
                 elif not facts['searchable']: reason = 'unsearched_or_unavailable_support'
@@ -187,7 +197,8 @@ def evaluate_trial(cadence, parameters, controls, settings, component_id, sampli
                 elif not facts['after_frequency_suppression_compatible']: reason = 'frequency_suppression_or_assignment'
                 elif not facts['generated']: reason = 'catalogue_truncation_or_assignment' if arm == 'legacy' else 'candidate_assignment'
                 elif not facts['grouped']: reason = 'grouping_or_assignment'
-                elif event is None: reason = 'cadence_association'
+                elif event is None: reason = ('cadence_ancestry_or_assignment' if match['unconstrained_compatible_event_count']
+                                             else 'cadence_association')
                 elif not coherent_parents: reason = 'cadence_ancestry_or_assignment'
                 elif ambiguous: reason = 'ambiguous_attribution'
                 else: reason = 'retained'

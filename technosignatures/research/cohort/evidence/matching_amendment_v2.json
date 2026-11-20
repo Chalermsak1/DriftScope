@@ -1,0 +1,24 @@
+{
+  "changed_layers": [
+    "post-search evaluation assignment only"
+  ],
+  "checks": {
+    "all_other_numeric_design_settings_unchanged": true,
+    "identical_1152_trial_parameters": true,
+    "identical_component_cell_allocations": true,
+    "identical_search_settings": true
+  },
+  "declared_before_v2_experiment_outcomes": true,
+  "inferential_scope": "Development correction after v1 outcomes, not an independent confirmatory experiment.",
+  "locked_test_accessed": false,
+  "main_60_component_gate_passed": false,
+  "reason": "Independent local and final event assignments can choose different aliases and conservatively lose a feasible three-level ancestry chain. Restrict global one-to-one assignment to events with compatible actual parent events and hits; reserve these parents before remaining local assignments.",
+  "unchanged_layers": [
+    "observation selection and source values",
+    "all injection parameters and random seed",
+    "blind detector and grouping/cadence algorithms",
+    "all thresholds, tolerances, weights and uncertainty procedures"
+  ],
+  "v1_frozen_revision": "df4486e",
+  "v1_source_and_results_preserved": true
+}

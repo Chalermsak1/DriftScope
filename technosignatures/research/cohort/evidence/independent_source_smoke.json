@@ -1,0 +1,102 @@
+{
+  "metrics": {
+    "arm_metrics": {
+      "legacy": {
+        "candidate_cap_loss_count": 0,
+        "event_count": 3,
+        "hit_count": 3,
+        "preprocessing_failures": {}
+      },
+      "new": {
+        "candidate_cap_loss_count": 0,
+        "event_count": 9,
+        "hit_count": 19,
+        "preprocessing_failures": {}
+      }
+    },
+    "injection": {
+      "beam_calibrated": false,
+      "continuous_peak_power_before_bin_time_averaging": 7106780339.666378,
+      "frequency_bin_integration": "analytic Gaussian CDF",
+      "noise_channel_window_half_open": [
+        448,
+        577
+      ],
+      "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+      "noise_estimate_power": 888347542.4582973,
+      "off_response": 0.0,
+      "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+      "time_midpoint_subsamples": 32
+    },
+    "trial_id": "independent_source_smoke"
+  },
+  "parameters": {
+    "cadence_id": "prospective_single_scan",
+    "curvature_hz_per_s2": 0.0,
+    "drift_hz_per_s": 0.1,
+    "family": "continuous_linear",
+    "fwhm_channels": 2.0,
+    "off_response": 0.0,
+    "peak_power_sigma": 8.0,
+    "start_channel": 512.0,
+    "trial_id": "independent_source_smoke"
+  },
+  "scope": "Single independently selected real-source integration test; incomplete cadence, not cohort sensitivity. Fixed channel512, drift0.1, amplitude8; detector settings not tuned from outcomes.",
+  "signal_rows": [
+    {
+      "cadence_id": "prospective_single_scan",
+      "component_id": "development_smoke_not_population",
+      "eligible": true,
+      "failure_type": null,
+      "family": "continuous_linear",
+      "legacy_first_loss": "retained",
+      "legacy_safe": true,
+      "legacy_safe_optimistic": true,
+      "legacy_stages": {
+        "associated": true,
+        "association_localization_rescue_not_counted": false,
+        "association_max_path_error_channels": 0.3265737944019276,
+        "best_score": 49.17193661419931,
+        "companion_overlap_ambiguous": false,
+        "generated": true,
+        "grouped": true,
+        "native_ambiguous": false,
+        "on_piece_count": 1,
+        "searchable": true,
+        "strict_decision": "escalate_incomplete_search_or_cadence"
+      },
+      "legacy_strict": true,
+      "legacy_strict_optimistic": true,
+      "new_first_loss": "retained",
+      "new_safe": true,
+      "new_safe_optimistic": true,
+      "new_stages": {
+        "associated": true,
+        "association_localization_rescue_not_counted": false,
+        "association_max_path_error_channels": 0.3265737944019276,
+        "best_score": 49.61842577058095,
+        "companion_overlap_ambiguous": false,
+        "generated": true,
+        "grouped": true,
+        "native_ambiguous": false,
+        "on_piece_count": 1,
+        "searchable": true,
+        "strict_decision": "escalate_incomplete_search_or_cadence"
+      },
+      "new_strict": true,
+      "new_strict_optimistic": true,
+      "peak_power_sigma": 8.0,
+      "searchable": true,
+      "trial_id": "independent_source_smoke",
+      "truth_id": "independent_source_smoke_signal_0",
+      "weight": 1.0
+    }
+  ],
+  "source_archive_id": 858868,
+  "source_array_hashes": {
+    "frequency": "17882982e00fbed41ceb3a1ca02faa408f7fa8aee17e48a2b3e9fd9c89ed91ce",
+    "power": "44d91aa18ff6f0a570acb468ee04af162b116c4328097c1e150777b8d15cea83",
+    "time": "95170225a1fce976467bdd03b48899faef45ee9327a71ba6e850b128bcf7ae7b",
+    "usable": "bfa5a24faa8ddf576edcc46f4f05e2459ee4a383b8dc14ff7dba0056b9c59ed0"
+  }
+}

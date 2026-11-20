@@ -1,0 +1,32 @@
+Cohort header 1/6: 858832, pass=True, bytes=65536
+Cohort header 2/6: 858833, pass=True, bytes=65536
+Cohort header 3/6: 858834, pass=True, bytes=65536
+Cohort header 4/6: 858835, pass=True, bytes=65536
+Cohort header 5/6: 858836, pass=True, bytes=65536
+Cohort header 6/6: 858837, pass=True, bytes=65536
+{
+  "utc": "2026-11-19T11:56:00.247117+00:00",
+  "selection": {
+    "cadence_id": "archive_858832_858833_858834_858835_858836_858837",
+    "component_id": "component_a2ef1db7882afbe2",
+    "group_inclusion_probability": 0.6666666666666666,
+    "conditional_cadence_probability": 0.25,
+    "cadence_inclusion_probability": 0.16666666666666666,
+    "sampling_weight": 6.0
+  },
+  "cadence_id": "archive_858832_858833_858834_858835_858836_858837",
+  "all_six_header_checks_passed": true,
+  "cadence_checks": {
+    "nonoverlapping_actual_integrations": true,
+    "same_lattice_and_resolution": true,
+    "on_pointings_agree": false,
+    "off_pointings_distinct": true
+  },
+  "actual_cadence_headers_validated": false,
+  "range_bytes_accessed": 393216,
+  "max_total_byte_budget": 50331648,
+  "spectral_samples_acquired": false,
+  "target_identifier_matching": "trim whitespace and casefold only; original names preserved, pointing agreement independently required",
+  "representative_sensitivity_ready": false,
+  "limitation": "Header-only access feasibility on one preselected candidate-independent archive proposal; no spectral-data or receiver-hardware validation and no sensitivity measurement."
+}

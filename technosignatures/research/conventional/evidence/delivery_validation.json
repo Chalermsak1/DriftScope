@@ -1,0 +1,35 @@
+{
+  "changed_preexisting_files": [],
+  "cohort_components_after_geometry_audit": 2,
+  "cohort_proposals_after_geometry_audit": 2,
+  "conditional_placement_intervals_complete": false,
+  "current_reference_source_files_verified": 22,
+  "environment": "Existing pinned CPython 3.11 environment on macOS ARM64; no fresh installation claimed",
+  "historical_integration_prerequisites": "Full suite used existing checksum-pinned release and verified source range cache. The temporary cache link was removed; historical regenerated pilot files were restored byte for byte.",
+  "llm_introduced": false,
+  "locked_test_opened": false,
+  "plot_visual_inspection": "coverage comparison, conditional recovery curve and integrated cadence before/after inspected; axes and scientific scope legible",
+  "preexisting_local_project_files_verified_unchanged": 139,
+  "preservation": {
+    "all_preserved": true,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "original_manifest_files_verified": 31
+  },
+  "reference_source_file_set_matches_current_module": true,
+  "rejected_metadata_sequences": 25,
+  "repeat_all_checks_passed": true,
+  "representative_population_gate_passed": false,
+  "scientific_repeat_comparisons": 17,
+  "selected_cohort_actual_headers_validated": true,
+  "selected_cohort_spectral_samples_acquired": false,
+  "supplementary_paired_line_repeat_passed": true,
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 115
+  },
+  "validated_at_utc": "2026-11-19T12:13:52.340375+00:00"
+}

@@ -1,0 +1,37 @@
+{
+  "version": "prospective-cohort-sensitivity-v1-development",
+  "seed": 20261123,
+  "placements_per_family_amplitude_total": 32,
+  "families": [
+    "continuous_linear",
+    "broadened_narrowband",
+    "intermittent",
+    "amplitude_modulated",
+    "curved_drift",
+    "collision_or_crowded"
+  ],
+  "amplitudes": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "search": {
+    "max_abs_drift_hz_per_s": 0.25,
+    "max_endpoint_grid_error_channels": 0.5,
+    "boxcar_width_channels": 3,
+    "score_threshold": 10.0,
+    "tile_core_channels": 256,
+    "max_score_cells": 20000000
+  },
+  "legacy_cap": 50,
+  "time_subsamples": 32,
+  "group_tolerance_channels": 3.0,
+  "cadence_off_score_threshold": 6.0,
+  "bootstrap_replicates": 10000,
+  "max_wall_s": 2400,
+  "trial_workers": 2,
+  "scope": "Exploratory reduced finite-frame cohort; not the frozen 60-component main study or a noninferiority test."
+}

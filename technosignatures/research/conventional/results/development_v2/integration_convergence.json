@@ -1,0 +1,22 @@
+[
+  {
+    "case": "C_fixture_max_drift",
+    "df_hz": 1.3969841003417969,
+    "drift_hz_per_s": 4.0,
+    "dt_s": 1.431655765333332,
+    "passed": true,
+    "relative_peak_error_32_vs_64": 0.00015897565479851766,
+    "relative_peak_error_64_vs_128": 3.970331110058371e-05,
+    "tolerance": 0.001
+  },
+  {
+    "case": "L_engineering_max_drift",
+    "df_hz": 2.7939677238464355,
+    "drift_hz_per_s": 1.0,
+    "dt_s": 18.253611008,
+    "passed": true,
+    "relative_peak_error_32_vs_64": 0.0003914145168291994,
+    "relative_peak_error_64_vs_128": 9.758481426964502e-05,
+    "tolerance": 0.001
+  }
+]

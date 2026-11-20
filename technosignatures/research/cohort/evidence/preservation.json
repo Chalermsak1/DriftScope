@@ -1,0 +1,19 @@
+{
+  "changed_pre_cohort_paths": [
+    "technosignatures/research/conventional/evidence/DEVELOPMENT_LOG.md",
+    "technosignatures/research/conventional/evidence/milestone_manifest.json"
+  ],
+  "original_and_approved_plan": {
+    "all_preserved": true,
+    "approved_plan_manifest_files_verified": 8,
+    "changed": [],
+    "changed_plan_files": [],
+    "original_manifest_files_verified": 31
+  },
+  "pre_cohort_snapshot_file_count": 204,
+  "presentation_only_changes": [
+    "technosignatures/research/conventional/evidence/DEVELOPMENT_LOG.md",
+    "technosignatures/research/conventional/evidence/milestone_manifest.json"
+  ],
+  "reason": "Publication naming preference; original presentation copies retained privately. Scientific source, observations, plans and numerical results unchanged."
+}

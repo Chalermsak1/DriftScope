@@ -1,0 +1,4 @@
+data/
+results/failed_attempts/
+results/reproduction/
+results/**/*.npz

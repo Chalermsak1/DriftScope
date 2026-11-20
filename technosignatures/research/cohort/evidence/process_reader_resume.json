@@ -1,0 +1,6 @@
+{
+  "unindexed_payloads_quarantined": [],
+  "selection_unchanged": true,
+  "frequency_plan_unchanged": true,
+  "reason": "Parallel independent HDF5 reader processes with a shared atomic transfer budget; byte-coalescing size adjusted, no detector outcomes used."
+}

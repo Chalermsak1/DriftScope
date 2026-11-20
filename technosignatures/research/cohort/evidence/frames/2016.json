@@ -1,0 +1,54 @@
+{
+  "archive_index_completeness_independently_verified": false,
+  "attempts": [
+    {
+      "canonical_response": {
+        "data": [],
+        "result": "success"
+      },
+      "effective_url": "http://seti.berkeley.edu/opendata/api/query-files?target=&telescopes=GBT&file-types=HDF5&time-start=57388.0&time-end=57754.0&freq-start=4000.0&freq-end=8000.0&limit=1000",
+      "response_sha256": "d924ba711f9daadb3958fab8fef862ad81221a5e2aab666557715799e16f60a9",
+      "row_count": 0,
+      "time_start_mjd": 57388.0,
+      "time_stop_mjd": 57754.0,
+      "url": "https://seti.berkeley.edu/opendata/api/query-files?target=&telescopes=GBT&file-types=HDF5&time-start=57388.0&time-end=57754.0&freq-start=4000.0&freq-end=8000.0&limit=1000"
+    }
+  ],
+  "cadences": [],
+  "collected_at_utc": "2026-11-19T12:25:02.207241+00:00",
+  "config": {
+    "api_url": "https://seti.berkeley.edu/opendata/api/query-files",
+    "frequency_start_mhz": 4000.0,
+    "frequency_stop_mhz": 8000.0,
+    "max_requests": 12,
+    "max_response_bytes": 2000000,
+    "query_limit": 1000,
+    "seed": 20261122,
+    "start_mjd": 57388.0,
+    "stop_mjd": 57754.0
+  },
+  "development_access_sample": [],
+  "frame_complete_with_respect_to_unsaturated_api_queries": true,
+  "limitation": "A finite convenience calendar frame, metadata proposals only. API result completeness is not an independent audit of the whole archive, full cadences, receiver identity, or data accessibility.",
+  "linkage": {
+    "cadence_count": 0,
+    "component_count": 0,
+    "components": [],
+    "edges": []
+  },
+  "readiness": {
+    "claim_scope": "specified finite sampling frame; no claim of universal sky representativeness",
+    "component_count": 0,
+    "ready_for_representative_sensitivity": false,
+    "required_components": 60,
+    "unmet_gates": [
+      "empty_sampling_frame",
+      "insufficient_independent_components",
+      "receiver_regimes_not_single"
+    ]
+  },
+  "rejected_metadata_sequences": [],
+  "rows": [],
+  "selection": "calendar-window, telescope and frequency metadata only; no candidate outcomes, RFI scores, or injection locations",
+  "spectral_data_downloaded": false
+}

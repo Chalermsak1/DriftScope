@@ -1,0 +1,887 @@
+{
+  "after_power_sha256": {
+    "mlc1_scan_0": "233878feec3131f09f8b07a0f2f538e077c6fdf9999bd3293490626466cb5bb9",
+    "mlc1_scan_1": "f53280d4b6c41e70fd75f2d591d04feb0118c509450b9efe2ae054b6897125bf",
+    "mlc1_scan_2": "33a72bf696a3800eb90bdfe7b000cc442f82fa82ce543cb2250b5ddb7b468bcb",
+    "mlc1_scan_3": "ad72c8e37fb5d3c8ff08bb94ac93a870aa75a90625e9eda010d2ff3bde7f2ca7",
+    "mlc1_scan_4": "e8f0612ffb53b201d67963bc89f00f6520575282974116e6f3de4968c7369163",
+    "mlc1_scan_5": "4384da3f236baed96feccd7418be13330ff855c230294fb76750d307cca4d35d"
+  },
+  "before_power_sha256": {
+    "mlc1_scan_0": "2e08f3c99015c446ddae3e00766641e6921c64ec470b913aa8713f546d728d22",
+    "mlc1_scan_1": "f53280d4b6c41e70fd75f2d591d04feb0118c509450b9efe2ae054b6897125bf",
+    "mlc1_scan_2": "33a72bf696a3800eb90bdfe7b000cc442f82fa82ce543cb2250b5ddb7b468bcb",
+    "mlc1_scan_3": "ad72c8e37fb5d3c8ff08bb94ac93a870aa75a90625e9eda010d2ff3bde7f2ca7",
+    "mlc1_scan_4": "e8f0612ffb53b201d67963bc89f00f6520575282974116e6f3de4968c7369163",
+    "mlc1_scan_5": "4384da3f236baed96feccd7418be13330ff855c230294fb76750d307cca4d35d"
+  },
+  "cadence": {
+    "cadence_id": "mlc1",
+    "complete_six_scan_roles": true,
+    "events": [
+      {
+        "all_three_on_scans_have_events": false,
+        "cadence_event_id": "mlc1_ce_000000",
+        "coverage_unknown": false,
+        "drift_hz_per_s": 0.5026178009585074,
+        "epoch_s": 0.0,
+        "feasible_drift_interval_hz_per_s": [
+          0.4395583545824713,
+          0.5656772473345435
+        ],
+        "fit_max_endpoint_residual_hz": 0.0,
+        "measurements": [
+          {
+            "associated_event_ids": [
+              "mlc1_scan_0_event_000000"
+            ],
+            "elapsed_start_s": 0.0,
+            "forced": {
+              "drift_index": 287,
+              "max_path_error_channels": 8.43138865975961e-09,
+              "score": 26.079125627449134,
+              "start_channel": 801,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_0"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 359.00000031106174,
+            "forced": {
+              "drift_index": 287,
+              "max_path_error_channels": 0.3641075062853717,
+              "score": 0.3547414091797256,
+              "start_channel": 865,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_1"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 717.0000003883615,
+            "forced": {
+              "drift_index": 287,
+              "max_path_error_channels": 0.09452614962310066,
+              "score": 0.6102971194850775,
+              "start_channel": 928,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_2"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1071.0000001592562,
+            "forced": {
+              "drift_index": 287,
+              "max_path_error_channels": 0.15587520959025883,
+              "score": -0.3456395520083731,
+              "start_channel": 991,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_3"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1424.0000003250316,
+            "forced": {
+              "drift_index": 287,
+              "max_path_error_channels": 0.4164648456402328,
+              "score": 1.0686513417341705,
+              "start_channel": 1053,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_4"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1782.0000004023314,
+            "forced": {
+              "drift_index": 287,
+              "max_path_error_channels": 0.12490151531407213,
+              "score": -0.8304616798198615,
+              "start_channel": 1117,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_5"
+          }
+        ],
+        "member_on_event_ids": [
+          "mlc1_scan_0_event_000000"
+        ],
+        "off_coincidence": false,
+        "on_scans_with_events": 1,
+        "review_safe": {
+          "decision": "escalate",
+          "retained": true
+        },
+        "start_frequency_hz": 1188535693.3488615,
+        "strict_experimental": {
+          "decision": "reject_missing_on_persistence",
+          "retained": false
+        }
+      },
+      {
+        "all_three_on_scans_have_events": false,
+        "cadence_event_id": "mlc1_ce_000001",
+        "coverage_unknown": false,
+        "drift_hz_per_s": 0.4293193714311314,
+        "epoch_s": 0.0,
+        "feasible_drift_interval_hz_per_s": [
+          0.3662599250550953,
+          0.49237881780716747
+        ],
+        "fit_max_endpoint_residual_hz": 0.0,
+        "measurements": [
+          {
+            "associated_event_ids": [
+              "mlc1_scan_0_event_000001"
+            ],
+            "elapsed_start_s": 0.0,
+            "forced": {
+              "drift_index": 273,
+              "max_path_error_channels": 2.8222645236232605e-08,
+              "score": 15.556855051722158,
+              "start_channel": 806,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_0"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 359.00000031106174,
+            "forced": {
+              "drift_index": 273,
+              "max_path_error_channels": 0.35565813161951315,
+              "score": 1.1634807692176807,
+              "start_channel": 860,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_1"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 717.0000003883615,
+            "forced": {
+              "drift_index": 273,
+              "max_path_error_channels": 0.44009237526854117,
+              "score": -1.9129731882537813,
+              "start_channel": 915,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_2"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1071.0000001592562,
+            "forced": {
+              "drift_index": 273,
+              "max_path_error_channels": 0.15852315356568417,
+              "score": -0.02762575690922618,
+              "start_channel": 968,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_3"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1424.0000003250316,
+            "forced": {
+              "drift_index": 273,
+              "max_path_error_channels": 0.3942698161636318,
+              "score": 1.4946340813373349,
+              "start_channel": 1022,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_4"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1782.0000004023314,
+            "forced": {
+              "drift_index": 273,
+              "max_path_error_channels": 0.19002029482904098,
+              "score": -0.30444235277483306,
+              "start_channel": 1076,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_5"
+          }
+        ],
+        "member_on_event_ids": [
+          "mlc1_scan_0_event_000001"
+        ],
+        "off_coincidence": false,
+        "on_scans_with_events": 1,
+        "review_safe": {
+          "decision": "escalate",
+          "retained": true
+        },
+        "start_frequency_hz": 1188535708.1855593,
+        "strict_experimental": {
+          "decision": "reject_missing_on_persistence",
+          "retained": false
+        }
+      },
+      {
+        "all_three_on_scans_have_events": false,
+        "cadence_event_id": "mlc1_ce_000002",
+        "coverage_unknown": false,
+        "drift_hz_per_s": 0.6178010472324258,
+        "epoch_s": 0.0,
+        "feasible_drift_interval_hz_per_s": [
+          0.5547416008563896,
+          0.6808604936084618
+        ],
+        "fit_max_endpoint_residual_hz": 2.384185791015625e-07,
+        "measurements": [
+          {
+            "associated_event_ids": [
+              "mlc1_scan_0_event_000002"
+            ],
+            "elapsed_start_s": 0.0,
+            "forced": {
+              "drift_index": 309,
+              "max_path_error_channels": 8.40833356666459e-08,
+              "score": 12.459052295090345,
+              "start_channel": 796,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_0"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 359.00000031106174,
+            "forced": {
+              "drift_index": 309,
+              "max_path_error_channels": 0.2191178200711153,
+              "score": -1.6224280171200667,
+              "start_channel": 874,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_1"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 717.0000003883615,
+            "forced": {
+              "drift_index": 309,
+              "max_path_error_channels": 0.22035510635544997,
+              "score": -1.55843474873171,
+              "start_channel": 952,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_2"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1071.0000001592562,
+            "forced": {
+              "drift_index": 309,
+              "max_path_error_channels": 0.3500702160383776,
+              "score": -0.33642081055978995,
+              "start_channel": 1029,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_3"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1424.0000003250316,
+            "forced": {
+              "drift_index": 309,
+              "max_path_error_channels": 0.2619047185084517,
+              "score": 0.4560267365806069,
+              "start_channel": 1106,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_4"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1782.0000004023314,
+            "forced": {
+              "drift_index": 309,
+              "max_path_error_channels": 0.26314200479278643,
+              "score": 0.03526026190011477,
+              "start_channel": 1184,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_5"
+          }
+        ],
+        "member_on_event_ids": [
+          "mlc1_scan_0_event_000002"
+        ],
+        "off_coincidence": false,
+        "on_scans_with_events": 1,
+        "review_safe": {
+          "decision": "escalate",
+          "retained": true
+        },
+        "start_frequency_hz": 1188535678.1354883,
+        "strict_experimental": {
+          "decision": "reject_missing_on_persistence",
+          "retained": false
+        }
+      },
+      {
+        "all_three_on_scans_have_events": false,
+        "cadence_event_id": "mlc1_ce_000003",
+        "coverage_unknown": false,
+        "drift_hz_per_s": -0.7748691102528864,
+        "epoch_s": 0.0,
+        "feasible_drift_interval_hz_per_s": [
+          -0.8379285566289225,
+          -0.7118096638768503
+        ],
+        "fit_max_endpoint_residual_hz": 0.0,
+        "measurements": [
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 0.0,
+            "forced": {
+              "drift_index": 43,
+              "max_path_error_channels": 0.0626053696972739,
+              "score": 0.6318830280969685,
+              "start_channel": 1463,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_0"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 359.00000031106174,
+            "forced": {
+              "drift_index": 43,
+              "max_path_error_channels": 0.16793967537030088,
+              "score": 2.3916325480393947,
+              "start_channel": 1365,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_1"
+          },
+          {
+            "associated_event_ids": [
+              "mlc1_scan_2_event_000000"
+            ],
+            "elapsed_start_s": 717.0000003883615,
+            "forced": {
+              "drift_index": 43,
+              "max_path_error_channels": 2.9043309019001143e-08,
+              "score": 10.432284242228235,
+              "start_channel": 1267,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_2"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1071.0000001592562,
+            "forced": {
+              "drift_index": 43,
+              "max_path_error_channels": 0.26103528616039584,
+              "score": 1.2711380369617404,
+              "start_channel": 1170,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_3"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1424.0000003250316,
+            "forced": {
+              "drift_index": 43,
+              "max_path_error_channels": 0.20465550472249847,
+              "score": -0.2337141053539658,
+              "start_channel": 1074,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_4"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1782.0000004023314,
+            "forced": {
+              "drift_index": 43,
+              "max_path_error_channels": 0.03671577431217095,
+              "score": -1.1851293843033786,
+              "start_channel": 976,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_5"
+          }
+        ],
+        "member_on_event_ids": [
+          "mlc1_scan_2_event_000000"
+        ],
+        "off_coincidence": false,
+        "on_scans_with_events": 1,
+        "review_safe": {
+          "decision": "escalate",
+          "retained": true
+        },
+        "start_frequency_hz": 1188537581.7631896,
+        "strict_experimental": {
+          "decision": "reject_missing_on_persistence",
+          "retained": false
+        }
+      },
+      {
+        "all_three_on_scans_have_events": false,
+        "cadence_event_id": "mlc1_ce_000004",
+        "coverage_unknown": false,
+        "drift_hz_per_s": -0.858638743745971,
+        "epoch_s": 0.0,
+        "feasible_drift_interval_hz_per_s": [
+          -0.9216981901220072,
+          -0.7955792973699349
+        ],
+        "fit_max_endpoint_residual_hz": 2.384185791015625e-07,
+        "measurements": [
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 0.0,
+            "forced": {
+              "drift_index": 27,
+              "max_path_error_channels": 0.1198157263248864,
+              "score": 1.2413034518300052,
+              "start_channel": 1490,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_0"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 359.00000031106174,
+            "forced": {
+              "drift_index": 27,
+              "max_path_error_channels": 0.4084992108358531,
+              "score": 1.8700775455737453,
+              "start_channel": 1381,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_1"
+          },
+          {
+            "associated_event_ids": [
+              "mlc1_scan_2_event_000001"
+            ],
+            "elapsed_start_s": 717.0000003883615,
+            "forced": {
+              "drift_index": 27,
+              "max_path_error_channels": 8.40833356666459e-08,
+              "score": 10.154133268166174,
+              "start_channel": 1273,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_2"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1071.0000001592562,
+            "forced": {
+              "drift_index": 27,
+              "max_path_error_channels": 0.19723102886123786,
+              "score": -0.5446710957456218,
+              "start_channel": 1166,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_3"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1424.0000003250316,
+            "forced": {
+              "drift_index": 27,
+              "max_path_error_channels": 0.09164522993123193,
+              "score": 0.15841546892405184,
+              "start_channel": 1059,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_4"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1782.0000004023314,
+            "forced": {
+              "drift_index": 27,
+              "max_path_error_channels": 0.4998555868709925,
+              "score": -0.19631708263884018,
+              "start_channel": 950,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_5"
+          }
+        ],
+        "member_on_event_ids": [
+          "mlc1_scan_2_event_000001"
+        ],
+        "off_coincidence": false,
+        "on_scans_with_events": 1,
+        "review_safe": {
+          "decision": "escalate",
+          "retained": true
+        },
+        "start_frequency_hz": 1188537659.5923872,
+        "strict_experimental": {
+          "decision": "reject_missing_on_persistence",
+          "retained": false
+        }
+      },
+      {
+        "all_three_on_scans_have_events": false,
+        "cadence_event_id": "mlc1_ce_000005",
+        "coverage_unknown": false,
+        "drift_hz_per_s": -0.8115183250165744,
+        "epoch_s": 0.0,
+        "feasible_drift_interval_hz_per_s": [
+          -0.8745777713926106,
+          -0.7484588786405384
+        ],
+        "fit_max_endpoint_residual_hz": 0.0,
+        "measurements": [
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 0.0,
+            "forced": {
+              "drift_index": 36,
+              "max_path_error_channels": 0.20470382359719777,
+              "score": 1.5359720779220634,
+              "start_channel": 1475,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_0"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 359.00000031106174,
+            "forced": {
+              "drift_index": 36,
+              "max_path_error_channels": 0.45925241674425454,
+              "score": 0.5322978660212219,
+              "start_channel": 1372,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_1"
+          },
+          {
+            "associated_event_ids": [
+              "mlc1_scan_2_event_000002"
+            ],
+            "elapsed_start_s": 717.0000003883615,
+            "forced": {
+              "drift_index": 36,
+              "max_path_error_channels": 3.893892674365275e-08,
+              "score": 10.066225072671854,
+              "start_channel": 1270,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_2"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1071.0000001592562,
+            "forced": {
+              "drift_index": 36,
+              "max_path_error_channels": 0.31445624299841973,
+              "score": 1.1004006548726917,
+              "start_channel": 1169,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_3"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1424.0000003250316,
+            "forced": {
+              "drift_index": 36,
+              "max_path_error_channels": 0.3427135410325598,
+              "score": 0.010149227317343565,
+              "start_channel": 1068,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "ON",
+            "scan_id": "mlc1_scan_4"
+          },
+          {
+            "associated_event_ids": [],
+            "elapsed_start_s": 1782.0000004023314,
+            "forced": {
+              "drift_index": 36,
+              "max_path_error_channels": 0.1980340811621124,
+              "score": -0.6704681022284166,
+              "start_channel": 965,
+              "status": "searched"
+            },
+            "off_evidence": false,
+            "role": "OFF",
+            "scan_id": "mlc1_scan_5"
+          }
+        ],
+        "member_on_event_ids": [
+          "mlc1_scan_2_event_000002"
+        ],
+        "off_coincidence": false,
+        "on_scans_with_events": 1,
+        "review_safe": {
+          "decision": "escalate",
+          "retained": true
+        },
+        "start_frequency_hz": 1188537616.8767774,
+        "strict_experimental": {
+          "decision": "reject_missing_on_persistence",
+          "retained": false
+        }
+      }
+    ],
+    "input_on_event_count": 6,
+    "native_origin_labels": "unresolved; OFF coincidence does not establish terrestrial origin",
+    "off_score_threshold": 6.0,
+    "policies": {
+      "default": "review_safe",
+      "strict_experimental": "all three ON events and OFF forced scores below threshold; unknown coverage escalates"
+    },
+    "scan_offsets_s": {
+      "mlc1_scan_0": 0.0,
+      "mlc1_scan_1": 359.00000031106174,
+      "mlc1_scan_2": 717.0000003883615,
+      "mlc1_scan_3": 1071.0000001592562,
+      "mlc1_scan_4": 1424.0000003250316,
+      "mlc1_scan_5": 1782.0000004023314
+    },
+    "score_caveat": "descriptive robust score, not a calibrated significance",
+    "unassigned_on_events": 0
+  },
+  "case_id": "first_on_only",
+  "injection": {
+    "beam_calibrated": false,
+    "continuous_peak_power_before_bin_time_averaging": 10455270233.461536,
+    "frequency_bin_integration": "analytic Gaussian CDF",
+    "noise_channel_window_half_open": [
+      736,
+      865
+    ],
+    "noise_definition": "median row MAD sigma over ON scans, fixed +/-64-channel window around sampled starting position; masked samples excluded",
+    "noise_estimate_power": 1306908779.182692,
+    "off_response": 0.0,
+    "physical_limit": "additive detected power, rectangular channel/time response; no voltages, stochastic transmitter noise, calibrated beam, or flux conversion",
+    "time_midpoint_subsamples": 32
+  },
+  "native_control_matches": [
+    {
+      "matched_id": null,
+      "max_path_error_channels": null,
+      "truth_id": "first_on_only_signal_0"
+    }
+  ],
+  "on_scan_survival": [
+    {
+      "compatible_grid_scores": {
+        "first_on_only_signal_0": 26.079125627449134
+      },
+      "elapsed_start_s": 0.0,
+      "hit_matches": [
+        {
+          "matched_id": "mlc1_scan_0_d00285_c00000802",
+          "max_path_error_channels": 0.41421712991119203,
+          "truth_id": "first_on_only_signal_0"
+        }
+      ],
+      "matches": [
+        {
+          "matched_id": "mlc1_scan_0_event_000000",
+          "max_path_error_channels": 0.5857829541721437,
+          "truth_id": "first_on_only_signal_0"
+        }
+      ],
+      "scan_id": "mlc1_scan_0"
+    },
+    {
+      "compatible_grid_scores": {
+        "first_on_only_signal_0": 0.7017529484950138
+      },
+      "elapsed_start_s": 717.0000003883615,
+      "hit_matches": [
+        {
+          "matched_id": null,
+          "max_path_error_channels": null,
+          "truth_id": "first_on_only_signal_0"
+        }
+      ],
+      "matches": [
+        {
+          "matched_id": null,
+          "max_path_error_channels": null,
+          "truth_id": "first_on_only_signal_0"
+        }
+      ],
+      "scan_id": "mlc1_scan_2"
+    },
+    {
+      "compatible_grid_scores": {
+        "first_on_only_signal_0": 2.7441749214598445
+      },
+      "elapsed_start_s": 1424.0000003250316,
+      "hit_matches": [
+        {
+          "matched_id": null,
+          "max_path_error_channels": null,
+          "truth_id": "first_on_only_signal_0"
+        }
+      ],
+      "matches": [
+        {
+          "matched_id": null,
+          "max_path_error_channels": null,
+          "truth_id": "first_on_only_signal_0"
+        }
+      ],
+      "scan_id": "mlc1_scan_4"
+    }
+  ],
+  "parameters": {
+    "active_intervals_s": [
+      [
+        0,
+        287.779586048
+      ]
+    ],
+    "drift_hz_per_s": 0.5,
+    "family": "intermittent",
+    "fwhm_channels": 2.0,
+    "off_response": 0.0,
+    "peak_power_sigma": 8.0,
+    "start_channel": 800.0,
+    "trial_id": "first_on_only"
+  },
+  "policy_matches": {
+    "review_safe": [
+      {
+        "matched_id": "mlc1_ce_000000",
+        "max_path_error_channels": 0.5857829541721437,
+        "truth_id": "first_on_only_signal_0"
+      }
+    ],
+    "strict_experimental": [
+      {
+        "matched_id": null,
+        "max_path_error_channels": null,
+        "truth_id": "first_on_only_signal_0"
+      }
+    ]
+  },
+  "policy_signal_survival_ledger": [
+    {
+      "ambiguous_native_match": false,
+      "cadence_retained": true,
+      "eligible": true,
+      "failure_type": null,
+      "first_loss": "retained",
+      "generated": true,
+      "grouped": true,
+      "policy": "review_safe",
+      "searchable": true,
+      "truth_id": "first_on_only_signal_0"
+    },
+    {
+      "ambiguous_native_match": false,
+      "cadence_retained": false,
+      "eligible": true,
+      "failure_type": null,
+      "first_loss": "cadence_retained",
+      "generated": true,
+      "grouped": true,
+      "policy": "strict_experimental",
+      "searchable": true,
+      "truth_id": "first_on_only_signal_0"
+    }
+  ],
+  "source_kind": "synthetic_injection_on_real_candidate_selected_cadence",
+  "truths": [
+    {
+      "active_intervals_s": [
+        [
+          0,
+          287.779586048
+        ]
+      ],
+      "curvature_hz_per_s2": 0.0,
+      "drift_hz_per_s": 0.5,
+      "epoch_s": 0.0,
+      "fwhm_hz": 5.671006679534912,
+      "start_frequency_hz": 1188535695.0333931,
+      "truth_id": "first_on_only_signal_0"
+    }
+  ],
+  "unchanged_off_scans": true
+}

@@ -1,0 +1,90 @@
+{
+  "research/conventional/__init__.py": {
+    "bytes": 80,
+    "sha256": "84dd851e713f1ac7f6e875b3878654441e0816e756082c2708ff2d589e9eefdb"
+  },
+  "research/conventional/archive.py": {
+    "bytes": 5210,
+    "sha256": "f160babf1a4a47d08ebe880a86251847e578b87b99d854f47624b3e7aa01bc86"
+  },
+  "research/conventional/cadence.py": {
+    "bytes": 7124,
+    "sha256": "25f6b616b3c3e5292a575ace809b62946f8cdfd1a9cb650831f0a11e40105bed"
+  },
+  "research/conventional/cohort.py": {
+    "bytes": 10702,
+    "sha256": "4b095a40682ed84db037a4d1470720364a9e6c0aee2a93f87ee4fab43f230110"
+  },
+  "research/conventional/configs/archive_frame.json": {
+    "bytes": 330,
+    "sha256": "c8a44f2cbd2668a32f6807874531f6aa56865991faa4d069dd5f0e9fff1e5ddc"
+  },
+  "research/conventional/configs/archive_frame_2018.json": {
+    "bytes": 330,
+    "sha256": "e90673c3a753463efaa91585521b578e6523b412f1d625e8e1026fdbfa871283"
+  },
+  "research/conventional/configs/development.json": {
+    "bytes": 1689,
+    "sha256": "39d0e2916c9e6cdce0ea95e816df77b837b90064d5753131f29c2fe7d5ab981d"
+  },
+  "research/conventional/data.py": {
+    "bytes": 5744,
+    "sha256": "e120465f4db01afd61fa1d8017724500833fafdf5b9966226be73e0e8f819a2f"
+  },
+  "research/conventional/events.py": {
+    "bytes": 6310,
+    "sha256": "6fc7106b68fd8e0430520c5b4676c2ca8afe79d2fbd607664ed4ac229c9f6307"
+  },
+  "research/conventional/injection.py": {
+    "bytes": 7922,
+    "sha256": "84237efec459008768e85d8db206f3bb2ffcb3c983053d686f09a0039647ecc3"
+  },
+  "research/conventional/probe_cohort.py": {
+    "bytes": 7251,
+    "sha256": "c7c989b878532796e2ed2d27ea66423a69fead7aec9b68a12eb2b1a46e7a486b"
+  },
+  "research/conventional/run.py": {
+    "bytes": 20749,
+    "sha256": "9f180b0b2e9d65f30da048a5da17aba47e37db82d690b8f8909a21310966448e"
+  },
+  "research/conventional/search.py": {
+    "bytes": 8761,
+    "sha256": "52d4509a15a51def1ade4ca8046e6f6d55adcde8bc4f1e64949824614562b1bf"
+  },
+  "research/conventional/sensitivity.py": {
+    "bytes": 9918,
+    "sha256": "def0b687710a2dbfbfeaa80c6b7263a1b2032c92ebde0e683ddf52b68c28b751"
+  },
+  "research/conventional/statistics.py": {
+    "bytes": 4349,
+    "sha256": "cce6e91ce45baaad75dfdb410227ec785f53626adaa2fe69012495516d77b0bd"
+  },
+  "research/conventional/tests/conftest.py": {
+    "bytes": 1278,
+    "sha256": "94993069c9d6d142821d112d7120ccac6215e468022e1da86b32556e1da14491"
+  },
+  "research/conventional/tests/test_cadence_injection.py": {
+    "bytes": 5990,
+    "sha256": "379f28bd943cf1ad6b23adf092998d6008545b8a7593ea7a0d73ba7be240e4a0"
+  },
+  "research/conventional/tests/test_cohort_statistics.py": {
+    "bytes": 8387,
+    "sha256": "db6c3bd4e40b994a38fd1746ac293cfef9833b6b40a86b9ac406ce0f904deb68"
+  },
+  "research/conventional/tests/test_probe.py": {
+    "bytes": 2110,
+    "sha256": "a2db9dd88fac395d6c4c027c8e58dafccc515e4034e026799258cfe734696174"
+  },
+  "research/conventional/tests/test_search_events.py": {
+    "bytes": 8873,
+    "sha256": "7cd861eee57bd75451eeee11b5d69c00c3af3090fe9432ef75fc85e99caf6792"
+  },
+  "research/conventional/tests/test_sensitivity.py": {
+    "bytes": 3973,
+    "sha256": "ed5c02f706b4c76b6aa78df61bb822dee033ff04dfb97e99561f1f0e4652bd27"
+  },
+  "research/conventional/verify.py": {
+    "bytes": 2855,
+    "sha256": "265d9aecfd2a90a03332c4ddd9a7d5d35c003c34b219d585753176375d192757"
+  }
+}

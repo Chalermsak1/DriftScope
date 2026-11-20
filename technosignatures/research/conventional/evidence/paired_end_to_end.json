@@ -1,0 +1,255 @@
+{
+  "result": {
+    "events": [
+      {
+        "drift_grid_spacing_hz_per_s": 0.016129032258064502,
+        "drift_hz_per_s": 0.29032258064516125,
+        "drift_index": 49,
+        "event_id": "synthetic_two_lines_event_000000",
+        "hit_id": "synthetic_two_lines_d00049_c00000500",
+        "maximum_representative_path_deviation_hz": 1.5,
+        "member_count": 3,
+        "member_hit_ids": [
+          "synthetic_two_lines_d00049_c00000500",
+          "synthetic_two_lines_d00046_c00000501",
+          "synthetic_two_lines_d00052_c00000500"
+        ],
+        "reference_time_after_scan_start_s": 0.5,
+        "representative_hit_id": "synthetic_two_lines_d00049_c00000500",
+        "robust_score": 226.06242632031174,
+        "scan_id": "synthetic_two_lines",
+        "start_channel_ascending": 500,
+        "start_frequency_hz": 500.0,
+        "time_support_end_s": 31.0,
+        "time_support_start_s": 0.0
+      },
+      {
+        "drift_grid_spacing_hz_per_s": 0.016129032258064502,
+        "drift_hz_per_s": -0.2903225806451613,
+        "drift_index": 13,
+        "event_id": "synthetic_two_lines_event_000001",
+        "hit_id": "synthetic_two_lines_d00013_c00000505",
+        "maximum_representative_path_deviation_hz": 1.0,
+        "member_count": 4,
+        "member_hit_ids": [
+          "synthetic_two_lines_d00013_c00000505",
+          "synthetic_two_lines_d00017_c00000504",
+          "synthetic_two_lines_d00015_c00000504",
+          "synthetic_two_lines_d00009_c00000506"
+        ],
+        "reference_time_after_scan_start_s": 0.5,
+        "representative_hit_id": "synthetic_two_lines_d00013_c00000505",
+        "robust_score": 187.33602737703754,
+        "scan_id": "synthetic_two_lines",
+        "start_channel_ascending": 505,
+        "start_frequency_hz": 505.0,
+        "time_support_end_s": 31.0,
+        "time_support_start_s": 0.0
+      },
+      {
+        "drift_grid_spacing_hz_per_s": 0.016129032258064502,
+        "drift_hz_per_s": 0.048387096774193505,
+        "drift_index": 34,
+        "event_id": "synthetic_two_lines_event_000002",
+        "hit_id": "synthetic_two_lines_d00034_c00000503",
+        "maximum_representative_path_deviation_hz": 1.5,
+        "member_count": 2,
+        "member_hit_ids": [
+          "synthetic_two_lines_d00034_c00000503",
+          "synthetic_two_lines_d00031_c00000503"
+        ],
+        "reference_time_after_scan_start_s": 0.5,
+        "representative_hit_id": "synthetic_two_lines_d00034_c00000503",
+        "robust_score": 128.23293029842998,
+        "scan_id": "synthetic_two_lines",
+        "start_channel_ascending": 503,
+        "start_frequency_hz": 503.0,
+        "time_support_end_s": 31.0,
+        "time_support_start_s": 0.0
+      },
+      {
+        "drift_grid_spacing_hz_per_s": 0.016129032258064502,
+        "drift_hz_per_s": -0.09677419354838712,
+        "drift_index": 25,
+        "event_id": "synthetic_two_lines_event_000003",
+        "hit_id": "synthetic_two_lines_d00025_c00000503",
+        "maximum_representative_path_deviation_hz": 1.0,
+        "member_count": 2,
+        "member_hit_ids": [
+          "synthetic_two_lines_d00025_c00000503",
+          "synthetic_two_lines_d00029_c00000502"
+        ],
+        "reference_time_after_scan_start_s": 0.5,
+        "representative_hit_id": "synthetic_two_lines_d00025_c00000503",
+        "robust_score": 128.04314489925784,
+        "scan_id": "synthetic_two_lines",
+        "start_channel_ascending": 503,
+        "start_frequency_hz": 503.0,
+        "time_support_end_s": 31.0,
+        "time_support_start_s": 0.0
+      },
+      {
+        "drift_grid_spacing_hz_per_s": 0.016129032258064502,
+        "drift_hz_per_s": 0.17741935483870963,
+        "drift_index": 42,
+        "event_id": "synthetic_two_lines_event_000004",
+        "hit_id": "synthetic_two_lines_d00042_c00000493",
+        "maximum_representative_path_deviation_hz": 2.5,
+        "member_count": 2,
+        "member_hit_ids": [
+          "synthetic_two_lines_d00042_c00000493",
+          "synthetic_two_lines_d00049_c00000492"
+        ],
+        "reference_time_after_scan_start_s": 0.5,
+        "representative_hit_id": "synthetic_two_lines_d00042_c00000493",
+        "robust_score": 32.17077068614584,
+        "scan_id": "synthetic_two_lines",
+        "start_channel_ascending": 493,
+        "start_frequency_hz": 493.0,
+        "time_support_end_s": 31.0,
+        "time_support_start_s": 0.0
+      },
+      {
+        "drift_grid_spacing_hz_per_s": 0.016129032258064502,
+        "drift_hz_per_s": -0.3870967741935484,
+        "drift_index": 7,
+        "event_id": "synthetic_two_lines_event_000005",
+        "hit_id": "synthetic_two_lines_d00007_c00000517",
+        "maximum_representative_path_deviation_hz": 1.0,
+        "member_count": 2,
+        "member_hit_ids": [
+          "synthetic_two_lines_d00007_c00000517",
+          "synthetic_two_lines_d00005_c00000517"
+        ],
+        "reference_time_after_scan_start_s": 0.5,
+        "representative_hit_id": "synthetic_two_lines_d00007_c00000517",
+        "robust_score": 31.65127617774856,
+        "scan_id": "synthetic_two_lines",
+        "start_channel_ascending": 517,
+        "start_frequency_hz": 517.0,
+        "time_support_end_s": 31.0,
+        "time_support_start_s": 0.0
+      },
+      {
+        "drift_grid_spacing_hz_per_s": 0.016129032258064502,
+        "drift_hz_per_s": -0.467741935483871,
+        "drift_index": 2,
+        "event_id": "synthetic_two_lines_event_000006",
+        "hit_id": "synthetic_two_lines_d00002_c00000522",
+        "maximum_representative_path_deviation_hz": 1.0,
+        "member_count": 2,
+        "member_hit_ids": [
+          "synthetic_two_lines_d00002_c00000522",
+          "synthetic_two_lines_d00000_c00000522"
+        ],
+        "reference_time_after_scan_start_s": 0.5,
+        "representative_hit_id": "synthetic_two_lines_d00002_c00000522",
+        "robust_score": 26.38954211825873,
+        "scan_id": "synthetic_two_lines",
+        "start_channel_ascending": 522,
+        "start_frequency_hz": 522.0,
+        "time_support_end_s": 31.0,
+        "time_support_start_s": 0.0
+      },
+      {
+        "drift_grid_spacing_hz_per_s": 0.016129032258064502,
+        "drift_hz_per_s": 0.33870967741935476,
+        "drift_index": 52,
+        "event_id": "synthetic_two_lines_event_000007",
+        "hit_id": "synthetic_two_lines_d00052_c00000487",
+        "maximum_representative_path_deviation_hz": 2.5,
+        "member_count": 2,
+        "member_hit_ids": [
+          "synthetic_two_lines_d00052_c00000487",
+          "synthetic_two_lines_d00055_c00000488"
+        ],
+        "reference_time_after_scan_start_s": 0.5,
+        "representative_hit_id": "synthetic_two_lines_d00052_c00000487",
+        "robust_score": 22.506082009792824,
+        "scan_id": "synthetic_two_lines",
+        "start_channel_ascending": 487,
+        "start_frequency_hz": 487.0,
+        "time_support_end_s": 31.0,
+        "time_support_start_s": 0.0
+      },
+      {
+        "drift_grid_spacing_hz_per_s": 0.016129032258064502,
+        "drift_hz_per_s": 0.467741935483871,
+        "drift_index": 60,
+        "event_id": "synthetic_two_lines_event_000008",
+        "hit_id": "synthetic_two_lines_d00060_c00000483",
+        "maximum_representative_path_deviation_hz": 0.0,
+        "member_count": 1,
+        "member_hit_ids": [
+          "synthetic_two_lines_d00060_c00000483"
+        ],
+        "reference_time_after_scan_start_s": 0.5,
+        "representative_hit_id": "synthetic_two_lines_d00060_c00000483",
+        "robust_score": 20.81438382646464,
+        "scan_id": "synthetic_two_lines",
+        "start_channel_ascending": 483,
+        "start_frequency_hz": 483.0,
+        "time_support_end_s": 31.0,
+        "time_support_start_s": 0.0
+      }
+    ],
+    "fixture_spec": {
+      "channel_spacing_hz": 1.0,
+      "detector_max_abs_drift_hz_per_s": 0.5,
+      "gaussian_sigma_channels": 0.65,
+      "seed": 77,
+      "shape": [
+        32,
+        1024
+      ],
+      "signals": [
+        {
+          "drift_hz_per_s": 0.3,
+          "id": "nearby_stronger",
+          "peak_power": 40.0,
+          "start_channel": 500
+        },
+        {
+          "drift_hz_per_s": -0.3,
+          "id": "nearby_weaker",
+          "peak_power": 30.0,
+          "start_channel": 505
+        }
+      ],
+      "time_resolution_s": 1.0
+    },
+    "legacy_matches": [
+      {
+        "matched_id": "0",
+        "max_path_error_channels": 0.30000000000001137,
+        "truth_id": "nearby_stronger"
+      },
+      {
+        "matched_id": "1",
+        "max_path_error_channels": 2.0,
+        "truth_id": "nearby_weaker"
+      }
+    ],
+    "legacy_recovered": 2,
+    "physical_signal_count": 2,
+    "source_kind": "fully_synthetic_original_two_line_challenge",
+    "v2_event_count": 9,
+    "v2_hit_count": 20,
+    "v2_matches": [
+      {
+        "matched_id": "synthetic_two_lines_event_000000",
+        "max_path_error_channels": 0.30000000000001137,
+        "truth_id": "nearby_stronger"
+      },
+      {
+        "matched_id": "synthetic_two_lines_event_000001",
+        "max_path_error_channels": 0.30000000000001137,
+        "truth_id": "nearby_weaker"
+      }
+    ],
+    "v2_recovered": 2,
+    "v2_score_sha256": "a975d86ef844e03893e3c14cdb690aacc54b248df8bb74e73eaba6dfc1c5ae4a"
+  },
+  "scope": "Supplementary deterministic synthetic challenge; not population sensitivity. Uses existing pinned paired fixture via gaussian_fixture(paired=True), v2 max drift 0.5 Hz/s, default remaining SearchConfig values, group_events default corridor, and one-to-one match_tracks default tolerance.",
+  "two_executions_identical": true
+}

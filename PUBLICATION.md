@@ -2,6 +2,8 @@
 
 This repository publishes the existing research implementation and evidence without changing the original experiment or approved plan. The preserved project is under `technosignatures/`; run its Python commands from that directory.
 
+The initial publication snapshot and `publication_evidence/` records apply to commit `69f6491b2cdf314863ca362d3ccf49b7854bc5ec`. Later conventional development has its own manifest and validation under `technosignatures/research/conventional/evidence/`; the initial publication manifest is a historical snapshot, not a hash inventory of later additions or README changes.
+
 ## Included
 
 - Conventional load/inject/detect pipeline, configuration, dependency version lock, and tests.
@@ -17,6 +19,7 @@ The following are intentionally outside Git:
 - `technosignatures/research/pilot/data/`: the third-party candidate release, original-archive excerpts, HTTP-range blocks, and acquisition locks.
 - Pilot numerical `.npz` exports in `research/pilot/results/milestone_001/`, including observational exports and reproducible synthetic fixtures.
 - Python environments, package caches, temporary/reproduction runs, and archive metadata caches.
+- `technosignatures/research/cohort/data/`: newly acquired original-source spectral tiles, verified byte caches, transfer ledgers and locks; private historical presentation copies under its `private/` directory.
 
 The pinned candidate payload is 12,613,542 bytes. Its SHA-256, upstream commit, source URL, attribution, selection bias, and unresolved redistribution-license status are documented in [source.json](technosignatures/research/pilot/configs/source.json). The original archive files are accessed using bounded byte ranges; they are not downloaded in full.
 
@@ -52,3 +55,9 @@ The historical pilot `milestone_manifest.json` and result `artifact_manifest.jso
 The publication-specific [validation record](publication_evidence/validation.json) records the checks executed for this upload, and `publication_evidence/snapshot_manifest.json` hashes the published snapshot. That snapshot manifest excludes itself. Historical verification records describe the original run; they do not claim a clean dependency installation or a fresh network acquisition during publication.
 
 No broad license for the project's own code is selected by this publication. Existing third-party notices and attribution are retained.
+
+## Prospective cohort development
+
+The research branch adds the conventional v2 implementation and the prospective C-band access/sensitivity pilot. Follow its [protocol and reproduction guide](technosignatures/research/cohort/README.md); its evidence directory distinguishes completed tests, earlier failures and current acquisition/evaluation gates. Historical manifests remain historical snapshots. The original experiment and approved plan still have their own unchanged hash manifests.
+
+The generic `scripts/publication_audit.py` checks selected file paths/content, reachable Git blob history, commit metadata and branch/tag refs against a caller-supplied excluded marker. Audit output contains marker hashes rather than the marker itself. Ignored local caches, private records and reflogs are outside the published Git object scope. A passing naming audit is separate from scientific validation.
